@@ -9,7 +9,7 @@ require_once 'include/db.php';?>
 <!DOCTYPE html>
 <html lang="zxx">
    <head>
-      <title>MIMA</title>
+      <title>Music In Motion Dance Academy | MIMA</title>
       <!--meta tags -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,25 +53,25 @@ require_once 'include/db.php';?>
                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                   <ul class="navbar-nav ">
                      <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                      </li>
                      <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
+                        <a href="#" class="nav-link">About</a>
                      </li>
                      <li class="nav-item">
-                        <a href="gallery.html" class="nav-link">Gallery</a>
+                     <a href="#" class="nav-link">Gallery</a>
                      </li>
                      <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Pages
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                           <a class="nav-link" href="class.html">Class</a>
-                           <a class="nav-link " href="typography.html">Typography</a>
+                        <a href="#" href="class.html">Class</a>
+                        <a href="#"  href="typography.html">Typography</a>
                         </div>
                      </li>
                      <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
+                     <a href="#"class="nav-link">Contact</a>
                      </li>
                   
                         <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">

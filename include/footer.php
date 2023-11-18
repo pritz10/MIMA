@@ -99,7 +99,7 @@
          </div>
          <div class="copy-agile-right text-center text-white py-2">
             <p> 
-               © 2018 Sway. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a>
+               © 2023 Musin in Motion Dance Academy
             </p>
          </div>
       </footer>
