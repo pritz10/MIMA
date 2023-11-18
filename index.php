@@ -1,7 +1,7 @@
 
 <?php require_once 'include/header.php';?>
 
-<div data-aos="hjg-down">
+<div data-aos="flip-down"  data-aos-duration="1000">
 <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
 
