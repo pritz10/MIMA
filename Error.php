@@ -2,7 +2,7 @@
 <?php
 $title = "Error";
 require_once 'include/header.php'; ?>
-    <meta http-equiv="refresh" content="5;url=index" />
+    <meta http-equiv="refresh" content="2;url=index" />
 
 
 <div class="container">
@@ -12,7 +12,7 @@ require_once 'include/header.php'; ?>
    <hr class="my-4">
   <p class="text-center">The URL you are looking for is either missing or check your URL spelling</p>
   <br>
-  <p class="text-center">Redirecting to Homepage in 5 sec...</p>
+  <p class="text-center">Redirecting to Homepage in 2 sec...</p>
 
 </div>
 </div>
