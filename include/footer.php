@@ -99,7 +99,7 @@
          </div>
          <div class="copy-agile-right text-center text-white py-2">
             <p> 
-               © 2023 Musin in Motion Dance Academy
+               © 2023 Music in Motion Dance Academy
             </p>
          </div>
       </footer>

@@ -1,0 +1,62 @@
+ 
+<IfModule mod_headers.c>
+	Header set X-XSS-Protection "1; mode=block"
+	Header set X-Frame-Options "SAMEORIGIN"
+	Header set X-Content-Type-Options "nosniff"
+	Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
+	# Header set Content-Security-Policy ...
+	Header set Referrer-Policy "same-origin"
+	Header set Feature-Policy "geolocation 'self'; vibrate 'none'"
+</IfModule>
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^(.*)$ $1.php
+
+
+
+# Return 404 if original request is .php
+
+RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$"
+
+
+
+RewriteRule ^(.*)$ Error.php [L]
+
+
+ ErrorDocument 404 https://mimdanceacademy.com/Error.php
+ 
+
+
+ # Run Php without filename extension
+
+
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^(.*)$ $1.php
+
+
+
+# Return 404 if original request is .php
+
+RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$"
+
+
+
+RewriteRule ^(.*)$ Error.php [L]
+
+
+ ErrorDocument 404 https://sicbsikkim.org/Error.php
+
+ 
+
+
+  
