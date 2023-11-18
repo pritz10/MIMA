@@ -1,6 +1,6 @@
 <?php 	
 $localhost = "localhost";
-$username = "pritz";
+$username = "u623909803_pritz";
 $password = "Pritz@100";
 $dbname = "u623909803_mim";
  // db connection
