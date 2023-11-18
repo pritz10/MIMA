@@ -132,7 +132,7 @@
       <!--// responsiveslides banner-->	  
       <!--About OnScroll-Number-Increase-JavaScript -->
       <script src="js/jquery.waypoints.min.js"></script>
-      <script src="js/jquery.countup.js"></script>
+      <script src="js/jquery.countup.js"></script> 
       <script>
          $('.counter').countUp();
       </script>
@@ -189,10 +189,16 @@
          });
       </script>
       <!-- start-smoth-scrolling -->
-      <!-- here stars scrolling icon -->
+      <!-- here stars scrolling icon -->      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
       <script>
          $(document).ready(function () {
-         
+            AOS.init();
+
+
+$(window).on('load', function() {
+  AOS.refresh();
+});
          	var defaults = {
          		containerID: 'toTop', // fading element id
          		containerHoverID: 'toTopHover', // fading element hover id

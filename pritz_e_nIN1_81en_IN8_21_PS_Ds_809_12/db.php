@@ -2,7 +2,7 @@
 $localhost = "localhost";
 $username = "root";
 $password = "";
-$dbname = "sicb";
+$dbname = "mim";
  // db connection
 $connect = new mysqli($localhost, $username, $password, $dbname);
 if($connect->connect_error) {

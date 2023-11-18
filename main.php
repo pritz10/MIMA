@@ -1,173 +1,116 @@
 
+<?php require_once 'include/header.php';?>
 
-<!DOCTYPE html>
-<html lang="zxx">
-   <head>
-      <title>MIMA</title>
-      <!--meta tags -->
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="keywords" content="Sway Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-      <script>
-         addEventListener("load", function () {
-         	setTimeout(hideURLbar, 0);
-         }, false);
-         
-         function hideURLbar() {
-         	window.scrollTo(0, 1);
-         }
-      </script>
-      <!--//meta tags ends here-->
-      <!--booststrap-->
-      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-      <!--//booststrap end-->
-      <!-- font-awesome icons -->
-      <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
-      <!-- //font-awesome icons -->
-      <!--Slider -->
-      <link href="css/lsb.css" rel="stylesheet" type="text/css">
-      <!-- //slider-->
-      <!--stylesheets-->
-      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
-      <!--//stylesheets-->
-      <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
-      <link href="//fonts.googleapis.com/css?family=Felipa" rel="stylesheet">
-   </head>
-   <body>
-      <div class="header-outs" id="home">
-             <nav class="navbar navbar-expand-lg navbar-light" style="background: black;">
-               <a class="navbar-brand" href="index.html"><img src="files/Images/log.PNG" width="100"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                  <ul class="navbar-nav ">
-                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="gallery.html" class="nav-link">Gallery</a>
-                     </li>
-                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Pages
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                           <a class="nav-link" href="class.html">Class</a>
-                           <a class="nav-link " href="typography.html">Typography</a>
+<div data-aos="hjg-down">
+<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+
+                  <?php
+
+                    $sql = "select * from mainslider ORDER BY id DESC LIMIT 3";  
+
+                      $result = mysqli_query($connect, $sql); 
+
+                      $count = mysqli_num_rows($result);  
+
+                      $i=0;
+
+                      foreach($result as $row)
+
+                      {
+
+                      $active='';
+
+                      if($i==0)
+
+                      {
+
+                      $active='active';
+
+                      }
+
+                      ?>
+
+                      <li data-target="#myCarousel" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
+
+                      <?php $i++;}    ?>
+
+                      </ol>
+
+                    <div class="carousel-inner">
+
+                          <?php
+
+                          $sql = "select * from mainslider ORDER BY id DESC LIMIT 10";  
+
+                          $result = mysqli_query($connect, $sql); 
+
+                          $count = mysqli_num_rows($result);  
+
+                          $i=0;
+
+                          foreach($result as $row)
+
+                          {
+
+                          $active='';
+
+                          if($i==0)
+
+                          {
+
+                          $active='active';
+
+                          }
+
+                          ?>
+
+                          <div class="carousel-item <?=$active;?>">
+
+                          <img class="d-block w-100" src="<?php echo $row['ImageUrl']; ?>" loading="lazy">
+                           
+                              <div class="carousel-caption  d-md-block">
+                              <h5><?php echo $row['Title']; ?></h3>
+                              <p class="pt-3"><?php echo $row['Description']; ?></p>
+                               
+
+                              </div>   
+
+                          </div>
+
+                          <?php $i++; } ?>
                         </div>
-                     </li>
-                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
-                     </li>
-                  
-                        <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-                           <div class="btn-group" role="group" aria-label="First group">
-                             <button type="button" class="btn btn-danger"><span class="nav-link fab fa-google-plus-g"></span></button>
-                             <button type="button" class="btn btn-danger">                        <span class="nav-link fab fa-whatsapp"></span>
-                             </button>
-                             <button type="button" class="btn btn-danger"><span class="nav-link fab fa-facebook"></span>
-                             </button>
-                             
-                            </div>
-                         </div>
-                     
-                   
-                      
-                  </ul>
-                  
-               </div>
-            </nav>
-       </div>
-      <!-- //Navigation -->
-      <!-- Slideshow 4 -->
 
 
 
+                      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                      <span class="sr-only">Previous</span>
+
+                      </a>
+
+                      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                      <span class="sr-only">Next</span>
+
+                      </a>
+
+                      </div>
+
+                      </div>
+
+                      </div>
+ 
+              </div>
+              </div>
 
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-         <ol class="carousel-indicators">
-           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-         </ol>
-         <div class="carousel-inner">
-           <div class="carousel-item active">
-             <img class="d-block w-100" src="images\b3.jpg" alt="First slide">
-           </div>
-           <div class="carousel-item">
-            <img class="d-block w-100" src="images\b3.jpg" alt="First slide">
-         </div>
-           <div class="carousel-item">
-            <img class="d-block w-100" src="images\b3.jpg" alt="First slide">
-         </div>
-         </div>
-         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-           <span class="sr-only">Previous</span>
-         </a>
-         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-           <span class="sr-only">Next</span>
-         </a>
-       </div>
-      <div class="slider">
-         <div class="callbacks_container">
-            <ul class="rslides" id="slider4">
-               <li>
-                  <div class="slider-img one-img">
-                     <div class="container">
-                        <div class="slider-info text-left">
-                           <h4>Dance For Satisfaction Of<br><span class="pink-col">Your Soul</span></h4>
-                           <p class="pt-3">Lorem ipsum dolor sit amet, consectetur</p>
-                           <div class="outs_more-buttn">
-                              <a href="about.html">Read More</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </li>
-               <li>
-                  <div class="slider-img two-img">
-                     <div class="container">
-                        <div class="slider-info text-center">
-                           <h4>You Live <span class="pink-col">As long As </span>You Dance</h4>
-                           <p class="pt-3">Lorem ipsum dolor sit amet, consectetur</p>
-                           <div class="outs_more-buttn">
-                              <a href="about.html">Read More</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </li>
-               <li>
-                  <div class="slider-img three-img">
-                     <div class="container">
-                        <div class="slider-info text-center">
-                           <h4>Never Miss<span class="pink-col"> A Chance</span> To Dance</h4>
-                           <p class="pt-3">Lorem ipsum dolor sit amet, consectetur</p>
-                           <div class="outs_more-buttn">
-                              <a href="about.html">Read More</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </li>
-            </ul>
-         </div>
-         <!-- This is here just to demonstrate the callbacks -->
-         <!-- <ul class="events">
-            <li>Example 4 callback events</li>
-            </ul>-->
-         <div class="clearfix"></div>
-      </div>
-      <!-- //banner -->
-      <!--about -->
+
+     
       <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
             <div class="agile-abt-info text-center">
