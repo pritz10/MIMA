@@ -54,7 +54,7 @@ RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$"
 RewriteRule ^(.*)$ Error.php [L]
 
 
- ErrorDocument 404 https://sicbsikkim.org/Error.php
+ ErrorDocument 404 https://mimdanceacademy.com/Error.php
 
  
 
