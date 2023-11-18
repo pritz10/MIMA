@@ -1,7 +1,7 @@
 
 <?php require_once 'include/header.php';?>
 
-<div data-aos="flip-down"  data-aos-duration="1000">
+<div data-aos="fade-down"  data-aos-duration="1000">
 <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
 
@@ -110,8 +110,8 @@
 
 
 
-     
-      <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
+          
+      <section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up" id="about">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
             <div class="agile-abt-info text-center">
                <h2>We Will Make You<br> As A Professional Dancer 
@@ -228,7 +228,7 @@
       </section>
       <!--//about -->
       <!--slider-img-->
-      <section class="side-img py-lg-4 py-md-3 py-sm-3 py-3">
+      <section class="side-img py-lg-4 py-md-3 py-sm-3 py-3" data-aos="fade-right">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
             <div class="agile-bar-grid  pb-lg-4">
                <div class="bar-w3ls-both-side text-center pb-lg-4 pb-md-3 pb-3">
@@ -324,11 +324,11 @@
       </section>
       <!--//images slider  -->
       <!--service -->
-      <section class="service py-lg-4 py-md-3 py-sm-3 py-3">
+      <section class="service py-lg-4 py-md-3 py-sm-3 py-3" >
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
             <h3 class="title text-left mb-lg-5 mb-md-4 mb-sm-4 mb-3">Our Best Services</h3>
             <div class="row service-both">
-               <div class="col-lg-5 wthree-left-img-ser">
+               <div class="col-lg-5 wthree-left-img-ser" data-aos="zoom-out-right" data-aos-duration="3000">
                   <img src="images/ser1.jpg" class="img-thumbnail" alt="">
                </div>
                <div class="col-lg-7 right-ser-list pt-lg-5 pt-md-4 pt-3">
