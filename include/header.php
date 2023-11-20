@@ -13,8 +13,7 @@ require_once 'include/db.php';?>
       <!--meta tags -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="keywords" content="Sway Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+      <meta name="keywords" content="MIMA, mima, Music in motion dance academy, dance academy in sikkim, sikkim, gangtok , mim dance academy" />
       <script>
          addEventListener("load", function () {
          	setTimeout(hideURLbar, 0);
@@ -45,7 +44,7 @@ require_once 'include/db.php';?>
     </head>
    <body>
       <div class="header-outs" id="home">
-             <nav class="navbar navbar-expand-lg navbar-light" style="background: black;">
+             <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background: black;">
                <a class="navbar-brand" href="index.html"><img src="files/Images/log.PNG" width="100"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
