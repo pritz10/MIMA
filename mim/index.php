@@ -115,11 +115,8 @@
             <div class="container pt-5 pb-md-4">
                 <div class="row align-items-center py-4">
                     <div class="col-md-6 pr-lg-5">
-                        <h3 class="mb-lg-4 mb-3 title">We Promote Your <span>Business</span></h3>
-                        <p class="mr-5">Nemo enim ipsam oluptatem quia reoluptas sit aspernatur aut odit aut fugit, sed
-                            quia
-                            consequuntur
-                            magni dolores eosqui ratione.</p>
+                        <h3 class="mb-lg-4 mb-3 title">We Will Make You  A  <span>Professional Dancer</span></h3>
+                        <p class="mr-5">Music in Motion Dance Academy have a great team of Professional Trainers who can help you to enhance your skill</p>
                         <div class="mt-md-5 mt-4 mb-lg-0 mb-4">
                             <a class="btn btn-style" href="about.html">Get Started</a>
                         </div>
