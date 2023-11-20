@@ -128,7 +128,7 @@
                         </div>
                         <div class="banner-style-1 d-flex align-items-center">
                             <i class="fas fa-chart-line green-clr-bg"></i>
-                            <h4>Business Analysis</h4>
+                            <h4>Improvement</h4>
                         </div>
                         <div class="banner-style-1 banner-style-2 d-flex align-items-center">
                             <i class="fas fa-shield-alt primary-clr-bg"></i>
@@ -136,7 +136,7 @@
                         </div>
                         <div class="banner-style-1 banner-style-3 d-flex align-items-center">
                             <i class="fas fa-chart-area blue-clr-bg"></i>
-                            <h4>Strategy</h4>
+                            <h4>Moves</h4>
                         </div>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                             <i class="fas fa-business-time primary-clr-bg"></i>
                         </div>
                         <div class="about-content">
-                            <h5 class="mb-2"><a href="about.html">Development</a></h5>
+                            <h5 class="mb-2"><a href="about.html">Clasical Dance</a></h5>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque
                                 laudan sit accusa.</p>
                         </div>
@@ -172,7 +172,7 @@
                             <i class="fas fa-chart-pie green-clr-bg"></i>
                         </div>
                         <div class="about-content">
-                            <h5 class="mb-2"><a href="about.html">Integration</a></h5>
+                            <h5 class="mb-2"><a href="about.html">Hip Hops</a></h5>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque
                                 laudan sit accusa.</p>
                         </div>
@@ -184,7 +184,7 @@
                             <i class="fas fa-shipping-fast blue-clr-bg"></i>
                         </div>
                         <div class="about-content">
-                            <h5 class="mb-2"><a href="about.html">Branding</a></h5>
+                            <h5 class="mb-2"><a href="about.html">Music</a></h5>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ntium dolor emque
                                 laudan sit accusa.</p>
                         </div>
@@ -204,15 +204,15 @@
                         <img src="assets/images/home1.jpg" alt="" class="img-fluid radius-image">
                     </div>
                     <div class="imginfo__box">
-                        <h6 class="imginfo__title">Get a Price Quote Today!</h6>
-                        <p>Nemo enim ipsam oluptatem quia oluptas<br> sit aspernatur aut odit aut fugit. </p>
-                        <a href="tel:http://1(800)7654321"><span class="fa fa-phone mr-2"></span> 1-800-654-3210</a>
+                        <h6 class="imginfo__title">Have a talk Today!</h6>
+                        <p>We are just a call away for you moves to be skilled<br> We will sort everything. </p>
+                        <a href="tel:http://90984654986"><span class="fa fa-phone mr-2"></span> +91984654684</a>
                     </div>
 
                 </div>
                 <div class="col-xl-5 col-lg-6 offset-xl-1 mt-lg-0 mt-5 pt-lg-0 pt-5">
-                    <h3 class="title-style">We have business skills that
-                        will increase your earnings</h3>
+                    <h3 class="title-style">Best trainers that
+                        will increase your dance moves</h3>
                     <p class="mt-lg-4 mt-3 mb-sm-5 mb-4">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
                         ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing
                         elit.</p>
@@ -220,7 +220,7 @@
                         <div class="grids_info">
                             <i class="fas fa-user-clock primary-clr-bg"></i>
                             <div class="detail">
-                                <h4>Start your own business in minutes</h4>
+                                <h4>Start dancing in  minutes</h4>
                                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                     mollit.</p>
                             </div>
@@ -228,7 +228,7 @@
                         <div class="grids_info mt-5">
                             <i class="fas fa-laptop-house green-clr-bg"></i>
                             <div class="detail">
-                                <h4>Open a business account online</h4>
+                                <h4>Moves will be enhances</h4>
                                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                     mollit.</p>
                             </div>
@@ -255,7 +255,7 @@
                             <i class="fas fa-laptop-code blue-clr-bg"></i>
                         </div>
                         <h4 class="number">01</h4>
-                        <h4><a href="#url">Cloud Computing</a></h4>
+                        <h4><a href="#url">Clasical</a></h4>
                         <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
                             doloret quas saepe autem, dolor set.</p>
                         <a href="#read" class="read">Read more</a>
@@ -267,7 +267,7 @@
                             <i class="fas fa-chart-bar primary-clr-bg"></i>
                         </div>
                         <h4 class="number">02</h4>
-                        <h4><a href="#url">Business Strategy</a></h4>
+                        <h4><a href="#url">Salsa</a></h4>
                         <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
                             doloret quas saepe autem, dolor set.</p>
                         <a href="#read" class="read">Read more</a>
@@ -279,7 +279,7 @@
                             <i class="fas fa-copy green-clr-bg"></i>
                         </div>
                         <h4 class="number">03</h4>
-                        <h4><a href="#url">Reports Analysis</a></h4>
+                        <h4><a href="#url">Hip Hops</a></h4>
                         <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
                             doloret quas saepe autem, dolor set.</p>
                         <a href="#read" class="read">Read more</a>
@@ -291,7 +291,7 @@
                             <i class="fas fa-marker primary-clr-bg"></i>
                         </div>
                         <h4 class="number">04</h4>
-                        <h4><a href="#url">Decision Maker</a></h4>
+                        <h4><a href="#url">Break Dance</a></h4>
                         <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
                             doloret quas saepe autem, dolor set.</p>
                         <a href="#read" class="read">Read more</a>
@@ -303,7 +303,7 @@
                             <i class="fas fa-user-cog green-clr-bg"></i>
                         </div>
                         <h4 class="number">05</h4>
-                        <h4><a href="#url">Customer Oriented</a></h4>
+                        <h4><a href="#url">Group Dance</a></h4>
                         <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
                             doloret quas saepe autem, dolor set.</p>
                         <a href="#read" class="read">Read more</a>
@@ -315,7 +315,7 @@
                             <i class="fas fa-coins blue-clr-bg"></i>
                         </div>
                         <h4 class="number">06</h4>
-                        <h4><a href="#url">Solution Focused</a></h4>
+                        <h4><a href="#url">Folk Dance Focused</a></h4>
                         <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
                             doloret quas saepe autem, dolor set.</p>
                         <a href="#read" class="read">Read more</a>
@@ -331,7 +331,7 @@
         <div class="container py-md-5 py-4">
             <div class="row py-lg-4">
                 <div class="col-lg-6 section-width align-self">
-                    <h3 class="title-style pr-xl-5">We help businesses launch, grow and succeed</h3>
+                    <h3 class="title-style pr-xl-5">We help you kids to dance like poemand help them to grow and succeed</h3>
                     <p class="mt-lg-4 mt-3 pb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, corrupti
                         odit? At iure facere,
                         porro repellat officia quas, dolores magnam assumenda soluta odit
