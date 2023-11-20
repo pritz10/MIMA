@@ -1,4 +1,4 @@
- 
+<?php require_once 'include/db.php';?>
 <!doctype html>
 <html lang="en">
 
@@ -84,33 +84,113 @@
             </nav>
         </div>
     </header>
-    <!--//header-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="assets/images/banner-img.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="assets/images/bg1.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="assets/images/banner-img.jpg" alt="First slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+    <div id="myCarousel" class="carousel   carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+
+                  <?php
+
+                    $sql = "select * from mainslider ORDER BY id DESC LIMIT 5";  
+
+                      $result = mysqli_query($connect, $sql); 
+
+                      $count = mysqli_num_rows($result);  
+
+                      $i=0;
+
+                      foreach($result as $row)
+
+                      {
+
+                      $active='';
+
+                      if($i==0)
+
+                      {
+
+                      $active='active';
+
+                      }
+
+                      ?>
+
+                      <li data-target="#myCarousel" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
+
+                      <?php $i++;}    ?>
+
+                      </ol>
+
+                    <div class="carousel-inner">
+
+                          <?php
+
+                          $sql = "select * from mainslider ORDER BY id DESC LIMIT 5";  
+
+                          $result = mysqli_query($connect, $sql); 
+
+                          $count = mysqli_num_rows($result);  
+
+                          $i=0;
+
+                          foreach($result as $row)
+
+                          {
+
+                          $active='';
+
+                          if($i==0)
+
+                          {
+
+                          $active='active';
+
+                          }
+
+                          ?>
+
+                          <div class="carousel-item <?=$active;?>">
+
+                          <img class="d-block w-100" src="<?php echo $row['ImageUrl']; ?>" loading="lazy">
+                           
+                              <div class="carousel-caption  d-md-block">
+                              <h5><?php echo $row['Title']; ?></h3>
+                              <p class="pt-3"><?php echo $row['Description']; ?></p>
+                               
+
+                              </div>   
+
+                          </div>
+
+                          <?php $i++; } ?>
+                        </div>
+
+
+
+                      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                      <span class="sr-only">Previous</span>
+
+                      </a>
+
+                      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                      <span class="sr-only">Next</span>
+
+                      </a>
+
+                      </div>
+
+                      </div>
+
+                      </div>
+ 
+              </div>
+              </div>
+
+
     <!-- banner section -->
     <section id="home" class="w3l-banner py-5">
         <div class="banner-image">

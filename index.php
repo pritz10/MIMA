@@ -230,68 +230,7 @@
       <!--slider-img-->
       <section class="side-img py-lg-4 py-md-3 py-sm-3 py-3" data-aos="fade-right">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
-            <div class="agile-bar-grid  pb-lg-4">
-               <div class="bar-w3ls-both-side text-center pb-lg-4 pb-md-3 pb-3">
-                  <h4 class="text-white">You may be a skillful, effective employer but if you don’t trust your personnel and the opposite.</h4>
-                  <div class="text-center info-sub-w3 pb-lg-4 pb-md-3 pb-sm-3 pb-3">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-lg-6 col-md-6 left-side-w3layouts">
-                     <div class="iteam-bar">
-                        <h5 class="pb-3">Tap-Dance</h5>
-                        <div class="progress my-bar">
-                           <div class="progress-bar progress-bar-striped " role="progressbar" style="width: 75%"></div>
-                        </div>
-                     </div>
-                     <div class="iteam-bar pt-lg-4 pt-3">
-                        <h5 class="pb-3">Belly Dance</h5>
-                        <div class="progress my-bar">
-                           <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%"></div>
-                        </div>
-                     </div>
-                     <div class="iteam-bar pt-lg-4  pt-3">
-                        <h5 class="pb-3">Contemporary</h5>
-                        <div class="progress my-bar">
-                           <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 85%" ></div>
-                        </div>
-                     </div>
-                     <div class="iteam-bar pt-lg-4 pt-3">
-                        <h5 class="pb-3">Jazz & Funk</h5>
-                        <div class="progress my-bar">
-                           <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" ></div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6 right-side-w3layouts">
-                     <div class="iteam-bar">
-                        <h5 class="pb-3">Hip-PoP</h5>
-                        <div class="progress my-bar">
-                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%"></div>
-                        </div>
-                     </div>
-                     <div class="iteam-bar pt-lg-4 pt-3">
-                        <h5 class="pb-3">Salsa</h5>
-                        <div class="progress my-bar">
-                           <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%" ></div>
-                        </div>
-                     </div>
-                     <div class="iteam-bar pt-lg-4 pt-3">
-                        <h5 class="pb-3">Cha_Cha</h5>
-                        <div class="progress my-bar">
-                           <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" ></div>
-                        </div>
-                     </div>
-                     <div class="iteam-bar pt-lg-4 pt-3">
-                        <h5 class="pb-3">Ballent</h5>
-                        <div class="progress my-bar">
-                           <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" ></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+          
             <div class="jst-must-info pt-lg-4 pt-md-3 pt-3">
                <div class="stats-info row">
                   <div class="col-lg-3 col-md-3 col-sm-6 col-6 stats-grid stats-grid-1">

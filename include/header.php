@@ -76,7 +76,7 @@ require_once 'include/db.php';?>
                         <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
                            <div class="btn-group" role="group" aria-label="First group">
                              <button type="button" class="btn btn-danger"><span class="nav-link fab fa-google-plus-g"></span></button>
-                             <button type="button" class="btn btn-danger">                        <span class="nav-link fab fa-whatsapp"></span>
+                             <button type="button" class="btn btn-success">                        <span class="nav-link fab fa-whatsapp"></span>
                              </button>
                              <button type="button" class="btn btn-danger"><span class="nav-link fab fa-facebook"></span>
                              </button>
