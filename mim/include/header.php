@@ -5,93 +5,82 @@ header('X-Content-Type-Options: nosniff');
 header('Strict-Transport-Security "max-age=63072000; includeSubDomains');
 header('set Referrer-Policy same-origin');
 require_once 'include/db.php';?>
- 
-<!DOCTYPE html>
-<html lang="zxx">
-   <head>
-      <title>Music In Motion Dance Academy | MIMA</title>
-      <!--meta tags -->
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="keywords" content="Sway Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-      <script>
-         addEventListener("load", function () {
-         	setTimeout(hideURLbar, 0);
-         }, false);
-         
-         function hideURLbar() {
-         	window.scrollTo(0, 1);
-         }
-      </script>
-      <!--//meta tags ends here-->
-      <!--booststrap-->
-      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-      <!--//booststrap end-->
-      <!-- font-awesome icons -->
-      <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
-      <!-- //font-awesome icons -->
-      <!--Slider -->
-      <link href="css/lsb.css" rel="stylesheet" type="text/css">
-      <!-- //slider-->
-      <!--stylesheets-->
-      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
-      <!--//stylesheets-->
-      <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
-      <link href="//fonts.googleapis.com/css?family=Felipa" rel="stylesheet">
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-       
- 
-    </head>
-   <body>
-      <div class="header-outs" id="home">
-             <nav class="navbar navbar-expand-lg navbar-light" style="background: black;">
-               <a class="navbar-brand" href="index.html"><img src="files/Images/log.PNG" width="100"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                  <ul class="navbar-nav ">
-                     <li class="nav-item active">
-                        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
-                     </li>
-                     <li class="nav-item">
-                     <a href="#" class="nav-link">Gallery</a>
-                     </li>
-                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Pages
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a href="#" href="class.html">Class</a>
-                        <a href="#"  href="typography.html">Typography</a>
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MIM Dance Academy</title>
+    <!-- google-fonts -->
+    <link
+        href="//fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- //google-fonts -->
+    <!-- Font-Awesome-Icons-CSS -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+</head>
+
+<body>
+    <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg stroke px-0">
+                <h1>
+                    <a class="navbar-brand" href="index.php">
+                        <img src="files/Images/log.PNG" width="100">
+                    </a>
+                </h1>
+                <!-- if logo is image enable this   
+    <a class="navbar-brand" href="#index.html">
+        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+    </a> -->
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <!-- //search button -->
+                <!-- toggle switch for light and dark theme -->
+                <div class="cont-ser-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper"><a href="https://api.whatsapp.com/send?phone=910000000000&text=Hello this is the starting message"><img src="files/Images/Mainslider/whatsapp.png" width="30" alt=""></a>
+                            <button type="button" class="btn btn-warning">Talk with us</button>
+<br>
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
                         </div>
-                     </li>
-                     <li class="nav-item">
-                     <a href="#"class="nav-link">Contact</a>
-                     </li>
-                  
-                        <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-                           <div class="btn-group" role="group" aria-label="First group">
-                             <button type="button" class="btn btn-danger"><span class="nav-link fab fa-google-plus-g"></span></button>
-                             <button type="button" class="btn btn-danger">                        <span class="nav-link fab fa-whatsapp"></span>
-                             </button>
-                             <button type="button" class="btn btn-danger"><span class="nav-link fab fa-facebook"></span>
-                             </button>
-                             
-                            </div>
-                         </div>
-                     
-                   
-                      
-                  </ul>
-                  
-               </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
             </nav>
-       </div>
-      <!-- //Navigation -->
-      <!-- Slideshow 4 -->
- 
+        </div>
+    </header>
