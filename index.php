@@ -108,8 +108,29 @@
               </div>
               </div>
 
-
-
+          
+              <section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up" id="about">
+         <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
+              <div class="row text-center">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Talk to our experts</h5>
+        <p class="card-text">With supporting guidance you can additional wings.</p>
+        <a href="#" class="btn btn-primary">Call</a>
+      </div>
+    </div>
+  </div>
+</div></div></section>
           
       <section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up" id="about">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">

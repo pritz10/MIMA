@@ -67,12 +67,10 @@ h6 {
     letter-spacing: 1px;
 }
 
-p {font-size:14px;
-    margin: 0;
-    padding: 0;
-    letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
-}
+p { 
+     
+    
+    font-family: sans-serif;}
 ul {
     margin: 0;
     padding: 0;
@@ -170,7 +168,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
     min-height: 300px;
 }
 ul.short_ls li a {
-    color: #ea1d5d;
+    color: #ea571d;
     text-decoration: none;
 }
 ul.short_ls li {

@@ -3,9 +3,9 @@
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
             <div class="row ">
                <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6 ">
-                  <h4 class="pb-lg-3 pb-3"><a href="index.html">MIMA</a></h4>
+                  <h4 class="pb-lg-3 pb-3"><a href="index.html">Mim Dance Academy</a></h4>
                   <div class="bottom-para pb-sm-3 pb-2">
-                     <p>ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla</p>
+                     <p>Music in Motion Dance Academy</p>
                   </div>
                   <div class="bottom-social pt-2">
                      <ul>
