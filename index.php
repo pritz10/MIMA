@@ -115,7 +115,7 @@
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body" style="background: lightgoldenrodyellow;">
-        <h5 class="card-title">Check your dance classes</h5>
+        <h5 class="card-title">Check our dance classes</h5>
         <p class="card-text">Get all the details in your chats</p>
        <a  class="btn btn-success" href="https://api.whatsapp.com/send?phone=+91 89182 12479&text=Hello, Music in Motion Dance Academy !"><i class='fab fa-whatsapp'></i> Whatsapp us</a>
  <br>
