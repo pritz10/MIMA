@@ -81,12 +81,11 @@ ul {
 /*-- //Reset-Code --*/
 .title {
     font-size: 50px;
-    color: #ea1d5d;
+    color: #ea4d1d;
     letter-spacing: 3px;
     font-weight: 600;
-    text-transform: uppercase;
-	    font-family: 'Felipa', cursive;
-
+    
+	    
 }
 .clr {
     color: #fff;

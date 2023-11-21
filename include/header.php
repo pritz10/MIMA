@@ -9,7 +9,7 @@ require_once 'include/db.php';?>
 <!DOCTYPE html>
 <html lang="zxx">
    <head>
-      <title>Music In Motion Dance Academy | MIMA</title>
+      <title>Music In Motion Dance Academy | Mim dance academy sikkim</title>
       <!--meta tags -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +19,7 @@ require_once 'include/db.php';?>
          	setTimeout(hideURLbar, 0);
          }, false);
          
-         function hideURLbar() {
+         function hideURLbar() {slide
          	window.scrollTo(0, 1);
          }
       </script>
@@ -37,14 +37,16 @@ require_once 'include/db.php';?>
       <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
       <!--//stylesheets-->
       <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
-      <link href="//fonts.googleapis.com/css?family=Felipa" rel="stylesheet">
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-       
- 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap" rel="stylesheet"> 
     </head>
    <body>
       <div class="header-outs" id="home">
-             <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background: black; padding:0;">
+             <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background: black; padding-top:0;padding-bottom:0;>
                <a class="navbar-brand" href="index.html"><img src="files/Images/log.PNG" width="100"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
@@ -72,17 +74,10 @@ require_once 'include/db.php';?>
                      <li class="nav-item">
                      <a href="#"class="nav-link">Contact</a>
                      </li>
-                  
-                        <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-                           <div class="btn-group" role="group" aria-label="First group">
-                             <button type="button" class="btn btn-danger"><span class="nav-link fab fa-google-plus-g"></span></button>
+                   
                              <button type="button" class="btn btn-success">                        <span class="nav-link fab fa-whatsapp"></span>
                              </button>
-                             <button type="button" class="btn btn-danger"><span class="nav-link fab fa-facebook"></span>
-                             </button>
-                             
-                            </div>
-                         </div>
+                            
                      
                    
                       

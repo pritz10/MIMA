@@ -173,7 +173,7 @@
                   <div class="agileinfo_port_grid">
                      <a href="images/s1.jpg" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                           <img src="images/s1.jpg" alt=" " class="img-fluid" />
+                           <img src="files/Images/Mainslider/1.png" alt=" " class="img-fluid" />
                         </div>
                      </a>
                   </div>
@@ -182,7 +182,7 @@
                   <div class="agileinfo_port_grid mt-lg-4 mt-3">
                      <a href="images/s2.jpg" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                           <img src="images/s2.jpg" alt=" " class="img-fluid" />
+                        <img src="files/Images/Mainslider/2.png" alt=" " class="img-fluid" />
                         </div>
                      </a>
                   </div>
@@ -191,7 +191,7 @@
                   <div class="agileinfo_port_grid">
                      <a href="images/s3.jpg" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                           <img src="images/s3.jpg" alt=" " class="img-fluid" />
+                        <img src="files/Images/Mainslider/3.png" alt=" " class="img-fluid" />
                         </div>
                      </a>
                   </div>
@@ -200,7 +200,7 @@
                   <div class="agileinfo_port_grid mt-lg-4 mt-3">
                      <a href="images/s4.jpg" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                           <img src="images/s4.jpg" alt=" " class="img-fluid" />
+                        <img src="files/Images/Mainslider/4.png" alt=" " class="img-fluid" />
                         </div>
                      </a>
                   </div>
@@ -209,7 +209,7 @@
                   <div class="agileinfo_port_grid">
                      <a href="images/s2.jpg" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                           <img src="images/s2.jpg" alt=" " class="img-fluid" />
+                        <img src="files/Images/Mainslider/1.png" alt=" " class="img-fluid" />
                         </div>
                      </a>
                   </div>
@@ -218,7 +218,7 @@
                   <div class="agileinfo_port_grid mt-lg-4 mt-3">
                      <a href="images/s3.jpg" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                           <img src="images/s3.jpg" alt=" " class="img-fluid" />
+                        <img src="files/Images/Mainslider/2.png" alt=" " class="img-fluid" />
                         </div>
                      </a>
                   </div>
