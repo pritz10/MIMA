@@ -115,10 +115,11 @@
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
+        <h5 class="card-title">Check you dance classes</h5>
+        <p class="card-text">Get all the details in your chats</p>
+       <a  class="btn btn-success" href="https://api.whatsapp.com/send?phone=+91 89182 12479&text=Hello, Music in Motion Dance Academy !">Whatsapp us</a>
+ <br>
+       </div>
     </div>
   </div>
   <div class="col-sm-6">
