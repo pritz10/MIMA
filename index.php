@@ -112,25 +112,19 @@
               <section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up" id="about" style="background: black;">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
               <div class="row text-center">
-  <div class="col-sm-6">
+  <div class="col-sm-12">
     <div class="card">
       <div class="card-body" style="background: lightgoldenrodyellow;">
         <h5 class="card-title">Check our dance classes</h5>
-        <p class="card-text">Get all the details in your chats</p>
-       <a  class="btn btn-success" href="https://api.whatsapp.com/send?phone=+91 89182 12479&text=Hello, Music in Motion Dance Academy !"><i class='fab fa-whatsapp'></i> Whatsapp us</a>
- <br>
+        <p class="card-text">Talk with our expert team for best guidance</p>
+       <a  class="btn btn-success" href="https://api.whatsapp.com/send?phone=+91 89182 12479&text=Hello, Music in Motion Dance Academy !"style="font-weight: bolder;"><i class='fab fa-whatsapp'></i> Whatsapp us</a>
+ <br><br><a class="btn btn-warning" href="tel:+918918212479" style="font-weight: bolder;">Call us at 8918212479</a>
+
+
        </div>
     </div>
   </div>
-  <div class="col-sm-6">
-    <div class="card">
-    <div class="card-body" style="background: lightgoldenrodyellow;">
-        <h5 class="card-title">Talk to our experts</h5>
-        <p class="card-text">With supporting guidance you can additional wings.</p>
-        <a href="#" class="btn btn-primary"><i class='fas fa-phone-alt'></i>Call</a>
-      </div>
-    </div>
-  </div>
+   
 </div></div></section>
           
       <section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up" id="about">
