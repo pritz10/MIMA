@@ -669,7 +669,7 @@ bottom:-86px}
 /*-- slider-img--*/
 /*-- counter--*/
 .side-img{
-    background: url(../images/ss1.jpg)no-repeat center;
+    background: url(../files/Images/bd.png)no-repeat center;
 	background-size: cover;
 }
 .stats-grid {
@@ -733,7 +733,7 @@ height: 3px;}
 /*-- //dance class--*/
 /*--schedule--*/
 .schedule{
-    background: url(../images/tt1.jpg)no-repeat center;
+    background: url(../files/Images/bg.png)no-repeat center;
 	background-size: cover;
 }
 .timetable {
