@@ -108,7 +108,7 @@
               </div>
               </div>
 
-          
+<!--           
               <section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up" id="about" style="background: black;">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
               <div class="row text-center">
@@ -125,8 +125,20 @@
     </div>
   </div>
    
+</div></div></section> -->
+            
+<section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up" id="about" style="background: black;">
+         <div class="container ">
+              <div class="row text-center">
+  <div class="col-sm-12">
+    <div class="card">
+     <a  href="tel:+918918212479" style="font-weight: bolder;"><img src="files/Images/h.gif" class="img-fluid" alt="Cal Us"></a>
+
+
+      
+  </div>
+   
 </div></div></section>
-          
       <section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up" id="about">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
             <div class="agile-abt-info text-center">
