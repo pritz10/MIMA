@@ -160,7 +160,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 300px;
+    min-height: 85px;
 }
 ul.short_ls li a {
     color: #ea571d;
@@ -175,7 +175,7 @@ ul.short_ls li {
 .using-border {
     width: 100%;
     border: none;
-    background: #eee;
+    background: #202020;
 }
 /*-- //inner-banner --*/ 
 /*-- banner --*/ 
@@ -1215,7 +1215,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
     font-size: 29px;
 }
 .inner_page-banner {
-    min-height: 284px;
+    min-height: 205px;
 }
 }
 @media(max-width:991px){
@@ -1417,7 +1417,7 @@ h5.bootstrap-heading {
 }
 .abut-inner-left{ margin-top:20px;}
 .inner_page-banner {
-    min-height: 258px;
+    min-height: 205;
 }
 .abut-inner-right h4 {
     line-height: 42px;
@@ -1508,7 +1508,7 @@ h5.bootstrap-heading {
     font-size: 23px;
 }
 .inner_page-banner {
-    min-height: 247px;
+    min-height: 85px;
 }
 .form-inline {
     width: 56%;

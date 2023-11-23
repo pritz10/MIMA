@@ -14,7 +14,9 @@ require_once 'include/db.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Music In Motion Dance Academy | Mim dance academy sikkim</title>
+<title><?php echo $title; ?> | Music In Motion Dance Academy| mim dance academy </title>
+
+
 <!--meta tags -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,7 +57,7 @@ require_once 'include/db.php';?>
    <body>
       <div class="header-outs" id="home">
              <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background: black; padding-top:0;padding-bottom:0;">
-               <a class="navbar-brand" href="index.html"><img src="files/Images/log.PNG" width="100"></a>
+               <a class="navbar-brand" href="index"><img src="files/Images/log.PNG" width="100"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
@@ -65,7 +67,7 @@ require_once 'include/db.php';?>
                         <a class="nav-link" style="font-weight: 900;" href="index.php">Home <span class="sr-only">(current)</span></a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
+                        <a href="about" class="nav-link">About</a>
                      </li>
                      <li class="nav-item">
                      <a href="#" class="nav-link">Gallery</a>
