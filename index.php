@@ -139,20 +139,23 @@
   </div>
    
 </div></div></section>
-      <section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up" id="about">
+      <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
             <div class="agile-abt-info text-center">
-               <h2>We Will Make You<br> As A Professional Dancer 
+               <h2>WHAT MAKES ME DIFFERENT?
                </h2>
             </div >
-            <div class="text-center info-sub-w3 pb-lg-4 pb-md-3 pb-sm-3 pb-3">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-               </p>
-            </div>
+           
+               <p class="text-justify">How many times a dance teacher has told you that you need to work on your basics like it's the magic button that will suddenly make you a better dancer?
+<br>The truth is that basic moves are overrated and most of the time they don't contribute to your growth as a dancer.
+Don't get us wrong having a strong foundation as a dancer is extremely important but unfortunately, most dance teachers only focus on the technical aspect of dancing, and very few are teaching the psychological element of dancing...
+We believe dancing is 70% mental and 30% physical you can know all the moves and techniques in the world if your mindset is not right you don't stand a chance in the dance industry.
+<br><br><strong>That's why MIM Dance Academy is different not only do we dive deep into the technical aspect of freestyle dancing, but we also equip you with the mental toughness needed to make a name for yourself in the dance industry.
+</strong>  </p>
+             
             <div class="row agile-info-grid pt-lg-4 pt-md-4 pt-3">
                <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
-                  <div class="white-shadow">
+                  <div class="white-shadow" data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
                         <span class="fab fa-slideshare banner-icon" aria-hidden="true"></span>
                      </div>
@@ -166,7 +169,7 @@
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
-                  <div class="white-shadow">
+               <div class="white-shadow" data-aos="zoom-in" data-aos-delay="700" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
                         <span class="far fa-smile banner-icon" aria-hidden="true"></span>
                      </div>
@@ -180,7 +183,7 @@
                   </div>
                </div>
                <div class="col-lg-4 col-md-4  w3layouts-abut-list text-center">
-                  <div class="white-shadow">
+               <div class="white-shadow" data-aos="zoom-in" data-aos-delay="900" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
                         <span class="fab fa-angellist banner-icon" aria-hidden="true"></span>
                      </div>
