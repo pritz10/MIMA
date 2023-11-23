@@ -101,7 +101,7 @@ $active='active';
 
 <div class="carousel-item <?=$active;?>">
 
-<img class="img-fluid" src="<?php echo $row['ImageUrl']; ?> loading="lazy">
+<img src="<?php echo $row['ImageUrl']; ?>" class="img-fluid" loading="lazy">
 <a href="about_sicb" class="read">Some Glimpses of SICB</a>
 
 <div class="carousel-caption  d-md-block">
