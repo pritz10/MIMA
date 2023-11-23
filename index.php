@@ -7,7 +7,7 @@
 
                   <?php
 
-                    $sql = "select * from mainslider ORDER BY id DESC LIMIT 5";  
+                    $sql = "select * from mainslider ORDER BY id DESC LIMIT 3";  
 
                       $result = mysqli_query($connect, $sql); 
 
@@ -41,7 +41,7 @@
 
                           <?php
 
-                          $sql = "select * from mainslider ORDER BY id DESC LIMIT 5";  
+                          $sql = "select * from mainslider ORDER BY id DESC LIMIT 3";  
 
                           $result = mysqli_query($connect, $sql); 
 
