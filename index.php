@@ -198,8 +198,12 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                </div>
             </div>
          </div>
-         
+
          <div class="slid-img">
+         <div class="agile-abt-info text-center">
+               <h2>WHAT MAKES ME DIFFERENT?
+               </h2>
+            </div >
             <ul id="flexiselDemo1">
                <li>
                   <div class="agileinfo_port_grid">
