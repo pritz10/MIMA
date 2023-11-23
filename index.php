@@ -67,8 +67,7 @@
 
                           <div class="carousel-item <?=$active;?>">
 
-                  <img src="files/Images/bk.jpg img-thumbnail" alt="Mim Dance Academy Sikkim">
-                          <img class="d-block w-100  " src="<?php echo $row['ImageUrl']; ?>" loading="lazy">
+                          <img class="d-block w-100 img-thumbnail " src="<?php echo $row['ImageUrl']; ?>" loading="lazy">
                            
                               <div class="carousel-caption  d-md-block">
                               <h5><?php echo $row['Title']; ?></h3>
