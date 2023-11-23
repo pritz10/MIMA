@@ -25,7 +25,7 @@ require_once 'include/header.php'; ?>
             <div class="row abt-inner-agile pb-lg-3 pb-3">
                <div class="col-lg-6 col-md-6 abut-inner-right">
                   <h4 style="color: wheat;">Choose A Best For You <br>Which Is You Like</h4>
-                  <div class="photo-6-inf-right col-lg-6 text-left pr-lg-5 mt-lg-0 mt-4 two-order">
+                  <div class="">
 
 <div class="position-relative">
 
@@ -102,7 +102,7 @@ $active='active';
 <div class="carousel-item <?=$active;?>">
 
 <img src="<?php echo $row['ImageUrl']; ?>" class="img-fluid" loading="lazy">
-<a href="about_sicb" class="read">Some Glimpses of SICB</a>
+<a href="about_sicb" class="read">Some Glimpses of MIM Dance Academy</a>
 
 <div class="carousel-caption  d-md-block">
 
