@@ -7,6 +7,12 @@
 	# Header set Content-Security-Policy ...
 	Header set Referrer-Policy "same-origin"
 	Header set Feature-Policy "geolocation 'self'; vibrate 'none'"
+
+	header("Pragma-directive: no-cache");  
+header("Cache-directive: no-cache");  
+header("Cache-control: no-cache");  
+header("Pragma: no-cache");  
+header("Expires: 0");
 </IfModule>
 RewriteEngine on
 

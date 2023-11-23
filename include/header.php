@@ -4,6 +4,11 @@ header('X-XSS-Protection: 1; mode=block');
 header('X-Content-Type-Options: nosniff');
 header('Strict-Transport-Security "max-age=63072000; includeSubDomains');
 header('set Referrer-Policy same-origin');
+header("Pragma-directive: no-cache");  
+header("Cache-directive: no-cache");  
+header("Cache-control: no-cache");  
+header("Pragma: no-cache");  
+header("Expires: 0");
 require_once 'include/db.php';?>
  
 <!DOCTYPE html>
