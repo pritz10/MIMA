@@ -3,25 +3,30 @@
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
             <div class="row ">
                <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6 ">
-                  <h4 class="pb-lg-3 pb-3"><a href="index.html">Mim Dance Academy</a></h4>
+                  <h4 class="pb-lg-3 pb-3"><a href="index.html">MiM Dance Academy</a></h4>
                   <div class="bottom-para pb-sm-3 pb-2">
                      <p>Music in Motion Dance Academy</p>
                   </div>
                   <div class="bottom-social pt-2">
                      <ul>
                         <li>
-                           <a href="#">
+                           <a href="https://www.facebook.com/musicinmotiondanceacademy?mibextid=LQQJ4d">
                            <span class="fab fa-facebook-f"></span>
                            </a>
                         </li>
                         <li>
-                           <a href="#">
+                           <a href="https://www.google.com/localservices/prolist?spp=Cg0vZy8xMWpsbnNwbjJx&scp=CgAaHU1VU0lDIElOIE1PVElPTiBEQU5DRSBBQ0FERU1ZKh1NVVNJQyBJTiBNT1RJT04gREFOQ0UgQUNBREVNWQ%3D%3D&q=MUSIC+IN+MOTION+DANCE+ACADEMY&src=2&slp=UhUIARIREg8iDS9nLzExamxuc3BuMnE">
                            <span class="fab fa-google-plus-g"></span>
                            </a>
                         </li>
                         <li>
-                           <a href="#">
-                           <span class="fab fa-twitter"></span>
+                           <a href="https://www.instagram.com/musicinmotion77/?igshid=YmMyMTA2M2Y%3D">
+                           <span class="fab fa-instagram"></span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.youtube.com/@musicinmotion6391">
+                           <span class="fab fa-youtube"></span>
                            </a>
                         </li>
                      </ul>

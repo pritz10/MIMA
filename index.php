@@ -142,7 +142,7 @@
       <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about" style="background: black;">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
             <div class="agile-abt-info text-center">
-               <h2>WHAT MAKES ME DIFFERENT?
+               <h2>What Makes Me Different?
                </h2>
             </div >
            
@@ -209,7 +209,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                   <div class="agileinfo_port_grid">
                   <a href="files/Images/Mainslider/1.png" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                           <img src="files/Images/Mainslider/1.png" alt=" " class="img-fluid" />
+                           <img src="files/Images/Mainslider/1.png" class="img-thumbnail" class="img-fluid" />
                         </div>
                      </a>
                   </div>
@@ -299,53 +299,52 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
       </section>
       <!--//images slider  -->
       <!--service -->
-      <section class="service py-lg-4 py-md-3 py-sm-3 py-3" >
+      <section class="service py-lg-4 py-md-3 py-sm-3 py-3" style="background:black" >
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
-            <h3 class="title text-left mb-lg-5 mb-md-4 mb-sm-4 mb-3">Our Best Services</h3>
+            <h3 class="title text-left mb-lg-5 mb-md-4 mb-sm-4 mb-3">Opportunities</h3><p class="text-justify" style="color: wheat;">THE MIM Dance Academy is dedicated to all dancers of any style the formation is designed in such a way that you can find value in it regardless of your dance level.
+
+Our goal is to assist you in creating the best version of yourself and developing a strong identity as a dancer therefore, the information we share is adaptable to each individual. </p>
             <div class="row service-both">
                <div class="col-lg-5 wthree-left-img-ser" data-aos="zoom-out-right" data-aos-duration="3000">
-                  <img src="images/ser1.jpg" class="img-thumbnail" alt="">
+                  <img src="files/Images/bk.jpg" class="img-thumbnail" alt="Mim Dance Academy Sikkim">
                </div>
                <div class="col-lg-7 right-ser-list pt-lg-5 pt-md-4 pt-3">
                   <div class="row service-agile-shadow mb-lg-5 mb-md-4 mb-3">
                      <div class=" col-md-2 col-sm-3 col-3 ser-icon-left">
-                        <span class="far fa-gem"></span>
+                     <img src="files/Images/breakdance.png" width="100" alt="">
+
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
-                        <h4>
-                           Lorem Ipsum Dolor
-                        </h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,delectus reiciendis maiores alias consequatur aut.maiores alias</p>
+                       
+                        <p style="color: wheat;"> Each will get a chance to participate in any kind of reality show local and National.</p>
                      </div>
                   </div>
                   <div class="row service-agile-shadow mb-lg-5 mb-md-4 mb-3">
                      <div class=" col-md-2 col-sm-3 col-3 ser-icon-left">
-                        <span class="fas fa-hourglass-half"></span>
+                     <img src="files/Images/rock-n-roll.png" width="100" alt="">
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
-                        <h4>consectetur adipiscing</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,delectus reiciendis maiores alias consequatur aut.maiores alias</p>
+                     <p style="color: wheat;"> 
+                     Best students of music in motion will get a chance featured in music videos.</p>
+
                      </div>
                   </div>
                   <div class="row service-agile-shadow mb-lg-5 mb-md-4 mb-3">
                      <div class=" col-md-2 col-sm-3 col-3 ser-icon-left">
-                        <span class="fas fa-american-sign-language-interpreting"></span>
+                     <img src="files/Images/twist.png" width="100" alt="">
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
-                        <h4>
-                           Lorem Ipsum Dolor
-                        </h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,delectus reiciendis maiores alias consequatur aut.maiores alias</p>
-                     </div>
+                     <p style="color: wheat;"> Chance to teach at schools as a part of the MIM company</>
+</div>
                   </div>
                   <div class="row service-agile-shadow ">
                      <div class=" col-md-2 col-sm-3 col-3 ser-icon-left">
-                        <span class="fas fa-chess-queen"></span>
+                     <img src="files/Images/cheerleader.png" width="100" alt="">
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
-                        <h4>Tempor Incididunt</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,delectus reiciendis maiores alias consequatur aut.maiores alias</p>
-                     </div>
+                     <p style="color: wheat;"> Opportunity to get selected for the Music in Motion Company</p>
+
+</div>
                   </div>
                </div>
             </div>
