@@ -139,14 +139,14 @@
   </div>
    
 </div></div></section>
-      <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
+      <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about" style="background: black;">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
             <div class="agile-abt-info text-center">
                <h2>WHAT MAKES ME DIFFERENT?
                </h2>
             </div >
            
-               <p class="text-justify">How many times a dance teacher has told you that you need to work on your basics like it's the magic button that will suddenly make you a better dancer?
+               <p class="text-justify" style="color: wheat;">How many times a dance teacher has told you that you need to work on your basics like it's the magic button that will suddenly make you a better dancer?
 <br>The truth is that basic moves are overrated and most of the time they don't contribute to your growth as a dancer.
 Don't get us wrong having a strong foundation as a dancer is extremely important but unfortunately, most dance teachers only focus on the technical aspect of dancing, and very few are teaching the psychological element of dancing...
 We believe dancing is 70% mental and 30% physical you can know all the moves and techniques in the world if your mindset is not right you don't stand a chance in the dance industry.
@@ -157,11 +157,11 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
                   <div class="white-shadow" data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
-                        <span class="fab fa-slideshare banner-icon" aria-hidden="true"></span>
-                     </div>
+                        <img src="files/Images/dance.png" width="100" alt="">
+                      </div>
                      <div class="abt-sub-info">
-                        <h4>Best Performance</h4>
-                        <p>delectus reiciendis maiores alias consequatur aut.maiores alias</p>
+                        <h4>Classical</h4>
+                        <p style="color: wheat;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="about.html">Learn more</a>
@@ -171,11 +171,11 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
                <div class="white-shadow" data-aos="zoom-in" data-aos-delay="700" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
-                        <span class="far fa-smile banner-icon" aria-hidden="true"></span>
+                     <img src="files/Images/dancer.png" width="100" alt="">
                      </div>
                      <div class="abt-sub-info">
-                        <h4>Online Advisors</h4>
-                        <p>delectus reiciendis maiores alias consequatur aut.maiores alias</p>
+                        <h4>Advisors</h4>
+                        <p style="color: wheat;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="about.html">Learn more</a>
@@ -185,11 +185,11 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                <div class="col-lg-4 col-md-4  w3layouts-abut-list text-center">
                <div class="white-shadow" data-aos="zoom-in" data-aos-delay="900" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
-                        <span class="fab fa-angellist banner-icon" aria-hidden="true"></span>
+                     <img src="files/Images/tango.png" width="100" alt="">
                      </div>
                      <div class="abt-sub-info">
-                        <h4>New Technologies</h4>
-                        <p>delectus reiciendis maiores alias consequatur aut.maiores alias</p>
+                        <h4>Salsa</h4>
+                        <p style="color: wheat;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="about.html">Learn more</a>
