@@ -25,107 +25,128 @@ require_once 'include/header.php'; ?>
             <div class="row abt-inner-agile pb-lg-3 pb-3">
                <div class="col-lg-6 col-md-6 abut-inner-right">
                   <h4 style="color: wheat;">Choose A Best For You <br>Which Is You Like</h4>
-                  <div data-aos="fade-down"  data-aos-duration="1000">
-<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-                <ol class="carousel-indicators">
+                  <div class="photo-6-inf-right col-lg-6 text-left pr-lg-5 mt-lg-0 mt-4 two-order">
 
-                  <?php
+<div class="position-relative">
 
-                    $sql = "select * from flowers ORDER BY id DESC LIMIT 3";  
+<div id="myCarouselw" class="carousel slide carousel-fade" data-ride="carousel">
 
-                      $result = mysqli_query($connect, $sql); 
+<!-- Indicators -->
 
-                      $count = mysqli_num_rows($result);  
+<ol class="carousel-indicators">
 
-                      $i=0;
+<?php
 
-                      foreach($result as $row)
+$sql = "select * from flowers ORDER BY Id DESC LIMIT 2";  
 
-                      {
+$result = mysqli_query($connect, $sql); 
 
-                      $active='';
+$count = mysqli_num_rows($result);  
 
-                      if($i==0)
+$i=0;
 
-                      {
+foreach($result as $row)
 
-                      $active='active';
+{
 
-                      }
+$active='';
 
-                      ?>
+if($i==0)
 
-                      <li data-target="#myCarousel" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
+{
 
-                      <?php $i++;}    ?>
+$active='active';
 
-                      </ol>
+}
 
-                    <div class="carousel-inner">
+?>
 
-                          <?php
+<li data-target="#myCarouselw" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
 
-                          $sql = "select * from flowers ORDER BY id DESC LIMIT 3";  
+<?php $i++;}    ?>
 
-                          $result = mysqli_query($connect, $sql); 
-
-                          $count = mysqli_num_rows($result);  
-
-                          $i=0;
-
-                          foreach($result as $row)
-
-                          {
-
-                          $active='';
-
-                          if($i==0)
-
-                          {
-
-                          $active='active';
-
-                          }
-
-                          ?>
-
-                          <div class="carousel-item <?=$active;?>">
-
-                          <img class="d-block w-100 " src="<?php echo $row['ImageUrl']; ?>" loading="lazy">
-                           
-                              <div class="carousel-caption  d-md-block">
-                              <h5><?php echo $row['Title']; ?></h3>
-                              <p class="pt-3"><?php echo $row['Description']; ?></p>
-                               
-
-                              </div>   
-
-                          </div>
-
-                          <?php $i++; } ?>
-                        </div>
+</ol>
 
 
 
-                      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+<!-- Wrapper for slides -->
 
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<div class="carousel-inner text-center">
 
-                      <span class="sr-only">Previous</span>
+<?php
 
-                      </a>
+$sql = "select * from flowers ORDER BY Id DESC LIMIT 2";  
 
-                      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+$result = mysqli_query($connect, $sql); 
 
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+$count = mysqli_num_rows($result);  
 
-                      <span class="sr-only">Next</span>
+$i=0;
 
-                      </a>
+foreach($result as $row)
 
-                      </div>
+{
 
-                      </div>
+$active='';
+
+if($i==0)
+
+{
+
+$active='active';
+
+}
+
+?>
+
+<div class="carousel-item <?=$active;?>">
+
+<img src="<?php echo $row['ImageUrl']; ?>" loading="lazy">
+<a href="about_sicb" class="read">Some Glimpses of SICB</a>
+
+<div class="carousel-caption  d-md-block">
+
+<h5><?php echo $row['Title']; ?></h3>
+
+</div>   
+
+</div>
+
+<?php $i++; } ?>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<a class="carousel-control-prev" href="#myCarouselw" role="button" data-slide="prev">
+
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+<span class="sr-only">Previous</span>
+
+</a>
+
+<a class="carousel-control-next" href="#myCarouselw" role="button" data-slide="next">
+
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+<span class="sr-only">Next</span>
+
+</a>
+
+</div>
+
+</div>
+
+</div>
              
                </div>
                <div class="col-lg-6 col-md-6 abut-inner-left">
