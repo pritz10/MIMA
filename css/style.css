@@ -154,13 +154,13 @@ nav.navbar.navbar-expand-lg.navbar-light {
 /*-- inner-banner --*/ 
 .inner_page-banner {
     text-align: center;
-    background: url(../images/b1.jpg) no-repeat center;
+    background: url(../files/Images/sec.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 85px;
+    min-height: 300px;
 }
 ul.short_ls li a {
     color: #ea571d;
@@ -175,7 +175,7 @@ ul.short_ls li {
 .using-border {
     width: 100%;
     border: none;
-    background: #202020;
+    background: #161616;
 }
 /*-- //inner-banner --*/ 
 /*-- banner --*/ 
@@ -1215,7 +1215,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
     font-size: 29px;
 }
 .inner_page-banner {
-    min-height: 205px;
+    min-height: 284px;
 }
 }
 @media(max-width:991px){
@@ -1417,7 +1417,7 @@ h5.bootstrap-heading {
 }
 .abut-inner-left{ margin-top:20px;}
 .inner_page-banner {
-    min-height: 205;
+    min-height: 258px;
 }
 .abut-inner-right h4 {
     line-height: 42px;
@@ -1508,7 +1508,7 @@ h5.bootstrap-heading {
     font-size: 23px;
 }
 .inner_page-banner {
-    min-height: 85px;
+    min-height: 247px;
 }
 .form-inline {
     width: 56%;
