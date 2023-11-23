@@ -37,7 +37,7 @@ require_once 'include/header.php'; ?>
 
 <?php
 
-$sql = "select * from flowers ORDER BY Id DESC LIMIT 2";  
+$sql = "select * from flowers ORDER BY Id DESC LIMIT 5";  
 
 $result = mysqli_query($connect, $sql); 
 
@@ -75,7 +75,7 @@ $active='active';
 
 <?php
 
-$sql = "select * from flowers ORDER BY Id DESC LIMIT 2";  
+$sql = "select * from flowers ORDER BY Id DESC LIMIT 5";  
 
 $result = mysqli_query($connect, $sql); 
 
