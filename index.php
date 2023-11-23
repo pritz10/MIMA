@@ -127,7 +127,7 @@
    
 </div></div></section> -->
             
-<section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up" id="about" style="background: black;">
+<section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up"  data-aos-once="true"id="about" style="background: black;">
          <div class="container ">
               <div class="row text-center">
   <div class="col-sm-12">
@@ -198,6 +198,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                </div>
             </div>
          </div>
+         
          <div class="slid-img">
             <ul id="flexiselDemo1">
                <li>
