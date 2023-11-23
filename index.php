@@ -209,7 +209,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                   <div class="agileinfo_port_grid">
                   <a href="files/Images/Mainslider/1.png" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                           <img src="files/Images/Mainslider/1.png" class="img-thumbnail" class="img-fluid" />
+                           <img src="files/Images/Mainslider/1.jpeg" class="img-thumbnail" class="img-fluid" />
                         </div>
                      </a>
                   </div>
@@ -218,7 +218,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                   <div class="agileinfo_port_grid mt-lg-4 mt-3">
                   <a href="files/Images/Mainslider/2.png" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                        <img src="files/Images/Mainslider/2.png" alt=" " class="img-fluid" />
+                        <img src="files/Images/Mainslider/2.jpeg" alt=" " class="img-fluid" />
                         </div>
                      </a>
                   </div>
@@ -227,7 +227,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                   <div class="agileinfo_port_grid">
                   <a href="files/Images/Mainslider/3.png" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                        <img src="files/Images/Mainslider/3.png" alt=" " class="img-fluid" />
+                        <img src="files/Images/Mainslider/3.jpeg" alt=" " class="img-fluid" />
                         </div>
                      </a>
                   </div>
@@ -236,7 +236,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                   <div class="agileinfo_port_grid mt-lg-4 mt-3">
                   <a href="files/Images/Mainslider/4.png" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                        <img src="files/Images/Mainslider/4.png" alt=" " class="img-fluid" />
+                        <img src="files/Images/Mainslider/4.jpeg" alt=" " class="img-fluid" />
                         </div>
                      </a>
                   </div>
@@ -245,7 +245,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                   <div class="agileinfo_port_grid">
                   <a href="files/Images/Mainslider/1.png" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                        <img src="files/Images/Mainslider/1.png" alt=" " class="img-fluid" />
+                        <img src="files/Images/Mainslider/1.jpeg" alt=" " class="img-fluid" />
                         </div>
                      </a>
                   </div>
@@ -254,7 +254,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                   <div class="agileinfo_port_grid mt-lg-4 mt-3">
                      <a href="files/Images/Mainslider/2.png" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                        <img src="files/Images/Mainslider/2.png" alt=" " class="img-fluid" />
+                        <img src="files/Images/Mainslider/2.jpeg" alt=" " class="img-fluid" />
                         </div>
                      </a>
                   </div>
