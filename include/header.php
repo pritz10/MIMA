@@ -49,7 +49,7 @@ require_once 'include/db.php';?>
     </head>
    <body>
       <div class="header-outs" id="home">
-             <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background: black; padding-top:0;padding-bottom:0;>
+             <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background: black; padding-top:0;padding-bottom:0;">
                <a class="navbar-brand" href="index.html"><img src="files/Images/log.PNG" width="100"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
