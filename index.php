@@ -210,7 +210,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                
             <?php
 
-$sql = "select * from devents ORDER BY Id DESC LIMIT 5";  
+$sql = "select * from flowers ORDER BY Id DESC LIMIT 5";  
 
 $result = mysqli_query($connect,$sql); // fetch data from database
 
