@@ -8,34 +8,24 @@ require_once 'include/header.php'; ?>
                 <ol class="carousel-indicators">
 
                   <?php
-
-                    $sql = "select * from devents ORDER BY id DESC LIMIT 3";  
-
-                      $result = mysqli_query($connect, $sql); 
-
-                      $count = mysqli_num_rows($result);  
-
-                      $i=0;
-
-                      foreach($result as $row)
-
-                      {
-
+                    $sql = "select * from mainslider ORDER BY id DESC LIMIT 3";  
+                    $result = mysqli_query($connect, $sql); 
+                    $count = mysqli_num_rows($result);  
+                    $i=0;
+                    foreach($result as $row)
+                     {
                       $active='';
-
                       if($i==0)
-
-                      {
-
-                      $active='active';
-
-                      }
-
-                      ?>
+                       {
+                         $active='active';
+                       }
+                  ?>
 
                       <li data-target="#myCarousel" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
 
-                      <?php $i++;}    ?>
+                  <?php 
+                   $i++;}
+                  ?>
 
                       </ol>
 
@@ -43,7 +33,7 @@ require_once 'include/header.php'; ?>
 
                           <?php
 
-                          $sql = "select * from devents ORDER BY id DESC LIMIT 3";  
+                          $sql = "select * from mainslider ORDER BY id DESC LIMIT 3";  
 
                           $result = mysqli_query($connect, $sql); 
 
@@ -80,7 +70,8 @@ require_once 'include/header.php'; ?>
 
                           </div>
 
-                          <?php $i++; } ?>
+                          <?php $i++; } ?>                          <?php  ?>
+
                         </div>
 
 
