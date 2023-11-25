@@ -426,7 +426,7 @@ Our goal is to assist you in creating the best version of yourself and developin
 
 
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-warning">Sign up for free</button>
+            <button type="button" class="btn btn-lg btn-block btn-outline-light">Sign up for free</button>
         </div>
         </div> <div class="card mb-4 box-shadow">
           <div class="card-header">
