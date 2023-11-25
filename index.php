@@ -417,7 +417,7 @@ Our goal is to assist you in creating the best version of yourself and developin
           <div class="card-body" style="background: #fb6509;">
           <h1 class="card-title pricing-card-title">₹3k</h1>
 
-             <ul class="list-unstyled mt-3 mb-4" style="color:wheat">
+          <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
               <li>Saturday-Sunday</li>
               <li>2 Days in a Week</li>
               <li>8 Days in a Month</li>
@@ -435,7 +435,7 @@ Our goal is to assist you in creating the best version of yourself and developin
           <div class="card-body" style="background: #fb6509;">
           <h1 class="card-title pricing-card-title"><strike>₹6.5</strike>6k</h1>
 
-            <ul class="list-unstyled mt-3 mb-4" style="color:wheat">
+          <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
             <li>Saturday-Sunday</li>
             <li>2 Days in a Week</li>
             <li>8 Days in a Month</li>
@@ -450,7 +450,7 @@ Our goal is to assist you in creating the best version of yourself and developin
           <div class="card-body" style="background: #fb6509;">
           <h1 class="card-title pricing-card-title"><strike>₹12</strike>11k</h1>
 
-            <ul class="list-unstyled mt-3 mb-4" style="color:wheat">
+          <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
             <li>Saturday-Sunday</li>
             <li>2 Days in a Week</li>
             <li>8 Days in a Month</li>
@@ -465,7 +465,7 @@ Our goal is to assist you in creating the best version of yourself and developin
           <div class="card-body" style="background: #fb6509;">
           <h1 class="card-title pricing-card-title"><strike>₹24.5</strike>23k</h1>
 
-            <ul class="list-unstyled mt-3 mb-4" style="color:wheat">
+            <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
             <li>Saturday-Sunday</li>
             <li>2 Days in a Week</li>
             <li>8 Days in a Month</li>
