@@ -479,7 +479,7 @@ Our goal is to assist you in creating the best version of yourself and developin
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
             <h3 class="title text-left mb-lg-5 mb-md-4 mb-sm-4 mb-3">Our Dancers Says</h3>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-               <div class="carousel-inner text-center">
+               <div class="carousel-inner text-center" >
               
                <ol class="carousel-indicators">
 
