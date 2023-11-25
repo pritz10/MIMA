@@ -414,7 +414,7 @@ Our goal is to assist you in creating the best version of yourself and developin
           <div class="card-header">
             <h4 class="my-0 font-weight-normal">Monthly</h4>
           </div>
-          <div class="card-body">
+          <div class="card-body" style="background: #fb6509;">
             <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>10 users included</li>
@@ -428,7 +428,7 @@ Our goal is to assist you in creating the best version of yourself and developin
           <div class="card-header">
             <h4 class="my-0 font-weight-normal">Quarterly</h4>
           </div>
-          <div class="card-body">
+          <div class="card-body" style="background: #fb6509;">
             <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>10 users included</li>
@@ -443,7 +443,7 @@ Our goal is to assist you in creating the best version of yourself and developin
           <div class="card-header">
             <h4 class="my-0 font-weight-normal">Half-Yearly</h4>
           </div>
-          <div class="card-body">
+          <div class="card-body" style="background: #fb6509;">
             <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>20 users included</li>
@@ -458,7 +458,7 @@ Our goal is to assist you in creating the best version of yourself and developin
           <div class="card-header">
             <h4 class="my-0 font-weight-normal">Annually</h4>
           </div>
-          <div class="card-body">
+          <div class="card-body" style="background: #fb6509;">
             <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>30 users included</li>
@@ -470,12 +470,7 @@ Our goal is to assist you in creating the best version of yourself and developin
           </div>
         </div>
         </div>  </div>
-</section>
-
-
-
-
-      <!--testimonial-->
+</section>      <!--testimonial-->
       <section class="testimonial py-lg-4 py-md-3 py-sm-3 py-3" style="background: black;">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
             <h3 class="title text-left mb-lg-5 mb-md-4 mb-sm-4 mb-3">Our Dancers Says</h3>
