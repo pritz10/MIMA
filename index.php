@@ -415,7 +415,7 @@ Our goal is to assist you in creating the best version of yourself and developin
             <h4 class="my-0 font-weight-normal"> <strong>Monthly</strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-          <h1 class="card-title pricing-card-title">₹2000-₹3000 <small class="text-muted">/ mo</small></h1>
+          <h1 class="card-title pricing-card-title">₹2k-₹3k <small class="text-muted">/ mo</small></h1>
 
              <ul class="list-unstyled mt-3 mb-4" style="color:wheat">
               <li>Saturday-Sunday</li>
