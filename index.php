@@ -452,7 +452,7 @@ $active='active';
 
 ?>  
                <div class="carousel-item client-img <?=$active;?>">
-                     <img class="img-fluid" src="<?php echo $row['ImageUrl']; ?>" alt="MIm Dance">
+                     <img class="img-fluid" src="<?php echo $row['ImageUrl']; ?>" width="150px" alt="MIm Dance">
                      <div class="client-matter py-lg-4 py-md-3 py-3">
                         <p><?php echo $row['Message']; ?></p>
                         <h6 class="pt-lg-3 pt-2"><?php echo $row['Name']; ?></h6>
