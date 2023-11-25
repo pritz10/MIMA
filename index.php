@@ -456,7 +456,7 @@ $active='active';
                      <div class="client-matter py-lg-4 py-md-3 py-3">
                         <p><?php echo $row['Message']; ?></p>
                         <h6 class="pt-lg-3 pt-2"><?php echo $row['Name']; ?></h6>
-                        <h6><?php echo $row['Designation']; ?></h6>
+                        <p><?php echo $row['Designation']; ?></p>
                      </div>
                   </div>  <?php $i++; } ?>           
                    
