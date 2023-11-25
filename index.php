@@ -415,8 +415,7 @@ Our goal is to assist you in creating the best version of yourself and developin
             <h4 class="my-0 font-weight-normal">Monthly</h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
+             <ul class="list-unstyled mt-3 mb-4" style="color:wheat">
               <li>10 users included</li>
               <li>2 GB of storage</li>
               <li>Email support</li>
