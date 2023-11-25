@@ -159,7 +159,7 @@ The vision of the academy has been to offer platforms to aspiring and deserving 
             </div>
             <div class="row abt-inner-agile mt-lg-4 mt-3">
                <div class="col-lg-4 col-md-4 abut-inner-img">
-                  <img src="files/Images/woman_606472.png" width="200px" alt="" class="img-fluid">
+                  <img src="files/Images/pasodoble_6901505.png" width="200px" alt="" class="img-fluid">
                   <div class="w3l-abt-sub-txt mt-lg-4 mt-3">
                   <p style="color: wheat;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Hip-Pop</h4>
@@ -173,7 +173,7 @@ The vision of the academy has been to offer platforms to aspiring and deserving 
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 abut-inner-img">
-               <img src="files/Images/rumba.png" width="200px" alt="" class="img-fluid">
+               <img src="files/Images/rumba_6901480.png" width="200px" alt="" class="img-fluid">
                   <div class="w3l-abt-sub-txt mt-lg-4 mt-3">
                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Balinese</h4>
