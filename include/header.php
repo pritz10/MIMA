@@ -14,7 +14,7 @@ require_once 'include/db.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title><?php echo $title; ?> | Music In Motion Dance Academy| mim dance academy </title>
+<title><?php echo $title; ?> | Music In Motion Dance Academy| mim dance academy | mimdanceacademy </title>
 
 
 <!--meta tags -->
