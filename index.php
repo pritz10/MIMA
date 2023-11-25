@@ -9,7 +9,7 @@ require_once 'include/header.php'; ?>
 
                   <?php
 
-                    $sql = "select * from mainslider ORDER BY id DESC LIMIT 3";  
+                    $sql = "select * from devents ORDER BY id DESC LIMIT 3";  
 
                       $result = mysqli_query($connect, $sql); 
 
@@ -43,7 +43,7 @@ require_once 'include/header.php'; ?>
 
                           <?php
 
-                          $sql = "select * from mainslider ORDER BY id DESC LIMIT 3";  
+                          $sql = "select * from devents ORDER BY id DESC LIMIT 3";  
 
                           $result = mysqli_query($connect, $sql); 
 
@@ -210,7 +210,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                
             <?php
 
-$sql = "select * from flowers ORDER BY Id DESC LIMIT 5";  
+$sql = "select * from devents ORDER BY Id DESC LIMIT 5";  
 
 $result = mysqli_query($connect,$sql); // fetch data from database
 
