@@ -433,7 +433,7 @@ Our goal is to assist you in creating the best version of yourself and developin
             <h4 class="my-0 font-weight-normal"><Strong>Quarterly</Strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-          <h1 class="card-title pricing-card-title"><strike>₹6.5</strike>6k</h1>
+          <h1 class="card-title pricing-card-title">₹6000/-</h1>
 
           <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
             <li>Saturday-Sunday</li>
