@@ -220,11 +220,11 @@ function lettersOnly(input) {
 </li>
             <li class="nav-item">
 
-                <a class="nav-link" href="logonew">
+                <a class="nav-link" href="Visitors">
 
                     <i class="fas fa-fw fa fa-lightbulb"></i>
 
-                    <span>Logo</span></a>
+                    <span>Visitors</span></a>
 
             </li>
 

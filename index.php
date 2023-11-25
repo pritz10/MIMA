@@ -402,11 +402,19 @@ Our goal is to assist you in creating the best version of yourself and developin
             <h3 class="title text-left mb-lg-5 mb-md-4 mb-sm-4 mb-3">Our Dancers Says</h3>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner text-center">
-                  <div class="carousel-item active client-img">
-                     <img class="img-fluid" src="images/t1.jpg" alt="">
+               <?php
+                  $sql="SELECT * FROM testimonial ORDER BY id DESC LIMIT 5";
+                    $result = mysqli_query($connect,$sql); // fetch data from database
+                    if(mysqli_num_rows($result) > 0)  
+                    {  
+                        while($data = mysqli_fetch_array($result))  
+                        {                
+                    ?>   
+               <div class="carousel-item active client-img">
+                     <img class="img-fluid" src="<?php echo $data['ImageUrl']; ?>" alt="">
                      <div class="client-matter py-lg-4 py-md-3 py-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,delectus reiciendis maiores alias consequatur aut.maiores alias</p>
-                        <h6 class="pt-lg-3 pt-2">Kelly West</h6>
+                        <p><?php echo $data['Message']; ?></p>
+                        <h6 class="pt-lg-3 pt-2"><?php echo $data['Name']; ?></h6>
                      </div>
                   </div>
                   <div class="carousel-item client-img">
