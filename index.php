@@ -403,7 +403,7 @@ Our goal is to assist you in creating the best version of yourself and developin
 
       <section style="background-color: black;">
       <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h3 class="title text-right clr mb-lg-5 mb-md-4 mb-sm-4 mb-3">Fee Structure</h3>
+      <h3 class="title text-left clr mb-lg-5 mb-md-4 mb-sm-4 mb-3">Fee Structure</h3>
       <p class="lead">Choose the best subscription for you. One time Admission Rs 3000/-</p>
     </div>
 
@@ -411,7 +411,7 @@ Our goal is to assist you in creating the best version of yourself and developin
       <div class="card-deck mb-3 text-center">
       <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Free</h4>
+            <h4 class="my-0 font-weight-normal">Monthly</h4>
           </div>
           <div class="card-body">
             <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
@@ -425,7 +425,7 @@ Our goal is to assist you in creating the best version of yourself and developin
           </div>
         </div> <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Free</h4>
+            <h4 class="my-0 font-weight-normal">Quarterly</h4>
           </div>
           <div class="card-body">
             <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
@@ -440,7 +440,7 @@ Our goal is to assist you in creating the best version of yourself and developin
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Pro</h4>
+            <h4 class="my-0 font-weight-normal">Half-Yearly</h4>
           </div>
           <div class="card-body">
             <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
@@ -455,7 +455,7 @@ Our goal is to assist you in creating the best version of yourself and developin
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Enterprise</h4>
+            <h4 class="my-0 font-weight-normal">Annually</h4>
           </div>
           <div class="card-body">
             <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
