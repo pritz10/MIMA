@@ -407,8 +407,7 @@ Our goal is to assist you in creating the best version of yourself and developin
       <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
     </div>
 
-    <div class="container">
-      <div class="card-deck mb-3 text-center">
+       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
             <h4 class="my-0 font-weight-normal">Free</h4>
