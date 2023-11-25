@@ -336,7 +336,7 @@ Our goal is to assist you in creating the best version of yourself and developin
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
             <h3 class="title text-right clr mb-lg-5 mb-md-4 mb-sm-4 mb-3">SCHEDULE PROGRAM</h3>
             <div class="table-responsive p-2 fact">
-               <table class="table timetable mb-0">
+               <table class="table  table-dark timetable mb-0 dark">
                   <thead>
                      <tr>
                         <th scope="col">Time</th>
