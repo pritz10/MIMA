@@ -64,7 +64,7 @@ require_once 'include/db.php';?>
                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                   <ul class="navbar-nav ">
                      <li class="nav-item active">
-                        <a class="nav-link" style="font-weight: 900;" href="index.php">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" style="font-weight: 900;" href="index">Home <span class="sr-only">(current)</span></a>
                      </li>
                      <li class="nav-item">
                         <a href="about" class="nav-link">About</a>
