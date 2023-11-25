@@ -161,14 +161,14 @@ The vision of the academy has been to offer platforms to aspiring and deserving 
                <div class="col-lg-4 col-md-4 abut-inner-img">
                   <img src="files/Images/woman_606472.png" width="300px" alt="" class="img-fluid">
                   <div class="w3l-abt-sub-txt mt-lg-4 mt-3">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                  <p style="color: wheat;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Hip-Pop</h4>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 abut-inner-img">
                   <img src="images/ab2.jpg" alt="" class="img-fluid">
                   <div class="w3l-abt-sub-txt mt-lg-4 mt-3">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                  <p style="color: wheat;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Folk-Dance</h4>
                   </div>
                </div>
