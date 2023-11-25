@@ -402,12 +402,13 @@ Our goal is to assist you in creating the best version of yourself and developin
 
 
       <section style="background-color: black;">
-      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+     
+
+    <div class="container">
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <h3 class="title text-left clr mb-lg-5 mb-md-4 mb-sm-4 mb-3">Fee Structure</h3>
       <p class="lead">Choose the best subscription for you. One time Admission Rs 3000/-</p>
     </div>
-
-    <div class="container">
       <div class="card-deck mb-3 text-center">
       <div class="card mb-4 box-shadow">
           <div class="card-header">
