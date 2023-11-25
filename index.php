@@ -217,9 +217,9 @@ $result = mysqli_query($connect,$sql); // fetch data from database
   ?>
                   <li>
                   <div class="agileinfo_port_grid">
-                  <a href="<?php echo $row['ImageUrl']; ?>" class="lsb-preview" data-lsb-group="header">
+                  <a href="<?php echo $data['ImageUrl']; ?>" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                           <img src="<?php echo $row['ImageUrl']; ?>" class="img-thumbnail" class="img-fluid" />
+                           <img src="<?php echo $data['ImageUrl']; ?>" class="img-thumbnail" class="img-fluid" />
                         </div>
                      </a>
                   </div>
