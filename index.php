@@ -422,8 +422,9 @@ Our goal is to assist you in creating the best version of yourself and developin
               <li>Email support</li>
               <li>Help center access</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
-          </div>
+            <div class="outs-agile-buttn mt-lg-3 mt-2">
+                        <a href="about.html">Learn more</a>
+                     </div>          </div>
         </div> <div class="card mb-4 box-shadow">
           <div class="card-header">
             <h4 class="my-0 font-weight-normal">Quarterly</h4>
