@@ -71,7 +71,7 @@ require_once 'include/header.php'; ?>
 
                           </div>
 
-                          <?php $i++; } ?>                          <?php  ?>
+                          <?php $i++; } ?>                         
 
                         </div>
 
@@ -402,26 +402,62 @@ Our goal is to assist you in creating the best version of yourself and developin
             <h3 class="title text-left mb-lg-5 mb-md-4 mb-sm-4 mb-3">Our Dancers Says</h3>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner text-center">
-               <?php
+              
+               <ol class="carousel-indicators">
+
+<?php
                   $sql="SELECT * FROM testimonial ORDER BY id DESC LIMIT 5";
-                    $result = mysqli_query($connect,$sql); // fetch data from database
-                    if(mysqli_num_rows($result) > 0)  
-                    {  
-                        while($data = mysqli_fetch_array($result))  
-                        {                
-                    ?>   
+                  $result = mysqli_query($connect, $sql); 
+  $count = mysqli_num_rows($result);  
+  $i=0;
+  foreach($result as $row)
+   {
+    $active='';
+    if($i==0)
+     {
+       $active='active';
+     }
+?>
+
+    <li data-target="#myCarousel" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
+
+<?php 
+ $i++;}
+?>
+
+    </ol>
+    <?php
+
+$sql="SELECT * FROM testimonial ORDER BY id DESC LIMIT 5";
+
+$result = mysqli_query($connect, $sql); 
+
+$count = mysqli_num_rows($result);  
+
+$i=0;
+
+foreach($result as $row)
+
+{
+
+$active='';
+
+if($i==0)
+
+{
+
+$active='active';
+
+}
+
+?>  
                <div class="carousel-item active client-img">
-                     <img class="img-fluid" src="<?php echo $data['ImageUrl']; ?>" alt="MIm Dance">
+                     <img class="img-fluid" src="<?php echo $row['ImageUrl']; ?>" alt="MIm Dance">
                      <div class="client-matter py-lg-4 py-md-3 py-3">
-                        <p><?php echo $data['Message']; ?></p>
-                        <h6 class="pt-lg-3 pt-2"><?php echo $data['Name']; ?></h6>
+                        <p><?php echo $row['Message']; ?></p>
+                        <h6 class="pt-lg-3 pt-2"><?php echo $row['Name']; ?></h6>
                      </div>
-                  </div><?php
-                    }}
-                      else
-                      {
-                        echo" No data";
-                      }?>
+                  </div>  <?php $i++; } ?>           
                    
                </div>
              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
