@@ -412,14 +412,22 @@ Our goal is to assist you in creating the best version of yourself and developin
       <div class="card-deck mb-3 text-center">
       <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Monthly</h4>
+            <h4 class="my-0 font-weight-normal"> <strong>Monthly</strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
+          <h1 class="card-title pricing-card-title">₹2000-₹3000 <small class="text-muted">/ mo</small></h1>
+
              <ul class="list-unstyled mt-3 mb-4" style="color:wheat">
-              <li>10 users included</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
+              <li>Saturday-Sunday</li>
+              <li>2 Days in a Week</li>
+              <li>8 Days in a Month</li>
+              <li>Week Days</li>
+              <li>Thursday Friday<li>
+              <li>Thursday-Sunday/li>
+              <li>16 Days in Month</li>
+
+
+
             </ul>
             <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="about.html">Learn more</a>
