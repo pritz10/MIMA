@@ -415,16 +415,13 @@ Our goal is to assist you in creating the best version of yourself and developin
             <h4 class="my-0 font-weight-normal"> <strong>Monthly</strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-          <h1 class="card-title pricing-card-title">₹2k-₹3k <small class="text-muted">/ mo</small></h1>
+          <h1 class="card-title pricing-card-title">₹3k</h1>
 
              <ul class="list-unstyled mt-3 mb-4" style="color:wheat">
               <li>Saturday-Sunday</li>
               <li>2 Days in a Week</li>
               <li>8 Days in a Month</li>
-              <li>Week Days</li>
-              <li>Thursday Friday<li>
-              <li>Thursday-Sunday</li>
-              <li>16 Days in Month</li>
+              
 
 
 
@@ -433,16 +430,20 @@ Our goal is to assist you in creating the best version of yourself and developin
         </div>
         </div> <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Quarterly</h4>
+            <h4 class="my-0 font-weight-normal"><Strong>Quarterly</Strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>10 users included</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
-            </ul>
+          <h1 class="card-title pricing-card-title"><strike>₹6.5</strike>₹6k</h1>
+
+<ul class="list-unstyled mt-3 mb-4" style="color:wheat">
+ <li>Saturday-Sunday</li>
+ <li>2 Days in a Week</li>
+ <li>8 Days in a Month</li>
+ 
+
+
+
+</ul
             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
           </div>
         </div>
