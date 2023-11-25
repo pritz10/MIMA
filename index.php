@@ -410,7 +410,7 @@ Our goal is to assist you in creating the best version of yourself and developin
                         while($data = mysqli_fetch_array($result))  
                         {                
                     ?>   
-               <div class="carousel-item client-img">
+               <div class="carousel-item active client-img">
                      <img class="img-fluid" src="<?php echo $data['ImageUrl']; ?>" alt="MIm Dance">
                      <div class="client-matter py-lg-4 py-md-3 py-3">
                         <p><?php echo $data['Message']; ?></p>
