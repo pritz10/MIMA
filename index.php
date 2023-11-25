@@ -422,20 +422,7 @@ Our goal is to assist you in creating the best version of yourself and developin
                       {
                         echo" No data";
                       }?>
-                  <div class="carousel-item client-img">
-                     <img class="img-fluid" src="images/t2.jpg" alt="">
-                     <div class="client-matter py-lg-4 py-md-3 py-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,delectus reiciendis maiores alias consequatur aut.maiores alias</p>
-                        <h6 class="pt-lg-3 pt-2">Sunny Jack</h6>
-                     </div>
-                  </div>
-                  <div class="carousel-item client-img">
-                     <img class="img-fluid" src="images/t3.jpg" alt="">
-                     <div class="client-matter py-lg-4 py-md-3 py-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,delectus reiciendis maiores alias consequatur aut.maiores alias</p>
-                        <h6 class="pt-lg-3 pt-2">jolly Deo</h6>
-                     </div>
-                  </div>
+                   
                </div>
              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
