@@ -165,7 +165,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
                <div class="white-shadow" data-aos="zoom-in" data-aos-delay="700" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
-                     <img src="files/Images/ps (3).png" width="100" alt="">
+                     <img src="files/Images/ps (3).png" width="110" alt="">
                      </div>
                      <div class="abt-sub-info">
                         <h4>Advisors</h4>
