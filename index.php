@@ -433,48 +433,44 @@ Our goal is to assist you in creating the best version of yourself and developin
             <h4 class="my-0 font-weight-normal"><Strong>Quarterly</Strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-          <h1 class="card-title pricing-card-title"><strike>₹6.5</strike>₹6k</h1>
+          <h1 class="card-title pricing-card-title"><strike>₹6.5</strike>6k</h1>
 
-<ul class="list-unstyled mt-3 mb-4" style="color:wheat">
- <li>Saturday-Sunday</li>
- <li>2 Days in a Week</li>
- <li>8 Days in a Month</li>
- 
-
-
-
-</ul
-            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+            <ul class="list-unstyled mt-3 mb-4" style="color:wheat">
+            <li>Saturday-Sunday</li>
+            <li>2 Days in a Week</li>
+            <li>8 Days in a Month</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-warning">Sign up for free</button>
           </div>
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Half-Yearly</h4>
+          <h4 class="my-0 font-weight-normal"><Strong>Half-Yearly</Strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-            <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>20 users included</li>
-              <li>10 GB of storage</li>
-              <li>Priority email support</li>
-              <li>Help center access</li>
+          <h1 class="card-title pricing-card-title"><strike>₹12</strike>11k</h1>
+
+            <ul class="list-unstyled mt-3 mb-4" style="color:wheat">
+            <li>Saturday-Sunday</li>
+            <li>2 Days in a Week</li>
+            <li>8 Days in a Month</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+            <button type="button" class="btn btn-lg btn-block btn-outline-warning">Sign up for free</button>
           </div>
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Annually</h4>
+          <h4 class="my-0 font-weight-normal"><Strong>Annualy</Strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-            <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
-              <li>15 GB of storage</li>
-              <li>Phone and email support</li>
-              <li>Help center access</li>
+          <h1 class="card-title pricing-card-title"><strike>₹24.5</strike>23k</h1>
+
+            <ul class="list-unstyled mt-3 mb-4" style="color:wheat">
+            <li>Saturday-Sunday</li>
+            <li>2 Days in a Week</li>
+            <li>8 Days in a Month</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+            <button type="button" class="btn btn-lg btn-block btn-outline-warning">Talk to Us</button>
           </div>
         </div>
         </div>  </div>
