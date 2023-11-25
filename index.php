@@ -207,60 +207,45 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                </h2>
             </div >
             <ul id="flexiselDemo1">
-               <li>
+               
+            <?php
+
+$sql = "select * from devents ORDER BY Id DESC LIMIT 5";  
+
+$result = mysqli_query($connect,$sql); // fetch data from database
+
+  if(mysqli_num_rows($result) > 0)  
+
+  {  
+
+      while($data = mysqli_fetch_array($result))  
+
+      {                
+
+  ?>
+                  <li>
                   <div class="agileinfo_port_grid">
-                  <a href="files/Images/Mainslider/1.jpeg" class="lsb-preview" data-lsb-group="header">
+                  <a href="<?php echo $row['ImageUrl']; ?>" class="lsb-preview" data-lsb-group="header">
                         <div class="agileit-folio_grid">
-                           <img src="files/Images/Mainslider/1.jpeg" class="img-thumbnail" class="img-fluid" />
+                           <img src="<?php echo $row['ImageUrl']; ?>" class="img-thumbnail" class="img-fluid" />
                         </div>
                      </a>
                   </div>
-               </li>
-               <li>
-                  <div class="agileinfo_port_grid mt-lg-4 mt-3">
-                  <a href="files/Images/Mainslider/2.jpeg" class="lsb-preview" data-lsb-group="header">
-                        <div class="agileit-folio_grid">
-                        <img src="files/Images/Mainslider/2.jpeg" alt="mim dance academy " class="img-fluid" />
-                        </div>
-                     </a>
-                  </div>
-               </li>
-               <li>
-                  <div class="agileinfo_port_grid">
-                  <a href="files/Images/Mainslider/3.jpeg" class="lsb-preview" data-lsb-group="header">
-                        <div class="agileit-folio_grid">
-                        <img src="files/Images/Mainslider/3.jpeg" alt="mim dance academy " class="img-fluid" />
-                        </div>
-                     </a>
-                  </div>
-               </li>
-               <li>
-                  <div class="agileinfo_port_grid mt-lg-4 mt-3">
-                  <a href="files/Images/Mainslider/4.jpeg" class="lsb-preview" data-lsb-group="header">
-                        <div class="agileit-folio_grid">
-                        <img src="files/Images/Mainslider/4.jpeg" alt="mim dance academy " class="img-fluid" />
-                        </div>
-                     </a>
-                  </div>
-               </li>
-               <li>
-                  <div class="agileinfo_port_grid">
-                  <a href="files/Images/Mainslider/1.jpeg" class="lsb-preview" data-lsb-group="header">
-                        <div class="agileit-folio_grid">
-                        <img src="files/Images/Mainslider/1.jpeg" alt="mim dance academy" class="img-fluid" />
-                        </div>
-                     </a>
-                  </div>
-               </li>
-               <li>
-                  <div class="agileinfo_port_grid mt-lg-4 mt-3">
-                     <a href="files/Images/Mainslider/2.jpeg" class="lsb-preview" data-lsb-group="header">
-                        <div class="agileit-folio_grid">
-                        <img src="files/Images/Mainslider/2.jpeg" alt="mim dance academy " class="img-fluid" />
-                        </div>
-                     </a>
-                  </div>
-               </li>
+               </li>  <?php
+
+}}
+
+  else
+
+  {
+
+    echo" No data";
+
+  }?>
+                
+              
+              
+               
             </ul>
          </div>
       </section>
