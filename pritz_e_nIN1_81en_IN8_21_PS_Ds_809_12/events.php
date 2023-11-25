@@ -9,10 +9,10 @@
     $filename = $_FILES['myfile']['name'];
 
     $title = mysqli_real_escape_string($connect, $_POST['title']);
-
+    $title = htmlentities($title);
     // destination of the file on the server
 
-    $destination = '../files/Images/flowers' . $filename;
+    $destination = '../files/Images/events' . $filename;
 
 
 
@@ -70,7 +70,7 @@
 
         if (move_uploaded_file($file, $destination)) {
 
-            $sql = "INSERT INTO  director_message(title, imageurl) VALUES ('$title','./files/Images/flowers$filename')";
+            $sql = "INSERT INTO  devents(title, imageurl) VALUES ('$title','./files/Images/events$filename')";
 
             if (mysqli_query($connect, $sql)) {
 
@@ -116,7 +116,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
     $uid =  mysqli_real_escape_string($connect, $_POST['Id']);   
 
-    $sql = "DELETE FROM flowers where Id='$uid'";
+    $sql = "DELETE FROM devents where Id='$uid'";
 
     if (mysqli_query($connect, $sql)) {
 
@@ -168,7 +168,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
 
-                        <h1 class="h3 mb-0 text-gray-800">Flowers</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Events Photos</h1>
 
                        
 
@@ -196,7 +196,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
      role="button" aria-expanded="true" aria-controls="as">
 
- <h6 class="m-0 font-weight-bold text-white">Upload Flower Images</h6>
+ <h6 class="m-0 font-weight-bold text-white">Event Photos</h6>
 
                                 </a>
 
@@ -206,13 +206,13 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                     <div class="card-body">
 
-                                    <form method="post" action="flowers" enctype="multipart/form-data" style="padding:10px;">                                        
+                                    <form method="post" action="devents" enctype="multipart/form-data" style="padding:10px;">                                        
 
                                         <div class="form-group">
 
                                         <label for="exampleFormControlInput1">Enter Title</label>
 
-                                        <input type="text" name="title" class="form-control"    onchange="readURL(this);" id="title" placeholder="Eg: State flower of Sikkim">
+                                        <input type="text" name="title" class="form-control" onkeyup="lettersOnly(this)" onchange="readURL(this);" id="title" placeholder="Eg: State flower of Sikkim">
 
                                         </div>
 
@@ -388,7 +388,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                
 
-                    $sql = "SELECT * FROM flowers ORDER BY Id DESC";  
+                    $sql = "SELECT * FROM devents ORDER BY Id DESC";  
 
                     $result = mysqli_query($connect, $sql);  
 

@@ -189,7 +189,15 @@ function lettersOnly(input) {
                     <span>Staff</span></a>
 
             </li>
+            <li class="nav-item">
 
+<a class="nav-link" href="devents">
+
+    <i class="fas fa-fw fa-chart-area"></i>
+
+    <span>Events</span></a>
+
+</li>
             <!-- Nav Item - Utilities Collapse Menu -->
 
             <li class="nav-item">
