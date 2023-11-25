@@ -222,7 +222,8 @@ $result = mysqli_query($connect,$sql); // fetch data from database
                         </div>
                      </a>
                   </div>
-               </li>  <?php
+               </li>  
+<?php
 
 }}
 
