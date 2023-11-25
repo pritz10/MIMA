@@ -168,7 +168,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                      <img src="files/Images/ps (3).png" width="110" alt="">
                      </div>
                      <div class="abt-sub-info">
-                        <h4>Advisors</h4>
+                        <h4>Hip Hop</h4>
                         <p style="color: wheat;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
