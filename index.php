@@ -3,6 +3,105 @@
 $title = "Mim Dance Academy";
 require_once 'include/header.php'; ?>
 <br><br><br>
+<section>
+<div data-aos="fade-down"  data-aos-duration="1000">
+<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+
+                  <?php
+                    $sql = "select * from mainslider ORDER BY id DESC LIMIT 3";  
+                    $result = mysqli_query($connect, $sql); 
+                    $count = mysqli_num_rows($result);  
+                    $i=0;
+                    foreach($result as $row)
+                     {
+                      $active='';
+                      if($i==0)
+                       {
+                         $active='active';
+                       }
+                  ?>
+
+                      <li data-target="#myCarousel" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
+
+                  <?php 
+                   $i++;}
+                  ?>
+
+                      </ol>
+
+                    <div class="carousel-inner">
+
+                          <?php
+
+                          $sql = "select * from mainslider ORDER BY id DESC LIMIT 3";  
+
+                          $result = mysqli_query($connect, $sql); 
+
+                          $count = mysqli_num_rows($result);  
+
+                          $i=0;
+
+                          foreach($result as $row)
+
+                          {
+
+                          $active='';
+
+                          if($i==0)
+
+                          {
+
+                          $active='active';
+
+                          }
+
+                          ?>
+
+                          <div class="carousel-item <?=$active;?>">
+
+                          <img class="d-block w-100 " src="<?php echo $row['ImageUrl']; ?>" loading="lazy">
+                           
+                              <div class="carousel-caption  d-md-block">
+                              <h5><?php echo $row['Title']; ?></h3>
+                              <p class="pt-3"><?php echo $row['Description']; ?></p>
+                               
+
+                              </div>   
+
+                          </div>
+
+                          <?php $i++; } ?>                          <?php  ?>
+
+                        </div>
+
+
+
+                      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                      <span class="sr-only">Previous</span>
+
+                      </a>
+
+                      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                      <span class="sr-only">Next</span>
+
+                      </a>
+
+                      </div>
+
+                      </div>
+
+                      </div>
+ 
+              </div>
+              </div>
+              </section>
 <!--           
               <section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up" id="about" style="background: black;">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
