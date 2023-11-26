@@ -66,9 +66,7 @@ require_once 'include/header.php'; ?>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
                      </div>
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  Launch demo modal
-</button>
+                    
                   </div>
                </div>
             </div>
