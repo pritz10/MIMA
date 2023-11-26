@@ -29,14 +29,14 @@ require_once 'include/header.php'; ?>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-                  <img src="images/g2.jpg" alt="" class="img-fluid">
+               <img src="files/Images/exercise_606702.png" width="200px" alt="" class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
-                     <h4 class="mt-3">Break Dance</h4>
+                     <h4 class="mt-3">Gymnastics</h4>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-                  <img src="images/g1.jpg" alt="" class="img-fluid">
+               <img src="files/Images/rumba_6901480.png" width="200px" alt="" class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Classic Dance</h4>
