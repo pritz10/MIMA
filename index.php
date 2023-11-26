@@ -242,6 +242,24 @@ $result = mysqli_query($connect,$sql); // fetch data from database
             </ul>
          </div>
       </section>
+
+      <section>
+         <div class="container-fluid text-center">
+            <div class="row abt-inner-agile">
+               <div class="col-lg-6 col-md-6 two-abut-inner-right pr-0">
+                  <div class="wls-sub-hedder-right text-left ">
+                     <h4>Dance For The Satisfaction Of Your Soul</h4>
+                    
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6 abut-inner-in p-0">
+               <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PpNRfTO5-y8?si=yKMNGa5KOgP-gFGa" title="YouTube video player" referrerpolicy="no-referrer-when-downgrade" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</div>               </div>
+            </div>
+         </div>
+      </section>
       <!--//about -->
       <!--slider-img-->
       <section class="side-img py-lg-4 py-md-3 py-sm-3 py-3" data-aos="fade-right">
