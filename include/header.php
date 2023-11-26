@@ -77,7 +77,7 @@ require_once 'include/db.php';?>
                         Pages
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a href="#" href="class.html">Class</a>
+                        <a href="#" href="class">Class</a>
                         <a href="#"  href="typography.html">Typography</a>
                         </div>
                      </li>

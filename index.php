@@ -259,7 +259,7 @@ $result = mysqli_query($connect,$sql); // fetch data from database
 </div>               </div>
             </div>
          </div>
-      </section>
+      </section>s
       <!--//about -->
       <!--slider-img-->
       <section class="side-img py-lg-4 py-md-3 py-sm-3 py-3" data-aos="fade-right">
