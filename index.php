@@ -408,8 +408,7 @@ Our goal is to assist you in creating the best version of yourself and developin
         </div>
         </div>  </div>
 </section>    
-<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-ec3bb8c4-4422-454b-bf1a-777aff28e488" data-elfsight-app-lazy></div>
+
       <!--schedual-->
       <section class="schedule py-lg-4 py-md-3 py-sm-3 py-3">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
