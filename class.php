@@ -64,7 +64,7 @@ require_once 'include/header.php'; ?>
                    <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Group Dance</h4>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong">Register Now</a>
+                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
                      </div>
                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
   Launch demo modal
