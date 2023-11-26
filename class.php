@@ -26,6 +26,9 @@ require_once 'include/header.php'; ?>
                <img src="files/Images/pasodoble_6901505.png" width="200px" alt="" class="img-fluid">                  <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                      <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Hip-Pop</h4>
+                     <div class="outs-agile-buttn mt-lg-3 mt-2">
+                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                     </div>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
@@ -33,6 +36,9 @@ require_once 'include/header.php'; ?>
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Gymnastics</h4>
+                     <div class="outs-agile-buttn mt-lg-3 mt-2">
+                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                     </div>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
@@ -40,6 +46,9 @@ require_once 'include/header.php'; ?>
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Classic Dance</h4>
+                     <div class="outs-agile-buttn mt-lg-3 mt-2">
+                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                     </div>
                   </div>
                </div>
             </div>
@@ -49,20 +58,28 @@ require_once 'include/header.php'; ?>
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Balinese</h4>
+                     <div class="outs-agile-buttn mt-lg-3 mt-2">
+                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                     </div>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
                <img src="files/Images/ps (3).png" width="210" alt=""  class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
+                  <h4 class="mt-3">Folk-Dance</h4>
+
                   <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
-                     <h4 class="mt-3">Folk-Dance</h4>
+                     <div class="outs-agile-buttn mt-lg-3 mt-2">
+                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                     </div>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
                <img src="files/Images/tango.png" width="200" alt="" class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
+                  <h4 class="mt-3">Group Dance</h4>
+
                    <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
-                     <h4 class="mt-3">Group Dance</h4>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
                      </div>
