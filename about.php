@@ -190,9 +190,7 @@ The vision of the academy has been to offer platforms to aspiring and deserving 
                <div class="col-lg-6 col-md-6 two-abut-inner-right pr-0">
                   <div class="wls-sub-hedder-right text-left ">
                      <h4>Dance For The Satisfaction Of Your Soul</h4>
-                     <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                     </p>
+                    
                   </div>
                </div>
                <div class="col-lg-6 col-md-6 abut-inner-in p-0">
