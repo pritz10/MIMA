@@ -70,80 +70,72 @@ require_once 'include/header.php'; ?>
       </section>
       <section>
 
-      <section style="background-color: black;">
-     
+         <!--schedual-->
+         <section class="schedule py-lg-4 py-md-3 py-sm-3 py-3">
+         <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+            <h3 class="title text-right clr mb-lg-5 mb-md-4 mb-sm-4 mb-3">Schedule Program</h3>
+            <div class="table-responsive p-2 fact">
+               <table class="table  table-dark timetable mb-0 dark">
+                  <thead>
+                     <tr>
+                        <th scope="col">Time</th>
+                        <th scope="col">MONDAY</th>
+                        <th scope="col">TUESDAY</th>
+                        <th scope="col">WEDNESDAY</th>
+                        <th scope="col">THURSDAY</th>
+                        <th scope="col">FRIDAY</th>
+                        <th scope="col">SATURDAY</th>
+                        <th scope="col">SUNDAY</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <th scope="row">05.00 - 06.00</th>
+                        <td class="event-list"><a href="class.html">HiP-POP<span class="pt-1">05.00 - 06.00</span></a> </td>
+                        <td></td>
+                        <td class="event-list"><a href="class.html">Salsa<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td class="event-list"><a href="class.html">Rock<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td class="event-list"><a href="class.html">Belly-Dance<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td class="event-list"><a href="class.html">Tap-dance <span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <th scope="row">05.00 - 06.00</th>
+                        <td class="event-list"><a href="class.html">HiP-POP<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td class="event-list"><a href="class.html">Salsa<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td></td>
+                        <td class="event-list"><a href="class.html">Rock<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td></td>
+                        <td class="event-list"><a href="class.html">Tap-dance<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <th scope="row">05.00 - 06.00</th>
+                        <td class="event-list"><a href="class.html">HiP-POP<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td></td>
+                        <td class="event-list"><a href="class.html">Salsa<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td class="event-list"><a href="class.html">Rock<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td class="event-list"><a href="class.html">Belly-Dance<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td></td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <th scope="row">05.00 - 06.00</th>
+                        <td></td>
+                        <td class="event-list"><a href="class.html">HiP-POP<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td class="event-list"><a href="class.html">Salsa<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td></td>
+                        <td class="event-list"><a href="class.html">Belly-Dance<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td class="event-list"><a href="class.html">Tap-dance<span class="pt-1">05.00 - 06.00</span></a></td>
+                        <td></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </section>
+      <!--//schedual-->
 
-    <div class="container">
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h3 class="title text-left clr mb-lg-5 mb-md-4 mb-sm-4 mb-3">Fee Structure</h3>
-      <p class="lead">Choose the best subscription for you. One time Admission Rs 3000/-</p>
-    </div>
-      <div class="card-deck text-center">
-      <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal"> <strong>Monthly</strong></h4>
-          </div>
-          <div class="card-body" style="background: #fb6509;">
-          <h1 class="card-title pricing-card-title">₹3k</h1>
-
-          <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
-              <li>Saturday-Sunday</li>
-              <li>2 Days in a Week</li>
-              <li>8 Days in a Month</li>
-              
-
-
-
-            </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-light">Sign up for free</button>
-        </div>
-        </div> <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal"><Strong>Quarterly</Strong></h4>
-          </div>
-          <div class="card-body" style="background: #fb6509;">
-          <h1 class="card-title pricing-card-title">₹6000/-</h1>
-
-          <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
-            <li>Saturday-Sunday</li>
-            <li>2 Days in a Week</li>
-            <li>8 Days in a Month</li>
-            </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-warning">Sign up for free</button>
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-          <h4 class="my-0 font-weight-normal"><Strong>Half-Yearly</Strong></h4>
-          </div>
-          <div class="card-body" style="background: #fb6509;">
-          <h1 class="card-title pricing-card-title"><strike>₹12</strike>11k</h1>
-
-          <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
-            <li>Saturday-Sunday</li>
-            <li>2 Days in a Week</li>
-            <li>8 Days in a Month</li>
-            </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-warning">Sign up for free</button>
-          </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-          <h4 class="my-0 font-weight-normal"><Strong>Annualy</Strong></h4>
-          </div>
-          <div class="card-body" style="background: #fb6509;">
-          <h1 class="card-title pricing-card-title"><strike>₹24.5</strike>23k</h1>
-
-            <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
-            <li>Saturday-Sunday</li>
-            <li>2 Days in a Week</li>
-            <li>8 Days in a Month</li>
-            </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-warning">Talk to Us</button>
-          </div>
-        </div>
-        </div>  </div>
-</section>    
          <div class="container-fluid text-center">
             <div class="row abt-inner-agile">
                <div class="col-lg-6 col-md-6 two-abut-inner-right pr-0">
