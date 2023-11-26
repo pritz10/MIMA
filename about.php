@@ -182,9 +182,9 @@ The vision of the academy has been to offer platforms to aspiring and deserving 
             </div>
          </div>
       </section>
-      <!--//about--><script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+      <!--//about<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 <div class="elfsight-app-ec3bb8c4-4422-454b-bf1a-777aff28e488" data-elfsight-app-lazy></div>
-      <!--about-two-->
+      about-two-->
       <section>
          <div class="container-fluid text-center">
             <div class="row abt-inner-agile">
