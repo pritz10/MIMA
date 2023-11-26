@@ -204,34 +204,73 @@ The vision of the academy has been to offer platforms to aspiring and deserving 
       </section>
       <!--//about-two-->
       <!--testimonial-->
-      <section class="testimonial py-lg-4 py-md-3 py-sm-3 py-3">
+
+       <!--testimonial-->
+<section class="testimonial py-lg-4 py-md-3 py-sm-3 py-3">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
-            <h3 class="title text-left mb-lg-5 mb-md-4 mb-sm-4 mb-3">Our Dancers Says</h3>
+            <h3 class="title text-left mb-lg-5 mb-md-4 mb-sm-4 mb-3" style="color: white;">Our Dancers Says</h3>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-               <div class="carousel-inner text-center">
-                  <div class="carousel-item active client-img">
-                     <img class="img-fluid" src="images/t1.jpg" alt="">
+               <div class="carousel-inner text-center" >
+              
+               <ol class="carousel-indicators">
+
+<?php
+                  $sql="SELECT * FROM testimonial ORDER BY id DESC LIMIT 5";
+                  $result = mysqli_query($connect, $sql); 
+  $count = mysqli_num_rows($result);  
+  $i=0;
+  foreach($result as $row)
+   {
+    $active='';
+    if($i==0)
+     {
+       $active='active';
+     }
+?>
+
+    <li data-target="#myCarousel" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
+
+<?php 
+ $i++;}
+?>
+
+    </ol>
+    <?php
+
+$sql="SELECT * FROM testimonial ORDER BY id DESC LIMIT 5";
+
+$result = mysqli_query($connect, $sql); 
+
+$count = mysqli_num_rows($result);  
+
+$i=0;
+
+foreach($result as $row)
+
+{
+
+$active='';
+
+if($i==0)
+
+{
+
+$active='active';
+
+}
+
+?>  
+               <div class="carousel-item client-img <?=$active;?>">
+                     <img class="img-fluid" src="<?php echo $row['ImageUrl']; ?>" width="150px" alt="MIm Dance">
                      <div class="client-matter py-lg-4 py-md-3 py-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,delectus reiciendis maiores alias consequatur aut.maiores alias</p>
-                        <h6 class="pt-lg-3 pt-2">Kelly West</h6>
+                        <p style="color: white;"><?php echo $row['Message']; ?></p>
+                        <h6 class="pt-lg-3 pt-2" style="color: white;"><?php echo $row['Name']; ?></h6>
+                        <p style="color: white;"><?php echo $row['Designation']; ?></p>
                      </div>
-                  </div>
-                  <div class="carousel-item client-img">
-                     <img class="img-fluid" src="images/t2.jpg" alt="">
-                     <div class="client-matter py-lg-4 py-md-3 py-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,delectus reiciendis maiores alias consequatur aut.maiores alias</p>
-                        <h6 class="pt-lg-3 pt-2">Sunny Jack</h6>
-                     </div>
-                  </div>
-                  <div class="carousel-item client-img">
-                     <img class="img-fluid" src="images/t3.jpg" alt="">
-                     <div class="client-matter py-lg-4 py-md-3 py-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,delectus reiciendis maiores alias consequatur aut.maiores alias</p>
-                        <h6 class="pt-lg-3 pt-2">jolly Deo</h6>
-                     </div>
-                  </div>
+                  </div>  <?php $i++; } ?>           
+                   
                </div>
-               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                <span class="sr-only">Previous</span>
                </a>
@@ -243,150 +282,4 @@ The vision of the academy has been to offer platforms to aspiring and deserving 
          </div>
       </section>
       <!--//testimonial -->
-      <!--footer -->
-      <footer class="py-lg-4 py-md-3 py-sm-3 py-3">
-         <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
-            <div class="row ">
-               <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6 ">
-                  <h4 class="pb-lg-3 pb-3"><a href="index.html">Sway</a></h4>
-                  <div class="bottom-para pb-sm-3 pb-2">
-                     <p>ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla</p>
-                  </div>
-                  <div class="bottom-social pt-2">
-                     <ul>
-                        <li>
-                           <a href="#">
-                           <span class="fab fa-facebook-f"></span>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#">
-                           <span class="fab fa-google-plus-g"></span>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#">
-                           <span class="fab fa-twitter"></span>
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-               <div class=" col-lg-3 col-md-6 col-sm-6 dance-agile-info">
-                  <h4 class="pb-lg-3 pb-3">Usefull Links</h4>
-                  <nav class="border-line">
-                     <ul class="nav flex-column">
-                        <li class="nav-item active">
-                           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                           <a href="about.html" class="nav-link ">About</a>
-                        </li>
-                        <li class="nav-item">
-                           <a href="class.html" class="nav-link">Class</a>
-                        </li>
-                        <li class="nav-item">
-                           <a href="gallery.html" class="nav-link">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                           <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                     </ul>
-                  </nav>
-               </div>
-               <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6 ">
-                  <h4 class="pb-lg-3 pb-3">Twitter Us</h4>
-                  <div class="bottom-para pb-3">
-                     <p>ultricies nec, pellentesque eu, pretium quis,</p>
-                  </div>
-                  <div class="bottom-para">
-                     <p>ultricies nec, pellentesque eu, pretium quis</p>
-                  </div>
-               </div>
-               <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6">
-                  <h4 class="pb-lg-3 pb-3">Our Posts</h4>
-                  <div class="footer-post d-flex mb-2">
-                     <div class="agileinfo_footer_grid1 mr-2">
-                        <a href="class.html">
-                        <img src="images/f1.jpg" alt=" " class="img-fluid">
-                        </a>
-                     </div>
-                     <div class="agileinfo_footer_grid1 mr-2">
-                        <a href="#">
-                        <img src="images/f2.jpg" alt=" " class="img-fluid">
-                        </a>
-                     </div>
-                     <div class="agileinfo_footer_grid1">
-                        <a href="class.html">
-                        <img src="images/f3.jpg" alt=" " class="img-fluid">
-                        </a>
-                     </div>
-                  </div>
-                  <div class="footer-post d-flex">
-                     <div class="agileinfo_footer_grid1 mr-2">
-                        <a href="class.html">
-                        <img src="images/f4.jpg" alt=" " class="img-fluid">
-                        </a>
-                     </div>
-                     <div class="agileinfo_footer_grid1 mr-2">
-                        <a href="class.html">
-                        <img src="images/f5.jpg" alt=" " class="img-fluid">
-                        </a>
-                     </div>
-                     <div class="agileinfo_footer_grid1">
-                        <a href="class.html">
-                        <img src="images/f6.jpg" alt=" " class="img-fluid">
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="copy-agile-right text-center text-white py-2">
-            <p> 
-               © 2018 Sway. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a>
-            </p>
-         </div>
-      </footer>
-      <!--//footer-->
-      <!--js working-->
-      <script src='js/jquery-2.2.3.min.js'></script>
-      <!--//js working-->
-      <!-- start-smoth-scrolling -->
-      <script src="js/move-top.js"></script>
-      <script src="js/easing.js"></script>
-      <script>
-         jQuery(document).ready(function ($) {
-         	$(".scroll").click(function (event) {
-         		event.preventDefault();
-         		$('html,body').animate({
-         			scrollTop: $(this.hash).offset().top
-         		}, 900);
-         	});
-         });
-      </script>
-      <!-- start-smoth-scrolling -->
-      <!-- here stars scrolling icon -->
-      <script>
-         $(document).ready(function () {
-         
-         	var defaults = {
-         		containerID: 'toTop', // fading element id
-         		containerHoverID: 'toTopHover', // fading element hover id
-         		scrollSpeed: 1200,
-         		easingType: 'linear'
-         	};
-         
-         
-         	$().UItoTop({
-         		easingType: 'easeOutQuart'
-         	});
-         
-         });
-      </script>
-      <!-- //here ends scrolling icon -->
-      <!--bootstrap working-->
-      <script src="js/bootstrap.min.js"></script>
-      <!-- //bootstrap working-->
-   </body>
-</html>
+      <?php require_once 'include/footer.php';?>
