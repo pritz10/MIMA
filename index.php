@@ -165,10 +165,10 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
                <div class="white-shadow" data-aos="zoom-in" data-aos-delay="700" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
-                     <img src="files/Images/dancer.png" width="100" alt="">
+                     <img src="files/Images/ps (3).png" width="110" alt="">
                      </div>
                      <div class="abt-sub-info">
-                        <h4>Advisors</h4>
+                        <h4>Hip Hop</h4>
                         <p style="color: wheat;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
@@ -291,7 +291,7 @@ Our goal is to assist you in creating the best version of yourself and developin
                <div class="col-lg-7 right-ser-list pt-lg-5 pt-md-4 pt-3">
                   <div class="row service-agile-shadow mb-lg-5 mb-md-4 mb-3">
                      <div class=" col-md-2 col-sm-3 col-3 ser-icon-left">
-                     <img src="files/Images/breakdance.png" width="100" alt="">
+                     <img src="files/Images/ps (1).png" width="100" alt="">
 
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
@@ -301,7 +301,7 @@ Our goal is to assist you in creating the best version of yourself and developin
                   </div>
                   <div class="row service-agile-shadow mb-lg-5 mb-md-4 mb-3">
                      <div class=" col-md-2 col-sm-3 col-3 ser-icon-left">
-                     <img src="files/Images/rock-n-roll.png" width="100" alt="">
+                     <img src="files/Images/ps (2).png" width="100" alt="">
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
                      <p style="color: wheat;"> 
@@ -311,7 +311,7 @@ Our goal is to assist you in creating the best version of yourself and developin
                   </div>
                   <div class="row service-agile-shadow mb-lg-5 mb-md-4 mb-3">
                      <div class=" col-md-2 col-sm-3 col-3 ser-icon-left">
-                     <img src="files/Images/twist.png" width="100" alt="">
+                     <img src="files/Images/ps (4).png" width="100" alt="">
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
                      <p style="color: wheat;"> Chance to teach at schools as a part of the MIM company</>
@@ -319,7 +319,7 @@ Our goal is to assist you in creating the best version of yourself and developin
                   </div>
                   <div class="row service-agile-shadow ">
                      <div class=" col-md-2 col-sm-3 col-3 ser-icon-left">
-                     <img src="files/Images/cheerleader.png" width="100" alt="">
+                     <img src="files/Images/ps (5).png" width="100" alt="">
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
                      <p style="color: wheat;"> Opportunity to get selected for the Music in Motion Company</p>
