@@ -157,7 +157,7 @@ $active='active';
 The vision of the academy has been to offer platforms to aspiring and deserving local artists and to brush their talent to keep them growing to reach their full potential and help them live their dreams. In the initial phase itself, the academy has bagged numerous achievements under its belt and the founder believes that “the academy will aspire to grow and showcase our talents at the national & international level in future”.</p>
                </div>
             </div>
-            <div class="row abt-inner-agile mt-lg-4 mt-3">
+            <div class="row abt-inner-agile mt-lg-4 mt-3 text-center">
                <div class="col-lg-4 col-md-4 abut-inner-img">
                   <img src="files/Images/pasodoble_6901505.png" width="200px" alt="" class="img-fluid">
                   <div class="w3l-abt-sub-txt mt-lg-4 mt-3">

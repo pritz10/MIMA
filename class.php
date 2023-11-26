@@ -21,7 +21,7 @@ require_once 'include/header.php'; ?>
       <section class="about-inner py-lg-4 py-md-3 py-sm-3 py-3" style="background: black;">
          <div class="container-fluid py-lg-5 py-md-4 py-sm-4 py-3">
             <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Dance Class</h3>
-            <div class="row abt-inner-agile">
+            <div class="row abt-inner-agile text-center">
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
                <img src="files/Images/pasodoble_6901505.png" width="200px" alt="" class="img-fluid">                  <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                      <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
@@ -43,7 +43,7 @@ require_once 'include/header.php'; ?>
                   </div>
                </div>
             </div>
-            <div class="row abt-inner-agile mt-lg-5 mt-md-4 mt-4">
+            <div class="row abt-inner-agile mt-lg-5 mt-md-4 mt-4 text-center">
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
                <img src="files/Images/dance.png" width="200" alt="" class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
