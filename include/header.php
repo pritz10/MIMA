@@ -77,7 +77,7 @@ require_once 'include/db.php';?>
                      </li>
                     
                      <li class="nav-item">
-                     <a href="#"class="nav-link">Contact</a>
+                     <a href="contact"class="nav-link">Contact</a>
                      </li>
                    
                              <button type="button" class="btn btn-success">                        <span class="nav-link fab fa-whatsapp"></span>
