@@ -67,20 +67,15 @@ require_once 'include/db.php';?>
                         <a class="nav-link" style="font-weight: 900;" href="index">Home <span class="sr-only">(current)</span></a>
                      </li>
                      <li class="nav-item">
+                     <a href="class" class="nav-link">Class</a>
+                     </li>
+                     <li class="nav-item">
                         <a href="about" class="nav-link">About</a>
                      </li>
                      <li class="nav-item">
                      <a href="#" class="nav-link">Gallery</a>
                      </li>
-                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Pages
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a href="#" href="class">Class</a>
-                        <a href="#"  href="typography.html">Typography</a>
-                        </div>
-                     </li>
+                    
                      <li class="nav-item">
                      <a href="#"class="nav-link">Contact</a>
                      </li>
