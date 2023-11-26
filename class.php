@@ -23,8 +23,7 @@ require_once 'include/header.php'; ?>
             <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Dance Class</h3>
             <div class="row abt-inner-agile">
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-                  <img src="images/g6.jpg" alt="" class="img-fluid">
-                  <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
+               <img src="files/Images/pasodoble_6901505.png" width="200px" alt="" class="img-fluid">                  <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                      <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Hip-Pop</h4>
                   </div>
