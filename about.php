@@ -196,8 +196,9 @@ The vision of the academy has been to offer platforms to aspiring and deserving 
                   </div>
                </div>
                <div class="col-lg-6 col-md-6 abut-inner-in p-0">
-                  <img src="images/ab4.jpg" class="img-fluid" alt="">
-               </div>
+               <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+</div>               </div>
             </div>
          </div>
       </section>
