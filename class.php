@@ -86,7 +86,7 @@ require_once 'include/header.php'; ?>
         </button>
       </div>
       <div class="modal-body">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZ9knl-kDLgbtfdbNGWk527XV9ZtfLQ0K8Yass5d6Kz6BPZQ/viewform?embedded=true" width="450" height="1051" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZ9knl-kDLgbtfdbNGWk527XV9ZtfLQ0K8Yass5d6Kz6BPZQ/viewform?embedded=true" width="400" height="1051" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
