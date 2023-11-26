@@ -45,21 +45,21 @@ require_once 'include/header.php'; ?>
             </div>
             <div class="row abt-inner-agile mt-lg-5 mt-md-4 mt-4">
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/dance.png" width="100" alt="" class="img-fluid">
+               <img src="files/Images/dance.png" width="200" alt="" class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Balinese</h4>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/ps (3).png" width="110" alt=""  class="img-fluid">
+               <img src="files/Images/ps (3).png" width="210" alt=""  class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Folk-Dance</h4>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/tango.png" width="100" alt="" class="img-fluid">
+               <img src="files/Images/tango.png" width="200" alt="" class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                    <p style="color:wheat">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <h4 class="mt-3">Group Dance</h4>
