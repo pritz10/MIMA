@@ -112,16 +112,22 @@ require_once 'include/header.php'; ?>
       <p style="color:white">Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
      
      <br>
-     <p style="color:white"><strong>Hip Hop Music students also learn</strong></p>
-     <span class="badge badge-light">Hip Hop Dancing</span>
-     <span class="badge badge-dark">Street Dance</span>
-     <span class="badge badge-light">Hip Hop Music</span>
-     <span class="badge badge-dark">Breakdancing</span>
-     <span class="badge badge-light">Salsa Dancing</span>
-     <span class="badge badge-light">Indian Dance</span>
-     <span class="badge badge-light">Salsa Dancing</span>
+  
 
-     <span class="badge badge-light">Bachata</span>
+
+
+     <p style="color:white"><strong>Hip Hop Music students also learn</strong></p>
+     <span class="badge badge-light"> BREAKING</span>
+     <span class="badge badge-dark">LOCKING</span>
+     <span class="badge badge-light">POPPING</span>
+     <span class="badge badge-dark">KRUMPING</span>
+     <span class="badge badge-light">HARLEM SHAKE</span>
+     <span class="badge badge-light">ELECTRIC BOOGALOO</span>
+     <span class="badge badge-light">FOOTWORK</span>
+     <span class="badge badge-light">CHARLESTON</span>
+
+     <span class="badge badge-light">GANGSTA WALKING
+</span>
 
 
    </div>
