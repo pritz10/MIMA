@@ -18,7 +18,7 @@ require_once 'include/header.php'; ?>
          </div>
       </div>
   
-      <section class="about-inner py-lg-4 py-md-3 py-sm-3 py-3" style="background: black;">
+      <section class="about-inner py-lg-4 py-md-3 py-sm-3 py-3" >
          <div class="container-fluid py-lg-5 py-md-4 py-sm-4 py-3">
             <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Dance Class</h3>
             <div class="row abt-inner-agile text-center">
@@ -104,7 +104,7 @@ require_once 'include/header.php'; ?>
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body" style="color:#fb6509" >
+      <div class="modal-body" style="background: black;">
       <p style="color:white">Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
      
      <br>
