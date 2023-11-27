@@ -179,7 +179,7 @@ require_once 'include/header.php'; ?>
     <li class="list-group-item">  <span class="badge badge-light"> Weekend Class:</span>
         <span class="badge badge-success"> Sat- Time: 11:30 am to 12:45 pm</span>
  
-    <span class="badge badge-success">Sun- Time: 12:40 pm:2:00pm</span>
+    <span class="badge badge-success">Sun- Time: 12:40 pm to 2:00 pm</span>
 </li>
    
   </ul>
