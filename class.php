@@ -23,7 +23,8 @@ require_once 'include/header.php'; ?>
             <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Dance Class</h3>
             <div class="row abt-inner-agile text-center">
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/hip.PNG" width="200px" alt="mim dance academy" class="rounded-circle img-fluid">                  <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
+               <img src="files/Images/hip.PNG" width="200px" alt="mim dance academy" class="rounded-circle img-fluid">          
+                       <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                <h4 class="mt-3">Hip-Hop</h4>
  <p style="color:white">Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
                       <div class="outs-agile-buttn mt-lg-3 mt-2">
@@ -32,7 +33,7 @@ require_once 'include/header.php'; ?>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/gym.PNG" width="200px" alt="mim dance academy" class="img-fluid">
+               <img src="files/Images/gym.PNG" width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <h4 class="mt-3">Gymnastics</h4>
  <p style="color:white">
