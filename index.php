@@ -136,7 +136,7 @@ require_once 'include/header.php'; ?>
       <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
             <div class="agile-abt-info text-center">
-               <h2>What Makes Me Different?
+               <h2>What Makes MIM Different?
                </h2>
             </div >
            
