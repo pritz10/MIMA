@@ -181,7 +181,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                <div class="col-lg-4 col-md-4  w3layouts-abut-list text-center">
                <div class="white-shadow" data-aos="zoom-in" data-aos-delay="900" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
-                     <img src="files/Images/tango.png" width="100" alt="">
+                     <img src="files/Images/sa.PNG" class="rounded-circle" width="150" alt="">
                      </div>
                      <div class="abt-sub-info">
                         <h4>Semi-Classical Dance</h4>
