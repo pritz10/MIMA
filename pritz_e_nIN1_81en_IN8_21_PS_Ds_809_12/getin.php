@@ -120,7 +120,7 @@ require_once 'db.php';
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">SICB ADMIN</h1>
+                                        <h1 class="h4 text-gray-900 mb-4">Music in Motion Dance Academy</h1>
                                     </div>
                                     <form method="post"  class="user" action="getin" enctype="multipart/form-data" style="padding:10px;">                                        
 
