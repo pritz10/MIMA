@@ -175,7 +175,7 @@ require_once 'include/header.php'; ?>
 
 
      <span class="badge badge-light">GANGSTA WALKING</span>
-<br>
+<br><br>
 <p style="color:white"><strong>Class Schedule</strong>
 <li>WEEK DAYS</li>
 <li>GYMNASTICS CLASS</li>
