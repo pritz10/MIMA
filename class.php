@@ -86,16 +86,9 @@ require_once 'include/header.php'; ?>
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <h4 class="mt-3">Dance Events</h4>
 
-                   <p style="color:white">WE HOST DANCE EVENTS STATE & CITIES :-
-
-OUR SUCCESSFUL EVENTS
-
-1. STREET DANCE BATTLE VOL - I
-2. Next Generation Dance Battle Vol - 1, 2 & 3
-3. Sikkim Big Dance Camp Season 1
-4. Each One Teach One ( Free Dance Camp) Mostly Focused on Child Care Institute Home
-5. ANNUAL CONCERT 
-6. Street Dance Battle Vol - II ( Coming Soon)</p>
+                   <p style="color:white">We host dance events in state and cities.Our successful events are 
+                  Street Dance Battle Vol-1,Next Generation Dance Battle Vol - 1, 2 & 3,
+3. Sikkim Big Dance Camp Season 1, etc.</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
                      </div>
