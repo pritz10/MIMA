@@ -58,7 +58,7 @@ require_once 'include/header.php'; ?>
             </div>
             <div class="row abt-inner-agile mt-lg-5 mt-md-4 mt-4 text-center">
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/pv.png" width="200" alt="mim dance academy" class="img-fluid">
+               <img src="files/Images/pv.png"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <h4 class="mt-3">Private Class</h4>
  <p style="color:white">
