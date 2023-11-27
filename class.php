@@ -123,7 +123,7 @@ require_once 'include/header.php'; ?>
    </div>
       <div class="modal-footer">
       <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong" style="color:black" data-toggle="modal" >Register</a>
+                        <a href="#exampleModalLong" data-toggle="modal" >Register</a>
                      </div> 
       </div>
     </div>
