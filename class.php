@@ -122,9 +122,9 @@ require_once 'include/header.php'; ?>
      <span class="badge badge-light">POPPING</span>
      <span class="badge badge-dark">KRUMPING</span>
      <span class="badge badge-light">HARLEM SHAKE</span>
-     <span class="badge badge-light">ELECTRIC BOOGALOO</span>
+     <span class="badge badge-dark">ELECTRIC BOOGALOO</span>
      <span class="badge badge-light">FOOTWORK</span>
-     <span class="badge badge-light">CHARLESTON</span>
+     <span class="badge badge-dark">CHARLESTON</span>
 
      <span class="badge badge-light">GANGSTA WALKING
 </span>
