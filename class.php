@@ -176,12 +176,10 @@ require_once 'include/header.php'; ?>
     <li class="list-group-item">  <span class="badge badge-light">Week Days: Thu to Fri</span>
     <span class="badge badge-success">Time: 3:30pm To 5:00 pm</span>
 </li>
-    <li class="list-group-item">  <span class="badge badge-light"> Weekend Class:
-Sat- pm</span>    <span class="badge badge-success">Time: 11:30 am to 12:45 pm</span>
-<span class="badge badge-light"> Weekend Class:
-Sat- pm</span>
-SUN - 12:40 pm:2:00pm</span>
-    <span class="badge badge-success">Time: 11:30 am to 12:45 pm</span>
+    <li class="list-group-item">  <span class="badge badge-light"> Weekend Class:</span>
+        <span class="badge badge-success"> Sat- Time: 11:30 am to 12:45 pm</span>
+ 
+    <span class="badge badge-success">Sun- Time: 12:40 pm:2:00pm</span>
 </li>
    
   </ul>
