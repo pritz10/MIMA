@@ -27,7 +27,7 @@ require_once 'include/header.php'; ?>
                <h4 class="mt-3">Hip-Hop</h4>
  <p style="color:white">Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
                       <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                        <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
                      </div>
                   </div>
                </div>
@@ -37,7 +37,7 @@ require_once 'include/header.php'; ?>
                   <h4 class="mt-3">Gymnastics</h4>
  <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                        <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
                      </div>
                   </div>
                </div>
@@ -47,7 +47,7 @@ require_once 'include/header.php'; ?>
                   <h4 class="mt-3">Classic Dance</h4>
   <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                        <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
                      </div>
                   </div>
                </div>
@@ -59,7 +59,7 @@ require_once 'include/header.php'; ?>
                   <h4 class="mt-3">Balinese</h4>
  <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                        <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
                      </div>
                   </div>
                </div>
@@ -70,7 +70,7 @@ require_once 'include/header.php'; ?>
 
                   <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                        <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
                      </div>
                   </div>
                </div>
@@ -81,7 +81,7 @@ require_once 'include/header.php'; ?>
 
                    <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                        <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
                      </div>
                     
                   </div>
@@ -122,7 +122,7 @@ require_once 'include/header.php'; ?>
 
    </div>
       <div class="modal-footer">
-         <button type="button" class="btn btn-warning" data-dismiss="">Register Now</button>
+         <button type="button" class="btn btn-warning" data-dismiss="">Read More</button>
  
       </div>
     </div>
