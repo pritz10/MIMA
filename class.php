@@ -234,7 +234,7 @@ require_once 'include/header.php'; ?>
   </div>
   <ul class="list-group list-group-flush">
     
-    <li class="list-group-item">  <span class="badge badge-light"> Weekend Class:</span>
+    <li class="list-group-item">  
         <span class="badge badge-success"> Sat- Time - 4:30 pm to 5:40 pm 
 </span>
  
