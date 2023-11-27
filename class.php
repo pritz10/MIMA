@@ -70,11 +70,12 @@ require_once 'include/header.php'; ?>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/ps (3).png" width="210" alt="mim dance academy"  class="img-fluid">
+               <img src="files/Images/wed.png"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
-                  <h4 class="mt-3">Folk-Dance</h4>
+                  <h4 class="mt-3">Wedding Choreography </h4>
 
-                  <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
+                  <p style="color:white">
+                  The purpose of wedding dance choreography is to add a special and memorable touch to the wedding festivities. Couples often choose to perform a choreographed dance during key moments of the reception, such as the first dance as a married couple</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
                      </div>
