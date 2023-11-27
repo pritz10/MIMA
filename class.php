@@ -208,7 +208,7 @@ require_once 'include/header.php'; ?>
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLong2">Gymnastics</h5>
+        <h5 class="modal-title" id="exampleModalLong2">Semi Classical Dance</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -218,7 +218,7 @@ require_once 'include/header.php'; ?>
       <div class="modal-body" style="background: #fb6509;">
       <p style="color:white">
       The art of semi classical dance is a very interesting topic. It’s a type of dance that has some similarities to classical but also incorporates elements from modern and folk dances. Semi-classical dance is a term that refers to an amalgamation of classical and contemporary styles</p>
-      <p style="color:white"><strong>Gymnastics students also learn</strong></p>
+      <p style="color:white"><strong>Semi Classical Dance students also learn</strong></p>
      <span class="badge badge-light"> Bharatanatyam</span>
      <span class="badge badge-dark">Kuchipudi</span>
      <span class="badge badge-light">Kathak</span>
