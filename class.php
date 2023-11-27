@@ -161,7 +161,7 @@ require_once 'include/header.php'; ?>
 
  
 
-     <p style="color:white"><strong>Hip Hop Music students also learn</strong></p>
+     <p style="color:white"><strong>Gymnastics students also learn</strong></p>
      <span class="badge badge-light"> PARKOUR</span>
      <span class="badge badge-dark">BREAKDANCING</span>
      <span class="badge badge-light">HIP HOP DANCING</span>
