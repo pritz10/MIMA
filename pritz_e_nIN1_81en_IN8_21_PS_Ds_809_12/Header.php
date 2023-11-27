@@ -158,7 +158,7 @@ function lettersOnly(input) {
 
             <!-- Nav Item - Pages Collapse Menu -->
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
 
 <a class="nav-link" href="updates">
 
@@ -166,8 +166,8 @@ function lettersOnly(input) {
 
     <span>Updates</span></a>
 
-</li>
-
+</li> -->
+<!-- 
             <li class="nav-item">
 
 <a class="nav-link" href="headmessage">
@@ -176,7 +176,7 @@ function lettersOnly(input) {
 
     <span>Head Message</span></a>
 
-</li>
+</li> -->
 
               <!-- Nav Item - Charts -->
 
@@ -200,7 +200,7 @@ function lettersOnly(input) {
 </li>
             <!-- Nav Item - Utilities Collapse Menu -->
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
 
                 <a class="nav-link" href="Research">
 
@@ -208,7 +208,7 @@ function lettersOnly(input) {
 
                     <span>PDFs</span></a>
 
-            </li>
+            </li> -->
             <li class="nav-item">
 
 <a class="nav-link" href="flowers">
