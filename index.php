@@ -247,7 +247,7 @@ $result = mysqli_query($connect,$sql); // fetch data from database
             </ul>
          </div><div class="text-center">
          <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="class">Learn more</a>
+                        <a href="class">Click here to Register</a>
                      </div></div>
       </section>
 
