@@ -19,12 +19,12 @@ require_once 'include/header.php'; ?>
       </div>
       <!-- //short-->
       <!--about-->
-      <section class="about-inner py-lg-4 py-md-3 py-sm-3 py-3" style="background: black;">
+      <section class="about-inner py-lg-4 py-md-3 py-sm-3 py-3">
          <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
             <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">About Us</h3>
             <div class="row abt-inner-agile pb-lg-3 pb-3">
                <div class="col-lg-6 col-md-6 abut-inner-right">
-                  <h4 style="color: wheat;">Choose A Best For You <br>Which Is You Like</h4>
+                  <h4>Choose A Best For You <br>Which Is You Like</h4>
                   <div class="">
 
 <div class="position-relative">
@@ -150,8 +150,8 @@ $active='active';
              
                </div>
                <div class="col-lg-6 col-md-6 abut-inner-left">
-                  <p class="text-justify" style="color: wheat;">Music-In-Motion (MIM) Dance Academy was founded in the year 2014 and was registered in Tadong, Gangtok, East Sikkim (Regd as Book No-IV, Volume No-12 and Serial No-336-IV/12/336), later relocated  Mg Marg - New Market Below karma Salon Gangtok, East Sikkim.
-<strong>Mr Pravesh Tamang</strong>, a well-trained and versatile artist is the Founder of the Academy and <strong>Miss. Durga Subba</strong> , a talented dancer and choreographer is the Co-founder. Other faculties of the Academy are; Sagar Sarkar (Dance Teacher) Maya Sonar (Dance Teacher) & Bishal Chettri ( Gymnastics Trainer)
+                  <p class="text-justify">Music-In-Motion (MIM) Dance Academy was founded in the year 2014 and was registered in Tadong, Gangtok, East Sikkim (Regd as Book No-IV, Volume No-12 and Serial No-336-IV/12/336), later relocated  Mg Marg - New Market Below karma Salon Gangtok, East Sikkim.
+<strong><p style="color: orangered;">Mr Pravesh Tamang</p></strong>, a well-trained and versatile artist is the Founder of the Academy and <strong><p style="color: orangered;">Miss. Durga Subba</p></strong> , a talented dancer and choreographer is the Co-founder. Other faculties of the Academy are; Sagar Sarkar (Dance Teacher) Maya Sonar (Dance Teacher) & Bishal Chettri ( Gymnastics Trainer)
 <br>MIM Academy has been actively supporting the artists till today and has also represented the state in various “Cultural Events” and has actively participated in social fund-raising programs. The Academy has conducted workshops all over Sikkim with academy artists, at state as well as national levels and has given opportunities for the youths to showcase their inner talents. The academy has never backed when it comes to supporting the youths or events of social importance and has represented the state highlighting the rich cultural and traditional aspects of our society.
 <br><br>
 The vision of the academy has been to offer platforms to aspiring and deserving local artists and to brush their talent to keep them growing to reach their full potential and help them live their dreams. In the initial phase itself, the academy has bagged numerous achievements under its belt and the founder believes that “the academy will aspire to grow and showcase our talents at the national & international level in future”.</p>
