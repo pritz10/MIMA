@@ -214,8 +214,7 @@ require_once 'include/header.php'; ?>
         </button>
       </div>
 
-      Bharatanatyam, Kuchipudi, Kathak, Odissi, Sattriya, Kathakali, Manipuri, and Mohiniyattam
-      <div class="modal-body" style="background: #fb6509;">
+       <div class="modal-body" style="background: #fb6509;">
       <p style="color:white">
       The art of semi classical dance is a very interesting topic. It’s a type of dance that has some similarities to classical but also incorporates elements from modern and folk dances. Semi-classical dance is a term that refers to an amalgamation of classical and contemporary styles</p>
       <p style="color:white"><strong>Semi Classical Dance students also learn</strong></p>
