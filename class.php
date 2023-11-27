@@ -122,8 +122,9 @@ require_once 'include/header.php'; ?>
 
    </div>
       <div class="modal-footer">
-         <button type="button" class="btn btn-warning" data-dismiss="">Read More</button>
- 
+      <div class="outs-agile-buttn mt-lg-3 mt-2">
+                        <a href="#exampleModalLong"  data-toggle="modal" >Register</a>
+                     </div> 
       </div>
     </div>
   </div>
