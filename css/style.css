@@ -454,7 +454,8 @@ background-size:40px;
 /*--about --*/
 .agile-abt-info h2 ,.bar-w3ls-both-side h4{
     font-size: 37px;
-     padding-bottom: 20px;
+    color: #fb6509;
+    padding-bottom: 20px;
     line-height: 51px;
     font-weight: bold;
 }
