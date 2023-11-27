@@ -140,7 +140,7 @@ require_once 'include/header.php'; ?>
                </h2>
             </div >
            
-               <p class="text-justify">How many times a dance teacher has told you that you need to work on your basics like it's the magic button that will suddenly make you a better dancer?
+            <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">How many times a dance teacher has told you that you need to work on your basics like it's the magic button that will suddenly make you a better dancer?
 <br>The truth is that basic moves are overrated and most of the time they don't contribute to your growth as a dancer.
 Don't get us wrong having a strong foundation as a dancer is extremely important but unfortunately, most dance teachers only focus on the technical aspect of dancing, and very few are teaching the psychological element of dancing...
 We believe dancing is 70% mental and 30% physical you can know all the moves and techniques in the world if your mindset is not right you don't stand a chance in the dance industry.
@@ -155,7 +155,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                       </div>
                      <div class="abt-sub-info">
                         <h4>Classical</h4>
-                        <p style="color: wheat;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
+                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="about.html">Learn more</a>
@@ -169,7 +169,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                      </div>
                      <div class="abt-sub-info">
                         <h4>Hip Hop</h4>
-                        <p style="color: wheat;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
+                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="about.html">Learn more</a>
@@ -183,7 +183,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                      </div>
                      <div class="abt-sub-info">
                         <h4>Salsa</h4>
-                        <p style="color: wheat;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
+                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="about.html">Learn more</a>
