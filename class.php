@@ -105,8 +105,20 @@ require_once 'include/header.php'; ?>
         </button>
       </div>
       <div class="modal-body">
-      Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.
-      </div>
+      <p style="color:white">Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
+     
+     <br>
+     Hip Hop Music students also learn
+      <span class="badge badge-pill badge-light">Hip Hop Dancing</span>
+      <span class="badge badge-pill badge-light">Hip Hop Dancing</span>
+      <span class="badge badge-pill badge-light">Hip Hop Dancing</span>
+      <span class="badge badge-pill badge-light">Hip Hop Dancing</span>
+      <span class="badge badge-pill badge-light">Hip Hop Dancing</span>
+      <span class="badge badge-pill badge-light">Hip Hop Dancing</span>
+      <span class="badge badge-pill badge-light">Hip Hop Dancing</span>
+
+
+   </div>
       <div class="modal-footer">
          <button type="button" class="btn btn-warning" data-dismiss="modal">Save changes</button>
       </div>
