@@ -82,11 +82,20 @@ require_once 'include/header.php'; ?>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/tango.png" width="200" alt="mim dance academy" class="img-fluid">
+               <img src="files/Images/ev.JPG"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
-                  <h4 class="mt-3">Group Dance</h4>
+                  <h4 class="mt-3">Dance Events</h4>
 
-                   <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
+                   <p style="color:white">WE HOST DANCE EVENTS STATE & CITIES :-
+
+OUR SUCCESSFUL EVENTS
+
+1. STREET DANCE BATTLE VOL - I
+2. Next Generation Dance Battle Vol - 1, 2 & 3
+3. Sikkim Big Dance Camp Season 1
+4. Each One Teach One ( Free Dance Camp) Mostly Focused on Child Care Institute Home
+5. ANNUAL CONCERT 
+6. Street Dance Battle Vol - II ( Coming Soon)</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
                      </div>
