@@ -45,10 +45,11 @@ require_once 'include/header.php'; ?>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/rumba_6901480.png" width="200px" alt="mim dance academy" class="img-fluid">
+               <img src="files/Images/sa.png" width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
-                  <h4 class="mt-3">Classic Dance</h4>
-  <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
+                  <h4 class="mt-3">Semi-Classical Dance</h4>
+  <p style="color:white">
+  The art of semi classical dance is a very interesting topic. It’s a type of dance that has some similarities to classical but also incorporates elements from modern and folk dances. Semi-classical dance is a term that refers to an amalgamation of classical and contemporary styles.</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
                      </div>
