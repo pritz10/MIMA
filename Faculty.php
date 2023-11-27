@@ -92,7 +92,7 @@ require_once 'include/header.php'; ?>
   <p>They are tight, indispensible and they are here to prove that strong determination with equal amount of hard work can truly transform dust to gold. Ankit Gaurav are the finest duo we have in our family and the family is proud of it. </p>
  
 </article>
-<article class="pdspImg fr  wow fadeInRight" data-wow-delay="0.5s"><div class="imgresize" style="margin-bottom:3%"><img src="assets/adminhtml/img/pages/faculty/804748b2716a31115c316df637a41c8a.jpg" alt="" style="width: 346px; height: auto;"></div>
+<article class="pdspImg fr  wow fadeInRight" data-wow-delay="0.5s"><div class="imgresize" style="margin-bottom:3%"><img src="files/Images/hip.PNG" alt="" style="width: 346px; height: auto;"></div>
 </article>
 <div class="cb"></div>
 </section>
