@@ -51,7 +51,7 @@ require_once 'include/header.php'; ?>
   <p style="color:white">
   The art of semi classical dance is a very interesting topic. It’s a type of dance that has some similarities to classical but also incorporates elements from modern and folk dances. Semi-classical dance is a term that refers to an amalgamation of classical and contemporary styles.</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
+                        <a href="#exampleModalLong2"  data-toggle="modal" >Read More</a>
                      </div>
                   </div>
                </div>
@@ -189,14 +189,6 @@ require_once 'include/header.php'; ?>
    
   </ul>
 </div>
- 
-
-
- 
-
-
-
-
    </div>
       <div class="modal-footer">
       <div class="outs-agile-buttn mt-lg-3 mt-2">
@@ -206,6 +198,61 @@ require_once 'include/header.php'; ?>
     </div>
   </div>
 </div><!-- Modal -->
+
+
+
+
+<!-- Modal -->
+
+<div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong2" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLong2">Gymnastics</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background: #fb6509;">
+      <p style="color:white">
+      The art of semi classical dance is a very interesting topic. It’s a type of dance that has some similarities to classical but also incorporates elements from modern and folk dances. Semi-classical dance is a term that refers to an amalgamation of classical and contemporary styles</p>
+      <p style="color:white"><strong>Gymnastics students also learn</strong></p>
+     <span class="badge badge-light"> Bharatanatyam</span>
+     <span class="badge badge-dark">Kuchipudi</span>
+     <span class="badge badge-light">Kathak</span>
+     <span class="badge badge-dark">Odissi</span>
+     <span class="badge badge-light">Sattriya</span>
+     <span class="badge badge-dark">Kathakali</span>
+     <span class="badge badge-light">Manipuri</span>
+     <span class="badge badge-dark">KICKBOXING</span>
+     <span class="badge badge-light">Mohiniyattam</span>
+     <span class="badge badge-dark">These are eight styles recognised by the Sangeet Natak Academy as classical dance</span>
+ <br><br>
+<div class="card text-center" style="width: 18rem;">
+  <div class="card-header">
+  <span class="badge badge-danger"> Class Schedule</span>
+  </div>
+  <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">  <span class="badge badge-light"> Weekend Class:</span>
+        <span class="badge badge-success"> Sat- Time - 4:30 pm to 5:40 pm 
+</span>
+ 
+    <span class="badge badge-success">Sun - 11:00 am to 12:20 pm</span>
+</li>
+   
+  </ul>
+</div>
+   </div>
+      <div class="modal-footer">
+      <div class="outs-agile-buttn mt-lg-3 mt-2">
+                        <a href="#exampleModalLong" data-toggle="modal" >Register</a>
+                     </div> 
+      </div>
+    </div>
+  </div>
+</div><!-- Modal -->
+
 
          <!--schedual-->
          <section class="schedule py-lg-4 py-md-3 py-sm-3 py-3">
