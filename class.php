@@ -213,6 +213,8 @@ require_once 'include/header.php'; ?>
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+
+      Bharatanatyam, Kuchipudi, Kathak, Odissi, Sattriya, Kathakali, Manipuri, and Mohiniyattam
       <div class="modal-body" style="background: #fb6509;">
       <p style="color:white">
       The art of semi classical dance is a very interesting topic. It’s a type of dance that has some similarities to classical but also incorporates elements from modern and folk dances. Semi-classical dance is a term that refers to an amalgamation of classical and contemporary styles</p>
@@ -224,9 +226,7 @@ require_once 'include/header.php'; ?>
      <span class="badge badge-light">Sattriya</span>
      <span class="badge badge-dark">Kathakali</span>
      <span class="badge badge-light">Manipuri</span>
-     <span class="badge badge-dark">KICKBOXING</span>
      <span class="badge badge-light">Mohiniyattam</span>
-     <span class="badge badge-dark">These are eight styles recognised by the Sangeet Natak Academy as classical dance</span>
  <br><br>
 <div class="card text-center" style="width: 18rem;">
   <div class="card-header">
