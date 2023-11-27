@@ -109,15 +109,15 @@ require_once 'include/header.php'; ?>
      
      <br>
      <p style="color:white"><strong>Hip Hop Music students also learn</strong></p>
-      <span class="badge badge-pill badge-light">Hip Hop Dancing</span>
-      <span class="badge badge-pill badge-light">Street Dance</span>
-      <span class="badge badge-pill badge-light">Hip Hop Music</span>
-      <span class="badge badge-pill badge-light">Breakdancing</span>
-      <span class="badge badge-pill badge-light">Salsa Dancing</span>
-      <span class="badge badge-pill badge-light">Indian Dance</span>
-      <span class="badge badge-pill badge-light">Salsa Dancing</span>
+     <span class="badge badge-light">Hip Hop Dancing</span>
+     <span class="badge badge-dark">Street Dance</span>
+     <span class="badge badge-light">>Hip Hop Music</span>
+     <span class="badge badge-dark">>Breakdancing</span>
+     <span class="badge badge-light">>Salsa Dancing</span>
+     <span class="badge badge-light">>Indian Dance</span>
+     <span class="badge badge-light">>Salsa Dancing</span>
 
-      <span class="badge badge-pill badge-light">Bachata</span>
+     <span class="badge badge-light">>Bachata</span>
 
 
    </div>
