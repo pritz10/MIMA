@@ -23,7 +23,7 @@ require_once 'include/header.php'; ?>
             <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Dance Class</h3>
             <div class="row abt-inner-agile text-center">
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/pasodoble_6901505.png" width="200px" alt="" class="img-fluid">                  <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
+               <img src="files/Images/hip.PNG" width="200px" alt="mim dance academy" class="rounded-circle img-fluid">                  <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                <h4 class="mt-3">Hip-Pop</h4>
  <p style="color:white">Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
                       <div class="outs-agile-buttn mt-lg-3 mt-2">
@@ -32,7 +32,7 @@ require_once 'include/header.php'; ?>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/exercise_606702.png" width="200px" alt="" class="img-fluid">
+               <img src="files/Images/exercise_606702.png" width="200px" alt="mim dance academy" class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <h4 class="mt-3">Gymnastics</h4>
  <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
@@ -42,7 +42,7 @@ require_once 'include/header.php'; ?>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/rumba_6901480.png" width="200px" alt="" class="img-fluid">
+               <img src="files/Images/rumba_6901480.png" width="200px" alt="mim dance academy" class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <h4 class="mt-3">Classic Dance</h4>
   <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
@@ -54,7 +54,7 @@ require_once 'include/header.php'; ?>
             </div>
             <div class="row abt-inner-agile mt-lg-5 mt-md-4 mt-4 text-center">
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/dance.png" width="200" alt="" class="img-fluid">
+               <img src="files/Images/dance.png" width="200" alt="mim dance academy" class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <h4 class="mt-3">Balinese</h4>
  <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
@@ -64,7 +64,7 @@ require_once 'include/header.php'; ?>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/ps (3).png" width="210" alt=""  class="img-fluid">
+               <img src="files/Images/ps (3).png" width="210" alt="mim dance academy"  class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <h4 class="mt-3">Folk-Dance</h4>
 
@@ -75,7 +75,7 @@ require_once 'include/header.php'; ?>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/tango.png" width="200" alt="" class="img-fluid">
+               <img src="files/Images/tango.png" width="200" alt="mim dance academy" class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <h4 class="mt-3">Group Dance</h4>
 
