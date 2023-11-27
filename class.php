@@ -174,8 +174,18 @@ require_once 'include/header.php'; ?>
      <span class="badge badge-dark">CALLISTHENICS</span>
 
 
-     <span class="badge badge-light">GANGSTA WALKING
-</span>
+     <span class="badge badge-light">GANGSTA WALKING</span>
+
+<p style="color:white"><strong>Gymnastics students also learn</strong>
+<br>GYMNASTICS CLASS <br>
+THU TO FRI TIME - 3 30pm To 5:00 pm <br>
+
+WEEKENDS CLASS <br>
+
+SAT-SUN 
+  1: 00 pm to 2:30 pm</p>
+WEEK DAYS 
+
 
 
    </div>
