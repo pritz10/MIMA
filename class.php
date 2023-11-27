@@ -173,9 +173,11 @@ require_once 'include/header.php'; ?>
   <span class="badge badge-light"> Class Schedule</span>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">  <span class="badge badge-light">Week Days: Thu to Fri - 3:30pm To 5:00 pm</span>
+    <li class="list-group-item">  <span class="badge badge-light">Week Days: Thu to Fri <br>
+    Time: 3:30pm To 5:00 pm</span>
 </li>
-    <li class="list-group-item">  <span class="badge badge-light"> Weekend Class: Sat-Sun- 1: 00 pm to 2:30 pm</span>
+    <li class="list-group-item">  <span class="badge badge-light"> Weekend Class: Sat-Sun <br>
+    Time: 1: 00 pm to 2:30 pm</span>
 </li>
    
   </ul>
