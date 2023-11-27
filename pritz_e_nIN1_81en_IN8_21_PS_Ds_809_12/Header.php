@@ -215,7 +215,7 @@ function lettersOnly(input) {
 
     <i class="fas fa-fw fa fa-cloud"></i>
 
-    <span>MIM Dance Academy Images</span></a>
+    <span>MIM Images</span></a>
 
 </li>
             <li class="nav-item">
