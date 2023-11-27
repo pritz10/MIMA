@@ -32,7 +32,7 @@ require_once 'include/header.php'; ?>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/gym.PNg" width="200px" alt="mim dance academy" class="img-fluid">
+               <img src="files/Images/gym.PNG" width="200px" alt="mim dance academy" class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <h4 class="mt-3">Gymnastics</h4>
  <p style="color:white">
