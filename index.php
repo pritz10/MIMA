@@ -146,7 +146,21 @@ Don't get us wrong having a strong foundation as a dancer is extremely important
 We believe dancing is 70% mental and 30% physical you can know all the moves and techniques in the world if your mindset is not right you don't stand a chance in the dance industry.
 <br><br><strong>That's why MIM Dance Academy is different not only do we dive deep into the technical aspect of freestyle dancing, but we also equip you with the mental toughness needed to make a name for yourself in the dance industry.
 </strong>  </p>
-             
+<div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
+               <div class="white-shadow" data-aos="zoom-in" data-aos-delay="700" data-aos-once="true" >
+                     <div class="abut-wls-gride-dance">
+                     <img src="files/Images/hip.PNG"  class="rounded-circle" width="150" alt="">
+                     </div>
+                     <div class="abt-sub-info">
+                        <h4>All style dance training</h4>
+                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
+                        Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
+                     </div>
+                     <div class="outs-agile-buttn mt-lg-3 mt-2">
+                        <a href="class">Learn more</a>
+                     </div>
+                  </div>
+               </div>
             <div class="row agile-info-grid pt-lg-4 pt-md-4 pt-3">
                <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
                   <div class="white-shadow" data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" >
@@ -163,21 +177,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                      </div>
                   </div>
                </div>
-               <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
-               <div class="white-shadow" data-aos="zoom-in" data-aos-delay="700" data-aos-once="true" >
-                     <div class="abut-wls-gride-dance">
-                     <img src="files/Images/hip.PNG"  class="rounded-circle" width="150" alt="">
-                     </div>
-                     <div class="abt-sub-info">
-                        <h4>Hip Hop</h4>
-                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
-                        Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
-                     </div>
-                     <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="class">Learn more</a>
-                     </div>
-                  </div>
-               </div>
+              
                <div class="col-lg-4 col-md-4  w3layouts-abut-list text-center">
                <div class="white-shadow" data-aos="zoom-in" data-aos-delay="900" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
