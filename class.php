@@ -65,7 +65,7 @@ require_once 'include/header.php'; ?>
  Unlike group dance lessons, private lessons have a face-to-face setting wherein your instructor will focus only on you 
 </p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
+                     <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="blank" data-toggle="modal" >Register</a>
                      </div>
                   </div>
                </div>
@@ -77,7 +77,7 @@ require_once 'include/header.php'; ?>
                   <p style="color:white">
                   The purpose of wedding dance choreography is to add a special and memorable touch to the wedding festivities. Couples often choose to perform a choreographed dance during key moments of the reception, such as the first dance as a married couple</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
+                     <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="blank" data-toggle="modal" >Register</a>
                      </div>
                   </div>
                </div>
@@ -90,7 +90,7 @@ require_once 'include/header.php'; ?>
                   Street Dance Battle Vol-1,Next Generation Dance Battle Vol - 1, 2 & 3,
 3. Sikkim Big Dance Camp Season 1, etc.</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
+                     <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="blank" data-toggle="modal" >Register</a>
                      </div>
                     
                   </div>
@@ -138,7 +138,7 @@ require_once 'include/header.php'; ?>
    </div>
       <div class="modal-footer">
       <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong" data-toggle="modal" >Register</a>
+                        <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="blank" data-toggle="modal" >Register</a>
                      </div> 
       </div>
     </div>
@@ -192,7 +192,7 @@ require_once 'include/header.php'; ?>
    </div>
       <div class="modal-footer">
       <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong" data-toggle="modal" >Register</a>
+      <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="blank" data-toggle="modal" >Register</a>
                      </div> 
       </div>
     </div>
@@ -245,7 +245,7 @@ require_once 'include/header.php'; ?>
    </div>
       <div class="modal-footer">
       <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong" data-toggle="modal" >Register</a>
+      <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="blank" data-toggle="modal" >Register</a>
                      </div> 
       </div>
     </div>
