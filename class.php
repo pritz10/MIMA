@@ -32,10 +32,12 @@ require_once 'include/header.php'; ?>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/exercise_606702.png" width="200px" alt="mim dance academy" class="img-fluid">
+               <img src="files/Images/gym.PNg" width="200px" alt="mim dance academy" class="img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <h4 class="mt-3">Gymnastics</h4>
- <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
+ <p style="color:white">
+ Gymnastics is a type of sport that includes physical exercises requiring balance, strength, flexibility, agility, coordination, artistry and endurance. The movements involved in gymnastics contribute to the development of the arms, legs, shoulders, back, chest, and abdominal muscle groups.</p>
+
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
                      </div>
