@@ -108,7 +108,7 @@ require_once 'include/header.php'; ?>
       <p style="color:white">Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
      
      <br>
-     <p><strong>Hip Hop Music students also learn</strong></p>
+     <p style="color:white"><strong>Hip Hop Music students also learn</strong></p>
       <span class="badge badge-pill badge-light">Hip Hop Dancing</span>
       <span class="badge badge-pill badge-light">Street Dance</span>
       <span class="badge badge-pill badge-light">Hip Hop Music</span>
@@ -122,9 +122,8 @@ require_once 'include/header.php'; ?>
 
    </div>
       <div class="modal-footer">
-         <button type="button" class="btn btn-warning" data-dismiss="modal">Register Now</button>
-         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-
+         <button type="button" class="btn btn-warning" data-dismiss="">Register Now</button>
+ 
       </div>
     </div>
   </div>
