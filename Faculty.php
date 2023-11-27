@@ -32,7 +32,7 @@ require_once 'include/header.php'; ?>
   <p></p>
  
 </article>
-<article class="pdspImg fr  wow fadeInRight" data-wow-delay="0.5s"><div class="imgresize" style="margin-bottom:3%"><img src="assets/adminhtml/img/pages/faculty/bc1qre8jdw2azrg6tf49wmp652w00xltddxmpk98xp.jpg" alt="" style="width: 346px; height: auto;"></div>
+<article class="pdspImg fr  wow fadeInRight" data-wow-delay="0.5s"><div class="imgresize" style="margin-bottom:3%"><img src="files/Images/hip.PNG" alt="" style="width: 346px; height: auto;"></div>
 </article>
 <div class="cb"></div>
 </section>
