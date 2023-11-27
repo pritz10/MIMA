@@ -154,14 +154,8 @@ require_once 'include/header.php'; ?>
       </div>
       <div class="modal-body" style="background: #fb6509;">
       <p style="color:white">
-      Gymnastics is a type of sport that includes physical exercises requiring balance, strength, flexibility, agility, coordination, artistry and endurance. The movements involved in gymnastics contribute to the development of the arms, legs, shoulders, back, chest, and abdominal muscle groups.</p>
-      
-     <br>
-  
-
- 
-
-     <p style="color:white"><strong>Gymnastics students also learn</strong></p>
+      Gymnastics is a type of sport that includes physical exercises requiring balance, strength, flexibility, agility, coordination, artistry and endurance. The movements involved in gymnastics contribute to the development of the arms, legs, shoulders, back, chest, and abdominal muscle groups.</p>     <br>
+      <p style="color:white"><strong>Gymnastics students also learn</strong></p>
      <span class="badge badge-light"> PARKOUR</span>
      <span class="badge badge-dark">BREAKDANCING</span>
      <span class="badge badge-light">HIP HOP DANCING</span>
@@ -172,22 +166,22 @@ require_once 'include/header.php'; ?>
      <span class="badge badge-dark">KICKBOXING</span>
      <span class="badge badge-light">KARATE</span>
      <span class="badge badge-dark">CALLISTHENICS</span>
-
-
      <span class="badge badge-light">GANGSTA WALKING</span>
 <br><br>
-<p style="color:white"><strong>Class Schedule</strong>
-<li>WEEK DAYS</li>
-<li>GYMNASTICS CLASS</li>
-<li>THU TO FRI TIME - 3 30pm To 5:00 pm </li>
-<li>WEEKENDS CLASS </li>
-<li>
-SAT-SUN 
-  1: 00 pm to 2:30 pm</li>
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+  Class Schedule
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Week Days: Thu to Fri - 3:30pm To 5:00 pm</li>
+    <li class="list-group-item">Weekend Class: Sat-Sun- 1: 00 pm to 2:30 pm</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+</div>
+ 
 
 
  
-</p>
 
 
 
