@@ -112,12 +112,12 @@ require_once 'include/header.php'; ?>
      <span class="badge badge-light">Hip Hop Dancing</span>
      <span class="badge badge-dark">Street Dance</span>
      <span class="badge badge-light">>Hip Hop Music</span>
-     <span class="badge badge-dark">>Breakdancing</span>
-     <span class="badge badge-light">>Salsa Dancing</span>
-     <span class="badge badge-light">>Indian Dance</span>
-     <span class="badge badge-light">>Salsa Dancing</span>
+     <span class="badge badge-dark">Breakdancing</span>
+     <span class="badge badge-light">Salsa Dancing</span>
+     <span class="badge badge-light">Indian Dance</span>
+     <span class="badge badge-light">Salsa Dancing</span>
 
-     <span class="badge badge-light">>Bachata</span>
+     <span class="badge badge-light">Bachata</span>
 
 
    </div>
