@@ -170,7 +170,7 @@ require_once 'include/header.php'; ?>
 <br><br>
 <div class="card" style="width: 18rem;">
   <div class="card-header">
-  Class Schedule
+  <span class="badge badge-light"> Class Schedule</span>
   </div>
   <ul class="list-group list-group-flush">
     <li class="list-group-item">Week Days: Thu to Fri - 3:30pm To 5:00 pm</li>
