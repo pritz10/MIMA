@@ -245,10 +245,10 @@ $result = mysqli_query($connect,$sql); // fetch data from database
               
                
             </ul>
-         </div>
+         </div><div class="text-center">
          <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="class">Learn more</a>
-                     </div>
+                     </div></div>
       </section>
 
       <section>
