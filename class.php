@@ -104,7 +104,7 @@ require_once 'include/header.php'; ?>
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" style="color:#fb6509" >
       <p style="color:white">Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
      
      <br>
