@@ -169,7 +169,8 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                      </div>
                      <div class="abt-sub-info">
                         <h4>Hip Hop</h4>
-                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
+                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
+                        Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="about.html">Learn more</a>
