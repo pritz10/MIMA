@@ -170,14 +170,14 @@ require_once 'include/header.php'; ?>
 <br><br>
 <div class="card text-center" style="width: 18rem;">
   <div class="card-header">
-  <span class="badge badge-light"> Class Schedule</span>
+  <span class="badge badge-danger"> Class Schedule</span>
   </div>
   <ul class="list-group list-group-flush">
     <li class="list-group-item">  <span class="badge badge-light">Week Days: Thu to Fri</span>
     <span class="badge badge-success">Time: 3:30pm To 5:00 pm</span>
 </li>
-    <li class="list-group-item">  <span class="badge badge-light"> Weekend Class: Sat-Sun <br><br>
-    Time: 1: 00 pm to 2:30 pm</span>
+    <li class="list-group-item">  <span class="badge badge-light"> Weekend Class: Sat-Sun </span>
+    <span class="badge badge-success">Time: 1: 00 pm to 2:30 pm</span>
 </li>
    
   </ul>
