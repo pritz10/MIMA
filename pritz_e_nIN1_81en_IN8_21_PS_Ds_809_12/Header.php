@@ -40,7 +40,7 @@ $_SESSION['key'] = bin2hex(random_bytes(32));
 
 
 
-    <title>SICB-Dashboard</title>
+    <title>MIM Dance Academy-Dashboard</title>
 
     <!-- Custom fonts for this template-->
 
@@ -215,7 +215,7 @@ function lettersOnly(input) {
 
     <i class="fas fa-fw fa fa-cloud"></i>
 
-    <span>SICB Images</span></a>
+    <span>MIM Dance Academy Images</span></a>
 
 </li>
             <li class="nav-item">
