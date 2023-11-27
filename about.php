@@ -150,7 +150,7 @@ $active='active';
              
                </div>
                <div class="col-lg-6 col-md-6 abut-inner-left">
-                  <p class="text-justify">Music-In-Motion (MIM) Dance Academy was founded in the year 2014 and was registered in Tadong, Gangtok, East Sikkim (Regd as Book No-IV, Volume No-12 and Serial No-336-IV/12/336), later relocated  Mg Marg - New Market Below karma Salon Gangtok, East Sikkim.
+                  <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">Music-In-Motion (MIM) Dance Academy was founded in the year 2014 and was registered in Tadong, Gangtok, East Sikkim (Regd as Book No-IV, Volume No-12 and Serial No-336-IV/12/336), later relocated  Mg Marg - New Market Below karma Salon Gangtok, East Sikkim.
 <strong><a href="">Mr Pravesh Tamang</a></strong>, a well-trained and versatile artist is the Founder of the Academy and <strong> <a href="">Miss. Durga Subba</a></strong> , a talented dancer and choreographer is the Co-founder. Other faculties of the Academy are; Sagar Sarkar (Dance Teacher) Maya Sonar (Dance Teacher) & Bishal Chettri ( Gymnastics Trainer)
 <br>MIM Academy has been actively supporting the artists till today and has also represented the state in various “Cultural Events” and has actively participated in social fund-raising programs. The Academy has conducted workshops all over Sikkim with academy artists, at state as well as national levels and has given opportunities for the youths to showcase their inner talents. The academy has never backed when it comes to supporting the youths or events of social importance and has represented the state highlighting the rich cultural and traditional aspects of our society.
 <br><br>
