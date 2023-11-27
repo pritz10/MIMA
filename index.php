@@ -151,14 +151,15 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
                   <div class="white-shadow" data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
-                        <img src="files/Images/dance.png" width="100" alt="">
+                        <img src="files/Images/gym.PNG"  class="rounded-circle" width="150" alt="">
                       </div>
                      <div class="abt-sub-info">
-                        <h4>Classical</h4>
-                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
+                        <h4>Gymnastics</h4>
+                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
+                        Gymnastics is a type of sport that includes physical exercises requiring balance, strength, flexibility, agility, coordination, artistry and endurance. The movements involved in gymnastics contribute to the development of the arms, legs, shoulders, back, chest, and abdominal muscle groups.</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="about.html">Learn more</a>
+                        <a href="class">Learn more</a>
                      </div>
                   </div>
                </div>
@@ -173,7 +174,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                         Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="about.html">Learn more</a>
+                        <a href="class">Learn more</a>
                      </div>
                   </div>
                </div>
@@ -187,7 +188,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                         <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="about.html">Learn more</a>
+                        <a href="class">Learn more</a>
                      </div>
                   </div>
                </div>
