@@ -65,7 +65,7 @@ require_once 'include/header.php'; ?>
  Unlike group dance lessons, private lessons have a face-to-face setting wherein your instructor will focus only on you 
 </p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                     <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="blank" data-toggle="modal" >Register</a>
+                     <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register</a>
                      </div>
                   </div>
                </div>
