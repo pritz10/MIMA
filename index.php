@@ -184,8 +184,11 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                      <img src="files/Images/tango.png" width="100" alt="">
                      </div>
                      <div class="abt-sub-info">
-                        <h4>Salsa</h4>
-                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
+                        <h4>Semi-Classical Dance</h4>
+                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
+                        
+
+The art of semi classical dance is a very interesting topic. It’s a type of dance that has some similarities to classical but also incorporates elements from modern and folk dances. Semi-classical dance is a term that refers to an amalgamation of classical and contemporary styles.</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="class">Learn more</a>
