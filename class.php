@@ -168,7 +168,7 @@ require_once 'include/header.php'; ?>
      <span class="badge badge-dark">CALLISTHENICS</span>
      <span class="badge badge-light">GANGSTA WALKING</span>
 <br><br>
-<div class="card" style="width: 18rem;">
+<div class="card text-center" style="width: 18rem;">
   <div class="card-header">
   <span class="badge badge-light"> Class Schedule</span>
   </div>
