@@ -377,7 +377,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
       <label for="inputEmail4">Email</label>
 
-      <input type="email" name="email"   class="form-control" onchange="readURL(this);" id="email">
+      <input type="text" name="email"   rows="3" class="form-control" onchange="readURL(this);" id="email">
 
     </div>
 
@@ -413,12 +413,8 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
  
                                       
-      <option>Administrative Staffs</option>
-        <option>Training Arm</option>
-        <option>Under Project</option> 
-        <option>BLC</option>
-        <option>OFOJ</option>
-        <option>Ministers</option>
+      <option>Mim</option>
+         
 
       </select>
 
