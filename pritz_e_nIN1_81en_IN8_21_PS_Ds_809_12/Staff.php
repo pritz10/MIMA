@@ -375,7 +375,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
     <div class="form-group col-md-6">
 
-      <label for="inputEmail4">Email</label>
+      <label for="inputEmail4">Brief Description</label>
       <textarea class="form-control" name="email" onkeyup="lettersOnly(this)" required onchange="readURL(this);" id="email" rows="3" ></textarea>
 
  
