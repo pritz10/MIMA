@@ -2,7 +2,7 @@
  <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; SICB</span>
+                        <span>Copyright &copy; Music in Motion Dance Academy</span>
                         
                     </div>
                 </div>
