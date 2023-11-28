@@ -189,8 +189,8 @@ The vision of the academy has been to offer platforms to aspiring and deserving 
          <div class="container-fluid text-center">
             <div class="row abt-inner-agile">
                <div class="col-lg-6 col-md-6 two-abut-inner-right pr-0">
-                  <div class="wls-sub-hedder-right text-left ">
-                     <h4>Dance For The Satisfaction Of Your Soul</h4></div>
+               <a href="" class="read">Achievements of MIM Dance Academy</a>
+
                      <div class="position-relative">
 
 <div id="myCarouselw" class="carousel slide carousel-fade" data-ride="carousel">
@@ -266,7 +266,6 @@ $active='active';
 <div class="carousel-item <?=$active;?>">
 
 <img src="<?php echo $row['ImageUrl']; ?>" class="img-fluid" loading="lazy">
-<a href="about_sicb" class="read">Some Glimpses of MIM Dance Academy</a>
 
 <div class="carousel-caption  d-md-block">
 
