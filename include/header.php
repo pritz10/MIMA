@@ -80,9 +80,9 @@ require_once 'include/db.php';?>
     Dropdown
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">Action</button>
-    <button class="dropdown-item" type="button">Another action</button>
-    <button class="dropdown-item" type="button">Something else here</button>
+    <a href="" class="dropdown-item" type="button">Action</a>
+    <a href="" class="dropdown-item" type="button">Another action</a>
+    <a href="" class="dropdown-item" type="button">Something else here</a>
   </div>
 </div>
                      <li class="nav-item">
