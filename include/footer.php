@@ -194,7 +194,8 @@
          });
       </script>
       <!-- start-smoth-scrolling -->
-      <!-- here stars scrolling icon -->      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <!-- here stars scrolling icon -->    
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
       <script>
          $(document).ready(function () {

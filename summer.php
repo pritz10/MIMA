@@ -1,283 +1,173 @@
-<?php
-$title = "About Us";
-require_once 'include/header.php'; ?>
 
-      <div class="inner_page-banner">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Offcanvas template for Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/">
+
+     <!--//meta tags ends here-->
+      <!--booststrap-->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <!--//booststrap end-->
+      <!-- font-awesome icons -->
+      <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
+      <!-- //font-awesome icons -->
+      <!--Slider -->
+      <link href="css/lsb.css" rel="stylesheet" type="text/css">
+      <!-- //slider-->
+      <!--stylesheets-->
+      <link href="css/a.css" rel='stylesheet' type='text/css' media="all">
+
+    <!-- Custom styles for this template -->
+    <link href="offcanvas.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-light">
+
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Offcanvas navbar</a>
+      <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Notifications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Switch account</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
-      <!--//banner -->
-      <!-- short -->
-      <div class="using-border py-3">
-         <div class="inner_breadcrumb  ml-4">
-            <ul class="short_ls">
-               <li style="color:blanchedalmond">
-                  <a href="index.php">Home</a>
-                  <span>/</span>
-               </li>
-               <li style="color:blanchedalmond">About</li>
-            </ul>
-         </div>
+    </nav>
+
+    <div class="nav-scroller bg-white box-shadow">
+      <nav class="nav nav-underline">
+        <a class="nav-link active" href="#">Dashboard</a>
+        <a class="nav-link" href="#">
+          Friends
+          <span class="badge badge-pill bg-light align-text-bottom">27</span>
+        </a>
+        <a class="nav-link" href="#">Explore</a>
+        <a class="nav-link" href="#">Suggestions</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Link</a>
+      </nav>
+    </div>
+
+    <main role="main" class="container">
+      <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded box-shadow">
+        <img class="mr-3" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-outline.svg" alt="" width="48" height="48">
+        <div class="lh-100">
+          <h6 class="mb-0 text-white lh-100">Bootstrap</h6>
+          <small>Since 2011</small>
+        </div>
       </div>
-      <!-- //short-->
-      <!--about-->
-      <section class="about-inner py-lg-4 py-md-3 py-sm-3 py-3">
-         <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
-            <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">About Us</h3>
-            <div class="row abt-inner-agile pb-lg-3 pb-3">
-               <div class="col-lg-6 col-md-6 abut-inner-right">
-                  <h4>Choose A Best For You <br>Which Is You Like</h4>
-                  <div class="">
 
-<div class="position-relative">
-
-<div id="myCarouselw" class="carousel slide carousel-fade" data-ride="carousel">
-
-<!-- Indicators -->
-
-<ol class="carousel-indicators">
-
-<?php
-
-$sql = "select * from flowers ORDER BY Id DESC LIMIT 5";  
-
-$result = mysqli_query($connect, $sql); 
-
-$count = mysqli_num_rows($result);  
-
-$i=0;
-
-foreach($result as $row)
-
-{
-
-$active='';
-
-if($i==0)
-
-{
-
-$active='active';
-
-}
-
-?>
-
-<li data-target="#myCarouselw" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
-
-<?php $i++;}    ?>
-
-</ol>
-
-
-
-<!-- Wrapper for slides -->
-
-<div class="carousel-inner text-center">
-
-<?php
-
-$sql = "select * from flowers ORDER BY Id DESC LIMIT 5";  
-
-$result = mysqli_query($connect, $sql); 
-
-$count = mysqli_num_rows($result);  
-
-$i=0;
-
-foreach($result as $row)
-
-{
-
-$active='';
-
-if($i==0)
-
-{
-
-$active='active';
-
-}
-
-?>
-
-<div class="carousel-item <?=$active;?>">
-
-<img src="<?php echo $row['ImageUrl']; ?>" class="img-fluid" loading="lazy">
-<a href="about_sicb" class="read">Some Glimpses of MIM Dance Academy</a>
-
-<div class="carousel-caption  d-md-block">
-
-<h5><?php echo $row['Title']; ?></h3>
-
-</div>   
-
-</div>
-
-<?php $i++; } ?>
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-<a class="carousel-control-prev" href="#myCarouselw" role="button" data-slide="prev">
-
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-
-<span class="sr-only">Previous</span>
-
-</a>
-
-<a class="carousel-control-next" href="#myCarouselw" role="button" data-slide="next">
-
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-
-<span class="sr-only">Next</span>
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-             
-               </div>
-               <div class="col-lg-6 col-md-6 abut-inner-left">
-                  <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">Music-In-Motion (MIM) Dance Academy was founded in the year 2014 and was registered in Tadong, Gangtok, East Sikkim (Regd as Book No-IV, Volume No-12 and Serial No-336-IV/12/336), later relocated  Mg Marg - New Market Below karma Salon Gangtok, East Sikkim.
-<strong><a href="">Mr Pravesh Tamang</a></strong>, a well-trained and versatile artist is the Founder of the Academy and <strong> <a href="">Miss. Durga Subba</a></strong> , a talented dancer and choreographer is the Co-founder. Other faculties of the Academy are; Sagar Sarkar (Dance Teacher) Maya Sonar (Dance Teacher) & Bishal Chettri ( Gymnastics Trainer)
-<br>MIM Academy has been actively supporting the artists till today and has also represented the state in various “Cultural Events” and has actively participated in social fund-raising programs. The Academy has conducted workshops all over Sikkim with academy artists, at state as well as national levels and has given opportunities for the youths to showcase their inner talents. The academy has never backed when it comes to supporting the youths or events of social importance and has represented the state highlighting the rich cultural and traditional aspects of our society.
-<br><br>
-The vision of the academy has been to offer platforms to aspiring and deserving local artists and to brush their talent to keep them growing to reach their full potential and help them live their dreams. In the initial phase itself, the academy has bagged numerous achievements under its belt and the founder believes that “the academy will aspire to grow and showcase our talents at the national & international level in future”.</p>
-               </div>
+      <div class="my-3 p-3 bg-white rounded box-shadow">
+        <h6 class="border-bottom border-gray pb-2 mb-0">Recent updates</h6>
+        <div class="media text-muted pt-3">
+          <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@username</strong>
+            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p>
+        </div>
+        <div class="media text-muted pt-3">
+          <img data-src="holder.js/32x32?theme=thumb&bg=e83e8c&fg=e83e8c&size=1" alt="" class="mr-2 rounded">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@username</strong>
+            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p>
+        </div>
+        <div class="media text-muted pt-3">
+          <img data-src="holder.js/32x32?theme=thumb&bg=6f42c1&fg=6f42c1&size=1" alt="" class="mr-2 rounded">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@username</strong>
+            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p>
+        </div>
+        <small class="d-block text-right mt-3">
+          <a href="#">All updates</a>
+        </small>
+      </div>
+
+      <div class="my-3 p-3 bg-white rounded box-shadow">
+        <h6 class="border-bottom border-gray pb-2 mb-0">Suggestions</h6>
+        <div class="media text-muted pt-3">
+          <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+          <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <div class="d-flex justify-content-between align-items-center w-100">
+              <strong class="text-gray-dark">Full Name</strong>
+              <a href="#">Follow</a>
             </div>
-            <div class="row abt-inner-agile mt-lg-4 mt-3 text-center">
-               <div class="col-lg-4 col-md-4 abut-inner-img">
-                  <img src="files/Images/pasodoble_6901505.png" width="200px" alt="" class="img-fluid">
-                  <div class="w3l-abt-sub-txt mt-lg-4 mt-3">
-                  <p style="color: wheat;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-                     <h4 class="mt-3">Hip-Pop</h4>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-4 abut-inner-img">
-               <img src="files/Images/exercise_606702.png" width="200px" alt="" class="img-fluid">
-                  <div class="w3l-abt-sub-txt mt-lg-4 mt-3">
-                  <p style="color: wheat;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-                     <h4 class="mt-3">Folk-Dance</h4>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-4 abut-inner-img">
-               <img src="files/Images/rumba_6901480.png" width="200px" alt="" class="img-fluid">
-                  <div class="w3l-abt-sub-txt mt-lg-4 mt-3">
-                  <p style="color: wheat;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-                     <h4 class="mt-3">Balinese</h4>
-                  </div>
-               </div>
+            <span class="d-block">@username</span>
+          </div>
+        </div>
+        <div class="media text-muted pt-3">
+          <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+          <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <div class="d-flex justify-content-between align-items-center w-100">
+              <strong class="text-gray-dark">Full Name</strong>
+              <a href="#">Follow</a>
             </div>
-         </div>
-      </section>
-      <!--//about<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-ec3bb8c4-4422-454b-bf1a-777aff28e488" data-elfsight-app-lazy></div>
-      about-two-->
-      <section>
-         <div class="container-fluid text-center">
-            <div class="row abt-inner-agile">
-               <div class="col-lg-6 col-md-6 two-abut-inner-right pr-0">
-                  <div class="wls-sub-hedder-right text-left ">
-                     <h4>Dance For The Satisfaction Of Your Soul</h4>            </div>
-               </div>
-               <div class="col-lg-6 col-md-6 abut-inner-in p-0">
-               <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PpNRfTO5-y8?si=yKMNGa5KOgP-gFGa" title="YouTube video player" referrerpolicy="no-referrer-when-downgrade" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-</div>               </div>
+            <span class="d-block">@username</span>
+          </div>
+        </div>
+        <div class="media text-muted pt-3">
+          <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+          <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <div class="d-flex justify-content-between align-items-center w-100">
+              <strong class="text-gray-dark">Full Name</strong>
+              <a href="#">Follow</a>
             </div>
-         </div>
-      </section>
-      <!--//about-two-->
-      <!--testimonial-->
+            <span class="d-block">@username</span>
+          </div>
+        </div>
+        <small class="d-block text-right mt-3">
+          <a href="#">All suggestions</a>
+        </small>
+      </div>
+    </main>
 
-       <!--testimonial-->
-<section class="testimonial py-lg-4 py-md-3 py-sm-3 py-3">
-         <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
-            <h3 class="title text-left mb-lg-5 mb-md-4 mb-sm-4 mb-3" style="color: white;">Our Dancers Says</h3>
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-               <div class="carousel-inner text-center" >
-              
-               <ol class="carousel-indicators">
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
 
-<?php
-                  $sql="SELECT * FROM testimonial ORDER BY id DESC LIMIT 5";
-                  $result = mysqli_query($connect, $sql); 
-  $count = mysqli_num_rows($result);  
-  $i=0;
-  foreach($result as $row)
-   {
-    $active='';
-    if($i==0)
-     {
-       $active='active';
-     }
-?>
-
-    <li data-target="#myCarousel" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
-
-<?php 
- $i++;}
-?>
-
-    </ol>
-    <?php
-
-$sql="SELECT * FROM testimonial ORDER BY id DESC LIMIT 5";
-
-$result = mysqli_query($connect, $sql); 
-
-$count = mysqli_num_rows($result);  
-
-$i=0;
-
-foreach($result as $row)
-
-{
-
-$active='';
-
-if($i==0)
-
-{
-
-$active='active';
-
-}
-
-?>  
-               <div class="carousel-item client-img <?=$active;?>">
-                     <img class="img-fluid" src="<?php echo $row['ImageUrl']; ?>" width="150px" alt="MIm Dance">
-                     <div class="client-matter py-lg-4 py-md-3 py-3">
-                        <p style="color: white;"><?php echo $row['Message']; ?></p>
-                        <h6 class="pt-lg-3 pt-2" style="color: white;"><?php echo $row['Name']; ?></h6>
-                        <p style="color: white;"><?php echo $row['Designation']; ?></p>
-                     </div>
-                  </div>  <?php $i++; } ?>           
-                   
-               </div>
-             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-               <span class="sr-only">Previous</span>
-               </a>
-               <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-               <span class="sr-only">Next</span>
-               </a>
-            </div>
-         </div>
-      </section>
-      <!--//testimonial -->
-      <?php require_once 'include/footer.php';?>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script src="offcanvas.js"></script>
+  </body>
+</html>
