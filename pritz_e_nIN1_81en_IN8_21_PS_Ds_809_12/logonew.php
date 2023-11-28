@@ -89,7 +89,7 @@
                                                 <label for="h">Select Image 1700*250 pixels</label>
                                                 <input class="form-control" name="myfile" id="formFileLg"required onchange="readURL(this);" type="file">
                                     </div>
-                                    <button type="submit" style="width: 100%;" value="upload"  name="submit" class="btn btn-primary" id="upload-file"><i class="fa fa-upload" aria-hidden="true"></i> Upload</button>
+                                    <button type="submit" style="width: 100%;" value="upload"  name="submit" class="btn btn-warning" id="upload-file"><i class="fa fa-upload" aria-hidden="true"></i> Upload</button>
                                     </form>
                                  </div>
                                     </div>

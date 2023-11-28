@@ -354,7 +354,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                     </div>
 
-                                    <button type="submit" style="width: 100%;" value="upload"  name="submit" class="btn btn-primary" id="upload-file"><i class="fa fa-upload" aria-hidden="true"></i> Upload</button>
+                                    <button type="submit" style="width: 100%;" value="upload"  name="submit" class="btn btn-warning" id="upload-file"><i class="fa fa-upload" aria-hidden="true"></i> Upload</button>
 
                                     </form>
 
