@@ -115,7 +115,7 @@ function lettersOnly(input) {
 
                 <div class="sidebar-brand-icon">
 
-                  <img src="../files/Images/displayimages/mainlogo.png" width="105px" alt="">
+                  <img src="../files/Images/log.PNG" width="105px" alt="">
 
                 </div>
 
