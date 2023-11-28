@@ -206,7 +206,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                     <div class="card-body">
 
-                                    <form method="post" action="devents" enctype="multipart/form-data" style="padding:10px;">                                        
+                                    <form method="post" action="awards" enctype="multipart/form-data" style="padding:10px;">                                        
 
                                         <div class="form-group">
 
