@@ -384,6 +384,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
     <div class="form-group col-md-6">
 
       <label for="inputPassword4">Phone</label>
+      <textarea class="form-control" name="message" onkeyup="lettersOnly(this)" required onchange="readURL(this);" id="details" rows="3" ></textarea>
 
       <input type="text" name="phone"   class="form-control" placeholder="0987654321"   onchange="readURL(this);" id="phone">
 
