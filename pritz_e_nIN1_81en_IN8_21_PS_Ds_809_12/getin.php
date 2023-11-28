@@ -115,29 +115,29 @@ require_once 'db.php';
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block " style="background: url('img/de.jpg');  background-position: center;
+                            <div class="col-lg-6 d-none d-lg-block " style="background: url('/files/Images/bk.jpg');  background-position: center;
                             background-size: cover;"></div>
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">SICB ADMIN</h1>
+                                        <h1 class="h4 text-gray-900 mb-4">Music in Motion Dance Academy Dashboard</h1>
                                     </div>
                                     <form method="post"  class="user" action="getin" enctype="multipart/form-data" style="padding:10px;">                                        
 
                                          <div class="form-group">
                                             <input type="text" name="username" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp" required
-                                                placeholder="Enter Email Address...">
+                                                placeholder="Enter Admin Name...">
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user" required
-                                                id="exampleInputPassword" name="password" placeholder="Password">
+                                                id="exampleInputPassword" name="password" placeholder="Secret Key...">
                                         </div>
                                       
                                         <div class="g-recaptcha"  data-sitekey="6LcDGyUfAAAAANS8PBSq09XHWvKEjCqlsqTtnkV0"></div>
       <br/>
                                         
-                                        <button type="submit" style="width: 100%;" value="upload"  name="submit" class="btn btn-primary btn-user btn-block" id="upload-file"><i class="fa fa-user" aria-hidden="true"></i> Get In...</button>
+                                        <button type="submit" style="width: 100%;" value="upload"  name="submit" class="btn btn-warning btn-user btn-block" id="upload-file"><i class="fa fa-user" aria-hidden="true"></i> Log In...</button>
 
                                        
         

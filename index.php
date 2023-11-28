@@ -158,46 +158,51 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
 </strong>  </p>
              
             <div class="row agile-info-grid pt-lg-4 pt-md-4 pt-3">
-               <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
-                  <div class="white-shadow" data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" >
-                     <div class="abut-wls-gride-dance">
-                        <img src="files/Images/dance.png" width="100" alt="">
-                      </div>
-                     <div class="abt-sub-info">
-                        <h4>Classical</h4>
-                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
-                     </div>
-                     <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="about.html">Learn more</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
+            <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
                <div class="white-shadow" data-aos="zoom-in" data-aos-delay="700" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
-                     <img src="files/Images/hip.png" width="110" alt="">
+                     <img src="files/Images/hip.PNG"  class="rounded-circle" width="150" alt="">
                      </div>
                      <div class="abt-sub-info">
-                        <h4>Hip Hop</h4>
+                        <h4>All style dance training</h4>
                         <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
                         Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="about.html">Learn more</a>
+                        <a href="class">Learn more</a>
+                     </div>
+                  </div>
+               </div>   
+            <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
+                  <div class="white-shadow" data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" >
+                     <div class="abut-wls-gride-dance">
+                        <img src="files/Images/gym.PNG"  class="rounded-circle" width="150" alt="">
+                      </div>
+                     <div class="abt-sub-info">
+                        <h4>Gymnastics</h4>
+                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
+                        Gymnastics is a type of sport that includes physical exercises requiring balance, strength, flexibility, agility, coordination, artistry and endurance. The movements involved in gymnastics contribute to the development of the arms, legs, shoulders, back, chest, and abdominal muscle groups.</p>
+                     </div>
+                     <div class="outs-agile-buttn mt-lg-3 mt-2">
+                        <a href="class">Learn more</a>
                      </div>
                   </div>
                </div>
+              
                <div class="col-lg-4 col-md-4  w3layouts-abut-list text-center">
                <div class="white-shadow" data-aos="zoom-in" data-aos-delay="900" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
-                     <img src="files/Images/tango.png" width="100" alt="">
+                     <img src="files/Images/sa.png" class="rounded-circle" width="150" alt="">
                      </div>
                      <div class="abt-sub-info">
-                        <h4>Salsa</h4>
-                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">delectus reiciendis maiores alias consequatur aut.maiores alias</p>
+                        <h4>Semi-Classical Dance</h4>
+                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
+                        
+
+The art of semi classical dance is a very interesting topic. It’s a type of dance that has some similarities to classical but also incorporates elements from modern and folk dances. Semi-classical dance is a term that refers to an amalgamation of classical and contemporary styles.</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="about.html">Learn more</a>
+                        <a href="class">Learn more</a>
                      </div>
                   </div>
                </div>
@@ -251,7 +256,10 @@ $result = mysqli_query($connect,$sql); // fetch data from database
               
                
             </ul>
-         </div>
+         </div><div class="text-center">
+         <div class="outs-agile-buttn mt-lg-3 mt-2">
+         <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Click here to Register in our Events</a>
+                     </div></div>
       </section>
 
       <section>

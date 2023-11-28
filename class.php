@@ -23,65 +23,74 @@ require_once 'include/header.php'; ?>
             <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Dance Class</h3>
             <div class="row abt-inner-agile text-center">
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/pasodoble_6901505.png" width="200px" alt="" class="img-fluid">                  <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
-               <h4 class="mt-3">Hip-Pop</h4>
+               <img src="files/Images/hip.PNG" width="200px" alt="mim dance academy" class="rounded-circle img-fluid">          
+                       <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
+               <h4 class="mt-3">All style dance training</h4>
  <p style="color:white">Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
                       <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                        <a href="#exampleModalLong"  data-toggle="modal" >Read More</a>
                      </div>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/exercise_606702.png" width="200px" alt="" class="img-fluid">
+               <img src="files/Images/gym.PNG" width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
                   <h4 class="mt-3">Gymnastics</h4>
- <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
+ <p style="color:white">
+ Gymnastics is a type of sport that includes physical exercises requiring balance, strength, flexibility, agility, coordination, artistry and endurance. The movements involved in gymnastics contribute to the development of the arms, legs, shoulders, back, chest, and abdominal muscle groups.</p>
+
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                        <a href="#exampleModalLong1"  data-toggle="modal" >Read More</a>
                      </div>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/rumba_6901480.png" width="200px" alt="" class="img-fluid">
+               <img src="files/Images/sa.png" width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
-                  <h4 class="mt-3">Classic Dance</h4>
-  <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
+                  <h4 class="mt-3">Semi-Classical Dance</h4>
+  <p style="color:white">
+  The art of semi classical dance is a very interesting topic. It’s a type of dance that has some similarities to classical but also incorporates elements from modern and folk dances. Semi-classical dance is a term that refers to an amalgamation of classical and contemporary styles.</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                        <a href="#exampleModalLong2"  data-toggle="modal" >Read More</a>
                      </div>
                   </div>
                </div>
             </div>
             <div class="row abt-inner-agile mt-lg-5 mt-md-4 mt-4 text-center">
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/dance.png" width="200" alt="" class="img-fluid">
+               <img src="files/Images/pv.png"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
-                  <h4 class="mt-3">Balinese</h4>
- <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
+                  <h4 class="mt-3">Private Class</h4>
+ <p style="color:white">
+ Unlike group dance lessons, private lessons have a face-to-face setting wherein your instructor will focus only on you 
+</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                     <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register</a>
                      </div>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/ps (3).png" width="210" alt=""  class="img-fluid">
+               <img src="files/Images/wed.png"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
-                  <h4 class="mt-3">Folk-Dance</h4>
+                  <h4 class="mt-3">Wedding Choreography </h4>
 
-                  <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
+                  <p style="color:white">
+                  The purpose of wedding dance choreography is to add a special and memorable touch to the wedding festivities. Couples often choose to perform a choreographed dance during key moments of the reception, such as the first dance as a married couple</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                     <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register</a>
                      </div>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/tango.png" width="200" alt="" class="img-fluid">
+               <img src="files/Images/ev.JPG"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
-                  <h4 class="mt-3">Group Dance</h4>
+                  <h4 class="mt-3">Dance Events</h4>
 
-                   <p style="color:white">Lorem ipsum dolor adipiscing elit, sed do sit amet, consectetur adipiscing elit, sed do</p>
+                   <p style="color:white">We host dance events in state and cities.Our successful events are 
+                  Street Dance Battle Vol-1,Next Generation Dance Battle Vol - 1, 2 & 3,
+3. Sikkim Big Dance Camp Season 1, etc.</p>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
-                        <a href="#exampleModalLong"  data-toggle="modal" >Register Now</a>
+                     <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register</a>
                      </div>
                     
                   </div>
@@ -94,19 +103,156 @@ require_once 'include/header.php'; ?>
 
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <div class="modal-content" style="background: black;">
-      
-      <div class="modal-body">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZ9knl-kDLgbtfdbNGWk527XV9ZtfLQ0K8Yass5d6Kz6BPZQ/viewform?embedded=true" width="350" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLong">All style dance training</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
+      <div class="modal-body" style="background: #fb6509;">
+      <p style="color:white">Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
+     
+     <br>
+  
+
+
+
+     <p style="color:white"><strong>Hip Hop Music students also learn</strong></p>
+     <span class="badge badge-light"> BREAKING</span>
+     <span class="badge badge-dark">LOCKING</span>
+     <span class="badge badge-light">POPPING</span>
+     <span class="badge badge-dark">KRUMPING</span>
+     <span class="badge badge-light">HARLEM SHAKE</span>
+     <span class="badge badge-dark">ELECTRIC BOOGALOO</span>
+     <span class="badge badge-light">FOOTWORK</span>
+     <span class="badge badge-dark">CHARLESTON</span>
+
+     <span class="badge badge-light">GANGSTA WALKING
+</span>
+
+
+   </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-       </div>
+      <div class="outs-agile-buttn mt-lg-3 mt-2">
+      <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register</a>
+                     </div> 
+      </div>
     </div>
   </div>
+</div><!-- Modal -->
+
+
+<!-- Modal -->
+
+<div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLong1">Gymnastics</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background: #fb6509;">
+      <p style="color:white">
+      Gymnastics is a type of sport that includes physical exercises requiring balance, strength, flexibility, agility, coordination, artistry and endurance. The movements involved in gymnastics contribute to the development of the arms, legs, shoulders, back, chest, and abdominal muscle groups.</p>     <br>
+      <p style="color:white"><strong>Gymnastics students also learn</strong></p>
+     <span class="badge badge-light"> PARKOUR</span>
+     <span class="badge badge-dark">BREAKDANCING</span>
+     <span class="badge badge-light">HIP HOP DANCING</span>
+     <span class="badge badge-dark">STRETCHING</span>
+     <span class="badge badge-light">EXERCISE</span>
+     <span class="badge badge-dark">JOIN HEALTH</span>
+     <span class="badge badge-light">TAEKWONDO</span>
+     <span class="badge badge-dark">KICKBOXING</span>
+     <span class="badge badge-light">KARATE</span>
+     <span class="badge badge-dark">CALLISTHENICS</span>
+     <span class="badge badge-light">GANGSTA WALKING</span>
+<br><br>
+<div class="card text-center" style="width: 18rem;">
+  <div class="card-header">
+  <span class="badge badge-danger"> Class Schedule</span>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">  <span class="badge badge-light">Week Days: Thu to Fri</span>
+    <span class="badge badge-success">Time: 3:30pm To 5:00 pm</span>
+</li>
+    <li class="list-group-item">  <span class="badge badge-light"> Weekend Class:</span>
+        <span class="badge badge-success"> Sat- Time: 11:30 am to 12:45 pm</span>
+ 
+    <span class="badge badge-success">Sun- Time: 12:40 pm to 2:00 pm</span>
+</li>
+   
+  </ul>
 </div>
+   </div>
+      <div class="modal-footer">
+      <div class="outs-agile-buttn mt-lg-3 mt-2">
+      <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register</a>
+                     </div> 
+      </div>
+    </div>
+  </div>
+</div><!-- Modal -->
+
+
+
+
+<!-- Modal -->
+
+<div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong2" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLong2">Semi Classical Dance</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+       <div class="modal-body" style="background: #fb6509;">
+      <p style="color:white">
+      The art of semi classical dance is a very interesting topic. It’s a type of dance that has some similarities to classical but also incorporates elements from modern and folk dances. Semi-classical dance is a term that refers to an amalgamation of classical and contemporary styles</p>
+      <p style="color:white"><strong>Semi Classical Dance students also learn</strong></p>
+     <span class="badge badge-light"> Bharatanatyam</span>
+     <span class="badge badge-dark">Kuchipudi</span>
+     <span class="badge badge-light">Kathak</span>
+     <span class="badge badge-dark">Odissi</span>
+     <span class="badge badge-light">Sattriya</span>
+     <span class="badge badge-dark">Kathakali</span>
+     <span class="badge badge-light">Manipuri</span>
+     <span class="badge badge-light">Mohiniyattam</span>
+ <br><br>
+<div class="card text-center" style="width: 18rem;">
+  <div class="card-header">
+  <span class="badge badge-danger"> Class Schedule</span>
+  </div>
+  <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">  
+        <span class="badge badge-success"> Sat- Time - 4:30 pm to 5:40 pm 
+</span>
+ 
+    <span class="badge badge-success">Sun - 11:00 am to 12:20 pm</span>
+</li>
+   
+  </ul>
+</div>
+   </div>
+      <div class="modal-footer">
+      <div class="outs-agile-buttn mt-lg-3 mt-2">
+      <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register</a>
+                     </div> 
+      </div>
+    </div>
+  </div>
+</div><!-- Modal -->
+
+
          <!--schedual-->
          <section class="schedule py-lg-4 py-md-3 py-sm-3 py-3">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">

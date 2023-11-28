@@ -303,7 +303,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                         <label for="exampleFormControlTextarea1">Enter Description</label>
 
-                                                                                     <textarea class="form-control" name="description" onkeyup="lettersOnly(this)"  onchange="readURL(this);" id="details" placeholder="Eg:SICB Website Launched"></textarea>
+                                                                                     <textarea class="form-control" name="description" onkeyup="lettersOnly(this)"  onchange="readURL(this);" id="details" placeholder="Eg:MIM Dance Academy Website Launched"></textarea>
 
                                                                                  </div>
 
