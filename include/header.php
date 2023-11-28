@@ -73,26 +73,28 @@ require_once 'include/db.php';?>
                         <a href="about" class="nav-link">About</a>
                      </li>
                      <li class="nav-item">
-                     <a href="#" class="nav-link">Store</a>
+                        <a href="faculty" class="nav-link">Faculty</a>
                      </li>
                      <li class="nav-item">
-                     <a href="#" class="nav-link">Gallery</a>
+                     <a href="store" class="nav-link">Store</a>
+                     </li>
+                     <li class="nav-item">
+                     <a href="gallery" class="nav-link">Gallery</a>
                      </li>
                      <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Dance Camps
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-     <a href="#" class="dropdown-item" type="button">Winter Camp</a>
-    <a href="#" class="dropdown-item" type="button">Summer Camp</a>
+     <a href="summer" class="dropdown-item" type="button">Winter Camp</a>
+    <a href="winter" class="dropdown-item" type="button">Summer Camp</a>
   </div>
 </div>
                      <li class="nav-item">
                      <a href="contact"class="nav-link">Contact</a>
                      </li>
                    
-                             <button type="button" class="btn btn-success">                        <span class="nav-link fab fa-whatsapp"></span>
-                             </button>
+                              
                             
                      
                    
