@@ -190,9 +190,125 @@ The vision of the academy has been to offer platforms to aspiring and deserving 
             <div class="row abt-inner-agile">
                <div class="col-lg-6 col-md-6 two-abut-inner-right pr-0">
                   <div class="wls-sub-hedder-right text-left ">
-                     <h4>Dance For The Satisfaction Of Your Soul</h4>
-                    
-                  </div>
+                     <h4>Dance For The Satisfaction Of Your Soul</h4></div>
+                     <div class="position-relative">
+
+<div id="myCarouselw" class="carousel slide carousel-fade" data-ride="carousel">
+
+<!-- Indicators -->
+
+<ol class="carousel-indicators">
+
+<?php
+
+$sql = "select * from flowers ORDER BY Id DESC LIMIT 5";  
+
+$result = mysqli_query($connect, $sql); 
+
+$count = mysqli_num_rows($result);  
+
+$i=0;
+
+foreach($result as $row)
+
+{
+
+$active='';
+
+if($i==0)
+
+{
+
+$active='active';
+
+}
+
+?>
+
+<li data-target="#myCarouselw" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
+
+<?php $i++;}    ?>
+
+</ol>
+
+
+
+<!-- Wrapper for slides -->
+
+<div class="carousel-inner text-center">
+
+<?php
+
+$sql = "select * from flowers ORDER BY Id DESC LIMIT 5";  
+
+$result = mysqli_query($connect, $sql); 
+
+$count = mysqli_num_rows($result);  
+
+$i=0;
+
+foreach($result as $row)
+
+{
+
+$active='';
+
+if($i==0)
+
+{
+
+$active='active';
+
+}
+
+?>
+
+<div class="carousel-item <?=$active;?>">
+
+<img src="<?php echo $row['ImageUrl']; ?>" class="img-fluid" loading="lazy">
+<a href="about_sicb" class="read">Some Glimpses of MIM Dance Academy</a>
+
+<div class="carousel-caption  d-md-block">
+
+<h5><?php echo $row['Title']; ?></h3>
+
+</div>   
+
+</div>
+
+<?php $i++; } ?>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<a class="carousel-control-prev" href="#myCarouselw" role="button" data-slide="prev">
+
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+<span class="sr-only">Previous</span>
+
+</a>
+
+<a class="carousel-control-next" href="#myCarouselw" role="button" data-slide="next">
+
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+<span class="sr-only">Next</span>
+
+</a>
+
+</div>
+
+</div>
                </div>
                <div class="col-lg-6 col-md-6 abut-inner-in p-0">
                <div class="embed-responsive embed-responsive-16by9">
