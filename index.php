@@ -390,7 +390,7 @@ $active='active';
 
 </div>
                </div>
-               <div class="col-lg-6 col-md-6 abut-inner-in p-0">              
+               <div class="col-lg-6 col-md-6 two-abut-inner-right pr-0">
                    <h4>Latest Youtube Event of MIM</h4>
 
                <div class="embed-responsive embed-responsive-16by9">
