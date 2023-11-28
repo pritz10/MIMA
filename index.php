@@ -266,8 +266,10 @@ $result = mysqli_query($connect,$sql); // fetch data from database
          <div class="container-fluid text-center">
             <div class="row abt-inner-agile">
                <div class="col-lg-6 col-md-6 two-abut-inner-right">
-               <h4>Latest Achievements of MIM</h4>
-
+               <div class="agile-abt-info text-center">
+               <h2>Latest achievements
+               </h2>
+            </div >
                <div class="">
 
 <div class="position-relative">
@@ -391,8 +393,10 @@ $active='active';
 </div>
                </div>
                <div class="col-lg-6 col-md-6 two-abut-inner-right">
-                   <h4>Latest Youtube Event of MIM</h4>
-
+               <div class="agile-abt-info text-center">
+               <h2>Youtube Event
+               </h2>
+            </div >
                <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PpNRfTO5-y8?si=yKMNGa5KOgP-gFGa" title="YouTube video player" referrerpolicy="no-referrer-when-downgrade" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
