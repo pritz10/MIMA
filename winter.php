@@ -155,7 +155,8 @@ Winter Dance Camp Season 8 CERTIFIED COURSE ’ meaning footsteps marks the ausp
 Get Ready for an Unforgettable Winter Dance Camp Course Season 8! As we celebrate the new year, you're Invited to Join the Dance Madness and Make This Winter Break Spectacular!
 Winter Dance Course is a unique opportunity for dancers to spend time secluded from the hustle-bustle of daily life and dive deep into the ocean of dance.  The course is designed for dancers to experience dance through theoretical, physical and spiritual learning. It is a one-of-a kind opportunity to acquire a thorough and multifaceted understanding of the subject.<br><br>
 <ul class="list-group">
-<li class="list-group-item active"  style="font-family: 'Times New Roman', Times, serif;">
+<li class="list-group-item active"  style="font-family: 'Times New Roman', Times, serif; background-color: #fb6509;
+    border-color: #fb6509; ">
 WHO CAN ATTEND THE COURSE?
 This camp is designed for anyone with an interest in various Dance style  with little or no prior knowledge of the art form.
 By the end of the course, students will have
