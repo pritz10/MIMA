@@ -9,7 +9,7 @@
                   </div>
                   <div class="bottom-social pt-2">
                      <ul>  <li>
-                        <a href="https://api.whatsapp.com/send?phone=8918212479">
+                        <a href="https://api.whatsapp.com/send?phone=+918918212479">
                         <span class="fab fa-whatsapp"></span>
                         </a>
                         </li>
