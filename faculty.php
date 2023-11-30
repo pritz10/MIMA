@@ -20,7 +20,14 @@ require_once 'include/header.php'; ?>
       <!-- //short-->
       <!--about-->
       <section class="about-inner py-lg-4 py-md-3 py-sm-3 py-3">
-               <div class="album py-5 bg-light">
+         <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+            <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Faculty</h3>
+          <h4>Choose A Best For You Which Is You Like</h4>
+         </div>
+
+  
+
+      <div class="album py-5 bg-light">
         <div class="container">
 
           <div class="row">
@@ -53,7 +60,7 @@ $result = mysqli_query($connect,$sql); // fetch data from database
                       <a href="<?php echo $data['Flink']; ?>" class="btn btn-sm btn-outline-secondary"><span class="fab fa-facebook-f"></span>
 </a>
 <a href="<?php echo $data['Ilink']; ?>" class="btn btn-sm btn-outline-secondary"><span class="fab fa-instagram"></span>
-</button>
+      </a>
                     </div>
                    </div>
                 </div>
@@ -64,24 +71,13 @@ $result = mysqli_query($connect,$sql); // fetch data from database
              
          
 
-            <?php
-
-}}
-
-  else
-
-  {
-
-    echo" No data";
-
-  }?>
-
-           
+            
+          
           </div>
         </div>
       </div>
 
-   
+    </main>
 
       </section>
       <?php require_once 'include/footer.php';?>
