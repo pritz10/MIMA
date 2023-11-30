@@ -5,7 +5,7 @@
                <div class="dance-agile-info col-lg-6 col-md-6 col-sm-6 ">
                   <h4 class="pb-lg-3 pb-3"><a href="index.html">MiM Dance Academy</a></h4>
                   <div class="bottom-para pb-sm-3 pb-2">
-                     <p>Music in Motion Dance Academy</p>
+                     <p>Music in Motion Dance Academy has been actively supporting the artists till today and has also represented the state in various “Cultural Events” and has actively participated in social fund-raising programs</p>
                   </div>
                   <div class="bottom-social pt-2">
                      <ul>
