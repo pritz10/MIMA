@@ -86,8 +86,9 @@ require_once 'include/db.php';?>
     Dance Camps
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-     <a href="summer" class="dropdown-item" type="button">Winter Camp</a>
-    <a href="winter" class="dropdown-item" type="button">Summer Camp</a>
+  <a href="summer" class="dropdown-item" type="button">Summer Camp</a>
+
+     <a href="winter" class="dropdown-item" type="button">Winter Camp</a>
   </div>
 </div>
                      <li class="nav-item">
