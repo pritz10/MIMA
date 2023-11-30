@@ -227,6 +227,24 @@ function lettersOnly(input) {
     <span>MIM Images</span></a>
 
 </li>
+<li class="nav-item">
+
+<a class="nav-link" href="summer">
+
+    <i class="fas fa-fw fa fa-cloud"></i>
+
+    <span>Summer Images</span></a>
+
+</li>
+<li class="nav-item">
+
+<a class="nav-link" href="winter">
+
+    <i class="fas fa-fw fa fa-cloud"></i>
+
+    <span>Winter Images</span></a>
+
+</li>
             <li class="nav-item">
 
                 <a class="nav-link" href="Visitors">

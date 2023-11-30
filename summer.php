@@ -1,173 +1,177 @@
+<?php
+$title = "About Us";
+require_once 'include/header.php'; ?>
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
-
-    <title>Offcanvas template for Bootstrap</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/offcanvas/">
-
-     <!--//meta tags ends here-->
-      <!--booststrap-->
-      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-      <!--//booststrap end-->
-      <!-- font-awesome icons -->
-      <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
-      <!-- //font-awesome icons -->
-      <!--Slider -->
-      <link href="css/lsb.css" rel="stylesheet" type="text/css">
-      <!-- //slider-->
-      <!--stylesheets-->
-      <link href="css/a.css" rel='stylesheet' type='text/css' media="all">
-
-    <!-- Custom styles for this template -->
-    <link href="offcanvas.css" rel="stylesheet">
-  </head>
-
-  <body class="bg-light">
-
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Offcanvas navbar</a>
-      <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Notifications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Switch account</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+      <div class="inner_page-banner">
       </div>
-    </nav>
-
-    <div class="nav-scroller bg-white box-shadow">
-      <nav class="nav nav-underline">
-        <a class="nav-link active" href="#">Dashboard</a>
-        <a class="nav-link" href="#">
-          Friends
-          <span class="badge badge-pill bg-light align-text-bottom">27</span>
-        </a>
-        <a class="nav-link" href="#">Explore</a>
-        <a class="nav-link" href="#">Suggestions</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-      </nav>
-    </div>
-
-    <main role="main" class="container">
-      <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded box-shadow">
-        <img class="mr-3" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-outline.svg" alt="" width="48" height="48">
-        <div class="lh-100">
-          <h6 class="mb-0 text-white lh-100">Bootstrap</h6>
-          <small>Since 2011</small>
-        </div>
+      <!--//banner -->
+      <!-- short -->
+      <div class="using-border py-3">
+         <div class="inner_breadcrumb  ml-4">
+            <ul class="short_ls">
+               <li style="color:blanchedalmond">
+                  <a href="index.php">Home</a>
+                  <span>/</span>
+               </li>
+               <li style="color:blanchedalmond">Summer Dance Camp</li>
+            </ul>
+         </div>
       </div>
+      <!-- //short-->
+      <!--about-->
+      <section class="about-inner py-lg-4 py-md-3 py-sm-3 py-3">
+         <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+            <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Summer Dance Camp</h3>
+            <div class="row abt-inner-agile pb-lg-3 pb-3">
+               <div class="col-lg-6 col-md-6 abut-inner-right">
+                  <h4>Beat summer boredom</h4>
+                  <div class="">
 
-      <div class="my-3 p-3 bg-white rounded box-shadow">
-        <h6 class="border-bottom border-gray pb-2 mb-0">Recent updates</h6>
-        <div class="media text-muted pt-3">
-          <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
-          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">@username</strong>
-            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-          </p>
-        </div>
-        <div class="media text-muted pt-3">
-          <img data-src="holder.js/32x32?theme=thumb&bg=e83e8c&fg=e83e8c&size=1" alt="" class="mr-2 rounded">
-          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">@username</strong>
-            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-          </p>
-        </div>
-        <div class="media text-muted pt-3">
-          <img data-src="holder.js/32x32?theme=thumb&bg=6f42c1&fg=6f42c1&size=1" alt="" class="mr-2 rounded">
-          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">@username</strong>
-            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-          </p>
-        </div>
-        <small class="d-block text-right mt-3">
-          <a href="#">All updates</a>
-        </small>
-      </div>
+<div class="position-relative">
 
-      <div class="my-3 p-3 bg-white rounded box-shadow">
-        <h6 class="border-bottom border-gray pb-2 mb-0">Suggestions</h6>
-        <div class="media text-muted pt-3">
-          <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
-          <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <div class="d-flex justify-content-between align-items-center w-100">
-              <strong class="text-gray-dark">Full Name</strong>
-              <a href="#">Follow</a>
+<div id="myCarouselw" class="carousel slide carousel-fade" data-ride="carousel">
+
+<!-- Indicators -->
+
+<ol class="carousel-indicators">
+
+<?php
+
+$sql = "select * from summer ORDER BY Id DESC LIMIT 10";  
+
+$result = mysqli_query($connect, $sql); 
+
+$count = mysqli_num_rows($result);  
+
+$i=0;
+
+foreach($result as $row)
+
+{
+
+$active='';
+
+if($i==0)
+
+{
+
+$active='active';
+
+}
+
+?>
+
+<li data-target="#myCarouselw" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
+
+<?php $i++;}    ?>
+
+</ol>
+
+
+
+<!-- Wrapper for slides -->
+
+<div class="carousel-inner text-center">
+
+<?php
+
+$sql = "select * from summer ORDER BY Id DESC LIMIT 10";  
+
+$result = mysqli_query($connect, $sql); 
+
+$count = mysqli_num_rows($result);  
+
+$i=0;
+
+foreach($result as $row)
+
+{
+
+$active='';
+
+if($i==0)
+
+{
+
+$active='active';
+
+}
+
+?>
+
+<div class="carousel-item <?=$active;?>">
+
+<img src="<?php echo $row['ImageUrl']; ?>" class="img-fluid" loading="lazy">
+<a href="" class="read">Some Glimpses of Summer Camps</a>
+
+<div class="carousel-caption  d-md-block">
+
+<h5><?php echo $row['Title']; ?></h3>
+
+</div>   
+
+</div>
+
+<?php $i++; } ?>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<a class="carousel-control-prev" href="#myCarouselw" role="button" data-slide="prev">
+
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+<span class="sr-only">Previous</span>
+
+</a>
+
+<a class="carousel-control-next" href="#myCarouselw" role="button" data-slide="next">
+
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+<span class="sr-only">Next</span>
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+             
+               </div>
+               <div class="col-lg-6 col-md-6 abut-inner-left">
+                  <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
+                  Summer is quickly approaching and you’re probably wondering how to keep your kids & teens occupied and entertained. Why not beat the heat with a summer dance camp at the Music In Motion Academy? Summer dance camps allow kids  & teens to try different styles of dance, learn new skills, and have fun! 
+<br><br>
+<ul class="list-group">
+<li class="list-group-item active"  style="font-family: 'Times New Roman', Times, serif;">5 Benefits to Summer Dance Camps <br>Let’s take a look at some of the benefits that a summer dance camp can offer...
+ <br></li>
+  <li class="list-group-item"  style="font-family: 'Times New Roman', Times, serif;"> <strong>1. Learn new skills quickly</strong> <br>
+You’ll be amazed at the skills and techniques your child learns in only four days. Dance camps are highly focused with a particular goal in mind, such as learning a new dance to combo or mastering a specific skill. Best of all, what your child learns sticks with them, so they can further develop in regular dance classes.</li>
+  <li class="list-group-item"style="font-family: 'Times New Roman', Times, serif;"><strong>2. Stay physically active</strong> <br>
+Dancing improves a child’s flexibility, strength, stamina, and coordination. Enrolling in summer dance camp encourages healthy habits, whether your child is a regular student or not. Getting up and moving is a much better way to pass the time this summer than on a screen!</li>
+  <li class="list-group-item"style="font-family: 'Times New Roman', Times, serif;"><strong>3. Beat summer boredom</strong><br>
+Most children  & teens look forward to summer vacation all year, but boredom hits within days. Keep your kids & teens stimulated with summer dance camps! Lasting two hours per day for four days, dance camp truly reinvigorates a boring week.</li>
+  <li class="list-group-item"style="font-family: 'Times New Roman', Times, serif;"><strong>4. Improve social skills & make new friends</strong> <br>
+In addition to the physical benefits of a dance camp, there’s a huge emphasis on social skills when dancing and learning. Dance camps are a great way for children & teens to meet other dancers and branch out to make new friends at the studio. Dancers get to make new friends and create special memories.</li>
+<li class="list-group-item"style="font-family: 'Times New Roman', Times, serif;"><strong>5. Maximize creativity</strong> <br>
+If your child & teens is drawn to creativity, summer dance camps are a perfect fit. You will get many chances to share your creativity through movement, games, and arts and crafts. </li>
+</ul>
+                  </p>
+               </div>
             </div>
-            <span class="d-block">@username</span>
-          </div>
-        </div>
-        <div class="media text-muted pt-3">
-          <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
-          <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <div class="d-flex justify-content-between align-items-center w-100">
-              <strong class="text-gray-dark">Full Name</strong>
-              <a href="#">Follow</a>
-            </div>
-            <span class="d-block">@username</span>
-          </div>
-        </div>
-        <div class="media text-muted pt-3">
-          <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
-          <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <div class="d-flex justify-content-between align-items-center w-100">
-              <strong class="text-gray-dark">Full Name</strong>
-              <a href="#">Follow</a>
-            </div>
-            <span class="d-block">@username</span>
-          </div>
-        </div>
-        <small class="d-block text-right mt-3">
-          <a href="#">All suggestions</a>
-        </small>
-      </div>
-    </main>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-
-    <script src="../../assets/js/vendor/holder.min.js"></script>
-    <script src="offcanvas.js"></script>
-  </body>
-</html>
+           
+         </div>
+      </section>
+  
+      <?php require_once 'include/footer.php';?>
