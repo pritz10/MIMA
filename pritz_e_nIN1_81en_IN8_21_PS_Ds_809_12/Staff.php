@@ -741,7 +741,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                       <div class="form-group col-md-4">
 
-                                        <label for="inputEmail4">Email</label>
+                                        <label for="inputEmail4">Brief Description</label>
 
                                         <input type="email" name="update_email" class="form-control" onkeyup="lettersOnly(this)"  value="<?php echo $row['Email']; ?>" id="email">
 
@@ -764,12 +764,8 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
                                         <select id="inputState" name="category" required class="form-control">
 
                                          
-        <option>Administrative Staffs</option>
-        <option>Training Arm</option>
-        <option>Under Project</option> 
-        <option>BLC</option>
-        <option>OFOJ</option>
-        <option>Ministers</option>
+        <option>Mim</option>
+  
 
 
 
