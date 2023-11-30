@@ -2,13 +2,19 @@
  <footer class="py-lg-4 py-md-3 py-sm-3 py-3">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
             <div class="row ">
-               <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6 ">
+               <div class="dance-agile-info col-lg-6 col-md-6 col-sm-6 ">
                   <h4 class="pb-lg-3 pb-3"><a href="index.html">MiM Dance Academy</a></h4>
                   <div class="bottom-para pb-sm-3 pb-2">
-                     <p>Music in Motion Dance Academy</p>
+                     <p> 
+                     The vision of the Music in Motion Dance Academy has been to offer platforms to aspiring and deserving local artists and to brush their talent to keep them growing to reach their full potential and help them live their dreams. In the initial phase itself, the academy has bagged numerous achievements under its belt and the founder believes that “the academy will aspire to grow and showcase our talents at the national & international level in future”
+                     </p>
                   </div>
                   <div class="bottom-social pt-2">
-                     <ul>
+                     <ul>  <li>
+                        <a href="https://api.whatsapp.com/send?phone=+918918212479">
+                        <span class="fab fa-whatsapp"></span>
+                        </a>
+                        </li>
                         <li>
                            <a href="https://www.facebook.com/musicinmotiondanceacademy?mibextid=LQQJ4d">
                            <span class="fab fa-facebook-f"></span>
@@ -29,77 +35,50 @@
                            <span class="fab fa-youtube"></span>
                            </a>
                         </li>
+
+                      
                      </ul>
                   </div>
+               </div>
+               <div class=" col-lg-3 col-md-6 col-sm-6 dance-agile-info">
+                  <h4 class="pb-lg-3 pb-3">Website Links</h4>
+                  <nav class="border-line">
+                     <ul class="nav flex-column">
+                                              <li class="nav-item">
+                           <a href="about" class="nav-link ">About</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="class" class="nav-link">Class</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="contact" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="gallery" class="nav-link ">Gallery</a>
+                        </li>
+                     </ul>
+                  </nav>
                </div>
                <div class=" col-lg-3 col-md-6 col-sm-6 dance-agile-info">
                   <h4 class="pb-lg-3 pb-3">Usefull Links</h4>
                   <nav class="border-line">
                      <ul class="nav flex-column">
-                        <li class="nav-item active">
-                           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                     <li class="nav-item">
+                           <a href="faculty" class="nav-link">Faculty</a>
                         </li>
                         <li class="nav-item">
-                           <a href="about.html" class="nav-link ">About</a>
+                           <a href="summer" class="nav-link">Summer Dance Camp</a>
                         </li>
                         <li class="nav-item">
-                           <a href="class.html" class="nav-link">Class</a>
+                           <a href="winter" class="nav-link">Winter Dance Camp</a>
                         </li>
                         <li class="nav-item">
-                           <a href="gallery.html" class="nav-link">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                           <a href="contact.html" class="nav-link">Contact</a>
+                           <a href="store" class="nav-link">Store</a>
                         </li>
                      </ul>
                   </nav>
                </div>
-               <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6 ">
-                  <h4 class="pb-lg-3 pb-3">Twitter Us</h4>
-                  <div class="bottom-para pb-3">
-                     <p>ultricies nec, pellentesque eu, pretium quis,</p>
-                  </div>
-                  <div class="bottom-para">
-                     <p>ultricies nec, pellentesque eu, pretium quis</p>
-                  </div>
-               </div>
-               <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6">
-                  <h4 class="pb-lg-3 pb-3">Our Posts</h4>
-                  <div class="footer-post d-flex mb-2">
-                     <div class="agileinfo_footer_grid1 mr-2">
-                        <a href="class.html">
-                        <img src="images/f1.jpg" alt=" " class="img-fluid">
-                        </a>
-                     </div>
-                     <div class="agileinfo_footer_grid1 mr-2">
-                        <a href="#">
-                        <img src="images/f2.jpg" alt=" " class="img-fluid">
-                        </a>
-                     </div>
-                     <div class="agileinfo_footer_grid1">
-                        <a href="class.html">
-                        <img src="images/f3.jpg" alt=" " class="img-fluid">
-                        </a>
-                     </div>
-                  </div>
-                  <div class="footer-post d-flex">
-                     <div class="agileinfo_footer_grid1 mr-2">
-                        <a href="class.html">
-                        <img src="images/f4.jpg" alt=" " class="img-fluid">
-                        </a>
-                     </div>
-                     <div class="agileinfo_footer_grid1 mr-2">
-                        <a href="class.html">
-                        <img src="images/f5.jpg" alt=" " class="img-fluid">
-                        </a>
-                     </div>
-                     <div class="agileinfo_footer_grid1">
-                        <a href="class.html">
-                        <img src="images/f6.jpg" alt=" " class="img-fluid">
-                        </a>
-                     </div>
-                  </div>
-               </div>
+              
             </div>
          </div>
          <div class="copy-agile-right text-center text-white py-2">
