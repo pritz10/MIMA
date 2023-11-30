@@ -86,7 +86,7 @@
 
         if (move_uploaded_file($file, $destination)) {
 
-            $sql = "INSERT INTO staff (Name, Designation, Phone, Email,Flink, Ilink,ImageUrl, Knox, Category,Date) VALUES ('$name','$designation','$phone','$email','$flink','$llink','./files/Images/staff$filename','$rank','$category','$created_date')";
+            $sql = "INSERT INTO staff (Name, Designation, Phone, Email,Flink, Ilink,ImageUrl, Knox, Category,Date) VALUES ('$name','$designation','$phone','$email','$flink','$ilink','./files/Images/staff$filename','$rank','$category','$created_date')";
 
             if (mysqli_query($connect, $sql)) {
 
