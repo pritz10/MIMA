@@ -20,6 +20,9 @@
     $phone =  mysqli_real_escape_string($connect,$_POST['phone']);
     $phone = htmlentities($phone);
 
+    $flink =mysqli_real_escape_string($connect, $_POST['flink']);
+    $ilink =mysqli_real_escape_string($connect, $_POST['ilink']);
+
     $category =  mysqli_real_escape_string($connect,$_POST['category']);
     $category = htmlentities($category);
 
@@ -83,7 +86,7 @@
 
         if (move_uploaded_file($file, $destination)) {
 
-            $sql = "INSERT INTO staff (Name, Designation, Phone, Email,ImageUrl, Knox, Category,Date) VALUES ('$name','$designation','$phone','$email','./files/Images/staff$filename','$rank','$category','$created_date')";
+            $sql = "INSERT INTO staff (Name, Designation, Phone, Email,Flink, Ilink,ImageUrl, Knox, Category,Date) VALUES ('$name','$designation','$phone','$email','$flink','$llink','./files/Images/staff$filename','$rank','$category','$created_date')";
 
             if (mysqli_query($connect, $sql)) {
 
@@ -171,6 +174,9 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'update')
 
     $phone =mysqli_real_escape_string($connect, $_POST['update_phone']);
     $phone = htmlentities($phone );
+
+
+
 
 
     $created_date = date("d-F-Y ");
@@ -395,7 +401,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 <div class="form-group col-md-6">
 
   <label for="inputEmail4">Facebok Link</label>
-  <textarea class="form-control" name="flink" onkeyup="lettersOnly(this)" required onchange="readURL(this);" id="email"  ></textarea>
+  <textarea class="form-control" name="flink" onkeyup="lettersOnly(this)" required onchange="readURL(this);" id="flink"  ></textarea>
 
 
 </div>
@@ -403,7 +409,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 <div class="form-group col-md-6">
 
 <label for="inputEmail4">Instagram Link</label>
-  <textarea class="form-control" name="ilink" onkeyup="lettersOnly(this)" required onchange="readURL(this);" id="email"  ></textarea>
+  <textarea class="form-control" name="ilink" onkeyup="lettersOnly(this)" required onchange="readURL(this);" id="ilink"  ></textarea>
 
 </div>
 
