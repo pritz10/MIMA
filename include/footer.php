@@ -8,7 +8,11 @@
                      <p>Music in Motion Dance Academy has been actively supporting the artists till today and has also represented the state in various “Cultural Events” and has actively participated in social fund-raising programs</p>
                   </div>
                   <div class="bottom-social pt-2">
-                     <ul>
+                     <ul>  <li>
+                        <a href="https://api.whatsapp.com/send?phone=8918212479">
+                        <span class="fab fa-whatsapp"></span>
+                        </a>
+                        </li>
                         <li>
                            <a href="https://www.facebook.com/musicinmotiondanceacademy?mibextid=LQQJ4d">
                            <span class="fab fa-facebook-f"></span>
@@ -30,11 +34,7 @@
                            </a>
                         </li>
 
-                        <li>
-                        <a href="https://api.whatsapp.com/send?phone=8918212479">
-                        <span class="fab fa-whatsapp"></span>
-                        </a>
-                        </li>
+                      
                      </ul>
                   </div>
                </div>
