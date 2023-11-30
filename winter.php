@@ -102,8 +102,7 @@ $active='active';
 <div class="carousel-item <?=$active;?>">
 
 <img src="<?php echo $row['ImageUrl']; ?>" class="img-fluid" loading="lazy">
-<a href="" class="read">Some Glimpses of winter Camps</a>
-
+ 
 <div class="carousel-caption  d-md-block">
 
 <h5><?php echo $row['Title']; ?></h3>
