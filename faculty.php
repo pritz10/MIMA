@@ -20,10 +20,7 @@ require_once 'include/header.php'; ?>
       <!-- //short-->
       <!--about-->
       <section class="about-inner py-lg-4 py-md-3 py-sm-3 py-3">
-         <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
-            <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Faculty</h3>
-          <h4>Choose A Best For You Which Is You Like</h4>
-         </div>
+         
 
   
 
