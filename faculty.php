@@ -57,10 +57,8 @@ $result = mysqli_query($connect,$sql); // fetch data from database
                   <p class="card-text" style="font-family: 'Times New Roman', Times, serif;"><?php echo $data['Email']; ?></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a href="<?php echo $data['Flink']; ?>" class="btn btn-sm btn-outline-secondary"><span class="fab fa-facebook-f"></span>
-</a>
-<a href="<?php echo $data['Ilink']; ?>" class="btn btn-sm btn-outline-secondary"><span class="fab fa-instagram"></span>
-      </a>
+                      <a href="<?php echo $data['Flink']; ?>" class="btn btn-sm btn-outline-secondary"><span class="fab fa-facebook-f"></span></a>
+                      <a href="<?php echo $data['Ilink']; ?>" class="btn btn-sm btn-outline-secondary"><span class="fab fa-instagram"></span></a>
                     </div>
                    </div>
                 </div>
@@ -70,6 +68,17 @@ $result = mysqli_query($connect,$sql); // fetch data from database
              
              
          
+            <?php
+
+}}
+
+  else
+
+  {
+
+    echo" No data";
+
+  }?>
 
             
           
