@@ -1,5 +1,5 @@
 <?php
-$title = "About Us";
+$title = "Winter Dance Camp";
 require_once 'include/header.php'; ?>
 
       <div class="inner_page-banner">
