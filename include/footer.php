@@ -54,14 +54,27 @@
                      </ul>
                   </nav>
                </div>
-               <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6 ">
-                  <h4 class="pb-lg-3 pb-3">Twitter Us</h4>
-                  <div class="bottom-para pb-3">
-                     <p>ultricies nec, pellentesque eu, pretium quis,</p>
-                  </div>
-                  <div class="bottom-para">
-                     <p>ultricies nec, pellentesque eu, pretium quis</p>
-                  </div>
+               <div class=" col-lg-3 col-md-6 col-sm-6 dance-agile-info">
+                  <h4 class="pb-lg-3 pb-3">Usefull Links</h4>
+                  <nav class="border-line">
+                     <ul class="nav flex-column">
+                        <li class="nav-item active">
+                           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="about.html" class="nav-link ">About</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="class.html" class="nav-link">Class</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="gallery.html" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                     </ul>
+                  </nav>
                </div>
                <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6">
                   <h4 class="pb-lg-3 pb-3">Our Posts</h4>
