@@ -65,10 +65,10 @@
                            <a href="faculty" class="nav-link">Faculty</a>
                         </li>
                         <li class="nav-item">
-                           <a href="summer" class="nav-link">Summer</a>
+                           <a href="summer" class="nav-link">Summer Dance Camp</a>
                         </li>
                         <li class="nav-item">
-                           <a href="winter" class="nav-link">Winter</a>
+                           <a href="winter" class="nav-link">Winter Dance Camp</a>
                         </li>
                         <li class="nav-item">
                            <a href="store" class="nav-link">Store</a>
