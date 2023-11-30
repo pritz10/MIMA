@@ -39,7 +39,7 @@
                   </div>
                </div>
                <div class=" col-lg-3 col-md-6 col-sm-6 dance-agile-info">
-                  <h4 class="pb-lg-3 pb-3">Usefull Links</h4>
+                  <h4 class="pb-lg-3 pb-3">Website Links</h4>
                   <nav class="border-line">
                      <ul class="nav flex-column">
                                               <li class="nav-item">
