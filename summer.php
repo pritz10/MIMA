@@ -150,12 +150,13 @@ $active='active';
              
                </div>
                <div class="col-lg-6 col-md-6 abut-inner-left">
-                  <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
+                  <p class="text-justify" style="font-family: 'Times New Roman', Times, serif; background-color: #fb6509;
+    border-color: #fb6509; ">
                   Summer is quickly approaching and you’re probably wondering how to keep your kids & teens occupied and entertained. Why not beat the heat with a summer dance camp at the Music In Motion Academy? Summer dance camps allow kids  & teens to try different styles of dance, learn new skills, and have fun! 
 <br><br>
 <ul class="list-group">
-<li class="list-group-item active"  style="font-family: 'Times New Roman', Times, serif; background-color: #fb6509;
-    border-color: #fb6509; "> <br></li>
+<li class="list-group-item active"  style="font-family: 'Times New Roman', Times, serif;">5 Benefits to Summer Dance Camps <br>Let’s take a look at some of the benefits that a summer dance camp can offer...
+ <br></li>
   <li class="list-group-item"  style="font-family: 'Times New Roman', Times, serif;"> <strong>1. Learn new skills quickly</strong> <br>
 You’ll be amazed at the skills and techniques your child learns in only four days. Dance camps are highly focused with a particular goal in mind, such as learning a new dance to combo or mastering a specific skill. Best of all, what your child learns sticks with them, so they can further develop in regular dance classes.</li>
   <li class="list-group-item"style="font-family: 'Times New Roman', Times, serif;"><strong>2. Stay physically active</strong> <br>
