@@ -29,6 +29,12 @@
                            <span class="fab fa-youtube"></span>
                            </a>
                         </li>
+
+                        <li>
+                        <a href="https://api.whatsapp.com/send?phone=8918212479">
+                        <span class="fab fa-whatsapp"></span>
+                        </a>
+                        </li>
                      </ul>
                   </div>
                </div>
@@ -36,16 +42,18 @@
                   <h4 class="pb-lg-3 pb-3">Usefull Links</h4>
                   <nav class="border-line">
                      <ul class="nav flex-column">
-                        <li class="nav-item active">
-                           <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
+                                              <li class="nav-item">
                            <a href="about" class="nav-link ">About</a>
                         </li>
                         <li class="nav-item">
                            <a href="class" class="nav-link">Class</a>
                         </li>
-                       
+                        <li class="nav-item">
+                           <a href="contact" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="gallery" class="nav-link ">Gallery</a>
+                        </li>
                      </ul>
                   </nav>
                </div>
@@ -53,9 +61,8 @@
                   <h4 class="pb-lg-3 pb-3">Usefull Links</h4>
                   <nav class="border-line">
                      <ul class="nav flex-column">
-                         >
-                        <li class="nav-item">
-                           <a href="gallery" class="nav-link ">Gallery</a>
+                     <li class="nav-item">
+                           <a href="faculty" class="nav-link">Faculty</a>
                         </li>
                         <li class="nav-item">
                            <a href="summer" class="nav-link">Summer</a>
@@ -64,7 +71,7 @@
                            <a href="winter" class="nav-link">Winter</a>
                         </li>
                         <li class="nav-item">
-                           <a href="contact" class="nav-link">Contact</a>
+                           <a href="store" class="nav-link">Store</a>
                         </li>
                      </ul>
                   </nav>
