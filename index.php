@@ -124,7 +124,7 @@ require_once 'include/header.php'; ?>
 <section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up"  data-aos-once="true"id="about" style="background: black;">
          <div class="container ">
               <div class="row text-center">
-  <div class="col-sm-6">
+  <div class="col-sm-12">
     <div class="card">
      <a  href="tel:+918918212479" style="font-weight: bolder;"><img src="files/Images/h.gif" class="img-fluid" alt="Cal Us"></a>
 
@@ -133,15 +133,7 @@ require_once 'include/header.php'; ?>
   </div>
    
 </div>
-<div class="col-sm-6">
-    <div class="card">
-     <a  href="tel:+918918212479" style="font-weight: bolder;"><img src="files/Images/h.gif" class="img-fluid" alt="Cal Us"></a>
 
-
-      
-  </div>
-   
-</div>
 </div></section>
       <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
