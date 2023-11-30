@@ -147,7 +147,11 @@ $active='active';
 </div>
 
 </div>
-             
+<div class="text-center">
+         <div class="outs-agile-buttn mt-lg-3 mt-2">
+         <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Click here to Register in our Dance Camps</a>
+                     </div>
+                  </div>   
                </div>
                <div class="col-lg-6 col-md-6 abut-inner-left">
                   <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
