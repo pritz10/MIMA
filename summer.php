@@ -145,7 +145,7 @@ $active='active';
 
 </div>
 
-</div>
+</div> 
 <div class="text-center">
          <div class="outs-agile-buttn mt-lg-3 mt-2">
          <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Click here to Register in our Dance Camps</a>

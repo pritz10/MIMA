@@ -390,7 +390,24 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
     </div>
 
   </div>
+  <div class="form-row">
 
+<div class="form-group col-md-6">
+
+  <label for="inputEmail4">Facebok Link</label>
+  <textarea class="form-control" name="flink" onkeyup="lettersOnly(this)" required onchange="readURL(this);" id="email"  ></textarea>
+
+
+</div>
+
+<div class="form-group col-md-6">
+
+<label for="inputEmail4">Instagram Link</label>
+  <textarea class="form-control" name="ilink" onkeyup="lettersOnly(this)" required onchange="readURL(this);" id="email"  ></textarea>
+
+</div>
+
+</div>
   
 
   <div class="form-row">
