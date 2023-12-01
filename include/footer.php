@@ -205,8 +205,7 @@ $(window).on('load', function() {
  
       <!-- //gallery -->
       <!-- start-smoth-scrolling -->
-      <script src="js/move-top.js"></script>
-      <script src="js/easing.js"></script>
+      
       <script src="js/bootstrap.min.js"></script>
       <!-- //bootstrap working-->
    </body>
