@@ -555,10 +555,7 @@ Our goal is to assist you in creating the best version of yourself and developin
               <li>Saturday-Sunday</li>
               <li>2 Days in a Week</li>
               <li>8 Days in a Month</li>
-              <li> THU TO SUN
-
-4 DAYS IN A WEEK (Monthly ₹ 3k)
-16 DAYS IN A MONTH</li>
+              <li>Thu-Sun 4 DAYS in a week (Monthly ₹ 3k) 16 days in a month</li>
               
 
 
