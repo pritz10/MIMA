@@ -54,12 +54,11 @@ $result = mysqli_query($connect,$sql); // fetch data from database
                   <p class="card-text" style="font-family: 'Times New Roman', Times, serif;"><?php echo $data['Email']; ?></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <a href="tel:<?php echo $data['Phone']; ?>" class="btn btn-sm btn-outline-secondary"><span class="fab fa-phone-alt"></span></a>
-
+ 
                       <a href="<?php echo $data['Flink']; ?>" class="btn btn-sm btn-outline-secondary"><span class="fab fa-facebook-f"></span></a>
                       <a href="<?php echo $data['Ilink']; ?>" class="btn btn-sm btn-outline-secondary"><span class="fab fa-youtube"></span></a>
                     </div>
-                    <small class="text-muted"> <a href="tel:<?php echo $data['Phone']; ?>"></a> </small>
+                    <small class="text-muted"> <a href="tel:<?php echo $data['Phone']; ?>"><?php echo $data['Phone']; ?></a> </small>
 
                    </div>
                 </div>
