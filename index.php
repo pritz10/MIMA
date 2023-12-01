@@ -521,7 +521,7 @@ Our goal is to assist you in creating the best version of yourself and developin
 
 
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-light">Sign up for free</button>
+            <button type="button" class="btn btn-lg btn-block btn-outline-light">Register Now</button>
         </div>
         </div><div class="card mb-4 box-shadow">
           <div class="card-header">
@@ -540,7 +540,7 @@ Our goal is to assist you in creating the best version of yourself and developin
 
 
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-light">Sign up for free</button>
+            <button type="button" class="btn btn-lg btn-block btn-outline-light">Register Now</button>
         </div>
         </div>
         <div class="card mb-4 box-shadow">
@@ -561,27 +561,29 @@ Our goal is to assist you in creating the best version of yourself and developin
 
 
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-light">Sign up for free</button>
+            <button type="button" class="btn btn-lg btn-block btn-outline-light">Register Now</button>
         </div>
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal"> <strong>Monthly <br>Classical Dance Style</strong></h4>
+            <h4 class="my-0 font-weight-normal"> <strong>Customized</strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-          <p class="card-title">₹ 1.5k Monthly <br>
-₹ 2.5k One Time Registration </p>
+         
 
           <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
-              <li>Saturday-Sunday</li>
-              <li>2 Days in a Week</li>
-              <li>8 Days in a Month</li>
+              <li>Monthly</li>
+              <li>Quarterly</li>
+              <li>Half Yearly</li>            
+                <li>Annually Yearly</li>
+ 
+
               
 
 
 
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-light">Sign up for free</button>
+            <button type="button" class="btn btn-lg btn-block btn-outline-light">Download Package</button>
         </div>
         </div>
         </div>  </div>
