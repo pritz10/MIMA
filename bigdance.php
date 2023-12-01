@@ -13,7 +13,7 @@ require_once 'include/header.php'; ?>
                   <a href="index.php">Home</a>
                   <span>/</span>
                </li>
-               <li style="color:blanchedalmond">Big Dance Camp</li>
+               <li style="color:blanchedalmond">Sikkim Big Dance Camp</li>
             </ul>
          </div>
       </div>
@@ -21,10 +21,10 @@ require_once 'include/header.php'; ?>
       <!--about-->
       <section class="about-inner py-lg-4 py-md-3 py-sm-3 py-3">
          <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
-            <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Big Dance Camp</h3>
+            <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Sikkim Big Dance Camp</h3>
             <div class="row abt-inner-agile pb-lg-3 pb-3">
                <div class="col-lg-6 col-md-6 abut-inner-right">
-                  <h4>Beat summer boredom</h4>
+                  <h4>Sikkim Big Dance Camp</h4>
                   <div class="">
 
 <div class="position-relative">
@@ -37,7 +37,7 @@ require_once 'include/header.php'; ?>
 
 <?php
 
-$sql = "select * from summer ORDER BY Id DESC LIMIT 10";  
+$sql = "select * from bigdance ORDER BY Id DESC LIMIT 30";  
 
 $result = mysqli_query($connect, $sql); 
 
@@ -75,7 +75,7 @@ $active='active';
 
 <?php
 
-$sql = "select * from summer ORDER BY Id DESC LIMIT 10";  
+$sql = "select * from bigdance ORDER BY Id DESC LIMIT 10";  
 
 $result = mysqli_query($connect, $sql); 
 

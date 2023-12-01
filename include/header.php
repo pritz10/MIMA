@@ -89,7 +89,7 @@ require_once 'include/db.php';?>
   <a href="summer" class="dropdown-item" type="button">Summer Camp</a>
 
      <a href="winter" class="dropdown-item" type="button">Winter Camp</a>
-     <a href="bigdance" class="dropdown-item" type="button">Big Dance</a>
+     <a href="bigdance" class="dropdown-item" type="button">Sikkim Big Dance Camp</a>
 
   </div>
 </div>
