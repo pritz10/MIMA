@@ -202,7 +202,7 @@ $(window).on('load', function() {
       <script src='js/jquery-2.2.3.min.js'></script>
       <!--//js working-->
       <!-- gallery -->
-      <script src="js/lightbox-plus-jquery.min.js"></script>
+ 
       <!-- //gallery -->
       <!-- start-smoth-scrolling -->
       <script src="js/move-top.js"></script>
