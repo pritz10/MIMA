@@ -408,7 +408,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
 <div class="form-group col-md-6">
 
-<label for="inputEmail4">Instagram Link</label>
+<label for="inputEmail4">Youtube Link</label>
   <textarea class="form-control" name="ilink" onkeyup="lettersOnly(this)" required onchange="readURL(this);" id="ilink"  ></textarea>
 
 </div>
