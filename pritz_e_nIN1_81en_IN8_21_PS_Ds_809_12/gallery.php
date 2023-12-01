@@ -70,7 +70,7 @@
 
         if (move_uploaded_file($file, $destination)) {
 
-            $sql = "INSERT INTO  gall(title, imageurl) VALUES ('$title','./files/Images/flowers$filename')";
+            $sql = "INSERT INTO  flowers(title, imageurl) VALUES ('$title','./files/Images/flowers$filename')";
 
             if (mysqli_query($connect, $sql)) {
 
@@ -116,7 +116,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
     $uid =  mysqli_real_escape_string($connect, $_POST['Id']);   
 
-    $sql = "DELETE FROM gall where Id='$uid'";
+    $sql = "DELETE FROM flowers where Id='$uid'";
 
     if (mysqli_query($connect, $sql)) {
 
@@ -168,7 +168,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
 
-                        <h1 class="h3 mb-0 text-gray-800">Gallery</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Gallery Images</h1>
 
                        
 
@@ -196,7 +196,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
      role="button" aria-expanded="true" aria-controls="as">
 
- <h6 class="m-0 font-weight-bold text-white">Gallery</h6>
+ <h6 class="m-0 font-weight-bold text-white">Gallery  Images</h6>
 
                                 </a>
 
