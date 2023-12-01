@@ -575,7 +575,9 @@ Our goal is to assist you in creating the best version of yourself and developin
               <li>Monthly</li>
               <li>Quarterly</li>
               <li>Half Yearly</li>            
-                <li>Annually Yearly</li>
+                <li>Annually </li>
+                <li>All Package Availabe </li>
+
  
 
               
@@ -583,7 +585,7 @@ Our goal is to assist you in creating the best version of yourself and developin
 
 
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-light">Download Package</button>
+            <button type="button" class="btn btn-lg btn-block btn-outline-light">Download Now</button>
         </div>
         </div>
         </div>  </div>
