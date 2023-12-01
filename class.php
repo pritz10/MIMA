@@ -98,6 +98,23 @@ require_once 'include/header.php'; ?>
             </div>
 
             <div class="row abt-inner-agile mt-lg-5 mt-md-4 mt-4 text-center">
+
+            <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
+               <img src="files/Images/fl.JPG"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
+                  <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
+                  <h4 class="mt-3">Folk Dance</h4>
+
+                   <p style="color:white">
+                   The state of Sikkim is a beautiful state filled with river valleys and blue daunting peaks. Sikkim is a land of diverse tribes and races of people living together. These different tribes and communities have unique features of their own in addition to their distinctive dance forms, culture and craft forms. The diversity of ethnic groups, languages and religions is seen all over the state.
+We performed all types of Folk Dance In Sikkim and cities.
+We organised Different types of Folk Dance Workshop.</p>
+                     <div class="outs-agile-buttn mt-lg-3 mt-2">
+                     <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register</a>
+                     </div>
+                    
+                  </div>
+               </div>
+
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
                <img src="files/Images/bol.PNG"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
@@ -129,21 +146,7 @@ House Dance is about freedom, improvisation, and feeling the music.
                      </div>
                   </div>
                </div>
-               <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/fl.JPG"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
-                  <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
-                  <h4 class="mt-3">Folk Dance</h4>
-
-                   <p style="color:white">
-                   The state of Sikkim is a beautiful state filled with river valleys and blue daunting peaks. Sikkim is a land of diverse tribes and races of people living together. These different tribes and communities have unique features of their own in addition to their distinctive dance forms, culture and craft forms. The diversity of ethnic groups, languages and religions is seen all over the state.
-We performed all types of Folk Dance In Sikkim and cities.
-We organised Different types of Folk Dance Workshop.</p>
-                     <div class="outs-agile-buttn mt-lg-3 mt-2">
-                     <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register</a>
-                     </div>
-                    
-                  </div>
-               </div>
+              
             </div>
 
          </div>
