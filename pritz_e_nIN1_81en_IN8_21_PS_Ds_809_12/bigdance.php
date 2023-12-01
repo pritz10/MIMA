@@ -196,7 +196,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
      role="button" aria-expanded="true" aria-controls="as">
 
- <h6 class="m-0 font-weight-bold text-white">Summer Dance Photos</h6>
+ <h6 class="m-0 font-weight-bold text-white">Sikkim Big Dance Photos</h6>
 
                                 </a>
 

@@ -96,6 +96,49 @@ require_once 'include/header.php'; ?>
                   </div>
                </div>
             </div>
+
+            <div class="row abt-inner-agile mt-lg-5 mt-md-4 mt-4 text-center">
+               <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
+               <img src="files/Images/bol.PNG"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
+                  <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
+                  <h4 class="mt-3">Bollywood dance</h4>
+ <p style="color:white">
+ Bollywood dance is the name given to the type of dance used in Indian films. It's the fusion of different dance styles including bhangra dance, hip-hop, Arabic and jazz dance.
+
+We provide you with Bollywood Class. Beginners To Intermediate can join!</p>
+                     <div class="outs-agile-buttn mt-lg-3 mt-2">
+                     <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
+               <img src="files/Images/wed.png"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
+                  <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
+                  <h4 class="mt-3">Wedding Choreography </h4>
+
+                  <p style="color:white">
+                  The purpose of wedding dance choreography is to add a special and memorable touch to the wedding festivities. Couples often choose to perform a choreographed dance during key moments of the reception, such as the first dance as a married couple</p>
+                     <div class="outs-agile-buttn mt-lg-3 mt-2">
+                     <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
+               <img src="files/Images/ev.JPG"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
+                  <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
+                  <h4 class="mt-3">Dance Events</h4>
+
+                   <p style="color:white">We host dance events in state and cities.Our successful events are 
+                  Street Dance Battle Vol-1,Next Generation Dance Battle Vol - 1, 2 & 3,
+3. Sikkim Big Dance Camp Season 1, etc.</p>
+                     <div class="outs-agile-buttn mt-lg-3 mt-2">
+                     <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register</a>
+                     </div>
+                    
+                  </div>
+               </div>
+            </div>
+
          </div>
       </section>
       <section>
