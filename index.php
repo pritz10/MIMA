@@ -523,50 +523,69 @@ Our goal is to assist you in creating the best version of yourself and developin
             </ul>
             <button type="button" class="btn btn-lg btn-block btn-outline-light">Sign up for free</button>
         </div>
-        </div> <div class="card mb-4 box-shadow">
+        </div><div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal"><Strong>Quarterly</Strong></h4>
+            <h4 class="my-0 font-weight-normal"> <strong>Monthly <br>Classical Dance Style</strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-          <h1 class="card-title pricing-card-title">₹6000/-</h1>
+          <p class="card-title">₹ 1.5k Monthly <br>
+₹ 2.5k One Time Registration </p>
 
           <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
-            <li>Saturday-Sunday</li>
-            <li>2 Days in a Week</li>
-            <li>8 Days in a Month</li>
+              <li>Saturday-Sunday</li>
+              <li>2 Days in a Week</li>
+              <li>8 Days in a Month</li>
+              
+
+
+
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-warning">Sign up for free</button>
-          </div>
+            <button type="button" class="btn btn-lg btn-block btn-outline-light">Sign up for free</button>
+        </div>
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-          <h4 class="my-0 font-weight-normal"><Strong>Half-Yearly</Strong></h4>
+            <h4 class="my-0 font-weight-normal"> <strong>Monthly <br>Gymnastics Dance Style</strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-          <h1 class="card-title pricing-card-title"><strike>₹12</strike>11k</h1>
+          <p class="card-title">₹2k Monthly <br>
+₹3k One Time Registration </p>
 
           <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
-            <li>Saturday-Sunday</li>
-            <li>2 Days in a Week</li>
-            <li>8 Days in a Month</li>
+              <li>Saturday-Sunday</li>
+              <li>2 Days in a Week</li>
+              <li>8 Days in a Month</li>
+              <li> THU TO SUN
+
+4 DAYS IN A WEEK (Monthly ₹ 3k)
+16 DAYS IN A MONTH</li>
+              
+
+
+
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-warning">Sign up for free</button>
-          </div>
+            <button type="button" class="btn btn-lg btn-block btn-outline-light">Sign up for free</button>
+        </div>
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-          <h4 class="my-0 font-weight-normal"><Strong>Annualy</Strong></h4>
+            <h4 class="my-0 font-weight-normal"> <strong>Monthly <br>Classical Dance Style</strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-          <h1 class="card-title pricing-card-title"><strike>₹24.5</strike>23k</h1>
+          <p class="card-title">₹ 1.5k Monthly <br>
+₹ 2.5k One Time Registration </p>
 
-            <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
-            <li>Saturday-Sunday</li>
-            <li>2 Days in a Week</li>
-            <li>8 Days in a Month</li>
+          <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
+              <li>Saturday-Sunday</li>
+              <li>2 Days in a Week</li>
+              <li>8 Days in a Month</li>
+              
+
+
+
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-warning">Talk to Us</button>
-          </div>
+            <button type="button" class="btn btn-lg btn-block btn-outline-light">Sign up for free</button>
+        </div>
         </div>
         </div>  </div>
 </section>    
