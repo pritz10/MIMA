@@ -509,7 +509,7 @@ Our goal is to assist you in creating the best version of yourself and developin
             <h4 class="my-0 font-weight-normal"> <strong>Monthly All Style Dance Style</strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-          <h1 class="card-title pricing-card-title">₹ 2k Monthly <br>
+          <h1 class="card-title">₹ 2k Monthly <br>
 ₹ 3k One Time Registration </h1>
 
           <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
