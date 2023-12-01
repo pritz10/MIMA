@@ -112,13 +112,19 @@ We provide you with Bollywood Class. Beginners To Intermediate can join!</p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-4 col-sm-4 ser-inner-img">
-               <img src="files/Images/wed.png"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
+               <img src="files/Images/hs.PNG"  width="200px" alt="mim dance academy" class="rounded-circle img-fluid">
                   <div class="w3l-ser-sub-txt mt-lg-4 mt-3">
-                  <h4 class="mt-3">Wedding Choreography </h4>
+                  <h4 class="mt-3">House Dance  </h4>
 
                   <p style="color:white">
-                  The purpose of wedding dance choreography is to add a special and memorable touch to the wedding festivities. Couples often choose to perform a choreographed dance during key moments of the reception, such as the first dance as a married couple</p>
-                     <div class="outs-agile-buttn mt-lg-3 mt-2">
+                 
+
+House Dance is a style of dance that originated in the late 70’s and early 80’s from underground clubs in Chicago and New York.
+
+The style was influenced by several types of movement, including Tap, African dance, Latin dance, and martial arts.
+
+House Dance is about freedom, improvisation, and feeling the music.   
+               </p>                     <div class="outs-agile-buttn mt-lg-3 mt-2">
                      <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register</a>
                      </div>
                   </div>
