@@ -66,7 +66,10 @@ require_once 'include/header.php'; ?>
                               <h5><?php echo $row['Title']; ?></h3>
                               <p class="pt-3"><?php echo $row['Description']; ?></p>
                                
-
+                              <div class="text-center">
+         <div class="outs-agile-buttn mt-lg-3 mt-2">
+         <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Click here to Register in our Events</a>
+                     </div></div>
                               </div>   
 
                           </div>
