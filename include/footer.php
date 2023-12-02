@@ -199,13 +199,6 @@ $(window).on('load', function() {
       </script>
       <!-- //here ends scrolling icon -->
       <!--bootstrap working-->
-      <script src='js/jquery-2.2.3.min.js'></script>
-      <!--//js working-->
-      <!-- gallery -->
- 
-      <!-- //gallery -->
-      <!-- start-smoth-scrolling -->
-      
       <script src="js/bootstrap.min.js"></script>
       <!-- //bootstrap working-->
    </body>
