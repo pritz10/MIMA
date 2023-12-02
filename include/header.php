@@ -43,7 +43,7 @@ require_once 'include/db.php';?>
       <!--Slider -->
       <link href="css/lsb.css" rel="stylesheet" type="text/css">
       <!-- //slider-->
-   
+      <!--stylesheets-->
       <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
       <!--//stylesheets-->
       <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
@@ -89,8 +89,6 @@ require_once 'include/db.php';?>
   <a href="summer" class="dropdown-item" type="button">Summer Camp</a>
 
      <a href="winter" class="dropdown-item" type="button">Winter Camp</a>
-     <a href="bigdance" class="dropdown-item" type="button">Sikkim Big Dance Camp</a>
-
   </div>
 </div>
                      <li class="nav-item">
