@@ -66,10 +66,7 @@ require_once 'include/header.php'; ?>
                               <h5><?php echo $row['Title']; ?></h3>
                               <p class="pt-3"><?php echo $row['Description']; ?></p>
                                
-                              <div class="text-center">
-         <div class="outs-agile-buttn mt-lg-3 mt-2">
-         <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Click here to Register in our Events</a>
-                     </div></div>
+
                               </div>   
 
                           </div>
@@ -548,7 +545,7 @@ Our goal is to assist you in creating the best version of yourself and developin
         </div>
         <div class="card mb-4 box-shadow">
           <div class="card-header">
-            <h4 class="my-0 font-weight-normal"> <strong>Monthly <br>Gymnastics Class</strong></h4>
+            <h4 class="my-0 font-weight-normal"> <strong>Monthly <br>Gymnastics Class Style</strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
           <p class="card-title">₹2k Monthly <br>
