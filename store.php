@@ -28,7 +28,8 @@ require_once 'include/header.php'; ?>
                 <div class="card-body">
                   <p class="card-text">
                   This hoodie is made of high-quality materials that will keep you warm and comfortable all season long. The fabric is thick and soft, and the stitching is durable. Plus, the hood is lined with fleece for extra warmth.</p>
-                  <div class="btn-group">
+              
+              <br> Availabe in all sizes:    <div class="btn-group">
  
  <a href="" class="btn btn-sm btn-outline-secondary">XS</a>
  <a href="" class="btn btn-sm btn-outline-secondary">S</span></a>
