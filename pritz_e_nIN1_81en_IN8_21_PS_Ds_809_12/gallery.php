@@ -12,7 +12,7 @@
     $title = htmlentities($title);
     // destination of the file on the server
 
-    $destination = '../files/Images/flowers' . $filename;
+    $destination = '../files/Images/gallery' . $filename;
 
 
 
@@ -70,7 +70,7 @@
 
         if (move_uploaded_file($file, $destination)) {
 
-            $sql = "INSERT INTO  mediagallery(title, imageurl) VALUES ('$title','./files/Images/flowers$filename')";
+            $sql = "INSERT INTO  mediagallery(title, imageurl) VALUES ('$title','./files/Images/gallery$filename')";
 
             if (mysqli_query($connect, $sql)) {
 
