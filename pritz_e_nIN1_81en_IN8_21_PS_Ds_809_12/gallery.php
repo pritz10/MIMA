@@ -70,7 +70,7 @@
 
         if (move_uploaded_file($file, $destination)) {
 
-            $sql = "INSERT INTO  flowers(title, imageurl) VALUES ('$title','./files/Images/flowers$filename')";
+            $sql = "INSERT INTO  mediagallery(title, imageurl) VALUES ('$title','./files/Images/flowers$filename')";
 
             if (mysqli_query($connect, $sql)) {
 
@@ -116,7 +116,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
     $uid =  mysqli_real_escape_string($connect, $_POST['Id']);   
 
-    $sql = "DELETE FROM flowers where Id='$uid'";
+    $sql = "DELETE FROM mediagallery where Id='$uid'";
 
     if (mysqli_query($connect, $sql)) {
 
@@ -206,7 +206,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                     <div class="card-body">
 
-                                    <form method="post" action="flowers" enctype="multipart/form-data" style="padding:10px;">                                        
+                                    <form method="post" action="gallery" enctype="multipart/form-data" style="padding:10px;">                                        
 
                                         <div class="form-group">
 
@@ -388,7 +388,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                
 
-                    $sql = "SELECT * FROM flowers ORDER BY Id DESC";  
+                    $sql = "SELECT * FROM mediagallery ORDER BY Id DESC";  
 
                     $result = mysqli_query($connect, $sql);  
 
@@ -446,7 +446,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                        
 
-                                        <form method="post" action="flowers" enctype="multipart/form-data" style="padding:10px;">
+                                        <form method="post" action="gallery" enctype="multipart/form-data" style="padding:10px;">
 
                                          <div class="form-group">
 
