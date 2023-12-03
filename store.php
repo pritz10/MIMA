@@ -72,7 +72,7 @@ require_once 'include/header.php'; ?>
 
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-              <img class="card-img-top img-fluid" src="files/Images/s.png" alt="Card image cap">
+              <img class="card-img-top img-fluid" src="files/Images/t.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">
                   This Tshirt is made of high-quality materials that will keep you sweat free and comfortable all in all dance season 
@@ -95,7 +95,7 @@ require_once 'include/header.php'; ?>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-              <img class="card-img-top img-fluid" src="files/Images/t.png" alt="Card image cap">
+              <img class="card-img-top img-fluid" src="files/Images/s.png" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">
                   This Tshirt is made of high-quality materials that will keep you sweat free and comfortable all in all dance season 
