@@ -43,8 +43,7 @@ require_once 'include/header.php'; ?>
                            <h5>Email</h5>
                         </div>
                         <p><a href="mailto:musicinmotion77@gmail.com">musicinmotion77@gmail.com</a> 
-                           <br><a href="mailto:info@example.com">info@example2.com</a>
-                        </p>
+                         </p>
                      </div>
                   </div>
                   <div class="bottom-social pt-2 text-center">
