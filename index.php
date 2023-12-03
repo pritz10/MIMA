@@ -544,7 +544,7 @@ Our goal is to assist you in creating the best version of yourself and developin
 
 
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-light">Register Now</button>
+            <a  button type="button" class="btn btn-lg btn-block btn-outline-light" href="files/Images/all.PNG"> Download </a>
         </div>
         </div>
         <div class="card mb-4 box-shadow">
@@ -565,7 +565,7 @@ Our goal is to assist you in creating the best version of yourself and developin
 
 
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-light">Register Now</button>
+            <a  button type="button" class="btn btn-lg btn-block btn-outline-light" href="files/Images/gym.JPG"> Download </a>
         </div>
         </div>
         <div class="card mb-4 box-shadow">
@@ -589,7 +589,7 @@ Our goal is to assist you in creating the best version of yourself and developin
 
 
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-light">Download Now</button>
+            <a  button type="button" class="btn btn-lg btn-block btn-outline-light" href="files/Images/all.PNG"> Download </a>
         </div>
         </div>
         </div>  </div>
