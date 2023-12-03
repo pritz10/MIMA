@@ -168,7 +168,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
 
-                        <h1 class="h3 mb-0 text-gray-800">MIM Images</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Gallery Images</h1>
 
                        
 

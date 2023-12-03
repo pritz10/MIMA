@@ -131,7 +131,7 @@ require_once 'include/db.php';?>
 
             <?php
 
-$sql = "select * from flowers ORDER BY Id";  
+$sql = "select * from mediagallery ORDER BY Id";  
 
 $result = mysqli_query($connect,$sql); // fetch data from database
 
