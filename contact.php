@@ -46,9 +46,7 @@ require_once 'include/header.php'; ?>
                         </p>
                      </div>
                   </div>
-                   <div class="address_mail_footer_grids pt-lg-4 pt-3">
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3544.8641678686668!2d88.60476047453619!3d27.31743934258241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e6a523366368cd%3A0xd6ab8f8b0a988360!2sMUSIC%20IN%20MOTION%20DANCE%20ACADEMY%20GANGTOK!5e0!3m2!1sen!2sin!4v1701577825627!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                  </div>
-               </div>
+                 
             </div>
          </div>
       </section> <div class="address_mail_footer_grids pt-lg-4 pt-3">
