@@ -36,7 +36,7 @@ require_once 'include/header.php'; ?>
                         <div class="contact_footer_grid_left text-center mb-3">
                            <h5>Phone</h5>
                         </div>
-                        <p>+918918212479<br>+(010) 123 4565 354</p>
+                        <p>+918918212479<br>+919064634974</p>
                      </div>
                      <div class="col-lg-4 col-md-4 footer_grid_left text-center">
                         <div class="contact_footer_grid_left text-center mb-3">
