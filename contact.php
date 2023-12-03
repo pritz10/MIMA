@@ -23,25 +23,7 @@ require_once 'include/header.php'; ?>
             <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Contact Us</h3>
             <div class="agile-info-para">
                <div class=" contact-wls-detail">
-                  <div class="contact-form pb-lg-3 pb-2">
-                     <form>
-                        <div class="row agile-wls-contact-mid mb-lg-4 mb-3">
-                           <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="text" class="form-control" placeholder="Name">
-                           </div>
-                           <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="email" class="form-control" placeholder="Email">
-                           </div>
-                           <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="text" class="form-control" placeholder="Phone">
-                           </div>
-                        </div>
-                        <div class="form-group contact-forms">
-                           <textarea class="form-control" placeholder="Meassage" ></textarea>
-                        </div>
-                        <button type="button" class="btn sent-butnn btn-lg ">Send</button>
-                     </form>
-                  </div>
+                
                   <div class="row contactright my-lg-4 my-3">
                      <div class="col-lg-4 col-md-4 footer_grid_left text-center">
                         <div class="contact_footer_grid_left text-center mb-3">
