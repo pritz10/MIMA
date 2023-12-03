@@ -29,19 +29,20 @@ require_once 'include/header.php'; ?>
                         <div class="contact_footer_grid_left text-center mb-3">
                            <h5> Address</h5>
                         </div>
-                        <p>Melbourne st,south Brisbane, <br>QLD 4101,Aurstralia.</p>
+                        <p>MG Marg - New Market,<br> Below Karma Salon, <br>
+                     Gangtok, Sikkim, India</p>
                      </div>
                      <div class="col-lg-4 col-md-4 footer_grid_left text-center">
                         <div class="contact_footer_grid_left text-center mb-3">
                            <h5>Phone</h5>
                         </div>
-                        <p>+(000) 123 4565 32 <br>+(010) 123 4565 354</p>
+                        <p>+918918212479<br>+(010) 123 4565 354</p>
                      </div>
                      <div class="col-lg-4 col-md-4 footer_grid_left text-center">
                         <div class="contact_footer_grid_left text-center mb-3">
                            <h5>Email</h5>
                         </div>
-                        <p><a href="mailto:info@example.com">info@example1.com</a> 
+                        <p><a href="mailto:musicinmotion77@gmail.com">musicinmotion77@gmail.com</a> 
                            <br><a href="mailto:info@example.com">info@example2.com</a>
                         </p>
                      </div>
