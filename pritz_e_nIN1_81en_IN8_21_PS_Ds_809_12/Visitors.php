@@ -590,15 +590,15 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                             <label for="title">Name</label>
 
-                                            <input type="text" name="update_name" onkeyup="lettersOnly(this)" class="form-control" id="title" value="<?php echo $row['Name']; ?>"aria-describedby="emailHelp"  placeholder="Enter title">
+                                            <input type="text" name="update_name"  class="form-control" id="title" value="<?php echo $row['Name']; ?>"aria-describedby="emailHelp"  placeholder="Enter title">
 
                                            <br> <label for="Description">Designation</label>
 
-                                           <input type="text" name="update_designation" onkeyup="lettersOnly(this)"  class="form-control" id="title" value="<?php echo $row['Designation']; ?>"aria-describedby="emailHelp"  placeholder="Enter title">
+                                           <input type="text" name="update_designation"   class="form-control" id="title" value="<?php echo $row['Designation']; ?>"aria-describedby="emailHelp"  placeholder="Enter title">
 
                                            <br> <label for="Description">Message</label>
 
-                                            <input input type="text" name="update_message" onkeyup="lettersOnly(this)" rows="3" class="form-control" id="title" value="<?php echo $row['Message']; ?>"aria-describedby="emailHelp"  placeholder="Enter title"></input>
+                                            <input input type="text" name="update_message"  rows="3" class="form-control" id="title" value="<?php echo $row['Message']; ?>"aria-describedby="emailHelp"  placeholder="Enter title"></input>
 
                                         </div> 
 

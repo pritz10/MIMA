@@ -382,7 +382,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
     <div class="form-group col-md-6">
 
       <label for="inputEmail4">Brief Description</label>
-      <textarea class="form-control" name="email" onkeyup="lettersOnly(this)" required onchange="readURL(this);" id="email" rows="3" ></textarea>
+      <textarea class="form-control" name="email"  required onchange="readURL(this);" id="email" rows="3" ></textarea>
 
  
     </div>
@@ -401,7 +401,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 <div class="form-group col-md-6">
 
   <label for="inputEmail4">Facebok Link</label>
-  <textarea class="form-control" name="flink" onkeyup="lettersOnly(this)" required onchange="readURL(this);" id="flink"  ></textarea>
+  <textarea class="form-control" name="flink" required onchange="readURL(this);" id="flink"  ></textarea>
 
 
 </div>
@@ -409,7 +409,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 <div class="form-group col-md-6">
 
 <label for="inputEmail4">Youtube Link</label>
-  <textarea class="form-control" name="ilink" onkeyup="lettersOnly(this)" required onchange="readURL(this);" id="ilink"  ></textarea>
+  <textarea class="form-control" name="ilink"  required onchange="readURL(this);" id="ilink"  ></textarea>
 
 </div>
 
@@ -729,7 +729,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                         <label for="inputEmail4">Name</label>
 
-                                        <input type="text" name="update_name" class="form-control" onkeyup="lettersOnly(this)" value="<?php echo $row['Name']; ?>" id="name">
+                                        <input type="text" name="update_name" class="form-control"  value="<?php echo $row['Name']; ?>" id="name">
 
                                       </div>
 
@@ -749,7 +749,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                         <label for="inputEmail4">Brief Description</label>
 
-                                        <input type="email" name="update_email" class="form-control" onkeyup="lettersOnly(this)"  value="<?php echo $row['Email']; ?>" id="email">
+                                        <input type="email" name="update_email" class="form-control"  value="<?php echo $row['Email']; ?>" id="email">
 
                                       </div>
 
@@ -759,7 +759,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                         <label for="inputPassword4">Phone</label>
 
-                                        <input type="text" name="update_phone" class="form-control" onkeyup="lettersOnly(this)"  value="<?php echo $row['Phone']; ?>" id="phone">
+                                        <input type="text" name="update_phone" class="form-control"  value="<?php echo $row['Phone']; ?>" id="phone">
 
                                       </div>
 
