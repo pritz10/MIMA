@@ -524,7 +524,7 @@ Our goal is to assist you in creating the best version of yourself and developin
 
 
             </ul>
-            <a  button type="button" class="btn btn-lg btn-block btn-outline-light" href="files/Image/all.PNG"> Download </a>
+            <a  button type="button" class="btn btn-lg btn-block btn-outline-light" href="files/Images/all.PNG"> Download </a>
 
          </div>
         </div><div class="card mb-4 box-shadow">
