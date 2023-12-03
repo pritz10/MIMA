@@ -149,7 +149,7 @@ $result = mysqli_query($connect,$sql); // fetch data from database
                      <img src="<?php echo $data['ImageUrl']; ?>" alt="" class="img-fluid">
                      <figcaption>
                         <h2>MIM Dance Academy</h2>
-                        <p><?php echo $row['Title']; ?></p>
+                        <p><?php echo $data['Title']; ?></p>
                         <a href="<?php echo $data['ImageUrl']; ?>" class="gallery-box" data-lightbox="example-set" data-title="">
                         </a>
                      </figcaption>
