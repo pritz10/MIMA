@@ -36,7 +36,7 @@ require_once 'include/header.php'; ?>
  <a href="" class="btn btn-sm btn-outline-secondary">M</a>
  <a href="" class="btn btn-sm btn-outline-secondary">L</span></a>
  <a href="" class="btn btn-sm btn-outline-secondary">XL</a>
- <a href="" class="btn btn-sm btn-outline-secondary">XLL</span></a>
+ <a href="" class="btn btn-sm btn-outline-secondary">XXL</span></a>
 </div>
                   <div class="outs-agile-buttn mt-lg-3 mt-2">
                   <a href="https://api.whatsapp.com/send?phone=+918918212479"  style="font-weight: bolder;">Whatsapp Us</a>
@@ -44,56 +44,31 @@ require_once 'include/header.php'; ?>
                 </div>
               </div>
             </div>
+            
+            
+
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
               <img class="card-img-top img-fluid" src="files/Images/r.png" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
+                  <p class="card-text">
+                  This hoodie is made of high-quality materials that will keep you warm and comfortable all season long. The fabric is thick and soft, and the stitching is durable. Plus, the hood is lined with fleece for extra warmth.</p>
+              
+              <br> Availabe in all sizes:    <div class="btn-group">
+ 
+ <a href="" class="btn btn-sm btn-outline-secondary">XS</a>
+ <a href="" class="btn btn-sm btn-outline-secondary">S</span></a>
+ <a href="" class="btn btn-sm btn-outline-secondary">M</a>
+ <a href="" class="btn btn-sm btn-outline-secondary">L</span></a>
+ <a href="" class="btn btn-sm btn-outline-secondary">XL</a>
+ <a href="" class="btn btn-sm btn-outline-secondary">XXL</span></a>
+</div>
+                  <div class="outs-agile-buttn mt-lg-3 mt-2">
+                  <a href="https://api.whatsapp.com/send?phone=+918918212479"  style="font-weight: bolder;">Whatsapp Us</a>
+                     </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-              <img class="card-img-top img-fluid" src="files/Images/s.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-              <img class="card-img-top img-fluid" src="files/Images/t.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-             
-             
-            
             
           </div>
           </div>
