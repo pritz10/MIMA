@@ -47,7 +47,7 @@ require_once 'include/header.php'; ?>
                         </p>
                      </div>
                   </div>
-                  <div class="bottom-social pt-2">
+                  <div class="bottom-social pt-2 text-center">
                      <ul>  <li>
                         <a href="https://api.whatsapp.com/send?phone=+918918212479">
                         <span class="fab fa-whatsapp"></span>
