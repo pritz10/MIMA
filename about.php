@@ -75,7 +75,7 @@ $active='active';
 
 <?php
 
-$sql = "select * from flowers ORDER BY Id DESC LIMIT 5";  
+$sql = "select * from flowers ORDER BY Id DESC LIMIT 30";  
 
 $result = mysqli_query($connect, $sql); 
 

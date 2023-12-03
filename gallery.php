@@ -1,502 +1,314 @@
-<?php require_once 'Header.php';?>
-
 <?php
-
-    if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'upload')
-
-    {
-
-    $filename = $_FILES['myfile']['name'];
-
-    $title = mysqli_real_escape_string($connect, $_POST['title']);
-    $title = htmlentities($title);
-    // destination of the file on the server
-
-    $destination = '../files/Images/events' . $filename;
-
-
-
-    // get the file extension
-
-    $extension = pathinfo($filename, PATHINFO_EXTENSION);
+header('X-Frame-Options: DENY');
+header('X-XSS-Protection: 1; mode=block');
+header('X-Content-Type-Options: nosniff');
+header('Strict-Transport-Security "max-age=63072000; includeSubDomains');
+header('set Referrer-Policy same-origin');
+header("Pragma-directive: no-cache");  
+header("Cache-directive: no-cache");  
+header("Cache-control: no-cache");  
+header("Pragma: no-cache");  
+header("Expires: 0");
+require_once 'include/db.php';?>
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gallery | Music In Motion Dance Academy| mim dance academy | mimdanceacademy </title>
 
 
-
-    // the physical file on a temporary uploads directory on the server
-
-    $file = $_FILES['myfile']['tmp_name'];
-
-    $size = $_FILES['myfile']['size'];
-
-
-
-    if (!in_array($extension, ['jpg','png','jpeg','gif','JPG','JPEG','PNG'])) {
-
-
-
-        echo'<div class="alert alert-warning alert-dismissible fade show" role="alert">
-
-        <strong>File extension ishould be JPG or PNG or the image is too big to handle.</strong>
-
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-
-          <span aria-hidden="true">&times;</span>
-
-        </button>
-
-      </div>';
-
-
-
-        echo "";
-
-     } elseif ($_FILES['myfile']['size'] > 200000000) { // file shouldn't be larger than 20Megabyte
-
-           echo'<div class="alert alert-warning alert-dismissible fade show" role="alert">
-
-          <strong>File too large! Compress the image and try again.</strong>
-
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-
-            <span aria-hidden="true">&times;</span>
-
-          </button>
-
-        </div>';
-
-     } else {
-
-        // move the uploaded (temporary) file to the specified destination
-
-        if (move_uploaded_file($file, $destination)) {
-
-            $sql = "INSERT INTO  winter(title, imageurl) VALUES ('$title','./files/Images/events$filename')";
-
-            if (mysqli_query($connect, $sql)) {
-
-                echo'<div class="alert alert-success alert-dismissible fade show" role="alert">
-
-                <strong>Successfully Uploaded.</strong>
-
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-
-                  <span aria-hidden="true">&times;</span>
-
-                </button>
-
-              </div>';        }
-
-        } else {
-
-            echo'<div class="alert alert-warning alert-dismissible fade show" role="alert">
-
-            <strong>Something went wrong, Please try again later</strong>
-
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-
-              <span aria-hidden="true">&times;</span>
-
-            </button>
-
-          </div>';
-
+<!--meta tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+      <meta name="keywords" content="MIMA, mima, Music in motion dance academy, dance academy in sikkim, sikkim, gangtok , mim dance academy" />
+      <script>
+         addEventListener("load", function () {
+         	setTimeout(hideURLbar, 0);
+         }, false);
+         
+         function hideURLbar() {slide
+         	window.scrollTo(0, 1);
          }
-
-    }
-
-}
-
- 
-
-if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
-
-{
-
-     
-
-    $uid =  mysqli_real_escape_string($connect, $_POST['Id']);   
-
-    $sql = "DELETE FROM winter where Id='$uid'";
-
-    if (mysqli_query($connect, $sql)) {
-
-        echo'<div class="alert alert-warning alert-dismissible fade show" role="alert">
-
-        <i class="fas fa-trash text-danger"></i>    <strong>Successfully Deleted.</strong>
-
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-
-                  <span aria-hidden="true">&times;</span>
-
-                </button>
-
-              </div>';
-
-     }
-
-    else {
-
-        echo'<div class="alert alert-warning alert-dismissible fade show" role="alert">
-
-        <i class="fas fa-info text-danger"></i>  <strong>Something went wrong, Please try again later</strong>
-
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-
-          <span aria-hidden="true">&times;</span>
-
-        </button>
-
-      </div>';
-
-     }
-
-     
-
-} 
-
-?>
-
-
-
-                <!-- Begin Page Content -->
-
-                <div class="container-fluid">
-
-
-
-                    <!-- Page Heading -->
-
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-
-                        <h1 class="h3 mb-0 text-gray-800">Winter Dance Photos</h1>
-
-                       
-
-                    </div>
-
-
-
-                    
-
-                    <!-- Content Row -->
-
-
-
-                    <div class="row">
-
-
-
-                    <div class="col-xl-7 col-lg-6">
-
-    <div class="card shadow mb-4">
-
-   <!-- Card Header - Accordion -->
-
-    <a href="#messagedata" style="color: white;" class="d-block card-header py-3" data-toggle="collapse"
-
-     role="button" aria-expanded="true" aria-controls="as">
-
- <h6 class="m-0 font-weight-bold text-white">Winter Dance Photos</h6>
-
-                                </a>
-
-                                <!-- Card Content - Collapse -->
-
-                                <div class="collapse show " id="messagedata">
-
-                                    <div class="card-body">
-
-                                    <form method="post" action="winter" enctype="multipart/form-data" style="padding:10px;">                                        
-
-                                        <div class="form-group">
-
-                                        <label for="exampleFormControlInput1">Enter Title</label>
-
-                                        <input type="text" name="title" class="form-control" onkeyup="lettersOnly(this)" onchange="readURL(this);" id="title" placeholder="Eg: State flower of Sikkim">
-
-                                        </div>
-
-                                      
-
-
-
-                                                                                 
-
-                                                                                 <div class="form-group">
-
-                                                                                 <label for="formFile" class="form-label">Select Image 1680*1000 pixels</label>
-
-                                                                                     <input class="form-control" name="myfile" id="formFileLg"required onchange="readURL(this);" type="file">
-
-                                                                                 </div>
-
-                                                                                 <button type="submit" style="width: 100%;" value="upload"  name="submit" class="btn btn-warning" id="upload-file"><i class="fa fa-upload" aria-hidden="true"></i> Upload</button>
-
-                                                                             </form>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-        
-
-    </div>
-
-
-
-     <div class="col-xl-5 col-lg-6">
-
-          <!-- Card Header - Accordion -->
-
-          <div class="card shadow mb-4">
-
-          <a href="#messagedata" class="d-block card-header py-3" data-toggle="collapse"                                    role="button" aria-expanded="true" aria-controls="as">
-
-                                    <h6 class="m-0 font-weight-bold text-white">Live Preview</h6>
-
-                                </a>
-
-                                <!-- Card Content - Collapse -->
-
-                                <div class="collapse show" id="messagedata">
-
-                                     <!-- Card Body -->
-
-            <div class="card-body">
-
-                <h5 id="db"></h5>
-
-                 <img id="blah" src="p.png" class="img-fluid" alt="Image will appear here" />
-
-                <script>
-
-                    function readURL(input) 
-
-                    {
-
-                        add = $('input#title').val();
-
-                        add2 = $('textarea#details').val();
-
-
-
-                        $('h5#db').empty().html(add).show();
-
- 
-
-                        if (input.files && input.files[0]) {
-
-                            var reader = new FileReader();
-
-                            reader.onload = function (e) {
-
-                                $('#blah')
-
-                                    .attr('src', e.target.result)
-
-                                    
-
-                            };
-
-
-
-                            reader.readAsDataURL(input.files[0]);
-
-                                                }
-
-
-
-                    }
-
-                 </script>
-
-                <div class="mt-4 text-center small">
-
-                    <span class="mr-2">
-
-                        <i class="fas fa-circle text-primary"></i> Please check the spellings and Image
-
-                    </span>
-
-                    
-
-                </div>
-
-            </div>
-
-                                </div>
-
-                            </div>
-
-       
-
-    </div>
-
+      </script>
+      <!--//meta tags ends here-->
+      <!--booststrap-->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <!--//booststrap end-->
+      <!-- font-awesome icons -->
+      <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
+      <!-- //font-awesome icons -->
+      <!--Slider -->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <!--//booststrap end-->
+      <!-- font-awesome icons -->
+      <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
+      <!-- //font-awesome icons -->
+      <!--gallery-->
+      <link rel="stylesheet" href="css/lightbox.css">
+      <!--//gallery-->
+      <link rel="stylesheet" type="text/css" href="css/set1.css" />
+      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+      <!--//stylesheets-->
+      <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+      <link href="//fonts.googleapis.com/css?family=Felipa" rel="stylesheet">
+   </head>
+   <body>
+   <div class="header-outs" id="home">
+             <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background: black; padding-top:0;padding-bottom:0;">
+               <a class="navbar-brand" href="index"><img src="files/Images/log.PNG" width="100"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                  <ul class="navbar-nav ">
+                     <li class="nav-item active">
+                        <a class="nav-link" style="font-weight: 900;" href="index">Home <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                     <a href="class" class="nav-link">Class</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="about" class="nav-link">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="faculty" class="nav-link">Faculty</a>
+                     </li>
+                     <li class="nav-item">
+                     <a href="store" class="nav-link">Store</a>
+                     </li>
+                     <li class="nav-item">
+                     <a href="gallery" class="nav-link">Gallery</a>
+                     </li>
+                     <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dance Camps
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+  <a href="summer" class="dropdown-item" type="button">Summer Camp</a>
+
+     <a href="winter" class="dropdown-item" type="button">Winter Camp</a>
+     <a href="bigdance" class="dropdown-item" type="button">Sikkim Big Dance Camp</a>
+
+  </div>
 </div>
+                     <li class="nav-item">
+                     <a href="contact"class="nav-link">Contact</a>
+                     </li>
+                   
+                              
+                            
+                     
+                   
+                      
+                  </ul>
+                  
+               </div>
+            </nav>
+       </div>
+       <div class="inner_page-banner">
+      </div>
+      <div class="using-border py-3">
+         <div class="inner_breadcrumb  ml-4">
+            <ul class="short_ls">
+               <li style="color:blanchedalmond">
+                  <a href="index">Home</a>
+                  <span>/</span>
+               </li>
+               <li style="color:blanchedalmond">Gallery</li>
+            </ul>
+         </div>
+      </div>
+      <!-- //short-->
+      <!--Gallery-->
+      <section class="gallery py-lg-4 py-md-3 py-sm-3 py-3 ">
+         <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+            <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Dance Gallery</h3>
+             
+            <div class="row grid gallery-info my-lg-4 my-md-3">
 
+            <?php
 
+$sql = "select * from flowers ORDER BY Id";  
 
-<div class="card shadow mb-4">
+$result = mysqli_query($connect,$sql); // fetch data from database
 
-    <a href="#dataprevious" class="d-block card-header py-3" data-toggle="collapse"
+  if(mysqli_num_rows($result) > 0)  
 
-                                    role="button" aria-expanded="true" aria-controls="dataprevious">
+  {  
 
-                                    <h6 class="m-0 font-weight-bold text-white">Previous Posts</h6>
+      while($data = mysqli_fetch_array($result))  
 
-                                </a>
+      {                
 
-                                <div class="collapse" id="dataprevious">
+  ?>
+               <div class="col-lg-4 col-md-4 col-sm-4 gallery-grids" style="margin:5px">
+                  <figure class="effect-milo">
+                     <img src="<?php echo $data['ImageUrl']; ?>" alt="" class="img-fluid">
+                     <figcaption>
+                        <h2>MIM Dance Academy</h2>
+                        <p><?php echo $row['Title']; ?></p>
+                        <a href="<?php echo $data['ImageUrl']; ?>" class="gallery-box" data-lightbox="example-set" data-title="">
+                        </a>
+                     </figcaption>
+                  </figure>
+               </div>
+               
+               <?php
 
-    <div class="card-body">
+}}
 
-        <div class="table-responsive">
+  else
 
-            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+  {
 
-                <thead>
+    echo" No data";
 
-                    <tr>
+  }?>
 
-                    <th>Id</th>
-
-
-
-                         <th>Image</th>
-
-                        <th>Title</th>
-
-                         <th>Action</th>
-
-
-
-                       
-
-
-
-                    </tr>
-
-                </thead>
-
-                
-
-               <tbody>
-
-               <?php  
-
+              
                
 
-                    $sql = "SELECT * FROM winter ORDER BY Id DESC";  
+                
+               
+            </div>
+             
+         </div>
+      </section>
+      <!--//Gallery-->
+      <!--footer -->
+      <footer class="py-lg-4 py-md-3 py-sm-3 py-3">
+         <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+            <div class="row ">
+               <div class="dance-agile-info col-lg-6 col-md-6 col-sm-6 ">
+                  <h4 class="pb-lg-3 pb-3"><a href="index.html">MiM Dance Academy</a></h4>
+                  <div class="bottom-para pb-sm-3 pb-2">
+                     <p> 
+                     The vision of the Music in Motion Dance Academy has been to offer platforms to aspiring and deserving local artists and to brush their talent to keep them growing to reach their full potential and help them live their dreams. In the initial phase itself, the academy has bagged numerous achievements under its belt and the founder believes that “the academy will aspire to grow and showcase our talents at the national & international level in future”
+                     </p>
+                  </div>
+                  <div class="bottom-social pt-2">
+                     <ul>  <li>
+                        <a href="https://api.whatsapp.com/send?phone=+918918212479">
+                        <span class="fab fa-whatsapp"></span>
+                        </a>
+                        </li>
+                        <li>
+                           <a href="https://www.facebook.com/musicinmotiondanceacademy?mibextid=LQQJ4d">
+                           <span class="fab fa-facebook-f"></span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.google.com/localservices/prolist?spp=Cg0vZy8xMWpsbnNwbjJx&scp=CgAaHU1VU0lDIElOIE1PVElPTiBEQU5DRSBBQ0FERU1ZKh1NVVNJQyBJTiBNT1RJT04gREFOQ0UgQUNBREVNWQ%3D%3D&q=MUSIC+IN+MOTION+DANCE+ACADEMY&src=2&slp=UhUIARIREg8iDS9nLzExamxuc3BuMnE">
+                           <span class="fab fa-google-plus-g"></span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.instagram.com/musicinmotion77/?igshid=YmMyMTA2M2Y%3D">
+                           <span class="fab fa-instagram"></span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.youtube.com/@musicinmotion6391">
+                           <span class="fab fa-youtube"></span>
+                           </a>
+                        </li>
 
-                    $result = mysqli_query($connect, $sql);  
-
-
-
-                    while($row = mysqli_fetch_assoc($result))  
-
-                    {  ?>
-
-                        <tr>
-
-                        <td><?php echo $row['Id']; ?></td>
-
-                        <td><img id="blah" src=".<?php echo $row['ImageUrl']; ?>" class="img-thumbnail" alt="Image will appear here" /></td>
-
-                        <td><?php echo $row['Title']; ?></td>
-
-                         <td><div class="btn-group" role="group" aria-label="Basic"> 
-
-                         <a   class='btn btn-outline-danger btn-sm'data-toggle='modal' data-target='#delete<?php echo $row['Id']; ?>'><i class='fas fa-trash'></i></a>
-
-                        </div></td>
-
-                        </tr>
-
-                         
-
-                        
-
-                        <!-- Delete Modal-->
-
-                        <div class="modal fade" id="delete<?php echo $row['Id']; ?>" tabindex="-1" role="dialog" aria-labelledby="delete"
-
-                                aria-hidden="true">
-
-                                <div class="modal-dialog" role="document">
-
-                                    <div class="modal-content">
-
-                                        <div class="modal-header">
-
-                                            <h5 class="modal-title" id="delete">Are you sure you want to delete?</h5>
-
-                                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-
-                                                <span aria-hidden="true">×</span>
-
-                                            </button>
-
-                                        </div>
-
-                                        <div class="modal-body">Select "Delete" below if you are ready to delete:<br> 
-
-                                        <strong> <?php echo $row['Title']; ?> <br>
-
-                                       
-
-                                        <form method="post" action="winter" enctype="multipart/form-data" style="padding:10px;">
-
-                                         <div class="form-group">
-
-                                             <input type="hidden" name="Id" value="<?php echo $row['Id']; ?>">
-
-                                          </div> 
-
-                                    <div class="modal-footer">
-
-                                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-
-                                         <button type="submit" value="delete"  name="submit" class="btn btn-danger" id="upload-file"><i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
-
-                                        </div>
-
-                                     </form> 
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            </div>
-
-                        <?php 
-
-                        }
-
-                        ?>
-
-               </tbody>
-
-            </table>
-
-        </div>
-
-    </div>
-
-</div>
-
-</div>
-
-<!-- /.container-fluid -->
-
-
-
-</div>
-
-<!-- End of Main Content -->
-
-<?php require_once 'Footer.php'; ?>
-
+                      
+                     </ul>
+                  </div>
+               </div>
+               <div class=" col-lg-3 col-md-6 col-sm-6 dance-agile-info">
+                  <h4 class="pb-lg-3 pb-3">Website Links</h4>
+                  <nav class="border-line">
+                     <ul class="nav flex-column">
+                                              <li class="nav-item">
+                           <a href="about" class="nav-link ">About</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="class" class="nav-link">Class</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="contact" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="gallery" class="nav-link ">Gallery</a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+               <div class=" col-lg-3 col-md-6 col-sm-6 dance-agile-info">
+                  <h4 class="pb-lg-3 pb-3">Usefull Links</h4>
+                  <nav class="border-line">
+                     <ul class="nav flex-column">
+                     <li class="nav-item">
+                           <a href="faculty" class="nav-link">Faculty</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="summer" class="nav-link">Summer Dance Camp</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="winter" class="nav-link">Winter Dance Camp</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="store" class="nav-link">Store</a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+              
+            </div>
+         </div>
+         <div class="copy-agile-right text-center text-white py-2">
+            <p> 
+               © 2023 Music in Motion Dance Academy
+            </p>
+         </div>
+      </footer>
+      <!--//footer-->
+      <!--js working-->
+      <script src='js/jquery-2.2.3.min.js'></script>
+      <!--//js working-->
+      <!-- gallery -->
+      <script src="js/lightbox-plus-jquery.min.js"></script>
+      <!-- //gallery -->
+      <!-- start-smoth-scrolling -->
+      <script src="js/move-top.js"></script>
+      <script src="js/easing.js"></script>
+      <script>
+         jQuery(document).ready(function ($) {
+         	$(".scroll").click(function (event) {
+         		event.preventDefault();
+         		$('html,body').animate({
+         			scrollTop: $(this.hash).offset().top
+         		}, 900);
+         	});
+         });
+      </script>
+      <!-- start-smoth-scrolling -->
+      <!-- here stars scrolling icon -->
+      <script>
+         $(document).ready(function () {
+         
+         	var defaults = {
+         		containerID: 'toTop', // fading element id
+         		containerHoverID: 'toTopHover', // fading element hover id
+         		scrollSpeed: 1200,
+         		easingType: 'linear'
+         	};
+         
+         
+         	$().UItoTop({
+         		easingType: 'easeOutQuart'
+         	});
+         
+         });
+      </script>
+      <!-- //here ends scrolling icon -->
+      <!--bootstrap working-->
+      <script src="js/bootstrap.min.js"></script>
+      <!-- //bootstrap working-->
+   </body>
+</html>
