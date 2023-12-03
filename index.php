@@ -409,33 +409,41 @@ $active='active';
       </section>
       <!--//about -->
       <!--slider-img-->
+
+ 
+
+
+
+
       <section class="side-img py-lg-4 py-md-3 py-sm-3 py-3" data-aos="fade-right">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
           
             <div class="jst-must-info pt-lg-4 pt-md-3 pt-3">
                <div class="stats-info row">
                   <div class="col-lg-3 col-md-3 col-sm-6 col-6 stats-grid stats-grid-1">
-                     <div class="counter">3500</div>
+                     <div class="counter">450</div>
                      <div class="stat-info py-lg-4 py-md-3 py-sm-3 py-3">
-                        <h4>Coffee</h4>
+                        <h4>Students Certified</h4>
                      </div>
                   </div>
                   <div class="col-lg-3 col-md-3 col-sm-6 col-6 stats-grid stats-grid-2">
-                     <div class="counter">650</div>
+                     <div class="counter">700</div>
                      <div class="stat-info py-lg-4 py-md-3 py-sm-3 py-3">
-                        <h4>Happy Client</h4>
+                        <h4>Students Offline 
+</h4>
                      </div>
                   </div>
                   <div class="col-lg-3 col-md-3 col-sm-6 col-6 stats-grid stats-grid-3">
-                     <div class="counter">10</div>
+                     <div class="counter">8</div>
                      <div class="stat-info py-lg-4 py-md-3 py-sm-3 py-3">
-                        <h4>Expereince</h4>
+                        <h4>Faculties 
+</h4>
                      </div>
                   </div>
                   <div class="col-lg-3 col-md-3 col-sm-6 col-6 stats-grid stats-grid-4">
-                     <div class="counter">1010</div>
+                     <div class="counter">18</div>
                      <div class="stat-info py-lg-4 py-md-3 py-sm-3 py-3">
-                        <h4>Expert Worker</h4>
+                        <h4>Events</h4>
                      </div>
                   </div>
                </div>
