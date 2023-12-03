@@ -464,7 +464,7 @@ Our goal is to assist you in creating the best version of yourself and developin
                <div class="col-lg-7 right-ser-list pt-lg-5 pt-md-4 pt-3">
                   <div class="row service-agile-shadow mb-lg-5 mb-md-4 mb-3">
                      <div class=" col-md-2 col-sm-3 col-3 ser-icon-left">
-                     <img src="files/Images/1.PNG"  class="rounded-circle" width="150">
+                     <img src="files/Images/1.PNG"  class="rounded-circle" width="100">
 
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
@@ -474,7 +474,7 @@ Our goal is to assist you in creating the best version of yourself and developin
                   </div>
                   <div class="row service-agile-shadow mb-lg-5 mb-md-4 mb-3">
                      <div class=" col-md-2 col-sm-3 col-3 ser-icon-left">
-                     <img src="files/Images/2.PNG" class="rounded-circle" width="150">
+                     <img src="files/Images/2.PNG" class="rounded-circle" width="100">
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
                      <p style="color: wheat;"> 
@@ -484,7 +484,7 @@ Our goal is to assist you in creating the best version of yourself and developin
                   </div>
                   <div class="row service-agile-shadow mb-lg-5 mb-md-4 mb-3">
                      <div class=" col-md-2 col-sm-3 col-3 ser-icon-left">
-                     <img src="files/Images/3.PNG" class="rounded-circle" width="150">
+                     <img src="files/Images/3.PNG" class="rounded-circle" width="100">
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
                      <p style="color: wheat;"> Chance to teach at schools as a part of the MIM company</>
@@ -492,7 +492,7 @@ Our goal is to assist you in creating the best version of yourself and developin
                   </div>
                   <div class="row service-agile-shadow ">
                      <div class=" col-md-2 col-sm-3 col-3 ser-icon-left">
-                     <img src="files/Images/4.PNG" class="rounded-circle" width="150">
+                     <img src="files/Images/4.PNG" class="rounded-circle" width="100">
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
                      <p style="color: wheat;"> Opportunity to get selected for the Music in Motion Company</p>
