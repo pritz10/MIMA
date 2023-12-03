@@ -1,5 +1,5 @@
 <?php
-$title = "Rules";
+$title = "Instruction";
 require_once 'include/header.php'; ?>
 
       <div class="inner_page-banner">
@@ -13,7 +13,7 @@ require_once 'include/header.php'; ?>
                   <a href="index.php">Home</a>
                   <span>/</span>
                </li>
-               <li style="color:blanchedalmond">Sikkim Big Dance Camp</li>
+               <li style="color:blanchedalmond">Instruction<li>
             </ul>
          </div>
       </div> <br>
