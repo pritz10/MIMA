@@ -19,7 +19,7 @@ require_once 'include/header.php'; ?>
       </div>
       <!-- //short-->
       <!--about-->
-      
+      <div class="container">
       <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
@@ -158,5 +158,6 @@ require_once 'include/header.php'; ?>
                 </div>
               </div>
             </div>
+          </div>
           </div>
       <?php require_once 'include/footer.php';?>
