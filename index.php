@@ -598,64 +598,8 @@ Our goal is to assist you in creating the best version of yourself and developin
       <section class="schedule py-lg-4 py-md-3 py-sm-3 py-3">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
             <h3 class="title text-right clr mb-lg-5 mb-md-4 mb-sm-4 mb-3">Schedule Program</h3>
-            <div class="table-responsive p-2 fact">
-               <table class="table  table-dark timetable mb-0 dark">
-                  <thead>
-                     <tr>
-                        <th scope="col">Time</th>
-                        <th scope="col">MONDAY</th>
-                        <th scope="col">TUESDAY</th>
-                        <th scope="col">WEDNESDAY</th>
-                        <th scope="col">THURSDAY</th>
-                        <th scope="col">FRIDAY</th>
-                        <th scope="col">SATURDAY</th>
-                        <th scope="col">SUNDAY</th>
-                     </tr>
-                  </thead>
-                  <tbody>
-                     <tr>
-                        <th scope="row">05.00 - 06.00</th>
-                        <td class="event-list"><a href="class.html">HiP-POP<span class="pt-1">05.00 - 06.00</span></a> </td>
-                        <td></td>
-                        <td class="event-list"><a href="class.html">Salsa<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td class="event-list"><a href="class.html">Rock<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td class="event-list"><a href="class.html">Belly-Dance<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td class="event-list"><a href="class.html">Tap-dance <span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th scope="row">05.00 - 06.00</th>
-                        <td class="event-list"><a href="class.html">HiP-POP<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td class="event-list"><a href="class.html">Salsa<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td></td>
-                        <td class="event-list"><a href="class.html">Rock<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td></td>
-                        <td class="event-list"><a href="class.html">Tap-dance<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th scope="row">05.00 - 06.00</th>
-                        <td class="event-list"><a href="class.html">HiP-POP<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td></td>
-                        <td class="event-list"><a href="class.html">Salsa<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td class="event-list"><a href="class.html">Rock<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td class="event-list"><a href="class.html">Belly-Dance<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td></td>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th scope="row">05.00 - 06.00</th>
-                        <td></td>
-                        <td class="event-list"><a href="class.html">HiP-POP<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td class="event-list"><a href="class.html">Salsa<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td></td>
-                        <td class="event-list"><a href="class.html">Belly-Dance<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td class="event-list"><a href="class.html">Tap-dance<span class="pt-1">05.00 - 06.00</span></a></td>
-                        <td></td>
-                     </tr>
-                  </tbody>
-               </table>
-            </div>
+            <img src="files/Images/routine.png" class="img-thumbnail img-fluid" alt="Mim Dance Academy Sikkim">
+
          </div>
       </section>
       <!--//schedual-->
