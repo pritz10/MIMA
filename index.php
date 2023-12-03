@@ -524,8 +524,9 @@ Our goal is to assist you in creating the best version of yourself and developin
 
 
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-light">Register Now</button>
-        </div>
+            <a  button type="button" class="btn btn-lg btn-block btn-outline-light" href="files/Image/all.PNG" download="myimage"><img src="files/Image/all.PNG" /> Download </a>
+
+         </div>
         </div><div class="card mb-4 box-shadow">
           <div class="card-header">
             <h4 class="my-0 font-weight-normal"> <strong>Monthly <br>Classical Class</strong></h4>
