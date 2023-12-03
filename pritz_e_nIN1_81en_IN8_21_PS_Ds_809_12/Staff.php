@@ -749,7 +749,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                         <label for="inputEmail4">Brief Description</label>
 
-                                        <input type="email" name="update_email" class="form-control"  value="<?php echo $row['Email']; ?>" id="email">
+                                        <input type="text" name="update_email" class="form-control"  value="<?php echo $row['Email']; ?>" id="email">
 
                                       </div>
 
