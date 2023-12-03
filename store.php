@@ -26,7 +26,17 @@ require_once 'include/header.php'; ?>
               <div class="card mb-4 box-shadow">
               <img class="card-img-top img-fluid" src="files/Images/q.png" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">
+                  This hoodie is made of high-quality materials that will keep you warm and comfortable all season long. The fabric is thick and soft, and the stitching is durable. Plus, the hood is lined with fleece for extra warmth.</p>
+                  <div class="btn-group">
+ 
+ <a href="" class="btn btn-sm btn-outline-secondary">XS</a>
+ <a href="" class="btn btn-sm btn-outline-secondary">S</span></a>
+ <a href="" class="btn btn-sm btn-outline-secondary">M</a>
+ <a href="" class="btn btn-sm btn-outline-secondary">L</span></a>
+ <a href="" class="btn btn-sm btn-outline-secondary">XL</a>
+ <a href="" class="btn btn-sm btn-outline-secondary">XLL</span></a>
+</div>
                   <div class="outs-agile-buttn mt-lg-3 mt-2">
                   <a href="https://api.whatsapp.com/send?phone=+918918212479"  style="font-weight: bolder;">Whatsapp Us</a>
                      </div>
