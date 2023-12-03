@@ -56,6 +56,9 @@
                         <li class="nav-item">
                            <a href="gallery" class="nav-link ">Gallery</a>
                         </li>
+                        <li class="nav-item">
+                           <a href="rules" class="nav-link">Instruction</a>
+                        </li>
                      </ul>
                   </nav>
                </div>
