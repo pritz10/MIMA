@@ -168,7 +168,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                      </div>
                      <div class="abt-sub-info">
                         <h4>All style dance training</h4>
-                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
+                        <p class="text-justify">
                         Hip-hop dance is one of the most popular styles of dance today—using high energy, dynamic moves set to today’s current music. Hip-hop dancing is a great way to get started in dance for those who just want to have fun.</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
@@ -183,7 +183,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                       </div>
                      <div class="abt-sub-info">
                         <h4>Gymnastics</h4>
-                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
+                        <p class="text-justify">
                         Gymnastics is a type of sport that includes physical exercises requiring balance, strength, flexibility, agility, coordination, artistry and endurance. The movements involved in gymnastics contribute to the development of the arms, legs, shoulders, back, chest, and abdominal muscle groups.</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
@@ -199,7 +199,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                      </div>
                      <div class="abt-sub-info">
                         <h4>Semi-Classical Dance</h4>
-                        <p class="text-justify" style="font-family: 'Times New Roman', Times, serif;">
+                        <p class="text-justify">
                         
 
 The art of semi classical dance is a very interesting topic. It’s a type of dance that has some similarities to classical but also incorporates elements from modern and folk dances. Semi-classical dance is a term that refers to an amalgamation of classical and contemporary styles.</p>
