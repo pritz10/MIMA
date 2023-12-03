@@ -168,7 +168,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
 
-                        <h1 class="h3 mb-0 text-gray-800">Gallery Images</h1>
+                        <h1 class="h3 mb-0 text-gray-800">MIM Images</h1>
 
                        
 
@@ -196,7 +196,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
      role="button" aria-expanded="true" aria-controls="as">
 
- <h6 class="m-0 font-weight-bold text-white">Gallery  Images</h6>
+ <h6 class="m-0 font-weight-bold text-white">SICB  Images</h6>
 
                                 </a>
 
@@ -206,7 +206,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                     <div class="card-body">
 
-                                    <form method="post" action="gallery" enctype="multipart/form-data" style="padding:10px;">                                        
+                                    <form method="post" action="flowers" enctype="multipart/form-data" style="padding:10px;">                                        
 
                                         <div class="form-group">
 
@@ -388,7 +388,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                
 
-                    $sql = "SELECT * FROM gallery ORDER BY Id DESC";  
+                    $sql = "SELECT * FROM flowers ORDER BY Id DESC";  
 
                     $result = mysqli_query($connect, $sql);  
 
@@ -446,7 +446,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                        
 
-                                        <form method="post" action="gallery" enctype="multipart/form-data" style="padding:10px;">
+                                        <form method="post" action="flowers" enctype="multipart/form-data" style="padding:10px;">
 
                                          <div class="form-group">
 
