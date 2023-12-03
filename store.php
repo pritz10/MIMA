@@ -27,7 +27,7 @@ require_once 'include/header.php'; ?>
                 <div class="card-body">
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="outs-agile-buttn mt-lg-3 mt-2">
-                  <a href="https://api.whatsapp.com/send?phone=+918918212479"  style="font-weight: bolder;"><img src="files/Images/w.png" class="img-fluid" alt="Cal Us"></a>
+                  <a href="https://api.whatsapp.com/send?phone=+918918212479"  style="font-weight: bolder;">Whatsapp Us</a>
                      </div>
                 </div>
               </div>
