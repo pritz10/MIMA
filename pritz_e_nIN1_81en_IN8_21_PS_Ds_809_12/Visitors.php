@@ -334,7 +334,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
                                     <div class="form-group">
                                                 <label for="f">Designation</label>
 
-                                                <input type="text" name="designation" onkeyup="lettersOnly(this)" class="form-control" required onchange="readURL(this);" id="designation"  >
+                                                <input type="text" name="designation"  class="form-control" required onchange="readURL(this);" id="designation"  >
 
                                     </div>
 
@@ -342,7 +342,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                                 <label for="g">Enter Message</label>
 
-                                                <textarea class="form-control" name="message" onkeyup="lettersOnly(this)" required onchange="readURL(this);" id="details" rows="3" ></textarea>
+                                                <textarea class="form-control" name="message"  required onchange="readURL(this);" id="details" rows="3" ></textarea>
 
                                     </div>
 
