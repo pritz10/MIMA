@@ -55,8 +55,12 @@ $result = mysqli_query($connect,$sql); // fetch data from database
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
  
-                      <a href="<?php echo $data['Flink']; ?>" class="btn btn-sm btn-outline-secondary"><span class="fab fa-facebook-f"></span></a>
-                      <a href="<?php echo $data['Ilink']; ?>" class="btn btn-sm btn-outline-secondary"><span class="fab fa-youtube"></span></a>
+                      <a href="<?php echo $data['Flink']; ?>" class="btn btn-sm btn-outline-secondary" style="
+    background: blue;
+    color: white;"><span class="fab fa-facebook-f"></span></a>
+                      <a href="<?php echo $data['Ilink']; ?>" class="btn btn-sm btn-outline-secondary" style="
+    background: red;
+    color: white;"><span class="fab fa-youtube"></span></a>
                     </div>
                     <small class="text-muted"> <a href="tel:<?php echo $data['Phone']; ?>"><?php echo $data['Phone']; ?></a> </small>
 
