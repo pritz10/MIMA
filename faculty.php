@@ -10,7 +10,7 @@ require_once 'include/header.php'; ?>
          <div class="inner_breadcrumb  ml-4">
             <ul class="short_ls">
                <li style="color:blanchedalmond">
-                  <a href="index.php">Home</a>
+                  <a href="index">Home</a>
                   <span>/</span>
                </li>
                <li style="color:blanchedalmond">Faculty</li>
@@ -25,6 +25,8 @@ require_once 'include/header.php'; ?>
   
 
       <div class="album py-5 bg-light">
+      <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Contact Us</h3>
+
         <div class="container">
 
           <div class="row">
