@@ -1,5 +1,5 @@
 <?php
-$title = "About Us";
+$title = "Store";
 require_once 'include/header.php'; ?>
 
       <div class="inner_page-banner">
@@ -22,6 +22,8 @@ require_once 'include/header.php'; ?>
       <br><br>
       <div class="container">
       <div class="row text-center">
+      <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Store</h3>
+
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
               <img class="card-img-top img-fluid" src="files/Images/q.png" alt="Card image cap">

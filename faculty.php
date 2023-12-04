@@ -25,7 +25,7 @@ require_once 'include/header.php'; ?>
   
 
       <div class="album py-5 bg-light">
-      <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Contact Us</h3>
+      <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Faculty</h3>
 
         <div class="container">
 
