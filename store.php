@@ -21,8 +21,9 @@ require_once 'include/header.php'; ?>
       <!--about--> 
       <br><br>
       <div class="container">
-      <div class="row text-center">
       <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Store</h3>
+
+      <div class="row text-center">
 
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
