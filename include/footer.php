@@ -86,7 +86,7 @@
          </div>
          <div class="copy-agile-right text-center text-white py-2">
             <p> 
-               © 2023 Music in Motion Dance Academy
+              All Rights Reserved © 2023 Music in Motion Dance Academy
             </p>
          </div>
       </footer>
