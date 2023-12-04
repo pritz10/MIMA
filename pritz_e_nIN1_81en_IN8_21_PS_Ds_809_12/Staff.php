@@ -155,8 +155,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'update')
 
 
     $rank =mysqli_real_escape_string($connect, $_POST['update_rank']);
-    $rank = htmlentities($knox );
-
+ 
 
     $uid =mysqli_real_escape_string($connect, $_POST['id']);
 
@@ -614,9 +613,6 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
                         <th>Category</th>
 
                         <th>Date</th>                
-
-
-
                         <th>Action</th>                
 
                     </tr>
@@ -785,7 +781,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                         <label for="inputZip">Sequence</label>
 
-                                        <input type="text" name="update_rank" class="form-control" onkeyup="lettersOnly(this)"  value="<?php echo $row['Rank']; ?>">
+                                        <input type="text" name="update_rank" class="form-control"  value="<?php echo $row['Knox']; ?>">
 
                                       </div>
 

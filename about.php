@@ -10,7 +10,7 @@ require_once 'include/header.php'; ?>
          <div class="inner_breadcrumb  ml-4">
             <ul class="short_ls">
                <li style="color:blanchedalmond">
-                  <a href="index.php">Home</a>
+                  <a href="index">Home</a>
                   <span>/</span>
                </li>
                <li style="color:blanchedalmond">About</li>
