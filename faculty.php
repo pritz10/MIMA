@@ -62,7 +62,7 @@ $result = mysqli_query($connect,$sql); // fetch data from database
     background: red;
     color: white;"><span class="fab fa-youtube"></span></a>
                     </div>
-                    <small class="text-muted"> <a href="tel:<?php echo $data['Phone']; ?>"><?php echo $data['Phone']; ?></a> </small>
+                    <small class="text-muted"> <strong> <a href="tel:<?php echo $data['Phone']; ?>"><?php echo $data['Phone']; ?></a></strong> </small>
 
                    </div>
                 </div>
