@@ -56,7 +56,7 @@ $result = mysqli_query($connect,$sql); // fetch data from database
                     <div class="btn-group">
  
                       <a href="<?php echo $data['Flink']; ?>" class="btn btn-sm btn-outline-secondary" style="
-    background: blue;
+    background: royalblue;
     color: white;"><span class="fab fa-facebook-f"></span></a>
                       <a href="<?php echo $data['Ilink']; ?>" class="btn btn-sm btn-outline-secondary" style="
     background: red;
