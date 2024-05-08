@@ -9,7 +9,7 @@ require_once 'include/header.php'; ?>
                 <ol class="carousel-indicators">
 
                   <?php
-                    $sql = "select * from mainslider ORDER BY id DESC LIMIT 3";  
+                    $sql = "select * from mainslider ORDER BY id DESC LIMIT 15";  
                     $result = mysqli_query($connect, $sql); 
                     $count = mysqli_num_rows($result);  
                     $i=0;
@@ -34,7 +34,7 @@ require_once 'include/header.php'; ?>
 
                           <?php
 
-                          $sql = "select * from mainslider ORDER BY id DESC LIMIT 3";  
+                          $sql = "select * from mainslider ORDER BY id DESC LIMIT 15";  
 
                           $result = mysqli_query($connect, $sql); 
 
