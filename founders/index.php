@@ -97,7 +97,7 @@ body {
                   <a class="nav-link" href="durgasubba">Durga Subba</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://mimdanceacademy.com/">MIMA</a>
+                  <a class="nav-link" href="https://mimdanceacademy.com/">Home</a>
                 </li>
                 
               </ul>
