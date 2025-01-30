@@ -111,7 +111,6 @@ body {
                                 <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
                                     <div class="text-uppercase animated-text">artist &middot; social advocate &middot; educator</div>
                                 </div>
-                                <div class="fs-3 fw-light">Art Director, Music In Motion Dance Academy</div>
 
                                 <h1 class="display-3 fw-bolder mb-5">
                                     <span class="text-gradient d-inline typing-text"></span>
