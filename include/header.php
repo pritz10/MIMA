@@ -71,7 +71,7 @@ require_once 'include/db.php';?>
                         <a href="about" class="nav-link">About</a>
                      </li>
                      <li class="nav-item">
-                        <a href="founders" class="nav-link">index</a>
+                        <a href="founders" class="nav-link">Founders</a>
                      </li>
                      <li class="nav-item">
                         <a href="faculty" class="nav-link">Faculty</a>
