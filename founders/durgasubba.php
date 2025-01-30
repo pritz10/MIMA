@@ -420,7 +420,7 @@ Co-Founder </span> of <span class="highlight">Music In Motion Dance Academy</spa
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="small m-0">Copyright &copy;  2025 Music in Motion Dance Academy </div></div>
+                    <div class="small m-0">&copy;  2025 Music in Motion Dance Academy </div></div>
                      
                 </div>
           
