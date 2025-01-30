@@ -286,7 +286,7 @@ body {
                                     <span class="text-gradient d-inline">About Me</span>
                                 </h2>
                                 <h1 class="mt-4">Durga Subba aka Anny Mak</h1>
-                                <p class="lead"><span class="highlight">Co-Founder,</span>, <span class="highlight">Music In Motion Dance Academy</span></p>
+                                <p class="lead"><span class="highlight">Co-Founder,</span><span class="highlight">Music In Motion Dance Academy</span></p>
         
                         
                                 <section>
@@ -395,7 +395,7 @@ Co-Founder </span> of <span class="highlight">Music In Motion Dance Academy</spa
                 <div class="container px-5 my-5">
                     <div class="text-center">
                         <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-                        <p class="lead">To learn more about <strong>Durga's</strong>  work or to collaborate, visit <span class="highlight">Music In Motion Dance Academy</span> or follow him on social media.</p>
+                        <p class="lead">To learn more about <strong>Durga's</strong>  work or to collaborate, visit <span class="highlight">Music In Motion Dance Academy</span> or follow her on social media.</p>
                         <div class="card shadow border-0 rounded-4 mb-5">
                             <div class="card-body p-5">
                                 
