@@ -71,6 +71,9 @@ require_once 'include/db.php';?>
                         <a href="about" class="nav-link">About</a>
                      </li>
                      <li class="nav-item">
+                        <a href="founders" class="nav-link">index</a>
+                     </li>
+                     <li class="nav-item">
                         <a href="faculty" class="nav-link">Faculty</a>
                      </li>
                      <li class="nav-item">
@@ -94,7 +97,11 @@ require_once 'include/db.php';?>
                      <li class="nav-item">
                      <a href="contact"class="nav-link">Contact</a>
                      </li>
+                     <li class="nav-item">
+                     <a href="donate"class="nav-link">Donate</a>
+                     </li>
                    
+                              
                               
                             
                      
