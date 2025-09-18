@@ -262,6 +262,16 @@ function lettersOnly(input) {
     <span>S Big Dance Images</span></a>
 
 </li>
+  <li class="nav-item">
+
+                <a class="nav-link" href="store">
+
+                    <i class="fas fa-fw fa fa-lightbulb"></i>
+
+                    <span>Store></a>
+
+            </li>
+
             <li class="nav-item">
 
                 <a class="nav-link" href="Visitors">
