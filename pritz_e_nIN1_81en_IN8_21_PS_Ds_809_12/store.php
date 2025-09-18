@@ -467,9 +467,9 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
                         <th>Title</th>
 
                         <th>Description</th>
-
+<th>Price</th>
                         <th>UploadDate</th>
-                                                <th>Price</th>
+                                                
 
 
                         <th>Action</th>
