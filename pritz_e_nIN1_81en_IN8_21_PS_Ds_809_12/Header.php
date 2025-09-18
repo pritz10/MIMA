@@ -268,7 +268,7 @@ function lettersOnly(input) {
 
                     <i class="fas fa-fw fa fa-lightbulb"></i>
 
-                    <span>Store></a>
+                    <span>Store</a>
 
             </li>
 
