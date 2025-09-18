@@ -1,258 +1,332 @@
 <?php
 $title = "Store";
-require_once 'include/header.php'; ?>
-<style>/* General Store Page Enhancements */
-.container h3.title {
-    font-family: 'Montserrat', sans-serif; /* Example: use a nicer font */
-    font-size: 2.8em;
-    color: #333; /* Darker text for main title */
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 50px !important;
-    position: relative;
-    padding-bottom: 15px;
-}
+require_once 'include/header.php'; 
+?>
 
-.container h3.title::after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 4px;
-    background-color: #ff4500; /* A vibrant accent color */
-    border-radius: 2px;
-}
+<!-- Hero Banner with Background Image -->
+<section class="hero-banner" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('files/Images/store-banner.jpg') center/cover no-repeat;">
+    <div class="container">
+        <div class="hero-content text-center text-white">
+            <h1 class="hero-title">Premium Dance Wear</h1>
+            <p class="hero-subtitle">Comfort, Style & Performance for Dancers</p>
+        </div>
+    </div>
+</section>
 
-/* Card Styling and Animation */
-.animated-card {
-    border: none; /* Remove default card border */
-    border-radius: 15px; /* Softer rounded corners */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for hover effects */
-    overflow: hidden; /* Ensures rounded corners are respected */
-    background-color: #fff; /* Ensure white background for cards */
-}
-
-.animated-card:hover {
-    transform: translateY(-10px); /* Lifts the card slightly */
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
-}
-
-.card-img-top.product-image {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    height: 300px; /* Fixed height for product images */
-    object-fit: cover; /* Ensures images cover the area without distortion */
-    transition: transform 0.3s ease-in-out; /* Zoom effect for image */
-}
-
-.animated-card:hover .product-image {
-    transform: scale(1.05); /* Slightly zoom in the image on hover */
-}
-
-.card-body {
-    padding: 25px;
-    text-align: left; /* Align text to left within card body */
-}
-
-.card-title {
-    font-family: 'Roboto Slab', serif; /* A more distinct font for titles */
-    font-size: 1.6em;
-    color: #444;
-    margin-bottom: 15px;
-    min-height: 55px; /* Ensure consistent height for titles */
-}
-
-.card-text {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.95em;
-    color: #666;
-    line-height: 1.6;
-    min-height: 120px; /* Ensure consistent height for descriptions */
-}
-
-/* Size Buttons */
-.size-label {
-    font-weight: bold;
-    color: #555;
-    display: block; /* Make it a block element for spacing */
-    margin-bottom: 10px;
-    font-size: 0.9em;
-}
-
-.btn-group .size-btn {
-    border: 1px solid #ccc;
-    color: #777;
-    background-color: #f8f8f8;
-    margin: 0 3px;
-    border-radius: 5px;
-    transition: all 0.2s ease-in-out;
-}
-
-.btn-group .size-btn:hover {
-    background-color: #ff4500; /* Accent color on hover */
-    color: #fff;
-    border-color: #ff4500;
-    transform: translateY(-2px);
-}
-
-/* Whatsapp Button */
-.outs-agile-buttn {
-    margin-top: 25px !important;
-}
-
-.whatsapp-btn {
-    display: inline-block;
-    background-color: #25D366; /* WhatsApp green */
-    color: #fff !important;
-    padding: 12px 25px;
-    border-radius: 30px; /* Pill-shaped button */
-    font-size: 1.1em;
-    font-weight: bold !important;
-    text-decoration: none;
-    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.whatsapp-btn:hover {
-    background-color: #1DA851; /* Darker green on hover */
-    transform: translateY(-3px); /* Lifts button on hover */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Ensure the header and footer styles are compatible or adjust as needed */
-/* For blanchedalmond text in breadcrumb */
-.inner_breadcrumb ul.short_ls li {
-    color: #eee !important; /* Lighter color for readability on dark banner */
-}
-.inner_breadcrumb ul.short_ls li a {
-    color: #f8f8f8 !important; /* Lighter color for links */
-}
-.inner_breadcrumb ul.short_ls li span {
-    color: #ddd !important;
-}</style>
-      <div class="inner_page-banner">
-      </div>
-      <!--//banner -->
-      <!-- short -->
-      <div class="using-border py-3">
-         <div class="inner_breadcrumb  ml-4">
-            <ul class="short_ls">
-               <li style="color:blanchedalmond">
-                  <a href="index.php">Home</a>
-                  <span>/</span>
-               </li>
-               <li style="color:blanchedalmond">Store</li>
-            </ul>
-         </div>
-      </div>
-      <!-- //short-->
-      <!--about--> 
-      <br><br>
-      <div class="container">
-      <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Our Awesome Store!</h3>
-
-      <div class="row text-center">
-
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow animated-card">
-              <img class="card-img-top img-fluid product-image" src="files/Images/q.png" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Cozy Dance Hoodie</h5>
-                  <p class="card-text">
-                  Experience ultimate comfort with our premium dance hoodie! Crafted from high-quality, soft fabric, it's designed to keep you warm and cozy. Durable stitching and a fleece-lined hood ensure long-lasting comfort. Perfect for warm-ups or chilling out!</p>
-              
-              <br> <span class="size-label">Available in all sizes:</span>    <div class="btn-group">
- 
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">XS</a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">S</span></a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">M</a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">L</span></a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">XL</a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">XXL</span></a>
+<!-- Breadcrumb -->
+<div class="container py-3">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Store</li>
+        </ol>
+    </nav>
 </div>
-                  <div class="outs-agile-buttn mt-lg-3 mt-2">
-                  <a href="https://api.whatsapp.com/send?phone=+918918212479"  style="font-weight: bolder;" class="whatsapp-btn">Whatsapp Us Now!</a>
-                     </div>
-                </div>
-              </div>
-            </div>
-            
-            
 
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow animated-card">
-              <img class="card-img-top img-fluid product-image" src="files/Images/r.png" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Stylish Comfort Hoodie</h5>
-                  <p class="card-text">
-                  Stay warm and look great with our stylish comfort hoodie! Made with premium, soft-touch materials, it's perfect for all seasons. Enjoy the luxurious feel and durable design, complete with a cozy fleece-lined hood for extra warmth on cooler days.</p>
-              
-              <br> <span class="size-label">Available in all sizes:</span>    <div class="btn-group">
- 
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">XS</a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">S</span></a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">M</a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">L</span></a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">XL</a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">XXL</span></a>
-</div>
-                  <div class="outs-agile-buttn mt-lg-3 mt-2">
-                  <a href="https://api.whatsapp.com/send?phone=+918918212479"  style="font-weight: bolder;" class="whatsapp-btn">Whatsapp Us Now!</a>
-                     </div>
-                </div>
-              </div>
-            </div>
+<!-- Store Header -->
+<section class="container mb-5">
+    <div class="text-center">
+        <h2 class="section-title">Our Collection</h2>
+        <p class="section-subtitle">Discover our premium dance apparel designed for comfort and performance</p>
+    </div>
+</section>
 
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow animated-card">
-              <img class="card-img-top img-fluid product-image" src="files/Images/t.png" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Performance Dance Tee</h5>
-                  <p class="card-text">
-                  Move freely and stay cool with our performance dance t-shirt! Made from high-quality, breathable fabric, it wicks away sweat to keep you comfortable and dry during even the most intense dance sessions. Your perfect partner for every move!</p>
-              
-              <br> <span class="size-label">Available in all sizes:</span>    <div class="btn-group">
- 
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">XS</a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">S</span></a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">M</a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">L</span></a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">XL</a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">XXL</span></a>
-</div>
-                  <div class="outs-agile-buttn mt-lg-3 mt-2">
-                  <a href="https://api.whatsapp.com/send?phone=+918918212479"  style="font-weight: bolder;" class="whatsapp-btn">Whatsapp Us Now!</a>
-                     </div>
+<!-- Products Section -->
+<section class="container mb-5">
+    <div class="row">
+        <!-- Product 1 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="product-card card h-100 shadow-sm">
+                <div class="product-image-wrapper">
+                    <img class="card-img-top" src="files/Images/q.png" alt="Premium Hoodie">
+                    <div class="product-overlay">
+                        <button class="btn btn-quick-view" data-toggle="modal" data-target="#productModal1">Quick View</button>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow animated-card">
-              <img class="card-img-top img-fluid product-image" src="files/Images/s.png" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Lightweight Dance Top</h5>
-                  <p class="card-text">
-                  Embrace comfort and freedom with our lightweight dance top! Designed to keep you sweat-free and comfortable, this high-quality t-shirt is perfect for intense dance routines or casual wear. Stay fresh and focused throughout your dance season!</p>
-              
-              <br> <span class="size-label">Available in all sizes:</span>    <div class="btn-group">
- 
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">XS</a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">S</span></a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">M</a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">L</span></a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">XL</a>
- <a href="" class="btn btn-sm btn-outline-secondary size-btn">XXL</span></a>
-</div>
-                  <div class="outs-agile-buttn mt-lg-3 mt-2">
-                  <a href="https://api.whatsapp.com/send?phone=+918918212479"  style="font-weight: bolder;" class="whatsapp-btn">Whatsapp Us Now!</a>
-                     </div>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="product-title">Premium Dance Hoodie</h5>
+                    <p class="card-text flex-grow-1">Crafted with high-quality materials to keep you warm and comfortable all season long. Features thick soft fabric and fleece-lined hood.</p>
+                    
+                    <div class="size-section mb-3">
+                        <p class="size-label">Available Sizes:</p>
+                        <div class="btn-group btn-group-sm size-buttons" role="group">
+                            <button type="button" class="btn btn-outline-dark">XS</button>
+                            <button type="button" class="btn btn-outline-dark">S</button>
+                            <button type="button" class="btn btn-outline-dark">M</button>
+                            <button type="button" class="btn btn-outline-dark">L</button>
+                            <button type="button" class="btn btn-outline-dark">XL</button>
+                            <button type="button" class="btn btn-outline-dark">XXL</button>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-auto">
+                        <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-primary btn-block whatsapp-btn">
+                            <i class="fab fa-whatsapp mr-2"></i> Order via WhatsApp
+                        </a>
+                    </div>
                 </div>
-              </div>
             </div>
-            
-          </div>
-          </div>
-      <?php require_once 'include/footer.php';?>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="product-card card h-100 shadow-sm">
+                <div class="product-image-wrapper">
+                    <img class="card-img-top" src="files/Images/r.png" alt="Performance Hoodie">
+                    <div class="product-overlay">
+                        <button class="btn btn-quick-view" data-toggle="modal" data-target="#productModal2">Quick View</button>
+                    </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="product-title">Performance Hoodie</h5>
+                    <p class="card-text flex-grow-1">Designed for dancers who demand both style and functionality. Excellent warmth with maximum mobility for practice sessions.</p>
+                    
+                    <div class="size-section mb-3">
+                        <p class="size-label">Available Sizes:</p>
+                        <div class="btn-group btn-group-sm size-buttons" role="group">
+                            <button type="button" class="btn btn-outline-dark">XS</button>
+                            <button type="button" class="btn btn-outline-dark">S</button>
+                            <button type="button" class="btn btn-outline-dark">M</button>
+                            <button type="button" class="btn btn-outline-dark">L</button>
+                            <button type="button" class="btn btn-outline-dark">XL</button>
+                            <button type="button" class="btn btn-outline-dark">XXL</button>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-auto">
+                        <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-primary btn-block whatsapp-btn">
+                            <i class="fab fa-whatsapp mr-2"></i> Order via WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="product-card card h-100 shadow-sm">
+                <div class="product-image-wrapper">
+                    <img class="card-img-top" src="files/Images/t.png" alt="Performance T-Shirt">
+                    <div class="product-overlay">
+                        <button class="btn btn-quick-view" data-toggle="modal" data-target="#productModal3">Quick View</button>
+                    </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="product-title">Breathable Dance Tee</h5>
+                    <p class="card-text flex-grow-1">Moisture-wicking fabric keeps you dry and comfortable during intense dance sessions. Perfect for practice and performances.</p>
+                    
+                    <div class="size-section mb-3">
+                        <p class="size-label">Available Sizes:</p>
+                        <div class="btn-group btn-group-sm size-buttons" role="group">
+                            <button type="button" class="btn btn-outline-dark">XS</button>
+                            <button type="button" class="btn btn-outline-dark">S</button>
+                            <button type="button" class="btn btn-outline-dark">M</button>
+                            <button type="button" class="btn btn-outline-dark">L</button>
+                            <button type="button" class="btn btn-outline-dark">XL</button>
+                            <button type="button" class="btn btn-outline-dark">XXL</button>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-auto">
+                        <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-primary btn-block whatsapp-btn">
+                            <i class="fab fa-whatsapp mr-2"></i> Order via WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Product 4 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="product-card card h-100 shadow-sm">
+                <div class="product-image-wrapper">
+                    <img class="card-img-top" src="files/Images/s.png" alt="Classic Dance Tee">
+                    <div class="product-overlay">
+                        <button class="btn btn-quick-view" data-toggle="modal" data-target="#productModal4">Quick View</button>
+                    </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="product-title">Classic Dance Tee</h5>
+                    <p class="card-text flex-grow-1">A versatile t-shirt that combines style with functionality. Made from high-quality materials to keep you comfortable during practice.</p>
+                    
+                    <div class="size-section mb-3">
+                        <p class="size-label">Available Sizes:</p>
+                        <div class="btn-group btn-group-sm size-buttons" role="group">
+                            <button type="button" class="btn btn-outline-dark">XS</button>
+                            <button type="button" class="btn btn-outline-dark">S</button>
+                            <button type="button" class="btn btn-outline-dark">M</button>
+                            <button type="button" class="btn btn-outline-dark">L</button>
+                            <button type="button" class="btn btn-outline-dark">XL</button>
+                            <button type="button" class="btn btn-outline-dark">XXL</button>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-auto">
+                        <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-primary btn-block whatsapp-btn">
+                            <i class="fab fa-whatsapp mr-2"></i> Order via WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="container-fluid bg-light py-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4 feature-item">
+                <div class="feature-icon mb-3">
+                    <i class="fas fa-truck fa-2x"></i>
+                </div>
+                <h5>Fast Delivery</h5>
+                <p>Quick shipping across India</p>
+            </div>
+            <div class="col-md-4 feature-item">
+                <div class="feature-icon mb-3">
+                    <i class="fas fa-exchange-alt fa-2x"></i>
+                </div>
+                <h5>Easy Returns</h5>
+                <p>7-day return policy</p>
+            </div>
+            <div class="col-md-4 feature-item">
+                <div class="feature-icon mb-3">
+                    <i class="fas fa-quality fa-2x"></i>
+                </div>
+                <h5>Quality Assurance</h5>
+                <p>Premium materials guaranteed</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+            <h4>Stay Updated</h4>
+            <p>Subscribe to get notified about new products and offers</p>
+            <form class="form-inline justify-content-center">
+                <div class="form-group mx-sm-2 mb-2">
+                    <input type="email" class="form-control" placeholder="Your email">
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Custom Styles */
+    .hero-banner {
+        padding: 100px 0;
+        margin-bottom: 30px;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: #333;
+    }
+    
+    .section-subtitle {
+        color: #6c757d;
+        margin-bottom: 30px;
+    }
+    
+    .product-card {
+        border: none;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+    
+    .product-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .product-image-wrapper {
+        position: relative;
+        overflow: hidden;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .product-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    
+    .product-card:hover .product-overlay {
+        opacity: 1;
+    }
+    
+    .btn-quick-view {
+        background: #fff;
+        color: #333;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-weight: 500;
+    }
+    
+    .product-title {
+        font-weight: 600;
+        color: #333;
+    }
+    
+    .size-label {
+        font-size: 0.9rem;
+        margin-bottom: 8px;
+        color: #6c757d;
+    }
+    
+    .size-buttons .btn {
+        border-radius: 5px;
+        margin: 0 2px;
+        padding: 3px 8px;
+    }
+    
+    .whatsapp-btn {
+        background: #25D366;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-weight: 500;
+    }
+    
+    .whatsapp-btn:hover {
+        background: #128C7E;
+    }
+    
+    .feature-item {
+        padding: 20px;
+    }
+    
+    .feature-icon {
+        color: #007bff;
+    }
+    
+    .breadcrumb {
+        background: transparent;
+        padding: 0;
+    }
+</style>
+
+<?php require_once 'include/footer.php'; ?>
