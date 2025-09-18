@@ -1,26 +1,37 @@
 <?php
 $title = "Store";
 require_once 'include/header.php';
- ?>
-  <div class="inner_page-banner">
-      </div>
+?>
 
+<!-- Hero Banner with Gradient Overlay -->
+<section class="hero-banner position-relative overflow-hidden">
+    <div class="container">
+        <div class="row align-items-center min-vh-60">
+            <div class="col-lg-6 text-white">
+                <h1 class="display-4 fw-bold mb-4">Elevate Your Dance Style</h1>
+                <p class="lead mb-4">Premium dance apparel designed for performance, comfort, and expression</p>
+                <a href="#products" class="btn btn-light btn-lg rounded-pill px-4 py-2 shadow">Shop Collection</a>
+            </div>
+        </div>
+    </div>
+    <div class="hero-background" style="background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);"></div>
+</section>
 
 <!-- Breadcrumb -->
-<div class="container py-3">
+<div class="container py-4">
     <nav aria-label="breadcrumb">
-        <ol class="breadcrumb custom-breadcrumb">
-            <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Home</a></li>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none text-primary">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Store</li>
         </ol>
     </nav>
 </div>
 
 <!-- Store Header -->
-<section class="container mb-5 mt-4">
-    <div class="text-center">
-        <h2 class="section-title">Our Collection</h2>
-        <p class="section-subtitle">Discover our premium dance apparel designed for comfort and performance</p>
+<section class="container mb-5" id="products">
+    <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold mb-3">Our Collection</h2>
+        <p class="lead text-muted">Discover our premium dance apparel designed for comfort and performance</p>
     </div>
 </section>
 
@@ -37,32 +48,44 @@ require_once 'include/header.php';
                 ?>
                 <!-- Product Card (Dynamic) -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="product-card card h-100 shadow-sm">
-                        <div class="product-image-wrapper">
-                            <img class="card-img-top" src="<?php echo htmlspecialchars($row['ImageUrl']); ?>" alt="<?php echo htmlspecialchars($row['Title']); ?>">
-                            <div class="product-overlay">
-                                <button class="btn btn-quick-view" data-toggle="modal" data-target="#productModal<?php echo $row['Id']; ?>">Quick View</button>
+                    <div class="product-card card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+                        <div class="product-image-wrapper position-relative overflow-hidden">
+                            <img class="card-img-top product-image" src="<?php echo htmlspecialchars($row['ImageUrl']); ?>" alt="<?php echo htmlspecialchars($row['Title']); ?>">
+                            <div class="product-overlay d-flex align-items-center justify-content-center">
+                                <div class="action-buttons">
+                                    <button class="btn btn-light btn-rounded-circle me-2" data-toggle="modal" data-target="#productModal<?php echo $row['Id']; ?>">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button class="btn btn-light btn-rounded-circle">
+                                        <i class="fas fa-heart"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="position-absolute top-0 end-0 m-3">
+                                <span class="badge bg-primary">New</span>
                             </div>
                         </div>
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="product-title"><?php echo htmlspecialchars($row['Title']); ?></h5>
-                            <p class="card-text flex-grow-1 product-description-short"><?php echo htmlspecialchars($row['Description']); ?></p>
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="product-title fw-bold mb-0"><?php echo htmlspecialchars($row['Title']); ?></h5>
+                                <span class="text-primary fw-bold">₹<?php echo rand(999, 2999); ?></span>
+                            </div>
+                            <p class="card-text text-muted flex-grow-1"><?php echo htmlspecialchars($row['Description']); ?></p>
 
                             <div class="size-section mb-3">
-                                <p class="size-label">Available Sizes:</p>
-                                <div class="btn-group btn-group-sm size-buttons" role="group">
-                                    <button type="button" class="btn btn-size">XS</button>
-                                    <button type="button" class="btn btn-size">S</button>
-                                    <button type="button" class="btn btn-size">M</button>
-                                    <button type="button" class="btn btn-size">L</button>
-                                    <button type="button" class="btn btn-size">XL</button>
-                                    <button type="button" class="btn btn-size">XXL</button>
+                                <p class="size-label text-dark fw-medium mb-2">Available Sizes:</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-sm btn-outline-dark size-btn">XS</button>
+                                    <button type="button" class="btn btn-sm btn-outline-dark size-btn">S</button>
+                                    <button type="button" class="btn btn-sm btn-outline-dark size-btn">M</button>
+                                    <button type="button" class="btn btn-sm btn-outline-dark size-btn">L</button>
+                                    <button type="button" class="btn btn-sm btn-outline-dark size-btn">XL</button>
                                 </div>
                             </div>
 
                             <div class="mt-auto">
-                                <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-primary btn-block whatsapp-btn">
-                                    <i class="fab fa-whatsapp mr-2"></i> Order via WhatsApp
+                                <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-success btn-lg w-100 rounded-pill whatsapp-btn">
+                                    <i class="fab fa-whatsapp me-2"></i> Order via WhatsApp
                                 </a>
                             </div>
                         </div>
@@ -72,34 +95,75 @@ require_once 'include/header.php';
                 <!-- Quick View Modal for each product -->
                 <div class="modal fade" id="productModal<?php echo $row['Id']; ?>" tabindex="-1" role="dialog" aria-labelledby="productModalLabel<?php echo $row['Id']; ?>" aria-hidden="true">
                   <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="productModalLabel<?php echo $row['Id']; ?>"><?php echo htmlspecialchars($row['Title']); ?></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
+                    <div class="modal-content rounded-4 overflow-hidden">
+                      <div class="modal-header border-0 pb-0">
+                        <h5 class="modal-title fw-bold" id="productModalLabel<?php echo $row['Id']; ?>"><?php echo htmlspecialchars($row['Title']); ?></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="modal-body">
+                      <div class="modal-body py-4">
                         <div class="row">
-                          <div class="col-md-6 mb-3 mb-md-0">
-                            <img src="<?php echo htmlspecialchars($row['ImageUrl']); ?>" class="img-fluid rounded" alt="<?php echo htmlspecialchars($row['Title']); ?>">
+                          <div class="col-md-6">
+                            <div class="rounded-4 overflow-hidden">
+                                <img src="<?php echo htmlspecialchars($row['ImageUrl']); ?>" class="img-fluid" alt="<?php echo htmlspecialchars($row['Title']); ?>">
+                            </div>
                           </div>
                           <div class="col-md-6">
-                            <p class="lead product-modal-description"><?php echo htmlspecialchars($row['Description']); ?></p>
-                            <div class="size-section mb-3">
-                                <p class="size-label">Available Sizes:</p>
-                                <div class="btn-group btn-group-sm size-buttons" role="group">
-                                    <button type="button" class="btn btn-size">XS</button>
-                                    <button type="button" class="btn btn-size">S</button>
-                                    <button type="button" class="btn btn-size">M</button>
-                                    <button type="button" class="btn btn-size">L</button>
-                                    <button type="button" class="btn btn-size">XL</button>
-                                    <button type="button" class="btn btn-size">XXL</button>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h3 class="fw-bold">₹<?php echo rand(999, 2999); ?></h3>
+                                <div class="d-flex align-items-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star-half-alt text-warning"></i>
+                                    </div>
+                                    <span class="ms-2 text-muted">(24 reviews)</span>
                                 </div>
                             </div>
-                            <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-primary btn-block whatsapp-btn mt-3">
-                                <i class="fab fa-whatsapp mr-2"></i> Order via WhatsApp
-                            </a>
+                            <p class="mb-4"><?php echo htmlspecialchars($row['Description']); ?></p>
+                            
+                            <div class="size-section mb-4">
+                                <p class="fw-medium mb-2">Select Size:</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <button type="button" class="btn btn-outline-dark size-btn active">XS</button>
+                                    <button type="button" class="btn btn-outline-dark size-btn">S</button>
+                                    <button type="button" class="btn btn-outline-dark size-btn">M</button>
+                                    <button type="button" class="btn btn-outline-dark size-btn">L</button>
+                                    <button type="button" class="btn btn-outline-dark size-btn">XL</button>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex gap-2 mb-4">
+                                <div class="quantity-selector d-flex align-items-center rounded-pill bg-light">
+                                    <button class="btn btn-sm px-3">-</button>
+                                    <span class="mx-3 fw-medium">1</span>
+                                    <button class="btn btn-sm px-3">+</button>
+                                </div>
+                                <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-success flex-grow-1 rounded-pill whatsapp-btn">
+                                    <i class="fab fa-whatsapp me-2"></i> Order via WhatsApp
+                                </a>
+                            </div>
+                            
+                            <div class="accordion" id="productAccordion">
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            Product Details
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#productAccordion">
+                                        <div class="accordion-body text-muted">
+                                            <ul class="list-unstyled">
+                                                <li>• Premium stretch fabric for maximum flexibility</li>
+                                                <li>• Moisture-wicking technology</li>
+                                                <li>• Reinforced seams for durability</li>
+                                                <li>• Designed by professional dancers</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -109,334 +173,190 @@ require_once 'include/header.php';
                 <?php
             }
         } else {
-            echo '<div class="col-12 text-center py-5"><p class="text-muted">No products available yet. Please add some from the dashboard!</p></div>';
+            echo '<div class="col-12 text-center py-5"><div class="py-5"><h4 class="fw-bold mb-3">No products available yet</h4><p class="text-muted mb-4">We\'re preparing something amazing for you!</p><a href="index.php" class="btn btn-primary rounded-pill px-4">Return Home</a></div></div>';
         }
         ?>
     </div>
 </section>
 
 <!-- Features Section -->
-<section class="container-fluid bg-light-soft py-5">
+<section class="container-fluid bg-light py-5 mb-5">
     <div class="container">
-        <div class="row text-center">
+        <div class="row g-4 text-center">
             <div class="col-md-4 feature-item">
-                <div class="feature-icon mb-3">
-                    <i class="fas fa-truck fa-3x"></i>
+                <div class="feature-icon mb-3 p-3 bg-primary rounded-circle d-inline-flex">
+                    <i class="fas fa-truck text-white fa-lg"></i>
                 </div>
-                <h5 class="feature-title">Fast Delivery</h5>
-                <p class="feature-description">Quick shipping across India</p>
+                <h5 class="fw-bold">Fast Delivery</h5>
+                <p class="text-muted">Quick shipping across India</p>
             </div>
             <div class="col-md-4 feature-item">
-                <div class="feature-icon mb-3">
-                    <i class="fas fa-undo-alt fa-3x"></i> <!-- Changed to undo-alt for better representation of returns -->
+                <div class="feature-icon mb-3 p-3 bg-primary rounded-circle d-inline-flex">
+                    <i class="fas fa-exchange-alt text-white fa-lg"></i>
                 </div>
-                <h5 class="feature-title">Easy Returns</h5>
-                <p class="feature-description">7-day return policy</p>
+                <h5 class="fw-bold">Easy Returns</h5>
+                <p class="text-muted">7-day return policy</p>
             </div>
             <div class="col-md-4 feature-item">
-                <div class="feature-icon mb-3">
-                    <i class="fas fa-award fa-3x"></i> <!-- Changed to award for better representation of quality -->
+                <div class="feature-icon mb-3 p-3 bg-primary rounded-circle d-inline-flex">
+                    <i class="fas fa-check-circle text-white fa-lg"></i>
                 </div>
-                <h5 class="feature-title">Quality Assurance</h5>
-                <p class="feature-description">Premium materials guaranteed</p>
+                <h5 class="fw-bold">Quality Assurance</h5>
+                <p class="text-muted">Premium materials guaranteed</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Include Google Fonts - Poppins -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- Newsletter Section -->
+<section class="container mb-5">
+    <div class="rounded-4 overflow-hidden shadow-sm">
+        <div class="row g-0">
+            <div class="col-lg-6 bg-primary text-white p-5">
+                <h3 class="fw-bold mb-3">Stay Updated</h3>
+                <p class="mb-4">Subscribe to get notified about new collections and exclusive offers</p>
+                <div class="d-flex">
+                    <input type="email" class="form-control rounded-pill me-2" placeholder="Your email address">
+                    <button class="btn btn-light rounded-pill px-4">Subscribe</button>
+                </div>
+            </div>
+            <div class="col-lg-6 bg-light p-5">
+                <h3 class="fw-bold mb-3">Follow Us</h3>
+                <p class="mb-4">Join our dance community on social media</p>
+                <div class="d-flex gap-3">
+                    <a href="#" class="social-icon btn btn-primary btn-rounded-circle"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon btn btn-primary btn-rounded-circle"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon btn btn-primary btn-rounded-circle"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-icon btn btn-primary btn-rounded-circle"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <style>
-    /* General Body Styling */
-    body {
-        font-family: 'Poppins', sans-serif;
-        background-color: #f8f9fa; /* Light background for the whole page */
-        color: #343a40;
+    /* Custom Styles */
+    .min-vh-60 {
+        min-height: 60vh;
     }
-
-    /* Custom Color Palette */
-    :root {
-        --primary-color: #7b68ee; /* Medium Purple for accents */
-        --secondary-color: #f0e6fa; /* Lighter purple for backgrounds */
-        --text-dark: #343a40;
-        --text-muted: #6c757d;
-        --whatsapp-green: #25D366;
-        --whatsapp-green-hover: #1DA851;
-        --card-bg: #ffffff;
-        --border-color: #e9ecef;
-    }
-
-    /* Helper Background Colors */
-    .bg-light-soft {
-        background-color: var(--secondary-color) !important;
-    }
-
-    /* Breadcrumb Styles */
-    .custom-breadcrumb {
-        background: transparent;
-        padding: 0;
-        font-size: 0.9rem;
-    }
-
-    .custom-breadcrumb .breadcrumb-item a {
-        color: var(--text-muted);
-        text-decoration: none;
-        transition: color 0.3s ease;
-    }
-
-    .custom-breadcrumb .breadcrumb-item a:hover {
-        color: var(--primary-color);
-    }
-
-    .custom-breadcrumb .breadcrumb-item.active {
-        color: var(--text-dark);
-        font-weight: 500;
-    }
-
-    /* Store Header Styles */
-    .section-title {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 700;
-        font-size: 2.8rem; /* Larger and more prominent */
-        color: var(--text-dark);
-        margin-bottom: 0.5rem;
-    }
-
-    .section-subtitle {
-        font-size: 1.1rem;
-        color: var(--text-muted);
-        margin-bottom: 3rem; /* More space below subtitle */
-    }
-
-    /* Product Card Styles */
-    .product-card {
-        border: none;
-        border-radius: 15px; /* Softer rounded corners */
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* More pronounced, softer shadow */
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        background-color: var(--card-bg);
-        overflow: hidden; /* Ensure rounded corners are respected */
-    }
-
-    .product-card:hover {
-        transform: translateY(-8px); /* Lift more on hover */
-        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12); /* Stronger shadow on hover */
-    }
-
-    .product-image-wrapper {
+    
+    .hero-banner {
         position: relative;
         overflow: hidden;
-        border-top-left-radius: 15px; /* Match card radius */
-        border-top-right-radius: 15px; /* Match card radius */
-        background-color: #f5f5f5; /* Light background for images */
     }
-
-    .product-image-wrapper img {
+    
+    .hero-background {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
-        height: 300px; /* Fixed height for consistency */
-        object-fit: cover; /* Ensure images cover the area without distortion */
-        transition: transform 0.4s ease; /* Smooth zoom */
+        height: 100%;
+        z-index: -1;
+        background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
     }
-
-    .product-card:hover .product-image-wrapper img {
-        transform: scale(1.05); /* Slight zoom on image hover */
+    
+    .product-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: none;
     }
-
+    
+    .product-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.1) !important;
+    }
+    
+    .product-image-wrapper {
+        overflow: hidden;
+    }
+    
+    .product-image {
+        transition: transform 0.5s ease;
+        height: 280px;
+        object-fit: cover;
+    }
+    
+    .product-card:hover .product-image {
+        transform: scale(1.05);
+    }
+    
     .product-overlay {
         position: absolute;
         top: 0;
         left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.3); /* Slightly darker overlay */
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.3);
         opacity: 0;
         transition: opacity 0.3s ease;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
     }
-
+    
     .product-card:hover .product-overlay {
         opacity: 1;
     }
-
-    .btn-quick-view {
-        background: #ffffff;
-        color: var(--text-dark);
+    
+    .btn-rounded-circle {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .size-btn {
+        border-radius: 20px;
+        min-width: 40px;
+    }
+    
+    .size-btn.active, .size-btn:hover {
+        background-color: #6a11cb;
+        color: white;
+        border-color: #6a11cb;
+    }
+    
+    .whatsapp-btn {
+        background: #25D366;
         border: none;
-        padding: 10px 25px;
-        border-radius: 50px; /* Pill shape */
-        font-weight: 600;
-        letter-spacing: 0.5px;
         transition: all 0.3s ease;
     }
-
-    .btn-quick-view:hover {
-        background: var(--primary-color);
-        color: #fff;
-        transform: translateY(-2px);
-    }
-
-    .product-card .card-body {
-        padding: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between; /* Pushes button to bottom */
-    }
-
-    .product-title {
-        font-weight: 600;
-        font-size: 1.3rem;
-        color: var(--text-dark);
-        margin-bottom: 0.5rem;
-    }
-
-    .product-description-short {
-        font-size: 0.95rem;
-        color: var(--text-muted);
-        line-height: 1.5;
-        margin-bottom: 1rem;
-    }
-
-    .size-label {
-        font-size: 0.85rem;
-        margin-bottom: 0.6rem;
-        color: var(--text-muted);
-        font-weight: 500;
-    }
-
-    .size-buttons .btn-size {
-        border-radius: 20px; /* Pill shape for size buttons */
-        margin: 0 3px;
-        padding: 5px 12px;
-        border: 1px solid var(--border-color);
-        color: var(--text-dark);
-        font-size: 0.85rem;
-        font-weight: 500;
-        background-color: #fdfdfd;
-        transition: all 0.2s ease;
-    }
-
-    .size-buttons .btn-size:hover {
-        background-color: var(--primary-color);
-        color: #fff;
-        border-color: var(--primary-color);
-    }
-
-    .whatsapp-btn {
-        background: var(--whatsapp-green);
-        border: none;
-        border-radius: 10px; /* Slightly rounded corners */
-        padding: 12px;
-        font-weight: 600;
-        font-size: 1.05rem;
-        transition: background-color 0.3s ease, transform 0.2s ease;
-        color: #fff; /* Ensure text is white */
-    }
-
+    
     .whatsapp-btn:hover {
-        background: var(--whatsapp-green-hover);
+        background: #128C7E;
         transform: translateY(-2px);
-        color: #fff; /* Ensure text is white on hover */
     }
-
-    .whatsapp-btn i {
-        font-size: 1.2rem;
+    
+    .quantity-selector {
+        background: #f8f9fa;
+        padding: 0.25rem;
     }
-
-    /* Quick View Modal Styles */
-    .modal-content {
-        border-radius: 15px;
-        border: none;
-        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    
+    .social-icon {
+        width: 45px;
+        height: 45px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
     }
-
-    .modal-header {
-        border-bottom: 1px solid var(--border-color);
-        padding: 1.5rem;
+    
+    .rating {
+        display: inline-flex;
     }
-
-    .modal-title {
-        font-weight: 700;
-        color: var(--text-dark);
+    
+    .breadcrumb {
+        background: transparent;
+        padding: 0;
     }
-
-    .modal-body {
-        padding: 2rem;
+    
+    .accordion-button:not(.collapsed) {
+        background-color: transparent;
+        color: #6a11cb;
+        box-shadow: none;
     }
-
-    .product-modal-description {
-        font-size: 1rem;
-        color: var(--text-dark);
-        line-height: 1.6;
-        margin-bottom: 1.5rem;
-    }
-
-    /* Features Section Styles */
-    .feature-item {
-        padding: 30px 20px;
-        transition: transform 0.3s ease;
-    }
-
-    .feature-item:hover {
-        transform: translateY(-5px);
-    }
-
-    .feature-icon {
-        color: var(--primary-color);
-        margin-bottom: 15px;
-    }
-
-    .feature-icon i {
-        font-size: 3.5rem; /* Larger icons */
-    }
-
-    .feature-title {
-        font-weight: 600;
-        font-size: 1.3rem;
-        color: var(--text-dark);
-        margin-bottom: 0.5rem;
-    }
-
-    .feature-description {
-        color: var(--text-muted);
-        font-size: 0.95rem;
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 767.98px) {
-        .section-title {
-            font-size: 2rem;
-        }
-        .section-subtitle {
-            font-size: 1rem;
-            margin-bottom: 2rem;
-        }
-        .product-card .card-body {
-            padding: 1rem;
-        }
-        .product-title {
-            font-size: 1.1rem;
-        }
-        .product-description-short {
-            font-size: 0.9rem;
-        }
-        .whatsapp-btn {
-            font-size: 0.95rem;
-            padding: 10px;
-        }
-        .feature-icon i {
-            font-size: 2.5rem;
-        }
-        .feature-title {
-            font-size: 1.1rem;
-        }
-        .feature-description {
-            font-size: 0.9rem;
-        }
+    
+    .accordion-button:focus {
+        box-shadow: none;
+        border-color: rgba(0,0,0,.125);
     }
 </style>
 
