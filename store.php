@@ -145,21 +145,7 @@ require_once 'include/header.php';
     </div>
 </section>
 
-<!-- Newsletter Section -->
-<section class="container py-5">
-    <div class="row justify-content-center">
-        <div class="col-lg-6 text-center">
-            <h4>Stay Updated</h4>
-            <p>Subscribe to get notified about new products and offers</p>
-            <form class="form-inline justify-content-center">
-                <div class="form-group mx-sm-2 mb-2">
-                    <input type="email" class="form-control" placeholder="Your email">
-                </div>
-                <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
-            </form>
-        </div>
-    </div>
-</section>
+
 
 <style>
     /* Custom Styles */
