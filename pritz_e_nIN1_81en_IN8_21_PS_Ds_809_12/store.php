@@ -68,7 +68,7 @@ if ($_FILES['myfile']['size'] > 2000000000) { // file shouldn't be larger than 2
 
         if (move_uploaded_file($file, $destination)) {
 
-            $sql = "INSERT INTO store(title, description, imageurl, date) VALUES ('$title','$description','./files/Images/Mainslider/mainslider$filename','$created_date')";
+            $sql = "INSERT INTO store(title, description, imageurl, date) VALUES ('$title','$description','./files/Images/Store/store$filename','$created_date')";
 
             if (mysqli_query($connect, $sql)) {
 
