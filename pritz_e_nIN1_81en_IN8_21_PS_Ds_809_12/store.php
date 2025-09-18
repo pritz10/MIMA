@@ -23,7 +23,7 @@
 
     // destination of the file on the server
 
-     $destination = '../files/Images/Mainslider/mainslider' . $filename;
+     $destination = '../files/Images/Store/store' . $filename;
 
  
 
@@ -68,7 +68,7 @@ if ($_FILES['myfile']['size'] > 2000000000) { // file shouldn't be larger than 2
 
         if (move_uploaded_file($file, $destination)) {
 
-            $sql = "INSERT INTO mainslider(title, description, imageurl, date) VALUES ('$title','$description','./files/Images/Mainslider/mainslider$filename','$created_date')";
+            $sql = "INSERT INTO store(title, description, imageurl, date) VALUES ('$title','$description','./files/Images/Mainslider/mainslider$filename','$created_date')";
 
             if (mysqli_query($connect, $sql)) {
 
@@ -133,7 +133,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'update')
 
     $created_date = date("d-F-Y");
 
-    $sql = "UPDATE mainslider set Title='$utitle', Description='$description', Date='$created_date' where Id='$uid'";
+    $sql = "UPDATE store set Title='$utitle', Description='$description', Date='$created_date' where Id='$uid'";
 
     if (mysqli_query($connect, $sql)) {
 
@@ -181,7 +181,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
     $uid = $_POST['Id'];   
 
-    $sql = "DELETE FROM mainslider where Id='$uid'";
+    $sql = "DELETE FROM store where Id='$uid'";
 
     if (mysqli_query($connect, $sql)) {
 
@@ -279,7 +279,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
      role="button" aria-expanded="true" aria-controls="as">
 
- <h6 class="m-0 font-weight-bold text-white">Upload Slider Images</h6>
+ <h6 class="m-0 font-weight-bold text-white">Upload Product Images</h6>
 
                                 </a>
 
@@ -289,7 +289,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                     <div class="card-body">
 
-                                    <form method="post" action="index" enctype="multipart/form-data" style="padding:10px;">                                        
+                                    <form method="post" action="store" enctype="multipart/form-data" style="padding:10px;">                                        
 
                                         <div class="form-group">
 
@@ -475,7 +475,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                
 
-                    $sql = "SELECT * FROM mainslider ORDER BY Id DESC";  
+                    $sql = "SELECT * FROM store ORDER BY Id DESC";  
 
                     $result = mysqli_query($connect, $sql);  
 
@@ -531,7 +531,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                     <div class="modal-body">
 
-                                    <form method="post" action="index" enctype="multipart/form-data" style="padding:10px;">
+                                    <form method="post" action="store" enctype="multipart/form-data" style="padding:10px;">
 
                                          <div class="form-group">
 
@@ -601,7 +601,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                       
 
-                                        <form method="post" action="index" enctype="multipart/form-data" style="padding:10px;">
+                                        <form method="post" action="storectype="multipart/form-data" style="padding:10px;">
 
                                          <div class="form-group">
 
