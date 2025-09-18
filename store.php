@@ -29,7 +29,8 @@ require_once 'include/header.php';
     <div class="row">
         <?php
         // Fetch products from the database
-        $sql = "SELECT * FROM store ORDER BY Id DESC";
+        // Make sure to select the 'Price' column
+        $sql = "SELECT Id, ImageUrl, Title, Description, Price FROM store ORDER BY Id DESC";
         $result = mysqli_query($connect, $sql);
 
         if (mysqli_num_rows($result) > 0) {
@@ -47,6 +48,9 @@ require_once 'include/header.php';
                         <div class="card-body d-flex flex-column">
                             <h5 class="product-title"><?php echo htmlspecialchars($row['Title']); ?></h5>
                             <p class="card-text flex-grow-1 product-description-short"><?php echo htmlspecialchars($row['Description']); ?></p>
+
+                            <!-- Price Display for Product Card -->
+                            <p class="product-price">₹<?php echo htmlspecialchars(number_format($row['Price'], 2)); ?></p>
 
                             <div class="size-section mb-3">
                                 <p class="size-label">Available Sizes:</p>
@@ -86,6 +90,10 @@ require_once 'include/header.php';
                           </div>
                           <div class="col-md-6">
                             <p class="lead product-modal-description"><?php echo htmlspecialchars($row['Description']); ?></p>
+
+                            <!-- Price Display for Quick View Modal -->
+                            <p class="product-price-modal">₹<?php echo htmlspecialchars(number_format($row['Price'], 2)); ?></p>
+
                             <div class="size-section mb-3">
                                 <p class="size-label">Available Sizes:</p>
                                 <div class="btn-group btn-group-sm size-buttons" role="group">
@@ -301,6 +309,17 @@ require_once 'include/header.php';
         margin-bottom: 1rem;
     }
 
+    /* New Price Styles for Product Card */
+    .product-price {
+        font-size: 1.5rem; /* Prominent size */
+        font-weight: 700;
+        color: var(--primary-color); /* Highlight color */
+        margin-top: 0.5rem;
+        margin-bottom: 1rem; /* Space below price */
+        text-align: right; /* Align price to the right */
+        letter-spacing: 0.5px;
+    }
+
     .size-label {
         font-size: 0.85rem;
         margin-bottom: 0.6rem;
@@ -375,6 +394,16 @@ require_once 'include/header.php';
         margin-bottom: 1.5rem;
     }
 
+    /* New Price Styles for Quick View Modal */
+    .product-price-modal {
+        font-size: 1.8rem; /* Even more prominent in modal */
+        font-weight: 800;
+        color: var(--primary-color);
+        margin-bottom: 1.5rem;
+        text-align: left;
+        letter-spacing: 0.7px;
+    }
+
     /* Features Section Styles */
     .feature-item {
         padding: 30px 20px;
@@ -423,6 +452,14 @@ require_once 'include/header.php';
         }
         .product-description-short {
             font-size: 0.9rem;
+        }
+        .product-price {
+            font-size: 1.3rem; /* Adjust for smaller screens */
+            text-align: center; /* Center price on smaller cards */
+        }
+        .product-price-modal {
+            font-size: 1.5rem; /* Adjust for smaller modal */
+            text-align: center;
         }
         .whatsapp-btn {
             font-size: 0.95rem;
