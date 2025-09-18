@@ -1,10 +1,10 @@
 <?php
 $title = "Store";
-require_once 'include/header.php'; 
-?>
+require_once 'include/header.php';
+ ?>
   <div class="inner_page-banner">
       </div>
- 
+
 
 <!-- Breadcrumb -->
 <div class="container py-3">
@@ -27,141 +27,92 @@ require_once 'include/header.php';
 <!-- Products Section -->
 <section class="container mb-5">
     <div class="row">
-        <!-- Product 1 -->
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="product-card card h-100 shadow-sm">
-                <div class="product-image-wrapper">
-                    <img class="card-img-top" src="files/Images/q.png" alt="Premium Hoodie">
-                    <div class="product-overlay">
-                        <button class="btn btn-quick-view" data-toggle="modal" data-target="#productModal1">Quick View</button>
-                    </div>
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <h5 class="product-title">Premium Dance Hoodie</h5>
-                    <p class="card-text flex-grow-1">Crafted with high-quality materials to keep you warm and comfortable all season long. Features thick soft fabric and fleece-lined hood.</p>
-                    
-                    <div class="size-section mb-3">
-                        <p class="size-label">Available Sizes:</p>
-                        <div class="btn-group btn-group-sm size-buttons" role="group">
-                            <button type="button" class="btn btn-outline-dark">XS</button>
-                            <button type="button" class="btn btn-outline-dark">S</button>
-                            <button type="button" class="btn btn-outline-dark">M</button>
-                            <button type="button" class="btn btn-outline-dark">L</button>
-                            <button type="button" class="btn btn-outline-dark">XL</button>
-                            <button type="button" class="btn btn-outline-dark">XXL</button>
+        <?php
+        // Fetch products from the database
+        $sql = "SELECT * FROM store ORDER BY Id DESC";
+        $result = mysqli_query($connect, $sql);
+
+        if (mysqli_num_rows($result) > 0) {
+            while ($row = mysqli_fetch_assoc($result)) {
+                ?>
+                <!-- Product Card (Dynamic) -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="product-card card h-100 shadow-sm">
+                        <div class="product-image-wrapper">
+                            <img class="card-img-top" src="<?php echo htmlspecialchars($row['ImageUrl']); ?>" alt="<?php echo htmlspecialchars($row['Title']); ?>">
+                            <div class="product-overlay">
+                                <!-- You can create a modal for each product if needed -->
+                                <button class="btn btn-quick-view" data-toggle="modal" data-target="#productModal<?php echo $row['Id']; ?>">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="product-title"><?php echo htmlspecialchars($row['Title']); ?></h5>
+                            <p class="card-text flex-grow-1"><?php echo htmlspecialchars($row['Description']); ?></p>
+
+                            <div class="size-section mb-3">
+                                <p class="size-label">Available Sizes:</p>
+                                <div class="btn-group btn-group-sm size-buttons" role="group">
+                                    <button type="button" class="btn btn-outline-dark">XS</button>
+                                    <button type="button" class="btn btn-outline-dark">S</button>
+                                    <button type="button" class="btn btn-outline-dark">M</button>
+                                    <button type="button" class="btn btn-outline-dark">L</button>
+                                    <button type="button" class="btn btn-outline-dark">XL</button>
+                                    <button type="button" class="btn btn-outline-dark">XXL</button>
+                                </div>
+                            </div>
+
+                            <div class="mt-auto">
+                                <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-primary btn-block whatsapp-btn">
+                                    <i class="fab fa-whatsapp mr-2"></i> Order via WhatsApp
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="mt-auto">
-                        <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-primary btn-block whatsapp-btn">
-                            <i class="fab fa-whatsapp mr-2"></i> Order via WhatsApp
-                        </a>
-                    </div>
                 </div>
-            </div>
-        </div>
-        
-        <!-- Product 2 -->
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="product-card card h-100 shadow-sm">
-                <div class="product-image-wrapper">
-                    <img class="card-img-top" src="files/Images/r.png" alt="Performance Hoodie">
-                    <div class="product-overlay">
-                        <button class="btn btn-quick-view" data-toggle="modal" data-target="#productModal2">Quick View</button>
-                    </div>
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <h5 class="product-title">Performance Hoodie</h5>
-                    <p class="card-text flex-grow-1">Designed for dancers who demand both style and functionality. Excellent warmth with maximum mobility for practice sessions.</p>
-                    
-                    <div class="size-section mb-3">
-                        <p class="size-label">Available Sizes:</p>
-                        <div class="btn-group btn-group-sm size-buttons" role="group">
-                            <button type="button" class="btn btn-outline-dark">XS</button>
-                            <button type="button" class="btn btn-outline-dark">S</button>
-                            <button type="button" class="btn btn-outline-dark">M</button>
-                            <button type="button" class="btn btn-outline-dark">L</button>
-                            <button type="button" class="btn btn-outline-dark">XL</button>
-                            <button type="button" class="btn btn-outline-dark">XXL</button>
+
+                <!-- Quick View Modal for each product (optional, but good practice) -->
+                <div class="modal fade" id="productModal<?php echo $row['Id']; ?>" tabindex="-1" role="dialog" aria-labelledby="productModalLabel<?php echo $row['Id']; ?>" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="productModalLabel<?php echo $row['Id']; ?>"><?php echo htmlspecialchars($row['Title']); ?></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <img src="<?php echo htmlspecialchars($row['ImageUrl']); ?>" class="img-fluid" alt="<?php echo htmlspecialchars($row['Title']); ?>">
+                          </div>
+                          <div class="col-md-6">
+                            <p><?php echo htmlspecialchars($row['Description']); ?></p>
+                            <div class="size-section mb-3">
+                                <p class="size-label">Available Sizes:</p>
+                                <div class="btn-group btn-group-sm size-buttons" role="group">
+                                    <button type="button" class="btn btn-outline-dark">XS</button>
+                                    <button type="button" class="btn btn-outline-dark">S</button>
+                                    <button type="button" class="btn btn-outline-dark">M</button>
+                                    <button type="button" class="btn btn-outline-dark">L</button>
+                                    <button type="button" class="btn btn-outline-dark">XL</button>
+                                    <button type="button" class="btn btn-outline-dark">XXL</button>
+                                </div>
+                            </div>
+                            <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-primary btn-block whatsapp-btn mt-3">
+                                <i class="fab fa-whatsapp mr-2"></i> Order via WhatsApp
+                            </a>
+                          </div>
                         </div>
+                      </div>
                     </div>
-                    
-                    <div class="mt-auto">
-                        <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-primary btn-block whatsapp-btn">
-                            <i class="fab fa-whatsapp mr-2"></i> Order via WhatsApp
-                        </a>
-                    </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-        
-        <!-- Product 3 -->
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="product-card card h-100 shadow-sm">
-                <div class="product-image-wrapper">
-                    <img class="card-img-top" src="files/Images/t.png" alt="Performance T-Shirt">
-                    <div class="product-overlay">
-                        <button class="btn btn-quick-view" data-toggle="modal" data-target="#productModal3">Quick View</button>
-                    </div>
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <h5 class="product-title">Breathable Dance Tee</h5>
-                    <p class="card-text flex-grow-1">Moisture-wicking fabric keeps you dry and comfortable during intense dance sessions. Perfect for practice and performances.</p>
-                    
-                    <div class="size-section mb-3">
-                        <p class="size-label">Available Sizes:</p>
-                        <div class="btn-group btn-group-sm size-buttons" role="group">
-                            <button type="button" class="btn btn-outline-dark">XS</button>
-                            <button type="button" class="btn btn-outline-dark">S</button>
-                            <button type="button" class="btn btn-outline-dark">M</button>
-                            <button type="button" class="btn btn-outline-dark">L</button>
-                            <button type="button" class="btn btn-outline-dark">XL</button>
-                            <button type="button" class="btn btn-outline-dark">XXL</button>
-                        </div>
-                    </div>
-                    
-                    <div class="mt-auto">
-                        <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-primary btn-block whatsapp-btn">
-                            <i class="fab fa-whatsapp mr-2"></i> Order via WhatsApp
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Product 4 -->
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="product-card card h-100 shadow-sm">
-                <div class="product-image-wrapper">
-                    <img class="card-img-top" src="files/Images/s.png" alt="Classic Dance Tee">
-                    <div class="product-overlay">
-                        <button class="btn btn-quick-view" data-toggle="modal" data-target="#productModal4">Quick View</button>
-                    </div>
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <h5 class="product-title">Classic Dance Tee</h5>
-                    <p class="card-text flex-grow-1">A versatile t-shirt that combines style with functionality. Made from high-quality materials to keep you comfortable during practice.</p>
-                    
-                    <div class="size-section mb-3">
-                        <p class="size-label">Available Sizes:</p>
-                        <div class="btn-group btn-group-sm size-buttons" role="group">
-                            <button type="button" class="btn btn-outline-dark">XS</button>
-                            <button type="button" class="btn btn-outline-dark">S</button>
-                            <button type="button" class="btn btn-outline-dark">M</button>
-                            <button type="button" class="btn btn-outline-dark">L</button>
-                            <button type="button" class="btn btn-outline-dark">XL</button>
-                            <button type="button" class="btn btn-outline-dark">XXL</button>
-                        </div>
-                    </div>
-                    
-                    <div class="mt-auto">
-                        <a href="https://api.whatsapp.com/send?phone=+918918212479" class="btn btn-primary btn-block whatsapp-btn">
-                            <i class="fab fa-whatsapp mr-2"></i> Order via WhatsApp
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+                <?php
+            }
+        } else {
+            echo '<div class="col-12 text-center"><p>No products available yet. Please add some from the dashboard!</p></div>';
+        }
+        ?>
     </div>
 </section>
 
@@ -216,42 +167,42 @@ require_once 'include/header.php';
         padding: 100px 0;
         margin-bottom: 30px;
     }
-    
+
     .hero-title {
         font-size: 2.5rem;
         font-weight: 700;
         margin-bottom: 15px;
     }
-    
+
     .section-title {
         font-size: 2rem;
         font-weight: 600;
         margin-bottom: 15px;
         color: #333;
     }
-    
+
     .section-subtitle {
         color: #6c757d;
         margin-bottom: 30px;
     }
-    
+
     .product-card {
         border: none;
         border-radius: 10px;
         transition: transform 0.3s ease;
     }
-    
+
     .product-card:hover {
         transform: translateY(-5px);
     }
-    
+
     .product-image-wrapper {
         position: relative;
         overflow: hidden;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-    
+
     .product-overlay {
         position: absolute;
         top: 0;
@@ -265,11 +216,11 @@ require_once 'include/header.php';
         opacity: 0;
         transition: opacity 0.3s ease;
     }
-    
+
     .product-card:hover .product-overlay {
         opacity: 1;
     }
-    
+
     .btn-quick-view {
         background: #fff;
         color: #333;
@@ -278,24 +229,24 @@ require_once 'include/header.php';
         border-radius: 20px;
         font-weight: 500;
     }
-    
+
     .product-title {
         font-weight: 600;
         color: #333;
     }
-    
+
     .size-label {
         font-size: 0.9rem;
         margin-bottom: 8px;
         color: #6c757d;
     }
-    
+
     .size-buttons .btn {
         border-radius: 5px;
         margin: 0 2px;
         padding: 3px 8px;
     }
-    
+
     .whatsapp-btn {
         background: #25D366;
         border: none;
@@ -303,19 +254,19 @@ require_once 'include/header.php';
         padding: 10px;
         font-weight: 500;
     }
-    
+
     .whatsapp-btn:hover {
         background: #128C7E;
     }
-    
+
     .feature-item {
         padding: 20px;
     }
-    
+
     .feature-icon {
         color: #007bff;
     }
-    
+
     .breadcrumb {
         background: transparent;
         padding: 0;
