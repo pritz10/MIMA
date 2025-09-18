@@ -601,7 +601,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                       
 
-                                        <form method="post" action="storectype="multipart/form-data" style="padding:10px;">
+                                        <form method="post" action="store" type="multipart/form-data" style="padding:10px;">
 
                                          <div class="form-group">
 
