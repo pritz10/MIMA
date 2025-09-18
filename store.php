@@ -4,15 +4,7 @@ require_once 'include/header.php';
 ?>
   <div class="inner_page-banner">
       </div>
-<!-- Hero Banner with Background Image -->
-<section class="hero-banner" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('files/Images/store-banner.jpg') center/cover no-repeat;">
-    <div class="container">
-        <div class="hero-content text-center text-white">
-            <h1 class="hero-title">Premium Dance Wear</h1>
-            <p class="hero-subtitle">Comfort, Style & Performance for Dancers</p>
-        </div>
-    </div>
-</section>
+ 
 
 <!-- Breadcrumb -->
 <div class="container py-3">
