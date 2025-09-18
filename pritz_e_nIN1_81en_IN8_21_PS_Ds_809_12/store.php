@@ -233,7 +233,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
 
-                        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Product Page</h1>
 
                        
 
@@ -295,7 +295,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                         <label for="exampleFormControlInput1">Enter Title</label>
 
-                                        <input type="text" name="title" class="form-control"    onchange="readURL(this);" id="title" placeholder="Nataional Science Day Celebration">
+                                        <input type="text" name="title" class="form-control"    onchange="readURL(this);" id="title" placeholder="Premium Dance Hoodie">
 
                                         </div>
 
@@ -303,7 +303,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                         <label for="exampleFormControlTextarea1">Enter Description</label>
 
-                                                                                     <textarea class="form-control" name="description" onkeyup="lettersOnly(this)"  onchange="readURL(this);" id="details" placeholder="Eg:MIM Dance Academy Website Launched"></textarea>
+                                                                                     <textarea class="form-control" name="description" onkeyup="lettersOnly(this)"  onchange="readURL(this);" id="details" placeholder="Crafted with high-quality materials to keep you warm and comfortable all season long. Features thick soft fabric and fleece-lined hood."></textarea>
 
                                                                                  </div>
 
