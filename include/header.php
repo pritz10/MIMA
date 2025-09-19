@@ -98,7 +98,7 @@ require_once 'include/db.php';?>
                      <a href="contact"class="nav-link">Contact</a>
                      </li>
                      <li class="nav-item">
-                     <a href="donate"class="nav-link">Donate</a>
+                     <a href="serv"class="nav-link">Donate</a>
                      </li>
                    
                               
