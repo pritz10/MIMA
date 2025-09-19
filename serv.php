@@ -96,14 +96,7 @@ require_once 'include/db.php'; // Ensure this file establishes $connect
                                 <div class="card-body d-flex flex-column align-items-start">
                                     <strong class="d-inline-block mb-2 text-success"><?php echo htmlspecialchars($row['title']); ?></strong>
                                     <p class="card-text mb-3"><?php echo htmlspecialchars($row['description']); ?></p>
-                                    <p class="text-muted small">
-                                        <strong>Bank Account/Details:</strong> <?php echo htmlspecialchars($row['bankdetails']); ?> <br>
-                                        <!-- You might want to break down bankdetails into separate fields like IFSC, Name, Account Number in your DB for better presentation -->
-                                        <!-- Example:
-                                        <strong>IFSC:</strong> <?php // echo htmlspecialchars($row['ifsc']); ?> <br>
-                                        <strong>Name:</strong> <?php // echo htmlspecialchars($row['account_name']); ?>
-                                        -->
-                                    </p>
+                                   
                                 </div>
                                 <img class="card-img-right flex-auto d-none d-lg-block p-3" src="<?php echo htmlspecialchars($row['imageurl']); ?>" alt="<?php echo htmlspecialchars($row['title']); ?> QR Code" style="width: 200px; height: 200px; object-fit: contain;">
                             </div>
