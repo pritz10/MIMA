@@ -145,7 +145,7 @@ require_once 'include/header.php';
             </div>
             <div class="col-md-4 feature-item">
                 <div class="feature-icon mb-3">
-                    <i class="fas fa-award fa-3x"></i> <!-- Changed to award for better representation of quality -->
+                    <i class="fas fa-thumbs-up fa-3x"></i> <!-- Changed to thumbs-up for better representation of quality -->
                 </div>
                 <h5 class="feature-title">Quality Assurance</h5>
                 <p class="feature-description">Premium materials guaranteed</p>
