@@ -303,7 +303,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                         <label for="exampleFormControlTextarea1">Enter Description</label>
 
-                                                                                     <textarea class="form-control" name="description" onkeyup="lettersOnly(this)"  onchange="readURL(this);" id="details" placeholder="Eg: Flood Relief Fund Description"></textarea>
+                                                                                     <textarea class="form-control" name="description" onkeyup="lettersOnly(this)"  onchange="readURL(this);" id="details" placeholder="Eg: Flood Relief Fund Description Bank Details: SBIN098098 , IFSC: SBINU987987, AC:98797979798"></textarea>
 
                                                                                  </div>
 
