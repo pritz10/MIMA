@@ -70,7 +70,7 @@ if ($_FILES['myfile']['size'] > 2000000000) { // file shouldn't be larger than 2
 
         if (move_uploaded_file($file, $destination)) {
 
-            $sql = "INSERT INTO store(title, description, imageurl, bankdetails, date) VALUES ('$title','$description','./files/Images/Store/store$filename','$bankdetails','$created_date')";
+            $sql = "INSERT INTO donate(title, description, imageurl, bankdetails, date) VALUES ('$title','$description','./files/Images/Donate/donate$filename','$bankdetails','$created_date')";
 
             if (mysqli_query($connect, $sql)) {
 
@@ -137,7 +137,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'update')
 
     $created_date = date("d-F-Y");
 
-    $sql = "UPDATE store set Title='$utitle', Description='$description', bankdetails='$bankdetails', Date='$created_date' where Id='$uid'";
+    $sql = "UPDATE donate set Title='$utitle', Description='$description', bankdetails='$bankdetails', Date='$created_date' where Id='$uid'";
 
     if (mysqli_query($connect, $sql)) {
 
@@ -185,7 +185,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
     $uid = $_POST['Id'];   
 
-    $sql = "DELETE FROM store where Id='$uid'";
+    $sql = "DELETE FROM donate where Id='$uid'";
 
     if (mysqli_query($connect, $sql)) {
 
@@ -293,7 +293,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                     <div class="card-body">
 
-                                    <form method="post" action="store" enctype="multipart/form-data" style="padding:10px;">                                        
+                                    <form method="post" action="donate" enctype="multipart/form-data" style="padding:10px;">                                        
 
                                         <div class="form-group">
 
@@ -486,7 +486,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                
 
-                    $sql = "SELECT * FROM store ORDER BY Id DESC";  
+                    $sql = "SELECT * FROM donate ORDER BY Id DESC";  
 
                     $result = mysqli_query($connect, $sql);  
 
@@ -544,7 +544,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                     <div class="modal-body">
 
-                                    <form method="post" action="store" enctype="multipart/form-data" style="padding:10px;">
+                                    <form method="post" action="donate" enctype="multipart/form-data" style="padding:10px;">
 
                                          <div class="form-group">
 
@@ -616,7 +616,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                       
 
-                                        <form method="post" action="store" type="multipart/form-data" style="padding:10px;">
+                                        <form method="post" action="donate" type="multipart/form-data" style="padding:10px;">
 
                                          <div class="form-group">
 
