@@ -1,6 +1,7 @@
 <?php
 $title = "Serve";
-require_once 'include/header.php'; // Ensure this file establishes $connect
+require_once 'include/header.php';
+require_once 'include/db.php'; // Ensure this file establishes $connect
 ?>
 
 <style>
@@ -84,7 +85,7 @@ require_once 'include/header.php'; // Ensure this file establishes $connect
             <?php
             // Assuming $connect is established in header.php or included earlier
             if (isset($connect)) {
-                $sql = "SELECT title, description, imageurl, bankdetails FROM serv ORDER BY Id DESC";
+                $sql = "SELECT title, description, imageurl FROM serv ORDER BY Id DESC";
                 $result = mysqli_query($connect, $sql);
 
                 if (mysqli_num_rows($result) > 0) {
