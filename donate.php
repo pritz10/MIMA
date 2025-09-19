@@ -69,7 +69,7 @@ require_once 'include/header.php'; // Ensure this file establishes $connect
       </div>      
 <section class="py-lg-5 py-md-4 py-3">
     <div class="container">
-        <h3 class="title text-center mb-lg-5 mb-md-4 mb-3">Support Our Initiatives</h3>
+        <h3 class="title text-center mb-lg-5 mb-md-4 mb-3">Support Our Initiativs</h3>
         
         <!-- Main Initiative Section -->
         <div class="bg-dark text-white p-5 rounded mb-5 shadow-sm">
