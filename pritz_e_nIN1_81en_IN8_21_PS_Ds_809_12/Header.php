@@ -273,7 +273,7 @@ function lettersOnly(input) {
             </li>
  <li class="nav-item">
 
-                <a class="nav-link" href="donate">
+                <a class="nav-link" href="serv">
 
                     <i class="fas fa-fw fa fa-lightbulb"></i>
 

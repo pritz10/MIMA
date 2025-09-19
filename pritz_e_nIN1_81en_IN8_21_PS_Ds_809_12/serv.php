@@ -19,7 +19,6 @@
 
     $created_date = date("d-F-Y");
     $created_date = htmlentities($created_date);
- 
 
 
     // destination of the file on the server
@@ -69,7 +68,7 @@ if ($_FILES['myfile']['size'] > 2000000000) { // file shouldn't be larger than 2
 
         if (move_uploaded_file($file, $destination)) {
 
-            $sql = "INSERT INTO serv(title, description, imageurl, bankdetails, date) VALUES ('$title','$description','./files/Images/serv/serv$filename','$bankdetails','$created_date')";
+            $sql = "INSERT INTO serv(title, description, imageurl, date) VALUES ('$title','$description','./files/Images/Mainslider/mainslider$filename','$created_date')";
 
             if (mysqli_query($connect, $sql)) {
 
@@ -131,12 +130,10 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'update')
 
     $description = mysqli_real_escape_string($connect,$_POST['update_desc']);
     $description = htmlentities($description );
-        $bankdetails = mysqli_real_escape_string($connect, $_POST['edit_bankdetails']); // New bankdetails field
-        $bankdetails = htmlentities($bankdetails);        
 
     $created_date = date("d-F-Y");
 
-    $sql = "UPDATE serv set Title='$utitle', Description='$description', bankdetails='$bankdetails', Date='$created_date' where Id='$uid'";
+    $sql = "UPDATE serv set Title='$utitle', Description='$description', Date='$created_date' where Id='$uid'";
 
     if (mysqli_query($connect, $sql)) {
 
@@ -236,7 +233,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
 
-                        <h1 class="h3 mb-0 text-gray-800">serv Section</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Donate Section</h1>
 
                        
 
@@ -282,7 +279,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
      role="button" aria-expanded="true" aria-controls="as">
 
- <h6 class="m-0 font-weight-bold text-white">Upload QR Image</h6>
+ <h6 class="m-0 font-weight-bold text-white">Upload QR Images</h6>
 
                                 </a>
 
@@ -292,13 +289,13 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                     <div class="card-body">
 
-                                    <form method="post" action="serv" enctype="multipart/form-data" style="padding:10px;">                                        
+                                    <form method="post" action="index" enctype="multipart/form-data" style="padding:10px;">                                        
 
                                         <div class="form-group">
 
                                         <label for="exampleFormControlInput1">Enter Title</label>
 
-                                        <input type="text" name="title" class="form-control"    onchange="readURL(this);" id="title" placeholder="Premium Dance Hoodie">
+                                        <input type="text" name="title" class="form-control"    onchange="readURL(this);" id="title" placeholder="Flood Relief Fund">
 
                                         </div>
 
@@ -306,16 +303,14 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                         <label for="exampleFormControlTextarea1">Enter Description</label>
 
-                                                                                     <textarea class="form-control" name="description" onkeyup="lettersOnly(this)"  onchange="readURL(this);" id="details" placeholder="Crafted with high-quality materials to keep you warm and comfortable all season long. Features thick soft fabric and fleece-lined hood."></textarea>
+                                                                                     <textarea class="form-control" name="description" onkeyup="lettersOnly(this)"  onchange="readURL(this);" id="details" placeholder="Eg: Flood Relief Fund Description"></textarea>
 
                                                                                  </div>
-
-                                                                                    < 
 
                                                                                  
                                                                                  <div class="form-group">
 
-                                                                                 <label for="formFile" class="form-label">Select Image 1680*1000 pixels</label>
+                                                                                 <label for="formFile" class="form-label">Select QR Code Image</label>
 
                                                                                      <input class="form-control" name="myfile"  id="formFileLg"required onchange="readURL(this);" type="file">
                                                                                         <input type="hidden" name="pritz" value="<?php echo $csrf; ?>">
@@ -463,10 +458,8 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
                         <th>Title</th>
 
                         <th>Description</th>
-<th>bankdetails</th>
-                        <th>UploadDate</th>
-                                                
 
+                        <th>UploadDate</th>
 
                         <th>Action</th>
 
@@ -501,8 +494,6 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
                         <td><?php echo $row['Title']; ?></td>
 
                         <td><?php echo $row['Description']; ?></td>
-                                                
-
 
                         <td><?php echo $row['Date']; ?></td>
 
@@ -540,7 +531,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                     <div class="modal-body">
 
-                                    <form method="post" action="serv" enctype="multipart/form-data" style="padding:10px;">
+                                    <form method="post" action="index" enctype="multipart/form-data" style="padding:10px;">
 
                                          <div class="form-group">
 
@@ -554,7 +545,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                             <input type="text"  name="update_desc" rows="3" class="form-control" id="title" value="<?php echo $row['Description']; ?>"aria-describedby="emailHelp"  placeholder="Enter title">
 
-                                         </div> 
+                                        </div> 
 
                                         
 
@@ -610,7 +601,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                       
 
-                                        <form method="post" action="serv" type="multipart/form-data" style="padding:10px;">
+                                        <form method="post" action="index" enctype="multipart/form-data" style="padding:10px;">
 
                                          <div class="form-group">
 
