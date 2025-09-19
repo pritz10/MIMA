@@ -1,5 +1,5 @@
 <?php
-$title = "Donate Us";
+$title = "Serve";
 require_once 'include/header.php'; // Ensure this file establishes $connect
 ?>
 
@@ -63,7 +63,7 @@ require_once 'include/header.php'; // Ensure this file establishes $connect
                   <a href="index">Home</a>
                   <span>/</span>
                </li>
-               <li style="color:blanchedalmond">Donate Us</li>
+               <li style="color:blanchedalmond">serv Us</li>
             </ul>
          </div>
       </div>      
@@ -84,7 +84,7 @@ require_once 'include/header.php'; // Ensure this file establishes $connect
             <?php
             // Assuming $connect is established in header.php or included earlier
             if (isset($connect)) {
-                $sql = "SELECT title, description, imageurl, bankdetails FROM donate ORDER BY Id DESC";
+                $sql = "SELECT title, description, imageurl, bankdetails FROM serv ORDER BY Id DESC";
                 $result = mysqli_query($connect, $sql);
 
                 if (mysqli_num_rows($result) > 0) {
