@@ -19,8 +19,7 @@
 
     $created_date = date("d-F-Y");
     $created_date = htmlentities($created_date);
-    $bankdetails= mysqli_real_escape_string($connect, $_POST['bankdetails']);
-    $bankdetails = htmlentities($bankdetails );
+ 
 
 
     // destination of the file on the server
@@ -311,10 +310,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                                                                  </div>
 
-                                                                                    <div class="form-group">
-                        <label for="bankdetails">bankdetails (₹)</label>
-                        <input type="text" step="0.01" class="form-control" id="bankdetails" name="bankdetails" required min="0">
-                    </div>
+                                                                                    < 
 
                                                                                  
                                                                                  <div class="form-group">
@@ -505,7 +501,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
                         <td><?php echo $row['Title']; ?></td>
 
                         <td><?php echo $row['Description']; ?></td>
-                                                <td><?php echo $row['bankdetails']; ?></td>
+                                                
 
 
                         <td><?php echo $row['Date']; ?></td>
@@ -558,9 +554,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                             <input type="text"  name="update_desc" rows="3" class="form-control" id="title" value="<?php echo $row['Description']; ?>"aria-describedby="emailHelp"  placeholder="Enter title">
 
-                                            <br> <label for="bankdetails">bankdetails (₹)</label>
-                                            <input type="text" step="0.01" class="form-control" id="bankdetails" name="edit_bankdetails" value="<?php echo $row['bankdetails']; ?>" required min="0">
-                                        </div> 
+                                         </div> 
 
                                         
 
