@@ -2,19 +2,21 @@
 $title = "Store";
 require_once 'include/header.php';
  ?>
-  <div class="inner_page-banner">
+ <div class="inner_page-banner">
       </div>
-
-
-<!-- Breadcrumb -->
-<div class="container py-3">
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb custom-breadcrumb">
-            <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Store</li>
-        </ol>
-    </nav>
-</div>
+      <!--//banner -->
+      <!-- short -->
+      <div class="using-border py-3">
+         <div class="inner_breadcrumb  ml-4">
+            <ul class="short_ls">
+               <li style="color:blanchedalmond">
+                  <a href="index">Home</a>
+                  <span>/</span>
+               </li>
+               <li style="color:blanchedalmond">Contact Us</li>
+            </ul>
+         </div>
+      </div> 
 
 <!-- Store Header -->
 <section class="container mb-5 mt-4">
