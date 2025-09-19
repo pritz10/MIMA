@@ -1,6 +1,6 @@
 <?php
 $title = "Donate Us";
-require_once 'include/header.php';
+require_once 'include/header.php'; // Ensure this file establishes $connect
 ?>
 
 <style>
@@ -63,7 +63,7 @@ require_once 'include/header.php';
                   <a href="index">Home</a>
                   <span>/</span>
                </li>
-               <li style="color:blanchedalmond">Contact Us</li>
+               <li style="color:blanchedalmond">Donate Us</li>
             </ul>
          </div>
       </div>      
@@ -81,36 +81,41 @@ require_once 'include/header.php';
 
         <!-- Donation Cards Row -->
         <div class="row mb-4">
-            <div class="col-md-6 mb-4">
-                <div class="card flex-md-row h-100 shadow-sm">
-                    <div class="card-body d-flex flex-column align-items-start">
-                        <strong class="d-inline-block mb-2 text-success">Sikkim Floods Relief</strong>
-                        <p class="card-text mb-3">All funds collected here will be dedicated to providing immediate relief and support to the victims of the Sikkim Floods.</p>
-                        <p class="text-muted small">
-                            <strong>Bank Account:</strong> 32739635548 <br>
-                            <strong>IFSC:</strong> SBIN0000232 <br>
-                            <strong>Name:</strong> Pravesh Tamang
-                        </p>
-                    </div>
-                    <!-- Assuming g.png is your QR code -->
-                    <img class="card-img-right flex-auto d-none d-lg-block p-3" src="files/Images/g.png" alt="Sikkim Floods QR Code" style="width: 200px; height: 200px; object-fit: contain;">
-                </div>
-            </div>
-            <div class="col-md-6 mb-4">
-                <div class="card flex-md-row h-100 shadow-sm">
-                    <div class="card-body d-flex flex-column align-items-start">
-                        <strong class="d-inline-block mb-2 text-success">Dance India Scholarship Fund</strong>
-                        <p class="card-text mb-3">Your donation here will sponsor aspiring dance candidates, helping them achieve their dreams through training and opportunities.</p>
-                        <p class="text-muted small">
-                            <strong>Bank Account:</strong> 32739635548 <br>
-                            <strong>IFSC:</strong> SBIN0000232 <br>
-                            <strong>Name:</strong> Pravesh Tamang
-                        </p>
-                    </div>
-                    <!-- Assuming g.png is your QR code -->
-                    <img class="card-img-right flex-auto d-none d-lg-block p-3" src="files/Images/g.png" alt="Dance India QR Code" style="width: 200px; height: 200px; object-fit: contain;">
-                </div>
-            </div>
+            <?php
+            // Assuming $connect is established in header.php or included earlier
+            if (isset($connect)) {
+                $sql = "SELECT title, description, imageurl, bankdetails FROM donate ORDER BY Id DESC";
+                $result = mysqli_query($connect, $sql);
+
+                if (mysqli_num_rows($result) > 0) {
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        ?>
+                        <div class="col-md-6 mb-4">
+                            <div class="card flex-md-row h-100 shadow-sm">
+                                <div class="card-body d-flex flex-column align-items-start">
+                                    <strong class="d-inline-block mb-2 text-success"><?php echo htmlspecialchars($row['title']); ?></strong>
+                                    <p class="card-text mb-3"><?php echo htmlspecialchars($row['description']); ?></p>
+                                    <p class="text-muted small">
+                                        <strong>Bank Account/Details:</strong> <?php echo htmlspecialchars($row['bankdetails']); ?> <br>
+                                        <!-- You might want to break down bankdetails into separate fields like IFSC, Name, Account Number in your DB for better presentation -->
+                                        <!-- Example:
+                                        <strong>IFSC:</strong> <?php // echo htmlspecialchars($row['ifsc']); ?> <br>
+                                        <strong>Name:</strong> <?php // echo htmlspecialchars($row['account_name']); ?>
+                                        -->
+                                    </p>
+                                </div>
+                                <img class="card-img-right flex-auto d-none d-lg-block p-3" src="<?php echo htmlspecialchars($row['imageurl']); ?>" alt="<?php echo htmlspecialchars($row['title']); ?> QR Code" style="width: 200px; height: 200px; object-fit: contain;">
+                            </div>
+                        </div>
+                        <?php
+                    }
+                } else {
+                    echo '<div class="col-12"><p class="text-center">No donation initiatives available at the moment. Please check back later!</p></div>';
+                }
+            } else {
+                echo '<div class="col-12"><p class="text-danger text-center">Database connection not established.</p></div>';
+            }
+            ?>
         </div>
 
         <!-- Disclaimer Section -->
