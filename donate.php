@@ -52,23 +52,21 @@ require_once 'include/header.php';
     }
 </style>
 
-<!-- Hero Banner -->
-<div class="hero-banner">
-    <h2 class="display-4 text-center">Donate Us</h2>
-</div>
-
-<!-- Breadcrumb -->
-<div class="bg-light py-2">
-    <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb mb-0 ps-3"> <!-- Added ps-3 for left padding -->
-                <li class="breadcrumb-item"><a href="index">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Donate Us</li>
-            </ol>
-        </nav>
-    </div>
-</div>      
-
+ <div class="inner_page-banner">
+      </div>
+      <!--//banner -->
+      <!-- short -->
+      <div class="using-border py-3">
+         <div class="inner_breadcrumb  ml-4">
+            <ul class="short_ls">
+               <li style="color:blanchedalmond">
+                  <a href="index">Home</a>
+                  <span>/</span>
+               </li>
+               <li style="color:blanchedalmond">Contact Us</li>
+            </ul>
+         </div>
+      </div>      
 <section class="py-lg-5 py-md-4 py-3">
     <div class="container">
         <h3 class="title text-center mb-lg-5 mb-md-4 mb-3">Support Our Initiatives</h3>
