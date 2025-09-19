@@ -289,7 +289,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                     <div class="card-body">
 
-                                    <form method="post" action="index" enctype="multipart/form-data" style="padding:10px;">                                        
+                                    <form method="post" action="serv" enctype="multipart/form-data" style="padding:10px;">                                        
 
                                         <div class="form-group">
 
@@ -531,7 +531,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                     <div class="modal-body">
 
-                                    <form method="post" action="index" enctype="multipart/form-data" style="padding:10px;">
+                                    <form method="post" action="serv" enctype="multipart/form-data" style="padding:10px;">
 
                                          <div class="form-group">
 
@@ -601,7 +601,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' and $_REQUEST['submit']== 'delete')
 
                                       
 
-                                        <form method="post" action="index" enctype="multipart/form-data" style="padding:10px;">
+                                        <form method="post" action="serv" enctype="multipart/form-data" style="padding:10px;">
 
                                          <div class="form-group">
 
