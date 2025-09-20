@@ -533,7 +533,7 @@ Our goal is to assist you in creating the best version of yourself and developin
         </div>
 
         <div class="text-center mt-4">
-            <a href="serv" class="btn btn-primary btn-lg">View All Initiatives</a>
+            <a href="serv" class="btn btn-warning btn-lg">View All Initiatives</a>
         </div>
     </div>
 </section>
@@ -576,7 +576,7 @@ Our goal is to assist you in creating the best version of yourself and developin
         </div>
 
         <div class="text-center mt-4">
-            <a href="store" class="btn btn-primary btn-lg">View All Products</a>
+            <a href="store" class="btn btn-warning btn-lg">View All Products</a>
         </div>
     </div>
 </section>
