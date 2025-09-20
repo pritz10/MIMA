@@ -548,7 +548,7 @@ Our goal is to assist you in creating the best version of yourself and developin
             // Fetch up to 3 products from the 'store' table
             // Ensure $connect is established from include/db.php or similar
             if (isset($connect)) {
-                $sql_store_items = "SELECT Id, ImageUrl, Title, Description, Price FROM store ORDER BY Id DESC LIMIT 3";
+                $sql_store_items = "SELECT Id, ImageUrl, Title, Description, Price FROM store ORDER BY Id DESC LIMIT 4";
                 $result_store_items = mysqli_query($connect, $sql_store_items);
 
                 if (mysqli_num_rows($result_store_items) > 0) {
