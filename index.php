@@ -548,13 +548,13 @@ Our goal is to assist you in creating the best version of yourself and developin
             // Fetch up to 3 products from the 'store' table
             // Ensure $connect is established from include/db.php or similar
             if (isset($connect)) {
-                $sql_store_items = "SELECT Id, ImageUrl, Title, Description, Price FROM store ORDER BY Id DESC LIMIT 4";
+                $sql_store_items = "SELECT Id, ImageUrl, Title, Description, Price FROM store ORDER BY Id DESC LIMIT 3";
                 $result_store_items = mysqli_query($connect, $sql_store_items);
 
                 if (mysqli_num_rows($result_store_items) > 0) {
                     while ($row_store = mysqli_fetch_assoc($result_store_items)) {
                         ?>
-                        <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="col-lg-3 col-md-3 mb-4">
                             <div class="card h-100 shadow-sm product-card-home">
                                 <img class="card-img-top p-3" src="<?php echo htmlspecialchars($row_store['ImageUrl']); ?>" alt="<?php echo htmlspecialchars($row_store['Title']); ?>" style="height: 250px; object-fit: contain;">
                                 <div class="card-body text-center">
