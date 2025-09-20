@@ -1,4 +1,3 @@
-
 <?php
 $title = "Mim Dance Academy";
 require_once 'include/header.php'; ?>
@@ -9,9 +8,9 @@ require_once 'include/header.php'; ?>
                 <ol class="carousel-indicators">
 
                   <?php
-                    $sql = "select * from mainslider ORDER BY id DESC LIMIT 8";  
-                    $result = mysqli_query($connect, $sql); 
-                    $count = mysqli_num_rows($result);  
+                    $sql = "select * from mainslider ORDER BY id DESC LIMIT 8";
+                    $result = mysqli_query($connect, $sql);
+                    $count = mysqli_num_rows($result);
                     $i=0;
                     foreach($result as $row)
                      {
@@ -24,7 +23,7 @@ require_once 'include/header.php'; ?>
 
                       <li data-target="#myCarousel" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
 
-                  <?php 
+                  <?php
                    $i++;}
                   ?>
 
@@ -34,11 +33,11 @@ require_once 'include/header.php'; ?>
 
                           <?php
 
-                          $sql = "select * from mainslider ORDER BY id DESC LIMIT 15";  
+                          $sql = "select * from mainslider ORDER BY id DESC LIMIT 15";
 
-                          $result = mysqli_query($connect, $sql); 
+                          $result = mysqli_query($connect, $sql);
 
-                          $count = mysqli_num_rows($result);  
+                          $count = mysqli_num_rows($result);
 
                           $i=0;
 
@@ -61,20 +60,20 @@ require_once 'include/header.php'; ?>
                           <div class="carousel-item <?=$active;?>">
 
                           <img class="d-block w-100 " src="<?php echo $row['ImageUrl']; ?>" loading="lazy">
-                           
+
                               <div class="carousel-caption  d-md-block">
                               <h5><?php echo $row['Title']; ?></h3>
                               <p class="pt-3"><?php echo $row['Description']; ?></p>
-                               
+
                               <div class="text-center">
          <div class="outs-agile-buttn mt-lg-3 mt-2">
          <a href="https://forms.gle/j4pdq6c4mpSUvvoF6" target="_blank" >Register Now !</a>
                      </div></div>
-                              </div>   
+                              </div>
 
                           </div>
 
-                          <?php $i++; } ?>                         
+                          <?php $i++; } ?>
 
                         </div>
 
@@ -101,11 +100,11 @@ require_once 'include/header.php'; ?>
                       </div>
 
                       </div>
- 
+
               </div>
               </div>
               </section>
-<!--           
+<!--
               <section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up" id="about" style="background: black;">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
               <div class="row text-center">
@@ -121,9 +120,9 @@ require_once 'include/header.php'; ?>
        </div>
     </div>
   </div>
-   
+
 </div></div></section> -->
-            
+
 <section class="about py-lg-4 py-md-3 py-sm-3 py-3" data-aos="zoom-in-up"  data-aos-once="true"id="about" style="background: black;">
          <div class="container ">
               <div class="row text-center">
@@ -132,18 +131,16 @@ require_once 'include/header.php'; ?>
      <a  href="tel:+918918212479" style="font-weight: bolder;"><img src="files/Images/h.gif" class="img-fluid" alt="Cal Us"></a>
 
 
-      
   </div>
-   
+
 </div>
 <div class="col-sm-6">
     <div class="card">
     <a href="https://api.whatsapp.com/send?phone=+918918212479"  style="font-weight: bolder;"><img src="files/Images/w.png" class="img-fluid" alt="Cal Us"></a>
 
 
-      
   </div>
-   
+
 </div>
 </div></section>
       <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
@@ -152,14 +149,14 @@ require_once 'include/header.php'; ?>
                <h2>What Makes MIM Different?
                </h2>
             </div >
-           
+
             <p class="text-justify" color="black">How many times a dance teacher has told you that you need to work on your basics like it's the magic button that will suddenly make you a better dancer?
 <br>The truth is that basic moves are overrated and most of the time they don't contribute to your growth as a dancer.
 Don't get us wrong having a strong foundation as a dancer is extremely important but unfortunately, most dance teachers only focus on the technical aspect of dancing, and very few are teaching the psychological element of dancing...
 We believe dancing is 70% mental and 30% physical you can know all the moves and techniques in the world if your mindset is not right you don't stand a chance in the dance industry.
 <br><br><strong>That's why MIM Dance Academy is different not only do we dive deep into the technical aspect of freestyle dancing, but we also equip you with the mental toughness needed to make a name for yourself in the dance industry.
 </strong>  </p>
-             
+
             <div class="row agile-info-grid pt-lg-4 pt-md-4 pt-3">
             <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
                <div class="white-shadow" data-aos="zoom-in" data-aos-delay="700" data-aos-once="true" >
@@ -175,7 +172,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                         <a href="class">Learn more</a>
                      </div>
                   </div>
-               </div>   
+               </div>
             <div class="col-lg-4 col-md-4 w3layouts-abut-list text-center">
                   <div class="white-shadow" data-aos="zoom-in" data-aos-delay="500" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
@@ -184,14 +181,14 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                      <div class="abt-sub-info">
                         <h4>Gymnastics</h4>
                         <p class="text-justify">
-                        Gymnastics is a type of sport that includes physical exercises requiring balance, strength, flexibility, agility, coordination, artistry and endurance. The movements involved in gymnastics contribute to the development of the arms, legs, shoulders, back, chest, and abdominal muscle groups.</p>
+                        Gymnastics is a type of sport that includes physical exercises requiring balance, strength, flexibility, agility, coordination, artistry and endurance. The movements involved in gymnastics contribute to the development of the arms, legs, shoulders, back, chest, and abdominal&nbsp;muscle&nbsp;groups.</p>
                      </div>
                      <div class="outs-agile-buttn mt-lg-3 mt-2">
                         <a href="class">Learn more</a>
                      </div>
                   </div>
                </div>
-              
+
                <div class="col-lg-4 col-md-4  w3layouts-abut-list text-center">
                <div class="white-shadow" data-aos="zoom-in" data-aos-delay="900" data-aos-once="true" >
                      <div class="abut-wls-gride-dance">
@@ -200,7 +197,7 @@ We believe dancing is 70% mental and 30% physical you can know all the moves and
                      <div class="abt-sub-info">
                         <h4>Semi-Classical Dance</h4>
                         <p class="text-justify">
-                        
+
 
 The art of semi classical dance is a very interesting topic. It’s a type of dance that has some similarities to classical but also incorporates elements from modern and folk dances. Semi-classical dance is a term that refers to an amalgamation of classical and contemporary styles.</p>
                      </div>
@@ -218,22 +215,21 @@ The art of semi classical dance is a very interesting topic. It’s a type of da
                </h2>
             </div >
             <ul id="flexiselDemo1">
-               
+
             <?php
 
-$sql = "select * from devents ORDER BY Id DESC LIMIT 5";  
+$sql = "select * from devents ORDER BY Id DESC LIMIT 5";
 
 $result = mysqli_query($connect,$sql); // fetch data from database
 
-  if(mysqli_num_rows($result) > 0)  
+  if(mysqli_num_rows($result) > 0)
 
-  {  
+  {
 
-      while($data = mysqli_fetch_array($result))  
+      while($data = mysqli_fetch_array($result))
 
-      {                
-
-  ?>
+      {
+?>
                   <li>
                   <div class="agileinfo_port_grid">
                   <a href="<?php echo $data['ImageUrl']; ?>" class="lsb-preview" data-lsb-group="header">
@@ -242,7 +238,7 @@ $result = mysqli_query($connect,$sql); // fetch data from database
                         </div>
                      </a>
                   </div>
-               </li>  
+               </li>
 <?php
 
 }}
@@ -254,10 +250,9 @@ $result = mysqli_query($connect,$sql); // fetch data from database
     echo" No data";
 
   }?>
-                
-              
-              
-               
+
+
+
             </ul>
          </div><div class="text-center">
          <div class="outs-agile-buttn mt-lg-3 mt-2">
@@ -285,11 +280,11 @@ $result = mysqli_query($connect,$sql); // fetch data from database
 
 <?php
 
-$sql = "select * from flowers ORDER BY Id DESC LIMIT 5";  
+$sql = "select * from flowers ORDER BY Id DESC LIMIT 5";
 
-$result = mysqli_query($connect, $sql); 
+$result = mysqli_query($connect, $sql);
 
-$count = mysqli_num_rows($result);  
+$count = mysqli_num_rows($result);
 
 $i=0;
 
@@ -323,11 +318,11 @@ $active='active';
 
 <?php
 
-$sql = "select * from flowers ORDER BY Id DESC LIMIT 5";  
+$sql = "select * from flowers ORDER BY Id DESC LIMIT 5";
 
-$result = mysqli_query($connect, $sql); 
+$result = mysqli_query($connect, $sql);
 
-$count = mysqli_num_rows($result);  
+$count = mysqli_num_rows($result);
 
 $i=0;
 
@@ -355,7 +350,7 @@ $active='active';
 
 <h5><?php echo $row['Title']; ?></h3>
 
-</div>   
+</div>
 
 </div>
 
@@ -409,14 +404,12 @@ $active='active';
       <!--//about -->
       <!--slider-img-->
 
- 
-
 
 
 
       <section class="side-img py-lg-4 py-md-3 py-sm-3 py-3" data-aos="fade-right">
          <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
-          
+
             <div class="jst-must-info pt-lg-4 pt-md-3 pt-3">
                <div class="stats-info row">
                   <div class="col-lg-3 col-md-3 col-sm-6 col-6 stats-grid stats-grid-1">
@@ -428,14 +421,14 @@ $active='active';
                   <div class="col-lg-3 col-md-3 col-sm-6 col-6 stats-grid stats-grid-2">
                      <div class="counter">700</div>
                      <div class="stat-info py-lg-4 py-md-3 py-sm-3 py-3">
-                        <h4>Students Offline 
+                        <h4>Students Offline
 </h4>
                      </div>
                   </div>
                   <div class="col-lg-3 col-md-3 col-sm-6 col-6 stats-grid stats-grid-3">
                      <div class="counter">8</div>
                      <div class="stat-info py-lg-4 py-md-3 py-sm-3 py-3">
-                        <h4>Faculties 
+                        <h4>Faculties&nbsp;
 </h4>
                      </div>
                   </div>
@@ -467,7 +460,7 @@ Our goal is to assist you in creating the best version of yourself and developin
 
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
-                       
+
                         <p style="color: wheat;"> Each will get a chance to participate in any kind of reality show local and National.</p>
                      </div>
                   </div>
@@ -476,7 +469,7 @@ Our goal is to assist you in creating the best version of yourself and developin
                      <img src="files/Images/3.PNG" class="rounded-circle" width="100">
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
-                     <p style="color: wheat;"> 
+                     <p style="color: wheat;">
                      Best students of music in motion will get a chance featured in music videos.</p>
 
                      </div>
@@ -486,7 +479,7 @@ Our goal is to assist you in creating the best version of yourself and developin
                      <img src="files/Images/2.PNG" class="rounded-circle" width="100">
                      </div>
                      <div class="col-md-10 col-sm-9 col-9 service-info-list-agile">
-                     <p style="color: wheat;"> Chance to teach at schools as a part of the MIM company</>
+                     <p style="color: wheat;"> Chance to teach at schools as a part of the MIM company</p>
 </div>
                   </div>
                   <div class="row service-agile-shadow ">
@@ -503,11 +496,52 @@ Our goal is to assist you in creating the best version of yourself and developin
          </div>
       </section>
       <!--//service -->
-      
-      
+
+<!-- NEW SECTION FOR STORE ITEMS -->
+<section class="py-lg-4 py-md-3 py-sm-3 py-3" style="background: #f8f9fa;">
+    <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+        <h3 class="title text-center mb-lg-5 mb-md-4 mb-3">Explore Our Initiatives</h3>
+
+        <div class="row">
+            <?php
+            // Fetch up to 3 items from the 'serv' table
+            if (isset($connect)) {
+                $sql_serv_items = "SELECT title, description, imageurl FROM serv ORDER BY Id DESC LIMIT 3";
+                $result_serv_items = mysqli_query($connect, $sql_serv_items);
+
+                if (mysqli_num_rows($result_serv_items) > 0) {
+                    while ($row_serv = mysqli_fetch_assoc($result_serv_items)) {
+                        ?>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100 shadow-sm">
+                                <img class="card-img-top p-3" src="<?php echo htmlspecialchars($row_serv['imageurl']); ?>" alt="<?php echo htmlspecialchars($row_serv['title']); ?> QR Code" style="height: 200px; object-fit: contain;">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-success"><?php echo htmlspecialchars($row_serv['title']); ?></h5>
+                                    <p class="card-text text-muted"><?php echo htmlspecialchars(substr($row_serv['description'], 0, 100)); // Truncate description for homepage ?>...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <?php
+                    }
+                } else {
+                    echo '<div class="col-12"><p class="text-center text-muted">No initiatives to display yet. Check back soon!</p></div>';
+                }
+            } else {
+                echo '<div class="col-12"><p class="text-danger text-center">Database connection error for initiatives.</p></div>';
+            }
+            ?>
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="serv" class="btn btn-primary btn-lg">View All Initiatives</a>
+        </div>
+    </div>
+</section>
+<!-- END NEW SECTION FOR STORE ITEMS -->
+
 
       <section style="background-color: black;">
-     
+
 
     <div class="container">
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
@@ -526,7 +560,7 @@ Our goal is to assist you in creating the best version of yourself and developin
               <li>Saturday-Sunday</li>
               <li>2 Days in a Week</li>
               <li>8 Days in a Month</li>
-              
+
 
 
 
@@ -546,7 +580,7 @@ Our goal is to assist you in creating the best version of yourself and developin
               <li>Saturday-Sunday</li>
               <li>2 Days in a Week</li>
               <li>8 Days in a Month</li>
-              
+
 
 
 
@@ -567,7 +601,7 @@ Our goal is to assist you in creating the best version of yourself and developin
               <li>2 Days in a Week</li>
               <li>8 Days in a Month</li>
               <li>Thu-Sun 4 DAYS in a week (Monthly ₹ 3k) 16 days in a month</li>
-              
+
 
 
 
@@ -580,18 +614,15 @@ Our goal is to assist you in creating the best version of yourself and developin
             <h4 class="my-0 font-weight-normal"> <strong>Customized</strong></h4>
           </div>
           <div class="card-body" style="background: #fb6509;">
-         
+
 
           <ul class="list-unstyled mt-3 mb-4" style="color: white; font-weight: 500;">
               <li>Monthly</li>
               <li>Quarterly</li>
-              <li>Half Yearly</li>            
+              <li>Half Yearly</li>
                 <li>Annually </li>
                 <li>All Package Availabe </li>
 
- 
-
-              
 
 
 
@@ -600,7 +631,7 @@ Our goal is to assist you in creating the best version of yourself and developin
         </div>
         </div>
         </div>  </div>
-</section>    
+</section>
 
       <!--schedual-->
       <section class="schedule py-lg-4 py-md-3 py-sm-3 py-3">
@@ -620,13 +651,13 @@ Our goal is to assist you in creating the best version of yourself and developin
             <h3 class="title text-left mb-lg-5 mb-md-4 mb-sm-4 mb-3" style="color: white;">Our Dancers Says</h3>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner text-center" >
-              
+
                <ol class="carousel-indicators">
 
 <?php
                   $sql="SELECT * FROM testimonial ORDER BY id DESC LIMIT 5";
-                  $result = mysqli_query($connect, $sql); 
-  $count = mysqli_num_rows($result);  
+                  $result = mysqli_query($connect, $sql);
+  $count = mysqli_num_rows($result);
   $i=0;
   foreach($result as $row)
    {
@@ -639,7 +670,7 @@ Our goal is to assist you in creating the best version of yourself and developin
 
     <li data-target="#myCarousel" data-slide-to="<?=$i;?>" class="<?=$active;?>"></li>
 
-<?php 
+<?php
  $i++;}
 ?>
 
@@ -648,9 +679,9 @@ Our goal is to assist you in creating the best version of yourself and developin
 
 $sql="SELECT * FROM testimonial ORDER BY id DESC LIMIT 5";
 
-$result = mysqli_query($connect, $sql); 
+$result = mysqli_query($connect, $sql);
 
-$count = mysqli_num_rows($result);  
+$count = mysqli_num_rows($result);
 
 $i=0;
 
@@ -668,7 +699,7 @@ $active='active';
 
 }
 
-?>  
+?>
                <div class="carousel-item client-img <?=$active;?>">
                      <img class="img-fluid" src="<?php echo $row['ImageUrl']; ?>" width="150px" alt="MIm Dance">
                      <div class="client-matter py-lg-4 py-md-3 py-3">
@@ -676,8 +707,8 @@ $active='active';
                         <h6 class="pt-lg-3 pt-2" style="color: white;"><?php echo $row['Name']; ?></h6>
                         <p style="color: white;"><?php echo $row['Designation']; ?></p>
                      </div>
-                  </div>  <?php $i++; } ?>           
-                   
+                  </div>  <?php $i++; } ?>
+
                </div>
              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
