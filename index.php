@@ -531,10 +531,6 @@ Our goal is to assist you in creating the best version of yourself and developin
             }
             ?>
         </div>
-
-        <div class="text-center mt-4">
-            <a href="serv" class="btn btn-warning btn-lg">View All Initiatives</a>
-        </div>
     </div>
 </section>
 <!-- END NEW SECTION FOR STORE ITEMS -->
@@ -573,10 +569,6 @@ Our goal is to assist you in creating the best version of yourself and developin
                 echo '<div class="col-12"><p class="text-danger text-center">Database connection error for products.</p></div>';
             }
             ?>
-        </div>
-
-        <div class="text-center mt-4">
-            <a href="store" class="btn btn-warning btn-lg">View All Products</a>
         </div>
     </div>
 </section>
