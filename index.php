@@ -538,7 +538,97 @@ Our goal is to assist you in creating the best version of yourself and developin
     </div>
 </section>
 <!-- END NEW SECTION FOR STORE ITEMS -->
+<!-- NEW SECTION FOR STORE PRODUCTS -->
+<section class="py-lg-4 py-md-3 py-sm-3 py-3" style="background: #ffffff;">
+    <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+        <h3 class="title text-center mb-lg-5 mb-md-4 mb-3">Our Latest Products</h3>
 
+        <div class="row">
+            <?php
+            // Fetch up to 3 products from the 'store' table
+            // Ensure $connect is established from include/db.php or similar
+            if (isset($connect)) {
+                $sql_store_items = "SELECT Id, ImageUrl, Title, Description, Price FROM store ORDER BY Id DESC LIMIT 3";
+                $result_store_items = mysqli_query($connect, $sql_store_items);
+
+                if (mysqli_num_rows($result_store_items) > 0) {
+                    while ($row_store = mysqli_fetch_assoc($result_store_items)) {
+                        ?>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100 shadow-sm product-card-home">
+                                <img class="card-img-top p-3" src="<?php echo htmlspecialchars($row_store['ImageUrl']); ?>" alt="<?php echo htmlspecialchars($row_store['Title']); ?>" style="height: 250px; object-fit: contain;">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title product-title-home"><?php echo htmlspecialchars($row_store['Title']); ?></h5>
+                                    <p class="product-price-home">₹<?php echo htmlspecialchars(number_format($row_store['Price'], 2)); ?></p>
+                                    <a href="store#productModal<?php echo $row_store['Id']; ?>" class="btn btn-primary btn-sm mt-3 view-product-btn">View Product</a>
+                                </div>
+                            </div>
+                        </div>
+                        <?php
+                    }
+                } else {
+                    echo '<div class="col-12"><p class="text-center text-muted">No products available yet. Check back soon!</p></div>';
+                }
+            } else {
+                echo '<div class="col-12"><p class="text-danger text-center">Database connection error for products.</p></div>';
+            }
+            ?>
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="store" class="btn btn-primary btn-lg">View All Products</a>
+        </div>
+    </div>
+</section>
+<!-- END NEW SECTION FOR STORE PRODUCTS -->
+
+<style>
+    /* Custom styles for the homepage store section */
+    .product-card-home {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #fff;
+    }
+
+    .product-card-home:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .product-card-home .card-img-top {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: #f5f5f5; /* Light background for product images */
+    }
+
+    .product-title-home {
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: #343a40;
+        margin-bottom: 0.5rem;
+    }
+
+    .product-price-home {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #7b68ee; /* Primary color from your store styles */
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .view-product-btn {
+        background-color: #7b68ee; /* Primary color */
+        border-color: #7b68ee;
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .view-product-btn:hover {
+        background-color: #5d48d0; /* Slightly darker purple on hover */
+        border-color: #5d48d0;
+    }
+</style>
 
       <section style="background-color: black;">
 
