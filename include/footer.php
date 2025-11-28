@@ -6,7 +6,9 @@
                   <h4 class="pb-lg-3 pb-3"><a href="index.html">MiM Dance Academy</a></h4>
                   <div class="bottom-para pb-sm-3 pb-2">
                      <p> 
-                     The vision of the Music in Motion Dance Academy has been to offer platforms to aspiring and deserving local artists and to brush their talent to keep them growing to reach their full potential and help them live their dreams. In the initial phase itself, the academy has bagged numerous achievements under its belt and the founder believes that “the academy will aspire to grow and showcase our talents at the national & international level in future”
+                  The vision of the Music in Motion Dance
+Academy has been to offer platforms to aspiring and deserving local artists and to brush their talent to keep them growing to reach their full potential and help them live their dreams.
+From its early stages, the academy has proudly achieved remarkable success, earning national and international titles and representing excellence on global platforms. However, our founder believes that these achievements are not just accolades, but pathways to unlocking the potential of the next generation.
                      </p>
                   </div>
                   <div class="bottom-social pt-2">
