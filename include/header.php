@@ -51,6 +51,48 @@ require_once 'include/db.php';?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap" rel="stylesheet"> 
+<style>
+/* Register button styles */
+.register-btn {
+    background-color: #ff6b6b;
+    color: white !important;
+    padding: 8px 20px !important;
+    border-radius: 50px;
+    font-weight: 900 !important;
+    margin-left: 15px;
+    transition: all 0.3s ease;
+    border: 2px solid #ff6b6b;
+}
+.register-btn:hover {
+    background-color: transparent;
+    color: #ff6b6b !important;
+    text-decoration: none;
+}
+@media (max-width: 991px) {
+    .register-btn {
+        margin: 10px 0 10px 15px;
+        display: inline-block;
+        padding: 8px 25px !important;
+    }
+    .navbar-nav {
+        align-items: flex-start;
+    }
+    .nav-item.register-item {
+        width: 100%;
+    }
+    .register-mobile-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 992px) {
+    .register-mobile-wrapper {
+        display: inline-block;
+    }
+}
+</style>
     </head>
    <body>
       <div class="header-outs" id="home">
@@ -100,6 +142,10 @@ require_once 'include/db.php';?>
                      <li class="nav-item">
                      <a href="serv"class="nav-link">Donate</a>
                      </li>
+                     <!-- Register button inside nav for desktop -->
+                     <li class="nav-item d-none d-lg-block">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZ9knl-kDLgbtfdbNGWk527XV9ZtfLQ0K8Yass5d6Kz6BPZQ/viewform?usp=send_form" class="nav-link register-btn" target="_blank">Register</a>
+                     </li>
                    
                               
                               
@@ -110,8 +156,11 @@ require_once 'include/db.php';?>
                   </ul>
                   
                </div>
+               <!-- Register button outside nav for mobile -->
+               <div class="register-mobile-wrapper d-lg-none">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZ9knl-kDLgbtfdbNGWk527XV9ZtfLQ0K8Yass5d6Kz6BPZQ/viewform?usp=send_form" class="register-btn" target="_blank">Register</a>
+               </div>
             </nav>
        </div>
       <!-- //Navigation -->
       <!-- Slideshow 4 -->
- 
