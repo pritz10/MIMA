@@ -55,7 +55,7 @@ require_once 'include/db.php';?>
 /* Modern Navigation Styles */
 .navbar {
     background: black !important;
-    padding: 5px 20px !important;
+    padding: 15px 20px !important;
     box-shadow: 0 2px 20px rgba(0,0,0,0.3);
 }
 
@@ -184,7 +184,7 @@ require_once 'include/db.php';?>
 /* Mobile styles - COMPLETELY FIXED */
 @media (max-width: 991px) {
     .navbar {
-        padding: 5px 15px !important;
+        padding: 15px 15px !important;
     }
     
     .navbar .container-fluid {
