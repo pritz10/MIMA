@@ -52,11 +52,21 @@ require_once 'include/db.php';?>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap" rel="stylesheet"> 
 <style>
+:root {
+    --stage-black: #0A0A0A;
+    --brass: #C9932E;
+    --brass-bright: #E0AC4C;
+    --wine: #7A1B2E;
+    --ivory: #F2ECE1;
+    --ivory-dim: rgba(242,236,225,0.7);
+}
+
 /* Modern Navigation Styles */
 .navbar {
-    background: black !important;
+    background: var(--stage-black) !important;
     padding: 15px 20px !important;
-    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 0 rgba(201,147,46,0.25);
+    border-bottom: 1px solid rgba(201,147,46,0.15);
 }
 
 .navbar-brand {
@@ -67,7 +77,11 @@ require_once 'include/db.php';?>
 .navbar-brand img {
     max-height: 45px;
     width: auto;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.04);
 }
 
 .navbar-nav {
@@ -80,35 +94,43 @@ require_once 'include/db.php';?>
 }
 
 .nav-link {
-    color: white !important;
+    color: var(--ivory) !important;
     font-weight: 500 !important;
     font-size: 14px;
     padding: 8px 12px !important;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    transition: all 0.3s ease;
+    letter-spacing: 0.3px;
+    transition: color 0.25s ease;
     position: relative;
 }
 
+/* Diagonal sweep underline — a "step", not a fade */
+.nav-link::before {
+    content: '';
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    bottom: 4px;
+    height: 2px;
+    background: linear-gradient(90deg, var(--brass), var(--wine));
+    transform: scaleX(0) skewX(-15deg);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
 .nav-link:hover {
-    color: #FF416C !important;
-    background: rgba(255,255,255,0.05);
-    border-radius: 4px;
+    color: var(--brass-bright) !important;
+}
+.nav-link:hover::before {
+    transform: scaleX(1) skewX(-15deg);
 }
 
 /* Active nav item indicator */
 .nav-item.active .nav-link {
-    color: #FF416C !important;
+    color: var(--brass-bright) !important;
 }
-.nav-item.active .nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 12px;
-    right: 12px;
-    height: 2px;
-    background: linear-gradient(45deg, #FF416C, #FF4B2B);
-    border-radius: 2px;
+.nav-item.active .nav-link::before {
+    transform: scaleX(1) skewX(-15deg);
+    background: var(--brass);
 }
 
 /* Dropdown styles */
@@ -116,57 +138,51 @@ require_once 'include/db.php';?>
     position: relative;
 }
 .dropdown .btn-link {
-    color: white !important;
+    color: var(--ivory) !important;
     font-weight: 500 !important;
     font-size: 14px;
     padding: 8px 12px !important;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     text-decoration: none !important;
 }
 .dropdown .btn-link:hover {
-    color: #FF416C !important;
-    background: rgba(255,255,255,0.05);
-    border-radius: 4px;
+    color: var(--brass-bright) !important;
 }
 .dropdown-menu {
-    background: #111;
-    border: 1px solid rgba(255,255,255,0.1);
-    border-radius: 8px;
-    padding: 8px 0;
+    background: #141414;
+    border: 1px solid rgba(201,147,46,0.2);
+    border-left: 2px solid var(--brass);
+    border-radius: 2px;
+    padding: 6px 0;
     margin-top: 5px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.6);
 }
 .dropdown-item {
-    color: #fff;
+    color: var(--ivory-dim);
     font-size: 13px;
-    padding: 8px 20px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    transition: all 0.3s ease;
+    padding: 9px 20px;
+    letter-spacing: 0.3px;
+    transition: all 0.2s ease;
 }
 .dropdown-item:hover {
-    background: linear-gradient(45deg, #FF416C, #FF4B2B);
-    color: white;
+    background: rgba(201,147,46,0.12);
+    color: var(--brass-bright);
+    padding-left: 26px;
 }
 
-/* Register button styles - MODERN VERSION */
+/* Register button — clipped corner, solid brass, no gradient pill */
 .register-btn {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white !important;
-    padding: 8px 24px !important;
-    border-radius: 50px;
-    font-weight: 600 !important;
+    background: var(--brass);
+    color: var(--stage-black) !important;
+    padding: 9px 26px !important;
+    clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+    font-weight: 700 !important;
     font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     margin-left: 10px;
-    transition: all 0.3s ease;
-    border: none;
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    transition: all 0.25s ease;
     display: inline-block;
     text-decoration: none !important;
-    border: 2px solid transparent;
     white-space: nowrap;
 }
 .register-btn i {
@@ -174,19 +190,17 @@ require_once 'include/db.php';?>
     font-size: 12px;
 }
 .register-btn:hover {
-    background: transparent;
-    border-color: #667eea;
-    color: #667eea !important;
-    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
-    transform: translateY(-2px);
+    background: var(--brass-bright);
+    color: var(--stage-black) !important;
+    transform: translateY(-1px);
 }
 
-/* Mobile styles - COMPLETELY FIXED */
+/* Mobile styles */
 @media (max-width: 991px) {
     .navbar {
         padding: 15px 15px !important;
     }
-    
+
     .navbar .container-fluid {
         display: flex;
         flex-wrap: nowrap;
@@ -194,99 +208,100 @@ require_once 'include/db.php';?>
         justify-content: space-between;
         width: 100%;
     }
-    
+
     .navbar-brand {
         margin-right: 0;
         flex-shrink: 0;
     }
-    
+
     .navbar-brand img {
         max-height: 40px;
     }
-    
+
     .register-mobile-wrapper {
         display: flex;
         align-items: center;
         margin-left: auto;
         margin-right: 10px;
     }
-    
+
     .register-btn {
-        padding: 6px 18px !important;
+        padding: 7px 20px !important;
         font-size: 12px;
         margin-left: 0;
         white-space: nowrap;
-        box-shadow: 0 4px 10px rgba(102, 126, 234, 0.3);
     }
-    
+
     .register-btn i {
         margin-right: 5px;
     }
-    
+
     .navbar-toggler {
         order: 2;
         padding: 8px 10px;
-        border: 1px solid rgba(255,255,255,0.2);
-        border-radius: 8px;
+        border: 1px solid rgba(201,147,46,0.3);
+        border-radius: 2px;
         flex-shrink: 0;
     }
-    
+
     .navbar-toggler-icon {
         width: 22px;
         height: 22px;
     }
-    
-    /* Mobile menu styles */
+
     #navbarSupportedContent {
         position: absolute;
         top: 100%;
         left: 0;
         right: 0;
-        background: black;
+        background: var(--stage-black);
         padding: 20px;
-        border-top: 1px solid rgba(255,255,255,0.1);
-        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        border-top: 1px solid rgba(201,147,46,0.15);
+        box-shadow: 0 12px 30px rgba(0,0,0,0.6);
         max-height: 80vh;
         overflow-y: auto;
     }
-    
+
     .navbar-nav {
         align-items: stretch;
         gap: 0;
         width: 100%;
     }
-    
+
     .nav-item {
         width: 100%;
         margin: 2px 0;
     }
-    
+
     .nav-link, .dropdown .btn-link {
         padding: 12px 15px !important;
         font-size: 14px;
         display: block;
         width: 100%;
         text-align: left;
-        border-radius: 6px;
+        border-radius: 2px;
     }
-    
-    .nav-item.active .nav-link::after {
+
+    .nav-link::before {
         display: none;
     }
-    
+    .nav-link:hover, .dropdown .btn-link:hover {
+        background: rgba(201,147,46,0.08);
+    }
+
     .dropdown .btn-link {
         width: 100%;
         text-align: left;
         position: relative;
     }
-    
+
     .dropdown .btn-link::after {
         position: absolute;
         right: 15px;
         top: 50%;
         transform: translateY(-50%);
     }
-    
+
     .dropdown-menu {
         position: static !important;
         float: none;
@@ -295,10 +310,11 @@ require_once 'include/db.php';?>
         margin-bottom: 10px;
         background: #1a1a1a;
         border: none;
+        border-left: 2px solid var(--brass);
         box-shadow: none;
         transform: none !important;
     }
-    
+
     .dropdown-item {
         padding: 10px 25px;
         font-size: 13px;
@@ -311,14 +327,14 @@ require_once 'include/db.php';?>
         flex-wrap: wrap;
         justify-content: flex-end;
     }
-    
+
     .nav-link, .dropdown .btn-link {
         font-size: 13px;
         padding: 8px 10px !important;
     }
-    
+
     .register-btn {
-        padding: 8px 22px !important;
+        padding: 8px 24px !important;
     }
 }
 
